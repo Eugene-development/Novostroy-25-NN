@@ -2,7 +2,7 @@
 	import '../app.css';
 	let { children } = $props();
 
-	import { Banner } from '$lib/UI';
+	import { Banner } from './layout/header/UI';
 </script>
 
 <Banner/>
