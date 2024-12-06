@@ -1,8 +1,12 @@
 <script>
-  import { About } from '$lib/UI';
-	import AnimatedBeamMultipleInput from './Animate/AnimatedBeamMultipleInput.svelte';
+  // import { About } from '$lib/UI';
+	// import AnimatedBeamMultipleInput from './Animate/AnimatedBeamMultipleInput.svelte';
+  import { MainText } from './UI';
 </script>
 
-<About/>
+<!-- <About/>
 <AnimatedBeamMultipleInput />
-<p>123</p>
+<p>123</p> -->
+
+<MainText/>
+
