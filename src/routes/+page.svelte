@@ -1,8 +1,8 @@
 <script>
-	// import { userState} from "$lib/state.svelte"
+	import { userState} from "$lib/state.svelte"
 </script>
 
-<!-- <p>User name: {userState.name}</p> -->
+<p>User name: {userState.name}</p>
 
 <h1>Welcome to SvelteKit</h1>
 <p>
