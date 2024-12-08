@@ -6,23 +6,23 @@
     </div>
     <div class="mx-auto mt-16 flex max-w-2xl flex-col gap-8 lg:mx-0 lg:mt-20 lg:max-w-none lg:flex-row lg:items-end">
       <div class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-gray-50 p-8 sm:w-3/4 sm:max-w-md sm:flex-row-reverse sm:items-end lg:w-72 lg:max-w-none lg:flex-none lg:flex-col lg:items-start">
-        <p class="flex-none text-3xl font-bold tracking-tight text-gray-900">250k</p>
+        <p class="flex-none text-3xl font-bold tracking-tight text-gray-900">70k+</p>
         <div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
-          <p class="text-lg font-semibold tracking-tight text-gray-900">Users on the platform</p>
+          <p class="text-lg font-semibold tracking-tight text-gray-900">Стабильный доход</p>
           <p class="mt-2 text-base/7 text-gray-600">Vel labore deleniti veniam consequuntur sunt nobis.</p>
         </div>
       </div>
       <div class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-gray-900 p-8 sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-sm lg:flex-auto lg:flex-col lg:items-start lg:gap-y-44">
-        <p class="flex-none text-3xl font-bold tracking-tight text-white">$8.9 billion</p>
+        <p class="flex-none text-3xl font-bold tracking-tight text-white">Обязательно</p>
         <div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
-          <p class="text-lg font-semibold tracking-tight text-white">We’re proud that our customers have made over $8 billion in total revenue.</p>
+          <p class="text-lg font-semibold tracking-tight text-white">Хорошая кредитная история</p>
           <p class="mt-2 text-base/7 text-gray-400">Eu duis porta aliquam ornare. Elementum eget magna egestas.</p>
         </div>
       </div>
       <div class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-indigo-600 p-8 sm:w-11/12 sm:max-w-xl sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-none lg:flex-auto lg:flex-col lg:items-start lg:gap-y-28">
-        <p class="flex-none text-3xl font-bold tracking-tight text-white">401,093</p>
+        <p class="flex-none text-3xl font-bold tracking-tight text-white">&gt;20%</p>
         <div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
-          <p class="text-lg font-semibold tracking-tight text-white">Transactions this year</p>
+          <p class="text-lg font-semibold tracking-tight text-white">Первый взнос</p>
           <p class="mt-2 text-base/7 text-indigo-200">Eu duis porta aliquam ornare. Elementum eget magna egestas. Eu duis porta aliquam ornare.</p>
         </div>
       </div>

@@ -67,11 +67,13 @@
         <circle cx={1} cy={1} r={1} />
       </svg>
       <a
-        href="/guarantees"
-        class="text-xs text-gray-50 hover:text-gray-300"
-      >
-        Гарантии
-      </a>
+      href="/guarantees"
+      class="text-xs text-gray-50 hover:text-gray-300"
+    >
+      Гарантии
+    </a>
+
+      
     </div>
   </div>
 
