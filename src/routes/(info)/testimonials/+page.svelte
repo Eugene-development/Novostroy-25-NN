@@ -1,6 +1,5 @@
 <script>
-    import { MainText } from './UI';
-  </script>
-    
-  <MainText/>
-  
+	import { MainText } from './UI';
+</script>
+
+<MainText />

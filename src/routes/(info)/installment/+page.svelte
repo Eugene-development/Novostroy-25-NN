@@ -1,6 +1,5 @@
 <script>
-    import { Main } from './UI';
-  </script>
-    
-  <Main/>
-  
+	import { Main } from './UI';
+</script>
+
+<Main />

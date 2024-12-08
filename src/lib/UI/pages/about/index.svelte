@@ -3,11 +3,13 @@
 </script>
 
 <p>User name: {userState.name}</p>
-    <button onclick={() => {
-	userState.name = 'new name';
-    }}>
+<button
+	onclick={() => {
+		userState.name = 'new name';
+	}}
+>
 	change name
-    </button>
+</button>
 
 <div class="bg-white py-12 sm:py-20">
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">

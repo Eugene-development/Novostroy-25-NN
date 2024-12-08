@@ -1,5 +1,5 @@
 <script>
-	import { userState} from "$lib/state.svelte"
+	import { userState } from '$lib/state.svelte';
 </script>
 
 <p>User name: {userState.name}</p>

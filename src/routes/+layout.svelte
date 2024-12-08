@@ -6,6 +6,6 @@
 	import { Footer } from './layout/footer/UI';
 </script>
 
-<Banner/>
+<Banner />
 {@render children()}
-<Footer/>
+<Footer />
