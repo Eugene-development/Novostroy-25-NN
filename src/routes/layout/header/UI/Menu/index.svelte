@@ -25,7 +25,7 @@
       <div class="hidden lg:flex lg:gap-x-12">
         <div class="relative">
           <button onclick={() => visibleCatalogMenu = !visibleCatalogMenu} type="button" class="flex items-center gap-x-1 text-sm/6 font-semibold text-gray-900" aria-expanded="false">
-            Product
+            Каталог
             <svg class="size-5 flex-none text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
               <path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
             </svg>
@@ -134,8 +134,8 @@
               {/if}
         </div>
   
-        <a href="#" class="text-sm/6 font-semibold text-gray-900">Features</a>
-        <a href="#" class="text-sm/6 font-semibold text-gray-900">Marketplace</a>
+        <a href="/" class="text-sm/6 font-semibold text-gray-900">Акции</a>
+        <a href="/" class="text-sm/6 font-semibold text-gray-900">Блог</a>
   
         <div class="relative">
           <button onclick={() => visibleServicesMenu = !visibleServicesMenu} type="button" class="flex items-center gap-x-1 text-sm/6 font-semibold text-gray-900" aria-expanded="false">
@@ -167,8 +167,54 @@
         </div>
       </div>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-        <p class="text-sm/6 font-semibold text-gray-900">Москва и МО</p>
-      </div>
+
+
+
+        <p
+        class="group relative grid overflow-hidden rounded-xl px-4 py-2 shadow-[0_1000px_0_0_hsl(0_0%_20%)_inset] transition-colors duration-200"
+      >
+      
+        <span>
+          <span
+            class="spark mask-gradient animate-flip before:animate-kitrotate absolute inset-0 h-[100%] w-[100%] overflow-hidden rounded-xl [mask:linear-gradient(white,_transparent_50%)] before:absolute before:aspect-square before:w-[200%] before:rotate-[-90deg] before:bg-[conic-gradient(from_0deg,transparent_0_340deg,white_360deg)] before:content-[''] before:[inset:0_auto_auto_50%] before:[translate:-50%_-15%]"
+          ></span>
+        </span>
+        <span
+          class="backdrop absolute inset-px rounded-[11px] bg-neutral-100 transition-colors duration-200 group-hover:bg-neutral-100"
+        ></span>
+        <!-- svelte-ignore slot_element_deprecated -->
+        <span class="flex z-10 text-neutral-800 text-base font-medium">
+            <!-- <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth="1.5"
+            stroke="currentColor"
+            class="size-5 text-neutral-600 mr-1"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+            />
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+            />
+          </svg> -->
+          <span>г. Москва и МО</span>
+        </span>
+    </p>
+      
+
+
+
+
+
+
+        
+    </div>
     </nav>
     <!-- Mobile menu, show/hide based on menu open state. -->
     <div class="lg:hidden" role="dialog" aria-modal="true">
