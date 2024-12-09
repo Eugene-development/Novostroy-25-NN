@@ -1,79 +1,79 @@
 <footer class="bg-gray-900">
 	<div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
 		<div class="xl:grid xl:grid-cols-3 xl:gap-8">
-			<img
-				class="h-9"
-				src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500"
-				alt="Company name"
-			/>
+			<a href="/">
+				<span class="sr-only">Новострой</span>
+				<img
+				  class="h-14 w-auto sm:h-48 transition ease-in-out delay-100 hover:scale-110 duration-500"
+				  src="https://storage.yandexcloud.net/brand-logo/novostroy/logomain.png"
+				  alt="Логотип"
+				/>
+			</a>
 			<div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
 				<div class="md:grid md:grid-cols-2 md:gap-8">
 					<div>
-						<h3 class="text-sm/6 font-semibold text-white">Solutions</h3>
+						<h3 class="text-sm/6 font-semibold text-white">Информация</h3>
 						<ul role="list" class="mt-6 space-y-4">
 							<li>
-								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Marketing</a>
+								<a href="/about" class="text-sm/6 text-gray-400 hover:text-white">О компании</a>
 							</li>
 							<li>
-								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Analytics</a>
+								<a href="/partnership" class="text-sm/6 text-gray-400 hover:text-white">Партнёрство</a>
 							</li>
 							<li>
-								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Automation</a>
+								<a href="/testimonials" class="text-sm/6 text-gray-400 hover:text-white">Отзывы</a>
 							</li>
 							<li>
-								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Commerce</a>
-							</li>
-							<li>
-								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Insights</a>
+								<a href="/installment" class="text-sm/6 text-gray-400 hover:text-white">Контакты</a>
 							</li>
 						</ul>
 					</div>
 					<div class="mt-10 md:mt-0">
-						<h3 class="text-sm/6 font-semibold text-white">Support</h3>
+						<h3 class="text-sm/6 font-semibold text-white">Услуги</h3>
 						<ul role="list" class="mt-6 space-y-4">
 							<li>
-								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Submit ticket</a>
+								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Консультация</a>
 							</li>
 							<li>
-								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Documentation</a>
+								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Замер</a>
 							</li>
 							<li>
-								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Guides</a>
+								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Доставка</a>
+							</li>
+							<li>
+								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Сборка</a>
 							</li>
 						</ul>
 					</div>
 				</div>
 				<div class="md:grid md:grid-cols-2 md:gap-8">
 					<div>
-						<h3 class="text-sm/6 font-semibold text-white">Company</h3>
+						<h3 class="text-sm/6 font-semibold text-white">Каталог</h3>
 						<ul role="list" class="mt-6 space-y-4">
 							<li>
-								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">About</a>
+								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Мебель</a>
 							</li>
 							<li>
-								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Blog</a>
+								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Столешницы</a>
 							</li>
 							<li>
-								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Jobs</a>
+								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Бытовая техника</a>
 							</li>
 							<li>
-								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Press</a>
+								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Сантехника</a>
 							</li>
 						</ul>
 					</div>
 					<div class="mt-10 md:mt-0">
-						<h3 class="text-sm/6 font-semibold text-white">Legal</h3>
+						<h3 class="text-sm/6 font-semibold text-white">Вакансии</h3>
 						<ul role="list" class="mt-6 space-y-4">
 							<li>
-								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Terms of service</a>
+								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Дизайнер</a>
 							</li>
 							<li>
-								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Privacy policy</a>
+								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Сборщик</a>
 							</li>
-							<li>
-								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">License</a>
-							</li>
-						</ul>
+ё						</ul>
 					</div>
 				</div>
 			</div>
@@ -108,7 +108,7 @@
 			</form>
 		</div>
 		<div class="mt-8 border-t border-white/10 pt-8 md:flex md:items-center md:justify-between">
-			<div class="flex gap-x-6 md:order-2">
+			<!-- <div class="flex gap-x-6 md:order-2">
 				<a href="#" class="text-gray-400 hover:text-gray-300">
 					<span class="sr-only">Facebook</span>
 					<svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -157,7 +157,7 @@
 						/>
 					</svg>
 				</a>
-			</div>
+			</div> -->
 			<p class="mt-8 text-sm/6 text-gray-400 md:order-1 md:mt-0">
 				&copy; 2024 Your Company, Inc. All rights reserved.
 			</p>
