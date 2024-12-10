@@ -5,4 +5,4 @@
     $inspect(data);
 </script>
 
-<p>bernmijrgbm</p>
+<p>{data.data.catalog.value}</p>
