@@ -5,4 +5,4 @@
     $inspect(data);
 </script>
 
-<p>{data.data.catalog.value}</p>
+<p>{data.req.catalog.value}</p>
