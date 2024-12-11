@@ -7,11 +7,11 @@
 
 
 <header class="bg-white">
-    <nav class="mx-auto flex max-w-9xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+    <nav class="mx-auto flex max-w-9xl items-center justify-between p-4 lg:px-8" aria-label="Global">
       <div class="flex lg:flex-1">
         <a href="/" class="-m-1.5 p-1.5">
           <span class="sr-only">КОМПАНИЯ</span>
-          <img class="h-8 w-auto" src="https://storage.yandexcloud.net/brand-logo/novostroy/logomain.png" alt="">
+          <img class="h-12 w-auto" src="https://storage.yandexcloud.net/brand-logo/novostroy/logomain.png" alt="">
         </a>
       </div>
       <div class="flex lg:hidden">
