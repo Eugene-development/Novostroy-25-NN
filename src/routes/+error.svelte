@@ -8,7 +8,7 @@
 		<div class="mx-auto mt-20 max-w-2xl text-center sm:mt-24">
 			<p class="text-base/8 font-semibold text-sky-600">404</p>
 			<h1 class="mt-4 text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-6xl">
-			Страница не найдена
+				Страница не найдена
 			</h1>
 			<p class="mt-6 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
 				Извините, но мы не можем найти страницу.
@@ -17,7 +17,6 @@
 		<div class="mx-auto mt-16 flow-root max-w-lg sm:mt-20">
 			<h2 class="sr-only">Popular pages</h2>
 			<ul role="list" class="-mt-6 divide-y divide-gray-900/5 border-b border-gray-900/5">
-				
 				<li class="relative flex gap-x-6 py-6">
 					<div
 						class="flex size-10 flex-none items-center justify-center rounded-lg shadow-sm ring-1 ring-gray-900/10"

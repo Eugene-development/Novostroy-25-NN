@@ -8,6 +8,6 @@
 </script>
 
 <Banner />
-<Menu />	
+<Menu />
 {@render children()}
 <Footer />

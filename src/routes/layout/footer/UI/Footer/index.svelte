@@ -4,9 +4,9 @@
 			<a href="/">
 				<span class="sr-only">Новострой</span>
 				<img
-				  class="h-14 w-auto sm:h-48 transition ease-in-out delay-100 hover:scale-110 duration-500"
-				  src="https://storage.yandexcloud.net/brand-logo/novostroy/logomain.png"
-				  alt="Логотип"
+					class="h-14 w-auto transition delay-100 duration-500 ease-in-out hover:scale-110 sm:h-48"
+					src="https://storage.yandexcloud.net/brand-logo/novostroy/logomain.png"
+					alt="Логотип"
 				/>
 			</a>
 			<div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
@@ -18,7 +18,9 @@
 								<a href="/about" class="text-sm/6 text-gray-400 hover:text-white">О компании</a>
 							</li>
 							<li>
-								<a href="/partnership" class="text-sm/6 text-gray-400 hover:text-white">Партнёрство</a>
+								<a href="/partnership" class="text-sm/6 text-gray-400 hover:text-white"
+									>Партнёрство</a
+								>
 							</li>
 							<li>
 								<a href="/testimonials" class="text-sm/6 text-gray-400 hover:text-white">Отзывы</a>
@@ -73,7 +75,8 @@
 							<li>
 								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Сборщик</a>
 							</li>
-ё						</ul>
+							ё
+						</ul>
 					</div>
 				</div>
 			</div>

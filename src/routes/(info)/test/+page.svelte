@@ -1,9 +1,9 @@
 <script lang="ts">
-	import { PersistedState } from "runed";
- 
-	const count = new PersistedState("count", 0);
+	import { PersistedState } from 'runed';
+
+	const count = new PersistedState('count', 0);
 </script>
- 
+
 <div>
 	<button onclick={() => count.current++}>Increment</button>
 	<button onclick={() => count.current--}>Decrement</button>

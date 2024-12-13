@@ -44,7 +44,6 @@
 				<circle cx={1} cy={1} r={1} />
 			</svg>
 			<a href="/contacts" class="text-xs text-gray-50 hover:text-gray-300"> Контакты </a>
-			
 		</div>
 	</div>
 
