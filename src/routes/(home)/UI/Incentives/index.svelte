@@ -8,7 +8,7 @@
 		{
 			name: 'Экономим деньги',
 			imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-warranty-simple.svg',
-			description: 'Получим лучшее предложение под ваш бюджет с максимальными скидками.'
+			description: 'Получим лучшее предложение под ваш бюджет с хорошими скидками.'
 		},
 		{
 			name: 'Экономим настроение',
@@ -49,19 +49,19 @@
 					</h2>
 					<p class="mt-4 text-sm leading-6 text-gray-700 sm:text-base">
 						Наш опыт и знание рынка позволяют предложить решения, которые максимально соответствуют
-						вашему стилю, бюджету и требованиям к качеству.
+						вашему стилю, бюджету и требованиям к высокому качеству.
 					</p>
 
 					<p class="mt-4 text-sm leading-6 text-gray-700 sm:text-base">
-						Мы помогаем нашим клиентам сделать правильный выбор материалов и производителя мебели.
+						Мы помогаем нашим клиентам сделать правильный выбор материалов, цвета и производителя мебели.
 						Это позволит сэкономить ваши затраты!
 					</p>
 
-					<!-- <p class="mt-4 text-gray-700 text-sm sm:text-lg leading-6">
+					<p class="mt-4 text-sm leading-6 text-gray-700 sm:text-base">
                 К мебели мы подбираем стильные и качественные столешницы,
                 технику и мойки чтобы создать продуманный и функциональный
                 интерьер под ключ.
-              </p> -->
+              </p>
 				</div>
 				<div class="aspect-h-2 aspect-w-3 mx-12 overflow-hidden rounded-lg">
 					<img
@@ -95,7 +95,7 @@
 							<h3 class="text-base font-bold text-gray-700 sm:text-lg">
 								{incentive.name}
 							</h3>
-							<p class="mt-2 text-sm text-gray-500">
+							<p class="mt-2 text-sm leading-6 text-gray-700 sm:text-base">
 								{incentive.description}
 							</p>
 						</div>
