@@ -10,10 +10,10 @@
           alt="Bonnie avatar"
         />
         <div class="text-left tracking-wide">
-          <div class="font-semibold leading-none text-gray-900 dark:text-white mb-0.5">
+          <div class="font-semibold leading-none text-gray-900  mb-0.5">
             Ваш дизайнер
           </div>
-          <div class="text-sm text-gray-500 dark:text-gray-400">
+          <div class="text-sm text-gray-500 ">
             Евгений
           </div>
         </div>

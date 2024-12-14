@@ -4,14 +4,14 @@
         <li>
           <div
             
-            class="rounded-xl bg-primary-50 hover:bg-primary-100 dark:bg-primary-900 dark:hover:bg-primary-800 p-2.5 flex flex-col items-center justify-center group cursor-pointer"
+            class="rounded-xl bg-blue-50 hover:bg-blue-100  p-2.5 flex flex-col items-center justify-center group cursor-pointer"
           >
-            <span class="w-8 h-8 rounded-full bg-primary-100 dark:bg-primary-800 flex items-center justify-center mb-1 group-hover:bg-primary-200">
+            <span class="w-8 h-8 rounded-full bg-blue-100  flex items-center justify-center mb-1 group-hover:bg-blue-200">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                class="size-4 fill-primary-600"
+                class="size-4 fill-blue-600"
               >
                 <path
                   fillRule="evenodd"
@@ -20,7 +20,7 @@
                 />
               </svg>
             </span>
-            <span class="text-xs text-primary-600 dark:text-primary-300 font-normal">
+            <span class="text-xs text-blue-600  font-normal">
               Проект
             </span>
           </div>
@@ -28,9 +28,9 @@
         <li>
           <div
             
-            class="rounded-xl bg-purple-50 hover:bg-purple-100 dark:bg-purple-900 dark:hover:bg-purple-800 p-2.5 flex flex-col items-center justify-center group cursor-pointer"
+            class="rounded-xl bg-purple-50 hover:bg-purple-100  p-2.5 flex flex-col items-center justify-center group cursor-pointer"
           >
-            <span class="w-8 h-8 rounded-full bg-purple-100 dark:bg-purple-800 flex items-center justify-center mb-1 group-hover:bg-purple-200  dark:group-hover:bg-purple-700">
+            <span class="w-8 h-8 rounded-full bg-purple-100  flex items-center justify-center mb-1 group-hover:bg-purple-200 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -46,7 +46,7 @@
                 <path d="M12 7.875a1.125 1.125 0 1 0 0-2.25 1.125 1.125 0 0 0 0 2.25Z" />
               </svg>
             </span>
-            <span class="text-xs text-purple-600 dark:text-purple-300 font-normal">
+            <span class="text-xs text-purple-600  font-normal">
               Салон
             </span>
           </div>
@@ -54,9 +54,9 @@
         <li>
           <div
             
-            class="rounded-xl bg-teal-50 hover:bg-teal-100 dark:bg-teal-900 dark:hover:bg-teal-800 p-2.5 flex flex-col items-center justify-center group cursor-pointer"
+            class="rounded-xl bg-teal-50 hover:bg-teal-100  p-2.5 flex flex-col items-center justify-center group cursor-pointer"
           >
-            <span class="w-8 h-8 rounded-full bg-teal-100 dark:bg-teal-800 flex items-center justify-center mb-1 group-hover:bg-teal-200  dark:group-hover:bg-teal-700">
+            <span class="w-8 h-8 rounded-full bg-teal-100  flex items-center justify-center mb-1 group-hover:bg-teal-200 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -66,7 +66,7 @@
                 <path d="M12.378 1.602a.75.75 0 0 0-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03ZM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 0 0 .372-.648V7.93ZM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 0 0 .372.648l8.628 5.033Z" />
               </svg>
             </span>
-            <span class="text-xs text-teal-600 dark:text-teal-300 font-normal">
+            <span class="text-xs text-teal-600  font-normal">
               Замер
             </span>
           </div>
