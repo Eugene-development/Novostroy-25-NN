@@ -5,10 +5,6 @@
     import { SideBar } from '../UI';
 </script>
 
-<p>hhh2</p>
-<p>fff2</p>
-
-
 <div class="antialised">
     <!-- <Info /> -->
    <!-- <Badge />   -->

@@ -30,3 +30,99 @@ export const CATALOG = gql`
 		}
 	}
 `;
+
+
+const CATEGORY = gql`
+  query category($slug: String!, $key: UUID!) {
+    category(slug: $slug, key: $key) {
+      value
+      metaTitle {
+        value
+      }
+      metaDescription {
+        value
+      }
+      product {
+        id
+        value
+        slug
+        unit {
+          value
+        }
+        price {
+          value
+        }
+        image {
+          hash
+        }
+        tag {
+          value
+        }
+        parentable {
+          ... on Category {
+            value
+            slug
+            parentable {
+              ... on Rubric {
+                value
+                slug
+                parentable {
+                  ... on Catalog {
+                    value
+                    slug
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      parentable {
+        ... on Rubric {
+          value
+          parentable {
+            ... on Catalog {
+              value
+              slug
+            }
+          }
+        }
+      }
+    }
+  }
+`;
+
+
+const PRODUCT = gql`
+  query product($slug: String!, $key: UUID!) {
+    product(slug: $slug, key: $key) {
+      id
+      value
+      slug
+      image {
+        hash
+      }
+      tag {
+        value
+      }
+      parentable {
+        ... on Category {
+          value
+          slug
+          parentable {
+            ... on Rubric {
+              value
+              slug
+              parentable {
+                ... on Catalog {
+                  value
+                  slug
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`;
