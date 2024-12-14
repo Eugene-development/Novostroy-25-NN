@@ -85,13 +85,13 @@
 			class="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24 lg:flex lg:items-center lg:justify-between"
 		>
 			<div>
-				<h3 class="text-sm/6 font-semibold text-white">Subscribe to our newsletter</h3>
+				<h3 class="text-sm/6 font-semibold text-white">Подписаться на новости</h3>
 				<p class="mt-2 text-sm/6 text-gray-300">
-					The latest news, articles, and resources, sent to your inbox weekly.
+					Получайте самые свежие новости, статьи и ресурсы, отправленные вам еженедельно.
 				</p>
 			</div>
 			<form class="mt-6 sm:flex sm:max-w-md lg:mt-0">
-				<label for="email-address" class="sr-only">Email address</label>
+				<label for="email-address" class="sr-only">Адрес электронной почты</label>
 				<input
 					type="email"
 					name="email-address"
@@ -99,13 +99,13 @@
 					autocomplete="email"
 					required
 					class="w-full min-w-0 rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:w-56 sm:text-sm/6"
-					placeholder="Enter your email"
+					placeholder="Введите вашу почту"
 				/>
 				<div class="mt-4 sm:ml-4 sm:mt-0 sm:shrink-0">
 					<button
 						type="submit"
 						class="flex w-full items-center justify-center rounded-md bg-indigo-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
-						>Subscribe</button
+						>Подписаться</button
 					>
 				</div>
 			</form>
@@ -162,7 +162,7 @@
 				</a>
 			</div> -->
 			<p class="mt-8 text-sm/6 text-gray-400 md:order-1 md:mt-0">
-				&copy; 2024 Your Company, Inc. All rights reserved.
+				&copy; 2025 Компания "Новострой". Все права защищены.
 			</p>
 		</div>
 	</div>

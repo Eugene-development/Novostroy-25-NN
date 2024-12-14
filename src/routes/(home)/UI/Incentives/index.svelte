@@ -11,7 +11,7 @@
 			description: 'Получим лучшее предложение под ваш бюджет с максимальными скидками.'
 		},
 		{
-			name: 'Экономим нервы',
+			name: 'Экономим настроение',
 			imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg',
 			description: 'Избавим вас от необходимости волноваться за правильный выбор.'
 		}
@@ -44,15 +44,15 @@
 		<div class="mx-auto max-w-2xl px-4 lg:max-w-none">
 			<div class="grid grid-cols-1 items-center gap-x-16 gap-y-10 lg:grid-cols-2">
 				<div>
-					<h2 class="mb-8 whitespace-nowrap text-5xl font-bold text-gray-900 md:text-8xl">
-						Экономия
+					<h2 class="mb-8 whitespace-nowrap text-5xl font-extrabold text-gray-900 md:text-6xl">
+						С нами вы экономите
 					</h2>
-					<p class="mt-4 text-sm leading-6 text-gray-700 sm:text-lg">
+					<p class="mt-4 text-sm leading-6 text-gray-700 sm:text-base">
 						Наш опыт и знание рынка позволяют предложить решения, которые максимально соответствуют
 						вашему стилю, бюджету и требованиям к качеству.
 					</p>
 
-					<p class="mt-4 text-sm leading-6 text-gray-700 sm:text-lg">
+					<p class="mt-4 text-sm leading-6 text-gray-700 sm:text-base">
 						Мы помогаем нашим клиентам сделать правильный выбор материалов и производителя мебели.
 						Это позволит сэкономить ваши затраты!
 					</p>
@@ -71,7 +71,8 @@
 					/>
 				</div>
 			</div>
-			<div class="mt-16 grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3">
+			
+			<div class="mt-16 grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3 border-t pt-8 sm:pt-16">
 				{#each incentives as incentive}
 					<div>
 						<div class="sm:flex lg:block">

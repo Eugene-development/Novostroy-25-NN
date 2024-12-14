@@ -1,4 +1,5 @@
 <script>
+	import { fade } from 'svelte/transition';
 	let visibleCatalogMenu = $state(false);
 	let visibleServicesMenu = $state(false);
 </script>
@@ -40,7 +41,7 @@
 				</button>
 
 				{#if visibleServicesMenu}
-					<div
+					<div transition:fade
 						role="menu"
 						tabindex="0"
 						class="absolute -left-8 top-full z-10 w-56 rounded-xl bg-white p-2 shadow-lg ring-1 ring-gray-900/5"
@@ -88,7 +89,7 @@
 				</button>
 
 				{#if visibleCatalogMenu}
-					<div
+					<div transition:fade
 						role="menu"
 						tabindex="0"
 						class="absolute -left-8 top-full z-10 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5"
