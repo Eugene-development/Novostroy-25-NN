@@ -1,8 +1,21 @@
 <script>
     /** @type {{ data: import('./$types').LayoutData, children: import('svelte').Snippet }} */
-    let { data, children } = $props();
+    let { children } = $props();
+
+    import { SideBar } from '../UI';
 </script>
 
 <p>hhh2</p>
-{@render children()}
 <p>fff2</p>
+
+
+<div class="antialised">
+    <!-- <Info /> -->
+   <!-- <Badge />   -->
+
+    <div class="max-w-full mx-auto flex w-full h-full relative py-1 px-4">
+      <SideBar  />
+      <!-- <SideBar dataCatalog={data.catalog} /> -->
+      {@render children()}
+    </div>
+  </div>
