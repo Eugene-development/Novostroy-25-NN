@@ -8,7 +8,10 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {},
+		extend: {
+			animation: {
+				pulse: "pulse var(--duration) ease-out infinite",
+		},
 		fontFamily: {
 			sans: ['Mona Sans', ...defaultTheme.fontFamily.sans],
 			display: [
@@ -35,6 +38,11 @@ export default {
 				to: {
 					transform: 'rotate(90deg)'
 				}
+			},
+			pulse: {
+				"0%, 100%": { boxShadow: "0 0 0 0 var(--pulse-color)" },
+				"50%": { boxShadow: "0 0 0 8px var(--pulse-color)" },
+			  }
 			}
 		}
 	},

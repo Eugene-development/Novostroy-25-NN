@@ -1,3 +1,7 @@
+<script>
+	import Favorites from './Favorites/index.svelte';
+</script>
+
 <div class="sticky top-0 z-50 hidden items-center bg-gray-900 px-4 sm:px-3.5 md:flex">
 	<div class="hidden flex-1 justify-start lg:flex">
 		<div class="flex items-center justify-center space-x-3.5 tracking-wide">
@@ -82,7 +86,7 @@
 					<circle cx={1} cy={1} r={1} />
 				</svg>
 
-				<!-- <Favorites /> -->
+				<Favorites />
 			</div>
 		</div>
 	</div>
@@ -110,8 +114,8 @@
 		</a>
 	</div>
 
-	<!-- <div class="flex  divide-x">
+	<div class="flex  divide-x">
     <Favorites />
-    <MobileButton />
-  </div> -->
+    <!-- <MobileButton /> -->
+  </div> 
 </div>
