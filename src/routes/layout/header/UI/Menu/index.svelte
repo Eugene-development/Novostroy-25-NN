@@ -41,6 +41,17 @@
 				</button>
 
 				{#if visibleServicesMenu}
+
+				<!--
+    Flyout menu, show/hide based on flyout menu state.
+
+    Entering: "transition ease-out duration-200"
+      From: "opacity-0 translate-y-1"
+      To: "opacity-100 translate-y-0"
+    Leaving: "transition ease-in duration-150"
+      From: "opacity-100 translate-y-0"
+      To: "opacity-0 translate-y-1"
+  -->
 					<div transition:fade={{ duration: 50, delay: 50 }}
 						role="menu"
 						tabindex="0"
@@ -121,11 +132,11 @@
 									</svg>
 								</div> -->
 								<div class="flex-auto">
-									<a href="#" class="block font-semibold text-gray-900">
-										Analytics
+									<a href="/mebel" class="block font-semibold text-gray-900">
+										Мебель
 										<span class="absolute inset-0"></span>
 									</a>
-									<p class="mt-1 text-gray-600">Get a better understanding of your traffic</p>
+									<p class="mt-1 text-gray-600">Качественная и стильная фабричная мебель под любой запрос и бюджет</p>
 								</div>
 							</div>
 							<div class="group relative flex gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-gray-50">
@@ -149,11 +160,11 @@
 									</svg>
 								</div> -->
 								<div class="flex-auto">
-									<a href="#" class="block font-semibold text-gray-900">
-										Engagement
+									<a href="/stoleshnica" class="block font-semibold text-gray-900">
+										Столешницы
 										<span class="absolute inset-0"></span>
 									</a>
-									<p class="mt-1 text-gray-600">Speak directly to your customers</p>
+									<p class="mt-1 text-gray-600">Рабочая зона из высокопрочных материалов с различными декорами</p>
 								</div>
 							</div>
 							<div class="group relative flex gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-gray-50">
@@ -177,11 +188,11 @@
 									</svg>
 								</div> -->
 								<div class="flex-auto">
-									<a href="#" class="block font-semibold text-gray-900">
-										Security
+									<a href="/tehnika" class="block font-semibold text-gray-900">
+										Техника
 										<span class="absolute inset-0"></span>
 									</a>
-									<p class="mt-1 text-gray-600">Your customers’ data will be safe and secure</p>
+									<p class="mt-1 text-gray-600">Встраиваемая, отдельностоящая и мелкобытовая техника для вашего дома</p>
 								</div>
 							</div>
 							<div class="group relative flex gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-gray-50">
@@ -205,11 +216,11 @@
 									</svg>
 								</div> -->
 								<div class="flex-auto">
-									<a href="#" class="block font-semibold text-gray-900">
-										Integrations
+									<a href="/santehnika" class="block font-semibold text-gray-900">
+										Сантехника
 										<span class="absolute inset-0"></span>
 									</a>
-									<p class="mt-1 text-gray-600">Connect with third-party tools</p>
+									<p class="mt-1 text-gray-600">Стальные и композитные мойки, а также сопутствующие товары к ним</p>
 								</div>
 							</div>
 						</div>
@@ -257,8 +268,8 @@
 				{/if}
 			</div>
 
-			<a href="/" class="text-base font-semibold text-gray-900">Акции</a>
-			<a href="/" class="text-base font-semibold text-gray-900">Блог</a>
+			<a href="/actions" class="text-base font-semibold text-gray-900">Акции</a>
+			<a href="/blog" class="text-base font-semibold text-gray-900">Блог</a>
 		</div>
 
 		<div class="hidden items-center lg:flex lg:flex-1 lg:justify-end">
