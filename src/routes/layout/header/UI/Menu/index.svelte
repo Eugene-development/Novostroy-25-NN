@@ -59,28 +59,28 @@
 					>
 						<a
 							href="#"
-							class="block rounded-lg px-3 py-2 text-sm/6 font-semibold text-gray-900 hover:bg-gray-50"
-							>About us</a
+							class="block rounded-lg px-3 py-2 text-sm/6 font-medium text-gray-900 hover:bg-gray-50"
+							>Консультация</a
 						>
 						<a
 							href="#"
-							class="block rounded-lg px-3 py-2 text-sm/6 font-semibold text-gray-900 hover:bg-gray-50"
-							>Careers</a
+							class="block rounded-lg px-3 py-2 text-sm/6 font-medium text-gray-900 hover:bg-gray-50"
+							>Замер помещения</a
 						>
 						<a
 							href="#"
-							class="block rounded-lg px-3 py-2 text-sm/6 font-semibold text-gray-900 hover:bg-gray-50"
-							>Support</a
+							class="block rounded-lg px-3 py-2 text-sm/6 font-medium text-gray-900 hover:bg-gray-50"
+							>Создание проекта</a
 						>
 						<a
 							href="#"
-							class="block rounded-lg px-3 py-2 text-sm/6 font-semibold text-gray-900 hover:bg-gray-50"
-							>Press</a
+							class="block rounded-lg px-3 py-2 text-sm/6 font-medium text-gray-900 hover:bg-gray-50"
+							>Доставка с грузчиками</a
 						>
 						<a
 							href="#"
-							class="block rounded-lg px-3 py-2 text-sm/6 font-semibold text-gray-900 hover:bg-gray-50"
-							>Blog</a
+							class="block rounded-lg px-3 py-2 text-sm/6 font-medium text-gray-900 hover:bg-gray-50"
+							>Сборка и установка</a
 						>
 					</div>
 				{/if}
@@ -132,7 +132,7 @@
 									</svg>
 								</div> -->
 								<div class="flex-auto">
-									<a href="/mebel" class="block font-semibold text-gray-900">
+									<a href="/mebel" class="block text-lg font-semibold text-gray-900">
 										Мебель
 										<span class="absolute inset-0"></span>
 									</a>
@@ -160,7 +160,7 @@
 									</svg>
 								</div> -->
 								<div class="flex-auto">
-									<a href="/stoleshnica" class="block font-semibold text-gray-900">
+									<a href="/stoleshnica" class="block text-lg font-semibold text-gray-900">
 										Столешницы
 										<span class="absolute inset-0"></span>
 									</a>
@@ -188,7 +188,7 @@
 									</svg>
 								</div> -->
 								<div class="flex-auto">
-									<a href="/tehnika" class="block font-semibold text-gray-900">
+									<a href="/tehnika" class="block text-lg font-semibold text-gray-900">
 										Техника
 										<span class="absolute inset-0"></span>
 									</a>
@@ -216,7 +216,7 @@
 									</svg>
 								</div> -->
 								<div class="flex-auto">
-									<a href="/santehnika" class="block font-semibold text-gray-900">
+									<a href="/santehnika" class="block text-lg font-semibold text-gray-900">
 										Сантехника
 										<span class="absolute inset-0"></span>
 									</a>
