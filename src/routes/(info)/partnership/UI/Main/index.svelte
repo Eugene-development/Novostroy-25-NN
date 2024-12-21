@@ -10,14 +10,12 @@
 	</div>
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto max-w-2xl lg:mx-0">
-			<p class="text-base/7 font-semibold text-sky-600">Deploy faster</p>
+			<p class="text-base/7 font-semibold text-sky-600">Это интересно</p>
 			<h1 class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
 				Партнёрство
 			</h1>
-			<p class="mt-6 text-xl/8 text-gray-700">
-				Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh
-				dui, diam eget aliquam. Quisque id at vitae feugiat egestas ac. Diam nulla orci at in
-				viverra scelerisque eget. Eleifend egestas fringilla sapien.
+			<p class="mt-10 max-w-xl text-lg/7 text-gray-700 lg:col-span-7">
+				Мы стремимся к созданию долгосрочных и взаимовыгодных отношений с нашими партнёрами, чтобы вместе достигать новых высот и открывать новые возможности.
 			</p>
 		</div>
 		<div
@@ -45,12 +43,10 @@
 						fill="url(#e87443c8-56e4-4c20-9111-55b82fa704e3)"
 					/>
 				</svg>
-				<figure class="border-l border-indigo-600 pl-8">
+				<figure class="border-l border-sky-600 pl-8">
 					<blockquote class="text-xl/8 font-semibold tracking-tight text-gray-900">
 						<p>
-							“Vel ultricies morbi odio facilisi ultrices accumsan donec lacus purus. Lectus nibh
-							ullamcorper ac dictum justo in euismod. Risus aenean ut elit massa. In amet aliquet
-							eget cras. Sem volutpat enim tristique.”
+							“Партнёрство открывает новые горизонты и возможности для совместного роста и развития. Вместе мы можем достичь большего, чем по отдельности.”
 						</p>
 					</blockquote>
 					<figcaption class="mt-8 flex gap-x-4">
@@ -60,23 +56,20 @@
 							class="mt-1 size-10 flex-none rounded-full bg-gray-50"
 						/>
 						<div class="text-sm/6">
-							<div class="font-semibold text-gray-900">Brenna Goyette</div>
+							<div class="font-semibold text-gray-900">Бренна Гойетте</div>
 							<div class="text-gray-600">@brenna</div>
 						</div>
 					</figcaption>
 				</figure>
 			</div>
-			<div class="max-w-xl text-base/7 text-gray-700 lg:col-span-7">
+			<div class="max-w-2xl text-lg/7 text-gray-700 lg:col-span-7">
 				<p>
-					Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
-					semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus
-					viverra tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat.
-					Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id.
+					Приглашаем вас в наше партнерство, если вы:
 				</p>
 				<ul role="list" class="mt-8 max-w-xl space-y-8 text-gray-600">
 					<li class="flex gap-x-3">
 						<svg
-							class="mt-1 size-5 flex-none text-indigo-600"
+							class="mt-1 size-5 flex-none text-sky-600"
 							viewBox="0 0 20 20"
 							fill="currentColor"
 							aria-hidden="true"
@@ -89,14 +82,12 @@
 							/>
 						</svg>
 						<span
-							><strong class="font-semibold text-gray-900">Push to deploy.</strong> Lorem ipsum, dolor
-							sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste
-							dolor cupiditate blanditiis ratione.</span
+							><strong class="font-semibold text-gray-900">Дизайнер интерьеров.</strong> Совместно мы сможем реализовать ваши идеи в дизайне интерьера.</span
 						>
 					</li>
 					<li class="flex gap-x-3">
 						<svg
-							class="mt-1 size-5 flex-none text-indigo-600"
+							class="mt-1 size-5 flex-none text-sky-600"
 							viewBox="0 0 20 20"
 							fill="currentColor"
 							aria-hidden="true"
@@ -109,13 +100,12 @@
 							/>
 						</svg>
 						<span
-							><strong class="font-semibold text-gray-900">SSL certificates.</strong> Anim aute id magna
-							aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</span
+							><strong class="font-semibold text-gray-900">Ремонтная бригада.</strong> Как правило после проведения ремонтных работ клиенты приобретают новую мебель.</span
 						>
 					</li>
 					<li class="flex gap-x-3">
 						<svg
-							class="mt-1 size-5 flex-none text-indigo-600"
+							class="mt-1 size-5 flex-none text-sky-600"
 							viewBox="0 0 20 20"
 							fill="currentColor"
 							aria-hidden="true"
@@ -131,25 +121,37 @@
 							/>
 						</svg>
 						<span
-							><strong class="font-semibold text-gray-900">Database backups.</strong> Ac tincidunt sapien
-							vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</span
+							><strong class="font-semibold text-gray-900">Продавец мебели.</strong> Иногда ваши покупатели желают то, чего нет в вашем ассортименте.</span
+						>
+					</li>
+					<li class="flex gap-x-3">
+						<svg
+							class="mt-1 size-5 flex-none text-sky-600"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+							data-slot="icon"
+						>
+							<path
+								d="M4.632 3.533A2 2 0 0 1 6.577 2h6.846a2 2 0 0 1 1.945 1.533l1.976 8.234A3.489 3.489 0 0 0 16 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234Z"
+							/>
+							<path
+								fill-rule="evenodd"
+								d="M4 13a2 2 0 1 0 0 4h12a2 2 0 1 0 0-4H4Zm11.24 2a.75.75 0 0 1 .75-.75H16a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75h-.01a.75.75 0 0 1-.75-.75V15Zm-2.25-.75a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 0 0 .75-.75V15a.75.75 0 0 0-.75-.75h-.01Z"
+								clip-rule="evenodd"
+							/>
+						</svg>
+						<span
+							><strong class="font-semibold text-gray-900">Самозанятый.</strong> Мы предложим интересные условия для вашего дополнительного дохода.</span
 						>
 					</li>
 				</ul>
-				<p class="mt-8">
-					Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit
-					molestie auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius
-					vulputate et ultrices hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem
-					vel integer orci.
-				</p>
+				
 				<h2 class="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-					No server? No problem.
+					Вы мебельная фабрика?
 				</h2>
 				<p class="mt-6">
-					Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu
-					ipsum urna nibh. Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh.
-					Maecenas pellentesque id sed tellus mauris, ultrices mauris. Tincidunt enim cursus
-					ridiculus mi. Pellentesque nam sed nullam sed diam turpis ipsum eu a sed convallis diam.
+					Мы готовы предложить вам уникальные возможности для совместного развития и роста. Наши решения интернет маркетинга помогут вам привлечь новых клиентов.
 				</p>
 			</div>
 		</div>

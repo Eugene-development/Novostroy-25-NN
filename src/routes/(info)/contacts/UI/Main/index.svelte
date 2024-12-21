@@ -1,4 +1,4 @@
-<div class="isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
+<div class="isolate bg-white px-6 py-24 sm:py-24 lg:px-8">
 	<div class="mx-auto max-w-3xl sm:text-center">
 		<h2 class="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
 			Связь с нами
@@ -10,7 +10,7 @@
 			В иное время воспользуйтесь нашим он-лайн чатом или почтой.
 		</p>
 	</div>
-	<div class="mx-auto mt-20 max-w-xl space-y-16">
+	<div class="mx-auto mt-20 max-w-xl space-y-8">
 		<div class="flex gap-x-6">
 			<div class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-sky-600">
 				<svg
@@ -30,7 +30,7 @@
 				</svg>
 			</div>
 			<div>
-				<h3 class="text-base/7 font-semibold text-gray-900">Он-лайн чат</h3>
+				<h3 class="text-lg/7 font-semibold text-gray-900">Он-лайн чат</h3>
 				<p class="mt-2 text-base/7 text-gray-600">
 					Мы всегда готовы помочь вам в режиме реального времени. Наша команда ответит на все ваши вопросы.
 				</p>
@@ -46,7 +46,7 @@
 				  </svg>
 			</div>
 			<div>
-				<h3 class="text-base/7 font-semibold text-gray-900">Телефон</h3>
+				<h3 class="text-lg/7 font-semibold text-gray-900">Телефон</h3>
 				<p class="mt-2 text-base/7 text-gray-600">
 					Позвоните нам, и мы проконсультируем вас по любым вопросам. Работаем с понедельника по субботу.
 				</p>
@@ -64,7 +64,7 @@
 				  
 			</div>
 			<div>
-				<h3 class="text-base/7 font-semibold text-gray-900">Почта</h3>
+				<h3 class="text-lg/7 font-semibold text-gray-900">Почта</h3>
 				<p class="mt-2 text-base/7 text-gray-600">
 					Свяжитесь с нами по электронной почте. Мы постараемся ответить в течение 24 часов.
 				</p>

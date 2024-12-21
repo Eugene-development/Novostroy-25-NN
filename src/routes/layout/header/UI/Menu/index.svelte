@@ -47,27 +47,32 @@
 						class="absolute -left-8 top-full z-10 w-56 rounded-xl bg-white p-2 shadow-lg ring-1 ring-gray-900/5"
 					>
 						<a
-							href="#"
+							href="/consultation"
 							class="block rounded-lg px-3 py-2 text-sm/6 font-medium text-gray-900 hover:bg-gray-50"
 							>Консультация</a
 						>
 						<a
-							href="#"
+							href="/design"
+							class="block rounded-lg px-3 py-2 text-sm/6 font-medium text-gray-900 hover:bg-gray-50"
+							>Дизайн интерьера</a
+						>
+						<a
+							href="/measuring"
 							class="block rounded-lg px-3 py-2 text-sm/6 font-medium text-gray-900 hover:bg-gray-50"
 							>Замер помещения</a
 						>
 						<a
-							href="#"
+							href="/furniture-project"
 							class="block rounded-lg px-3 py-2 text-sm/6 font-medium text-gray-900 hover:bg-gray-50"
-							>Создание проекта</a
+							>Проект мебели</a
 						>
 						<a
-							href="#"
+							href="/delivery"
 							class="block rounded-lg px-3 py-2 text-sm/6 font-medium text-gray-900 hover:bg-gray-50"
 							>Доставка с грузчиками</a
 						>
 						<a
-							href="#"
+							href="/installation"
 							class="block rounded-lg px-3 py-2 text-sm/6 font-medium text-gray-900 hover:bg-gray-50"
 							>Сборка и установка</a
 						>
