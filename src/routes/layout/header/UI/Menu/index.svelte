@@ -41,7 +41,8 @@
 				</button>
 
 				{#if visibleServicesMenu}
-					<div transition:fade={{ duration: 50, delay: 50 }}
+					<div
+						transition:fade={{ duration: 50, delay: 50 }}
 						role="menu"
 						tabindex="0"
 						class="absolute -left-8 top-full z-10 w-56 rounded-xl bg-white p-2 shadow-lg ring-1 ring-gray-900/5"
@@ -94,7 +95,8 @@
 				</button>
 
 				{#if visibleCatalogMenu}
-					<div transition:fade={{ duration: 50, delay: 50 }}
+					<div
+						transition:fade={{ duration: 50, delay: 50 }}
 						role="menu"
 						tabindex="0"
 						class="absolute -left-8 top-full z-10 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5"
@@ -130,7 +132,9 @@
 										Мебель
 										<span class="absolute inset-0"></span>
 									</a>
-									<p class="mt-1 text-gray-600">Качественная и стильная фабричная мебель под любой запрос и бюджет</p>
+									<p class="mt-1 text-gray-600">
+										Качественная и стильная фабричная мебель под любой запрос и бюджет
+									</p>
 								</div>
 							</div>
 							<div class="group relative flex gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-gray-50">
@@ -158,7 +162,9 @@
 										Столешницы
 										<span class="absolute inset-0"></span>
 									</a>
-									<p class="mt-1 text-gray-600">Рабочая зона из высокопрочных материалов с различными декорами</p>
+									<p class="mt-1 text-gray-600">
+										Рабочая зона из высокопрочных материалов с различными декорами
+									</p>
 								</div>
 							</div>
 							<div class="group relative flex gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-gray-50">
@@ -186,7 +192,9 @@
 										Техника
 										<span class="absolute inset-0"></span>
 									</a>
-									<p class="mt-1 text-gray-600">Встраиваемая, отдельностоящая и мелкобытовая техника для вашего дома</p>
+									<p class="mt-1 text-gray-600">
+										Встраиваемая, отдельностоящая и мелкобытовая техника для вашего дома
+									</p>
 								</div>
 							</div>
 							<div class="group relative flex gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-gray-50">
@@ -214,7 +222,9 @@
 										Сантехника
 										<span class="absolute inset-0"></span>
 									</a>
-									<p class="mt-1 text-gray-600">Стальные и композитные мойки, а также сопутствующие товары к ним</p>
+									<p class="mt-1 text-gray-600">
+										Стальные и композитные мойки, а также сопутствующие товары к ним
+									</p>
 								</div>
 							</div>
 						</div>
@@ -268,7 +278,7 @@
 
 		<div class="hidden items-center lg:flex lg:flex-1 lg:justify-end">
 			<p
-				class="group relative grid overflow-hidden rounded-xl px-4 py-2 shadow-[0_1000px_0_0_hsl(0_0%_20%)_inset] transition-colors duration-200"
+				class="duration-400 group relative grid overflow-hidden rounded-xl px-4 py-2 shadow-[0_1000px_0_0_hsl(0_0%_20%)_inset] transition-colors"
 			>
 				<span>
 					<span
@@ -276,29 +286,19 @@
 					></span>
 				</span>
 				<span
-					class="backdrop absolute inset-px rounded-[11px] bg-neutral-50 transition-colors duration-200 group-hover:bg-neutral-100"
+					class="backdrop absolute inset-px rounded-[11px] bg-gray-50 transition-colors duration-200 group-hover:bg-gray-100"
 				></span>
-				<!-- svelte-ignore slot_element_deprecated -->
-				<span class="z-10 flex text-base font-medium text-neutral-800">
-					<!-- <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth="1.5"
-            stroke="currentColor"
-            class="size-5 text-neutral-600 mr-1"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
-            />
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
-            />
-          </svg> -->
+				<span class="z-10 flex text-base font-medium text-gray-900">
+					<path
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+					/>
+					<path
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+					/>
 					<span>г. Москва и МО</span>
 				</span>
 			</p>

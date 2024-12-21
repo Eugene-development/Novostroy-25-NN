@@ -1,5 +1,5 @@
-<ul class="space-y-3 mb-6 py-6 px-3 bg-gray-50/50 rounded-xl ">
-    <!-- {dataCatalog?.rubric.map((item) => (
+<ul class="mb-6 space-y-3 rounded-xl bg-gray-50/50 px-3 py-6">
+	<!-- {dataCatalog?.rubric.map((item) => (
       <li key={item.value}>
         <Button
           onClick={() => toggleSubMenu(item.value)}
@@ -62,9 +62,9 @@
           )}
       </li>
     ))} -->
-  </ul>
+</ul>
 
-  <!-- <ul class="py-6 space-y-2 border-t border-gray-200 dark:border-gray-700">
+<!-- <ul class="py-6 space-y-2 border-t border-gray-200 dark:border-gray-700">
     {[
       { href: "/action", label: "Акции" },
       { href: "/contacts", label: "Контакты" },
@@ -81,24 +81,24 @@
     ))}
   </ul> -->
 
-  <div class="py-6 border-t border-gray-200">
-    <a
-      href="/"
-      class="flex items-center p-1 text-sm font-normal text-sky-800 rounded-lg dark:text-sky-500 hover:bg-gray-50 dark:hover:bg-gray-700 group"
-    >
-      <svg
-        class="flex-shrink-0 w-6 h-6 text-sky-800 transition duration-75 dark:text-sky-500"
-        fill="currentColor"
-        viewBox="0 0 20 20"
-        xmlns="http://www.w3.org/2000/svg"
-        aria-hidden="true"
-      >
-        <path
-          clipRule="evenodd"
-          fillRule="evenodd"
-          d="M3 3a1 1 0 00-1 1v12a1 1 0 102 0V4a1 1 0 00-1-1zm10.293 9.293a1 1 0 001.414 1.414l3-3a1 1 0 000-1.414l-3-3a1 1 0 10-1.414 1.414L14.586 9H7a1 1 0 100 2h7.586l-1.293 1.293z"
-        ></path>
-      </svg>
-      <span class="flex-1 ml-3 whitespace-nowrap">На главную</span>
-    </a>
-  </div>
+<div class="border-t border-gray-200 py-6">
+	<a
+		href="/"
+		class="group flex items-center rounded-lg p-1 text-sm font-normal text-sky-800 hover:bg-gray-50 dark:text-sky-500 dark:hover:bg-gray-700"
+	>
+		<svg
+			class="h-6 w-6 flex-shrink-0 text-sky-800 transition duration-75 dark:text-sky-500"
+			fill="currentColor"
+			viewBox="0 0 20 20"
+			xmlns="http://www.w3.org/2000/svg"
+			aria-hidden="true"
+		>
+			<path
+				clipRule="evenodd"
+				fillRule="evenodd"
+				d="M3 3a1 1 0 00-1 1v12a1 1 0 102 0V4a1 1 0 00-1-1zm10.293 9.293a1 1 0 001.414 1.414l3-3a1 1 0 000-1.414l-3-3a1 1 0 10-1.414 1.414L14.586 9H7a1 1 0 100 2h7.586l-1.293 1.293z"
+			></path>
+		</svg>
+		<span class="ml-3 flex-1 whitespace-nowrap">На главную</span>
+	</a>
+</div>

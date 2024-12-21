@@ -4,9 +4,7 @@
 			<h2 class="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
 				Мы предлагаем рассрочку с выгодными условиями
 			</h2>
-			<p class="mt-6 text-base/7 text-gray-600">
-				ххх
-			</p>
+			<p class="mt-6 text-base/7 text-gray-600">ххх</p>
 		</div>
 		<div
 			class="mx-auto mt-16 flex max-w-2xl flex-col gap-8 lg:mx-0 lg:mt-20 lg:max-w-none lg:flex-row lg:items-end"

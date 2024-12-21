@@ -32,7 +32,8 @@
 			<div>
 				<h3 class="text-lg/7 font-semibold text-gray-900">Он-лайн чат</h3>
 				<p class="mt-2 text-base/7 text-gray-600">
-					Мы всегда готовы помочь вам в режиме реального времени. Наша команда ответит на все ваши вопросы.
+					Мы всегда готовы помочь вам в режиме реального времени. Наша команда ответит на все ваши
+					вопросы.
 				</p>
 				<div class="mt-4 text-sm/6 font-semibold">
 					<p class="text-sky-600">Чат у вас на экране <span aria-hidden="true">&rarr;</span></p>
@@ -41,14 +42,26 @@
 		</div>
 		<div class="flex gap-x-6">
 			<div class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-sky-600">
-				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-white">
-					<path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0 6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 0 1 4.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 0 0-.38 1.21 12.035 12.035 0 0 0 7.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 0 1 1.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 0 1-2.25 2.25h-2.25Z" />
-				  </svg>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+					class="size-6 text-white"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0 6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 0 1 4.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 0 0-.38 1.21 12.035 12.035 0 0 0 7.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 0 1 1.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 0 1-2.25 2.25h-2.25Z"
+					/>
+				</svg>
 			</div>
 			<div>
 				<h3 class="text-lg/7 font-semibold text-gray-900">Телефон</h3>
 				<p class="mt-2 text-base/7 text-gray-600">
-					Позвоните нам, и мы проконсультируем вас по любым вопросам. Работаем с понедельника по субботу.
+					Позвоните нам, и мы проконсультируем вас по любым вопросам. Работаем с понедельника по
+					субботу.
 				</p>
 				<div class="mt-4 text-sm/6 font-semibold">
 					<p class="text-sky-600">8 (915) 400-00-20</p>
@@ -57,11 +70,20 @@
 		</div>
 		<div class="flex gap-x-6">
 			<div class="flex size-10 shrink-0 items-center justify-center rounded-lg bg-sky-600">
-				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-white">
-					<path stroke-linecap="round" stroke-linejoin="round" d="M16.5 12a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 1 0-2.636 6.364M16.5 12V8.25" />
-				  </svg>
-				  
-				  
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+					class="size-6 text-white"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M16.5 12a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 1 0-2.636 6.364M16.5 12V8.25"
+					/>
+				</svg>
 			</div>
 			<div>
 				<h3 class="text-lg/7 font-semibold text-gray-900">Почта</h3>

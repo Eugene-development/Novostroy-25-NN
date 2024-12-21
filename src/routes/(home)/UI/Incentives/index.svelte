@@ -53,15 +53,14 @@
 					</p>
 
 					<p class="mt-4 text-sm leading-6 text-gray-700 sm:text-base">
-						Мы помогаем нашим клиентам сделать правильный выбор материалов, цвета и производителя мебели.
-						Это позволит сэкономить ваши затраты!
+						Мы помогаем нашим клиентам сделать правильный выбор материалов, цвета и производителя
+						мебели. Это позволит сэкономить ваши затраты!
 					</p>
 
 					<p class="mt-4 text-sm leading-6 text-gray-700 sm:text-base">
-                К мебели мы подбираем стильные и качественные столешницы,
-                технику и мойки чтобы создать продуманный и функциональный
-                интерьер под ключ.
-              </p>
+						К мебели мы подбираем стильные и качественные столешницы, технику и мойки чтобы создать
+						продуманный и функциональный интерьер под ключ.
+					</p>
 				</div>
 				<div class="aspect-h-2 aspect-w-3 mx-12 overflow-hidden rounded-lg">
 					<img
@@ -71,8 +70,8 @@
 					/>
 				</div>
 			</div>
-			
-			<div class="mt-16 grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3 border-t pt-8 sm:pt-16">
+
+			<div class="mt-16 grid grid-cols-1 gap-x-8 gap-y-10 border-t pt-8 sm:pt-16 lg:grid-cols-3">
 				{#each incentives as incentive}
 					<div>
 						<div class="sm:flex lg:block">

@@ -114,8 +114,8 @@
 		</a>
 	</div>
 
-	<div class="flex  divide-x">
-    <Favorites />
-    <!-- <MobileButton /> -->
-  </div> 
+	<div class="flex divide-x">
+		<Favorites />
+		<!-- <MobileButton /> -->
+	</div>
 </div>
