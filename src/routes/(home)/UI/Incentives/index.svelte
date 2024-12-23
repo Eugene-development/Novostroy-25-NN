@@ -44,7 +44,7 @@
 		<div class="mx-auto max-w-2xl px-4 lg:max-w-none">
 			<div class="grid grid-cols-1 items-center gap-x-16 gap-y-10 lg:grid-cols-2">
 				<div>
-					<h2 class="mb-8 whitespace-nowrap text-5xl font-extrabold text-gray-900 md:text-6xl">
+					<h2 class="mb-8 whitespace-nowrap text-lg font-extrabold text-gray-900 md:text-6xl">
 						С нами вы экономите
 					</h2>
 					<p class="mt-4 text-sm leading-6 text-gray-700 sm:text-base">
