@@ -62,37 +62,37 @@
 							<!-- 'Product' sub-menu, show/hide based on menu state. -->
 							<div class="mt-2 space-y-2" id="disclosure-1">
 								<a
-									href="#"
+									href="/"
 									class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 									>Analytics</a
 								>
 								<a
-									href="#"
+									href="/"
 									class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 									>Engagement</a
 								>
 								<a
-									href="#"
+									href="/"
 									class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 									>Security</a
 								>
 								<a
-									href="#"
+									href="/"
 									class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 									>Integrations</a
 								>
 								<a
-									href="#"
+									href="/"
 									class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 									>Automations</a
 								>
 								<a
-									href="#"
+									href="/"
 									class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 									>Watch demo</a
 								>
 								<a
-									href="#"
+									href="/"
 									class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 									>Contact sales</a
 								>
@@ -100,12 +100,12 @@
 						</div>
 
 						<a
-							href="#"
+							href="/"
 							class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
 							>Features</a
 						>
 						<a
-							href="#"
+							href="/"
 							class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
 							>Marketplace</a
 						>
@@ -140,27 +140,27 @@
 							<!-- 'Company' sub-menu, show/hide based on menu state. -->
 							<div class="mt-2 space-y-2" id="disclosure-2">
 								<a
-									href="#"
+									href="/"
 									class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 									>About us</a
 								>
 								<a
-									href="#"
+									href="/"
 									class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 									>Careers</a
 								>
 								<a
-									href="#"
+									href="/"
 									class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 									>Support</a
 								>
 								<a
-									href="#"
+									href="/"
 									class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 									>Press</a
 								>
 								<a
-									href="#"
+									href="/"
 									class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 									>Blog</a
 								>

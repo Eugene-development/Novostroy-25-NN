@@ -34,16 +34,16 @@
 						<h3 class="text-sm/6 font-semibold text-white">Услуги</h3>
 						<ul role="list" class="mt-6 space-y-4">
 							<li>
-								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Консультация</a>
+								<a href="/" class="text-sm/6 text-gray-400 hover:text-white">Консультация</a>
 							</li>
 							<li>
-								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Замер</a>
+								<a href="/" class="text-sm/6 text-gray-400 hover:text-white">Замер</a>
 							</li>
 							<li>
-								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Доставка</a>
+								<a href="/" class="text-sm/6 text-gray-400 hover:text-white">Доставка</a>
 							</li>
 							<li>
-								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Сборка</a>
+								<a href="/" class="text-sm/6 text-gray-400 hover:text-white">Сборка</a>
 							</li>
 						</ul>
 					</div>
@@ -53,16 +53,16 @@
 						<h3 class="text-sm/6 font-semibold text-white">Каталог</h3>
 						<ul role="list" class="mt-6 space-y-4">
 							<li>
-								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Мебель</a>
+								<a href="/" class="text-sm/6 text-gray-400 hover:text-white">Мебель</a>
 							</li>
 							<li>
-								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Столешницы</a>
+								<a href="/" class="text-sm/6 text-gray-400 hover:text-white">Столешницы</a>
 							</li>
 							<li>
-								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Бытовая техника</a>
+								<a href="/" class="text-sm/6 text-gray-400 hover:text-white">Бытовая техника</a>
 							</li>
 							<li>
-								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Сантехника</a>
+								<a href="/" class="text-sm/6 text-gray-400 hover:text-white">Сантехника</a>
 							</li>
 						</ul>
 					</div>
@@ -70,10 +70,10 @@
 						<h3 class="text-sm/6 font-semibold text-white">Вакансии</h3>
 						<ul role="list" class="mt-6 space-y-4">
 							<li>
-								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Дизайнер</a>
+								<a href="/" class="text-sm/6 text-gray-400 hover:text-white">Дизайнер</a>
 							</li>
 							<li>
-								<a href="#" class="text-sm/6 text-gray-400 hover:text-white">Сборщик</a>
+								<a href="/" class="text-sm/6 text-gray-400 hover:text-white">Сборщик</a>
 							</li>
 							ё
 						</ul>
@@ -98,13 +98,13 @@
 					id="email-address"
 					autocomplete="email"
 					required
-					class="w-full min-w-0 rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:w-56 sm:text-sm/6"
+					class="w-full min-w-0 rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-pink-500 sm:w-56 sm:text-sm/6"
 					placeholder="Введите вашу почту"
 				/>
 				<div class="mt-4 sm:ml-4 sm:mt-0 sm:shrink-0">
 					<button
 						type="submit"
-						class="flex w-full items-center justify-center rounded-md bg-indigo-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+						class="flex w-full items-center justify-center rounded-md bg-pink-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-pink-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pink-500"
 						>Подписаться</button
 					>
 				</div>
@@ -112,7 +112,7 @@
 		</div>
 		<div class="mt-8 border-t border-white/10 pt-8 md:flex md:items-center md:justify-between">
 			<!-- <div class="flex gap-x-6 md:order-2">
-				<a href="#" class="text-gray-400 hover:text-gray-300">
+				<a href="/" class="text-gray-400 hover:text-gray-300">
 					<span class="sr-only">Facebook</span>
 					<svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 						<path
@@ -122,7 +122,7 @@
 						/>
 					</svg>
 				</a>
-				<a href="#" class="text-gray-400 hover:text-gray-300">
+				<a href="/" class="text-gray-400 hover:text-gray-300">
 					<span class="sr-only">Instagram</span>
 					<svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 						<path
@@ -132,7 +132,7 @@
 						/>
 					</svg>
 				</a>
-				<a href="#" class="text-gray-400 hover:text-gray-300">
+				<a href="/" class="text-gray-400 hover:text-gray-300">
 					<span class="sr-only">X</span>
 					<svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 						<path
@@ -140,7 +140,7 @@
 						/>
 					</svg>
 				</a>
-				<a href="#" class="text-gray-400 hover:text-gray-300">
+				<a href="/" class="text-gray-400 hover:text-gray-300">
 					<span class="sr-only">GitHub</span>
 					<svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 						<path
@@ -150,7 +150,7 @@
 						/>
 					</svg>
 				</a>
-				<a href="#" class="text-gray-400 hover:text-gray-300">
+				<a href="/" class="text-gray-400 hover:text-gray-300">
 					<span class="sr-only">YouTube</span>
 					<svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 						<path

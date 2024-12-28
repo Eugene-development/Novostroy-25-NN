@@ -1,5 +1,14 @@
 <script>
 
+import {
+	VERSION,
+} from '@sveltejs/kit';
+
+import { browser, building, dev, version } from '$app/environment';
+
+$inspect(VERSION);
+$inspect(browser);
+
 import { ArrowUp } from 'lucide-svelte';
 
 	import { PersistedState } from 'runed';
@@ -24,6 +33,7 @@ import { ArrowUp } from 'lucide-svelte';
 
 {/key}
 
+<!-- {VERSION} -->
 
 <!-- <ArrowUp />
 <svg

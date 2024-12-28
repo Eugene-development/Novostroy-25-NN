@@ -11,4 +11,4 @@
 
 <!-- {@debug data} -->
 
-<Rubric data={data.req.catalog} />111
+<Rubric data={data.req.catalog} />

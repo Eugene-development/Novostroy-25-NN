@@ -1,7 +1,7 @@
 import containerQueries from '@tailwindcss/container-queries';
 import forms from '@tailwindcss/forms';
 import typography from '@tailwindcss/typography';
-const defaultTheme = require('tailwindcss/defaultTheme');
+import defaultTheme from 'tailwindcss/defaultTheme';
 
 /** @type {import('tailwindcss').Config} */
 export default {

@@ -49,7 +49,7 @@
 						transition:fade={{ duration: 50, delay: 50 }}
 						role="menu"
 						tabindex="0"
-						class="absolute -left-8 top-full z-10 w-56 rounded-xl bg-white p-2 shadow-lg ring-1 ring-gray-900/5"
+						class="absolute -left-8 top-full z-20 w-56 rounded-xl bg-white p-2 shadow-lg ring-1 ring-gray-900/5"
 					>
 						<a
 							href="/consultation"
@@ -103,7 +103,7 @@
 						transition:fade={{ duration: 50, delay: 50 }}
 						role="menu"
 						tabindex="0"
-						class="absolute -left-8 top-full z-10 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5"
+						class="absolute -left-8 top-full z-20 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5"
 					>
 						<div class="p-4">
 							<div class="group relative flex gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-gray-50">
@@ -234,7 +234,7 @@
 						</div>
 						<div class="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
 							<a
-								href="#"
+								href="/"
 								class="flex items-center justify-center gap-x-2.5 p-3 text-sm/6 font-semibold text-gray-900 hover:bg-gray-100"
 							>
 								<svg
@@ -253,7 +253,7 @@
 								Watch demo
 							</a>
 							<a
-								href="#"
+								href="/"
 								class="flex items-center justify-center gap-x-2.5 p-3 text-sm/6 font-semibold text-gray-900 hover:bg-gray-100"
 							>
 								<svg
