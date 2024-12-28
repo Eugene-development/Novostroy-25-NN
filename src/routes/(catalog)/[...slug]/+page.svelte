@@ -8,4 +8,7 @@
 	$inspect(data);
 </script>
 
-<Rubric data={data.req.catalog} />
+
+<!-- {@debug data} -->
+
+<Rubric data={data.req.catalog} />111
