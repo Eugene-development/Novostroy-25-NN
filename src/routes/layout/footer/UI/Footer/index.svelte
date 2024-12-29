@@ -75,7 +75,10 @@
 							<li>
 								<a href="/" class="text-sm/6 text-gray-400 hover:text-white">Сборщик</a>
 							</li>
-							ё
+							<li>
+								<a href="/" class="text-sm/6 text-gray-400 hover:text-white">Маркетолог</a>
+							</li>
+							
 						</ul>
 					</div>
 				</div>

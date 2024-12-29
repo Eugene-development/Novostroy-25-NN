@@ -8,4 +8,9 @@
 <AnimatedBeamMultipleInput />
 <p>123</p> -->
 
+<svelte:head>
+	<title>О компании</title>
+	<meta name="description" content="О компании" />
+</svelte:head>
+
 <Main />
