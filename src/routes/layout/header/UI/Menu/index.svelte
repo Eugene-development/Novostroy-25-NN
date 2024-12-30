@@ -193,7 +193,7 @@
 								</div> -->
 								<div class="flex-auto">
 									<a href="/tehnika" class="block text-lg font-semibold text-gray-900">
-										Техника
+										Бытовая техника
 										<span class="absolute inset-0"></span>
 									</a>
 									<p class="mt-1 text-gray-600">
