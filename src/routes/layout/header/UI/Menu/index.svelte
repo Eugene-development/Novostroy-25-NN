@@ -46,7 +46,7 @@
 
 				{#if visibleServicesMenu}
 					<div
-						transition:fade={{ duration: 50, delay: 50 }}
+						transition:fade={{ duration: 100, delay: 50 }}
 						role="menu"
 						tabindex="0"
 						class="absolute -left-8 top-full z-20 w-56 rounded-xl bg-white p-2 shadow-lg ring-1 ring-gray-900/5"
