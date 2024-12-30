@@ -70,15 +70,17 @@
 						<h3 class="text-sm/6 font-semibold text-white">Вакансии</h3>
 						<ul role="list" class="mt-6 space-y-4">
 							<li>
-								<a href="/" class="text-sm/6 text-gray-400 hover:text-white">Дизайнер</a>
+								<a href="/vacancy/designer" class="text-sm/6 text-gray-400 hover:text-white">Дизайнер</a>
 							</li>
 							<li>
-								<a href="/" class="text-sm/6 text-gray-400 hover:text-white">Сборщик</a>
+								<a href="/vacancy/assembler" class="text-sm/6 text-gray-400 hover:text-white">Сборщик</a>
 							</li>
 							<li>
-								<a href="/" class="text-sm/6 text-gray-400 hover:text-white">Маркетолог</a>
+								<a href="/vacancy/driver" class="text-sm/6 text-gray-400 hover:text-white">Водитель</a>
 							</li>
-							
+							<li>
+								<a href="/vacancy/marketer" class="text-sm/6 text-gray-400 hover:text-white">Маркетолог</a>
+							</li>
 						</ul>
 					</div>
 				</div>
