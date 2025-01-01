@@ -29,7 +29,7 @@
               class="flex items-center  rounded-lg"
             >
               <a
-                href="/"
+                href={`/${data.slug}/${item.slug}/${subitem.slug}`}
                 class="flex items-center justify-between p-1 pl-4 w-full text-sm font-medium tracking-wide text-gray-700 hover:text-gray-950 rounded-lg transition duration-75 group hover:bg-gray-100 ">
                 {subitem.value}
                <span class="inline-flex items-center w-5 h-5 text-xs font-semibold rounded-full text-gray-800 dark:bg-primary-200 dark:text-primary-800">{subitem.product_count}</span> 
