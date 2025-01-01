@@ -64,22 +64,35 @@
     ))} -->
 </ul>
 
-<!-- <ul class="py-6 space-y-2 border-t border-gray-200 dark:border-gray-700">
-    {[
-      { href: "/action", label: "Акции" },
-      { href: "/contacts", label: "Контакты" },
-      { href: "/favorites", label: "Избранное" },
-    ].map(({ href, label }) => (
-      <li key={label}>
-        <Link
-          href={href}
-          class="flex items-center p-1 text-sm font-normal tracking-wide text-gray-900 rounded-lg dark:text-white hover:bg-gray-50 dark:hover:bg-gray-700 group"
+<ul class="py-6 space-y-2 border-t border-gray-200 dark:border-gray-700">
+    
+      <li>
+        <a
+          href="/actions"
+          class="flex items-center p-1 text-sm font-normal tracking-wide text-gray-900 rounded-lg  hover:bg-gray-50  group"
         >
-          <span class="flex-1 ml-3 whitespace-nowrap">{label}</span>
-        </Link>
+          <span class="flex-1 ml-3 whitespace-nowrap">Акции</span>
+        </a>
       </li>
-    ))}
-  </ul> -->
+      <li>
+        <a
+          href="/contacts"
+          class="flex items-center p-1 text-sm font-normal tracking-wide text-gray-900 rounded-lg  hover:bg-gray-50  group"
+        >
+          <span class="flex-1 ml-3 whitespace-nowrap">Контакты</span>
+        </a>
+      </li>
+      <li>
+        <a
+          href="/favorites"
+          class="flex items-center p-1 text-sm font-normal tracking-wide text-gray-900 rounded-lg  hover:bg-gray-50  group"
+        >
+          <span class="flex-1 ml-3 whitespace-nowrap">Избранное</span>
+        </a>
+      </li>
+      
+   
+  </ul>
 
 <div class="border-t border-gray-200 py-6">
 	<a
