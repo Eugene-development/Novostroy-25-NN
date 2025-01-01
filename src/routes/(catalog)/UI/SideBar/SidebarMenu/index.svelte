@@ -84,7 +84,7 @@
 <div class="border-t border-gray-200 py-6">
 	<a
 		href="/"
-		class="group flex items-center rounded-lg p-1 text-sm font-normal text-sky-800 hover:bg-gray-50 dark:text-sky-500 dark:hover:bg-gray-700"
+		class="group flex items-center rounded-lg p-1 text-sm font-normal text-sky-800 hover:bg-gray-50"
 	>
 		<svg
 			class="h-6 w-6 flex-shrink-0 text-sky-800 transition duration-75 dark:text-sky-500"

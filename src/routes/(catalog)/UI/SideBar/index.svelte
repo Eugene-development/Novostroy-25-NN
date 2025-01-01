@@ -2,7 +2,7 @@
 	// import { Search } from "@/UI";
 	import Designer from './Designer/index.svelte';
 	import CallToAction from './CallToAction/index.svelte';
-	import Rubric from './Rubric/index.svelte';
+	import SidebarMenu from './SidebarMenu/index.svelte';
 
 	const sidebarClasses =
 		'fixed top-0 left-0 z-40 lg:z-0 w-72 h-screen transition-transform -translate-x-full bg-white border-r border-gray-200 lg:translate-x-0 lg:block lg:relative lg:h-auto lg:rounded-lg lg:border-r-0';
@@ -17,6 +17,8 @@
 
 		<CallToAction />
 
-		<!-- <Rubric dataCatalog={dataCatalog} /> -->
+		<SidebarMenu />
+
+
 	</div>
 </aside>
