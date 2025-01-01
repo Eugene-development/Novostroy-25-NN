@@ -64,7 +64,7 @@
     ))} -->
 </ul>
 
-<ul class="py-6 space-y-2 border-t border-gray-200 dark:border-gray-700">
+<ul class="py-6 space-y-2 border-t border-gray-200 ">
     
       <li>
         <a
