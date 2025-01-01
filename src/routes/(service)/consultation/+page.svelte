@@ -7,5 +7,4 @@
 	<meta name="description" content="Консультация" />
 </svelte:head>
 
-
 <Main />

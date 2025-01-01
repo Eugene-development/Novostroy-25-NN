@@ -7,5 +7,4 @@
 	<meta name="description" content="Блог" />
 </svelte:head>
 
-
 <Main />

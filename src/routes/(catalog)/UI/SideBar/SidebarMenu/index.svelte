@@ -1,4 +1,23 @@
+<script>
+	let { data } = $props();
+
+	$inspect(data);
+</script>
+
 <ul class="mb-6 space-y-3 rounded-xl bg-gray-50/50 px-3 py-6">
+	{#each data.rubric as rubric}
+		<li>
+			<button
+				type="button"
+				class="group flex w-full items-center rounded-lg bg-gray-100 py-2 text-base font-semibold tracking-wide text-gray-700 transition duration-75 hover:bg-gray-100 hover:text-gray-950"
+			>
+				<span class="ml-3 flex-1 whitespace-nowrap text-left">
+					{rubric.value}
+				</span>
+			</button>
+		</li>
+	{/each}
+
 	<!-- {dataCatalog?.rubric.map((item) => (
       <li key={item.value}>
         <Button
@@ -64,35 +83,32 @@
     ))} -->
 </ul>
 
-<ul class="py-6 space-y-2 border-t border-gray-200 ">
-    
-      <li>
-        <a
-          href="/actions"
-          class="flex items-center p-1 text-sm font-normal tracking-wide text-gray-900 rounded-lg  hover:bg-gray-50  group"
-        >
-          <span class="flex-1 ml-3 whitespace-nowrap">Акции</span>
-        </a>
-      </li>
-      <li>
-        <a
-          href="/contacts"
-          class="flex items-center p-1 text-sm font-normal tracking-wide text-gray-900 rounded-lg  hover:bg-gray-50  group"
-        >
-          <span class="flex-1 ml-3 whitespace-nowrap">Контакты</span>
-        </a>
-      </li>
-      <li>
-        <a
-          href="/favorites"
-          class="flex items-center p-1 text-sm font-normal tracking-wide text-gray-900 rounded-lg  hover:bg-gray-50  group"
-        >
-          <span class="flex-1 ml-3 whitespace-nowrap">Избранное</span>
-        </a>
-      </li>
-      
-   
-  </ul>
+<ul class="space-y-2 border-t border-gray-200 py-6">
+	<li>
+		<a
+			href="/actions"
+			class="group flex items-center rounded-lg p-1 text-sm font-normal tracking-wide text-gray-900 hover:bg-gray-50"
+		>
+			<span class="ml-3 flex-1 whitespace-nowrap">Акции</span>
+		</a>
+	</li>
+	<li>
+		<a
+			href="/contacts"
+			class="group flex items-center rounded-lg p-1 text-sm font-normal tracking-wide text-gray-900 hover:bg-gray-50"
+		>
+			<span class="ml-3 flex-1 whitespace-nowrap">Контакты</span>
+		</a>
+	</li>
+	<li>
+		<a
+			href="/favorites"
+			class="group flex items-center rounded-lg p-1 text-sm font-normal tracking-wide text-gray-900 hover:bg-gray-50"
+		>
+			<span class="ml-3 flex-1 whitespace-nowrap">Избранное</span>
+		</a>
+	</li>
+</ul>
 
 <div class="border-t border-gray-200 py-6">
 	<a

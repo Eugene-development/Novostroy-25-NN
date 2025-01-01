@@ -3,7 +3,6 @@
 
 	import MobileMenu from './MobileMenu/index.svelte';
 
-
 	let visibleCatalogMenu = $state(false);
 	let visibleServicesMenu = $state(false);
 </script>
@@ -232,19 +231,45 @@
 								</div>
 							</div>
 						</div>
-						<div class="grid grid-cols-2 divide-x divide-gray-300 bg-gray-100 border-t border-gray-300">
+						<div
+							class="grid grid-cols-2 divide-x divide-gray-300 border-t border-gray-300 bg-gray-100"
+						>
 							<a
 								href="/"
 								class="flex items-center justify-center gap-x-2.5 p-3 text-sm/6 font-semibold text-gray-900 hover:bg-gray-100"
 							>
-								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 20 20" fill="currentColor" class="feather feather-play"><path fill-rule="evenodd" d="M2 10a8 8 0 1 1 16 0 8 8 0 0 1-16 0Zm6.39-2.908a.75.75 0 0 1 .766.027l3.5 2.25a.75.75 0 0 1 0 1.262l-3.5 2.25A.75.75 0 0 1 8 12.25v-4.5a.75.75 0 0 1 .39-.658Z" clip-rule="evenodd"/></svg>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="24"
+									height="24"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									class="feather feather-play"
+									><path
+										fill-rule="evenodd"
+										d="M2 10a8 8 0 1 1 16 0 8 8 0 0 1-16 0Zm6.39-2.908a.75.75 0 0 1 .766.027l3.5 2.25a.75.75 0 0 1 0 1.262l-3.5 2.25A.75.75 0 0 1 8 12.25v-4.5a.75.75 0 0 1 .39-.658Z"
+										clip-rule="evenodd"
+									/></svg
+								>
 								Видеообзоры
 							</a>
 							<a
 								href="/"
 								class="flex items-center justify-center gap-x-2.5 p-3 text-sm/6 font-semibold text-gray-900 hover:bg-gray-100"
 							>
-								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-telegram"><path d="M22 4.01L2 10l4 2 2 8 4-4 6 2 4-14z"></path></svg>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									class="feather feather-telegram"
+									><path d="M22 4.01L2 10l4 2 2 8 4-4 6 2 4-14z"></path></svg
+								>
 								Телеграм канал
 							</a>
 						</div>
@@ -256,7 +281,7 @@
 			<a href="/blog" class="text-base font-semibold text-gray-900">Блог</a>
 		</div>
 
-		<div class="hidden items-center lg:flex lg:flex-1 lg:justify-end ">
+		<div class="hidden items-center lg:flex lg:flex-1 lg:justify-end">
 			<p
 				class="duration-400 group relative grid overflow-hidden rounded-xl px-4 py-2 shadow-[0_1000px_0_0_hsl(0_0%_70%)_inset] transition-colors"
 			>
@@ -285,8 +310,5 @@
 		</div>
 	</nav>
 
-
-<MobileMenu />
-
-	
+	<MobileMenu />
 </header>

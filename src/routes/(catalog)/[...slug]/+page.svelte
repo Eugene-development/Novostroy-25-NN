@@ -5,9 +5,8 @@
 
 	let { data } = $props();
 
-	$inspect(data);
+	// $inspect(data);
 </script>
-
 
 <!-- {@debug data} -->
 

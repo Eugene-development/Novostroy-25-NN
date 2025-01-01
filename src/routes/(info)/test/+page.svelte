@@ -1,15 +1,12 @@
 <script>
+	import { VERSION } from '@sveltejs/kit';
 
-import {
-	VERSION,
-} from '@sveltejs/kit';
+	import { browser, building, dev, version } from '$app/environment';
 
-import { browser, building, dev, version } from '$app/environment';
+	$inspect(VERSION);
+	$inspect(browser);
 
-$inspect(VERSION);
-$inspect(browser);
-
-import { ArrowUp } from 'lucide-svelte';
+	import { ArrowUp } from 'lucide-svelte';
 
 	import { PersistedState } from 'runed';
 
@@ -28,9 +25,7 @@ import { ArrowUp } from 'lucide-svelte';
 {/key}
 
 {#key count.current}
-<div transition:fade><ArrowUp size={count.current} strokeWidth={1.5} absoluteStrokeWidth />
-</div>
-
+	<div transition:fade><ArrowUp size={count.current} strokeWidth={1.5} absoluteStrokeWidth /></div>
 {/key}
 
 <!-- {VERSION} -->

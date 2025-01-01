@@ -34,7 +34,9 @@
 						<h3 class="text-sm/6 font-semibold text-white">Услуги</h3>
 						<ul role="list" class="mt-6 space-y-4">
 							<li>
-								<a href="/consultation" class="text-sm/6 text-gray-400 hover:text-white">Консультация</a>
+								<a href="/consultation" class="text-sm/6 text-gray-400 hover:text-white"
+									>Консультация</a
+								>
 							</li>
 							<li>
 								<a href="/measuring" class="text-sm/6 text-gray-400 hover:text-white">Замер</a>
@@ -43,7 +45,9 @@
 								<a href="/delivery" class="text-sm/6 text-gray-400 hover:text-white">Доставка</a>
 							</li>
 							<li>
-								<a href="/installation" class="text-sm/6 text-gray-400 hover:text-white">Установка</a>
+								<a href="/installation" class="text-sm/6 text-gray-400 hover:text-white"
+									>Установка</a
+								>
 							</li>
 						</ul>
 					</div>
@@ -56,13 +60,18 @@
 								<a href="/mebel" class="text-sm/6 text-gray-400 hover:text-white">Мебель</a>
 							</li>
 							<li>
-								<a href="/stoleshnica" class="text-sm/6 text-gray-400 hover:text-white">Столешницы</a>
+								<a href="/stoleshnica" class="text-sm/6 text-gray-400 hover:text-white"
+									>Столешницы</a
+								>
 							</li>
 							<li>
-								<a href="/tehnika" class="text-sm/6 text-gray-400 hover:text-white">Бытовая техника</a>
+								<a href="/tehnika" class="text-sm/6 text-gray-400 hover:text-white"
+									>Бытовая техника</a
+								>
 							</li>
 							<li>
-								<a href="/santehnika" class="text-sm/6 text-gray-400 hover:text-white">Сантехника</a>
+								<a href="/santehnika" class="text-sm/6 text-gray-400 hover:text-white">Сантехника</a
+								>
 							</li>
 						</ul>
 					</div>
@@ -70,16 +79,24 @@
 						<h3 class="text-sm/6 font-semibold text-white">Вакансии</h3>
 						<ul role="list" class="mt-6 space-y-4">
 							<li>
-								<a href="/vacancy/designer" class="text-sm/6 text-gray-400 hover:text-white">Дизайнер</a>
+								<a href="/vacancy/designer" class="text-sm/6 text-gray-400 hover:text-white"
+									>Дизайнер</a
+								>
 							</li>
 							<li>
-								<a href="/vacancy/assembler" class="text-sm/6 text-gray-400 hover:text-white">Сборщик</a>
+								<a href="/vacancy/assembler" class="text-sm/6 text-gray-400 hover:text-white"
+									>Сборщик</a
+								>
 							</li>
 							<li>
-								<a href="/vacancy/driver" class="text-sm/6 text-gray-400 hover:text-white">Водитель</a>
+								<a href="/vacancy/driver" class="text-sm/6 text-gray-400 hover:text-white"
+									>Водитель</a
+								>
 							</li>
 							<li>
-								<a href="/vacancy/marketer" class="text-sm/6 text-gray-400 hover:text-white">Маркетолог</a>
+								<a href="/vacancy/marketer" class="text-sm/6 text-gray-400 hover:text-white"
+									>Маркетолог</a
+								>
 							</li>
 						</ul>
 					</div>

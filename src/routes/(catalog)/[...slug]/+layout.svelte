@@ -1,6 +1,6 @@
 <script>
 	/** @type {{ data: import('./$types').LayoutData, children: import('svelte').Snippet }} */
-	let { children } = $props();
+	let { children, data } = $props();
 
 	import { SideBar } from '../UI';
 </script>
@@ -10,7 +10,7 @@
 	<!-- <Badge />   -->
 
 	<div class="relative mx-auto flex h-full w-full max-w-full px-4 py-1">
-		<SideBar />
+		<SideBar data={data.req.catalog} />
 		<!-- <SideBar dataCatalog={data.catalog} /> -->
 		{@render children()}
 	</div>

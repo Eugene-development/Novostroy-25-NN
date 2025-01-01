@@ -1,4 +1,5 @@
 <script>
+	let { data } = $props();
 	// import { Search } from "@/UI";
 	import Designer from './Designer/index.svelte';
 	import CallToAction from './CallToAction/index.svelte';
@@ -17,8 +18,6 @@
 
 		<CallToAction />
 
-		<SidebarMenu />
-
-
+		<SidebarMenu {data} />
 	</div>
 </aside>
