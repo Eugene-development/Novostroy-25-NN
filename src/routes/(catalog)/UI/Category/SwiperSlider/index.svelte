@@ -15,11 +15,16 @@ let { data } = $props();
 </script>
 <section class="py-2 w-72 sm:w-full mx-auto">
     <div class="container">
-<Splide aria-label="My Favorite Images">
+<Splide aria-label="My Favorite Images" 
+options={ {
+    rewind: true,
+    width : 800,
+    gap   : '1rem',
+  } }>
 
     {#each data as item}
-        <SplideSlide>
-            <img src={`${import.meta.env.VITE_S3}/catalog/${item.hash}`} alt="Slide showing a placeholder for Slide 1"/>
+        <SplideSlide class="w-full aspect-w-15 aspect-h-12">
+            <img src={`${import.meta.env.VITE_S3}/catalog/${item.hash}`} alt="Slide showing a placeholder for Slide 1" class="w-full object-contain object-center"/>
         </SplideSlide>
     {/each}
    
