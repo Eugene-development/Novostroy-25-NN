@@ -1,5 +1,25 @@
 import { gql } from 'graphql-request';
 
+export const SIDEBAR = gql`
+query sidebar($slug: String!, $key: UUID!) {
+  catalog(slug: $slug, key: $key) {
+    value
+    slug
+    rubric {
+      value
+      slug
+      category {
+        is_active
+        value
+        slug
+        product_count
+      }
+    }
+  }
+}
+
+`;
+
 export const CATALOG = gql`
 	query catalog($slug: String!, $key: UUID!) {
 		catalog(slug: $slug, key: $key) {

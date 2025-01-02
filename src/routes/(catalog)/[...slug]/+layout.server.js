@@ -1,6 +1,6 @@
 /** @type {import('./$types').PageServerLoad} */
 import { request } from 'graphql-request';
-import { CATALOG } from './query';
+import { SIDEBAR } from './query';
 
 export async function load({ params }) {
 	const url = import.meta.env.VITE_URL;
@@ -12,7 +12,7 @@ export async function load({ params }) {
 	};
 
 	try {
-		const req = await request(url, CATALOG, variables);
+		const req = await request(url, SIDEBAR, variables);
 		return {
 			req
 		};
