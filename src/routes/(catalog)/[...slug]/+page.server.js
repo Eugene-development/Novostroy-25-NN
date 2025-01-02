@@ -6,16 +6,13 @@ export async function load({ params, url }) {
 	const urlCRUD = import.meta.env.VITE_URL;
 	const key = import.meta.env.VITE_KEY;
 
-
 	const segments = url.pathname.split('/').filter((segment) => segment.length > 0);
 
 	let isCatalog, isRubric, isCategory, isProduct;
 
 	switch (segments.length) {
 		case 1:
-			
 			try {
-
 				const variables = {
 					key,
 					slug: segments[0]
@@ -32,9 +29,7 @@ export async function load({ params, url }) {
 			break;
 
 		case 2:
-			
 			try {
-
 				const variables = {
 					key,
 					slug: segments[1]
@@ -49,13 +44,10 @@ export async function load({ params, url }) {
 				console.log(error);
 			}
 
-			
 			break;
 
 		case 3:
-			
 			try {
-
 				const variables = {
 					key,
 					slug: segments[2]
@@ -68,13 +60,11 @@ export async function load({ params, url }) {
 			} catch (error) {
 				console.log(error);
 			}
-		
+
 			break;
 
 		case 4:
-			
 			try {
-
 				const variables = {
 					key,
 					slug: segments[3]
@@ -88,8 +78,6 @@ export async function load({ params, url }) {
 				console.log(error);
 			}
 
-			
 			break;
-			
 	}
 }

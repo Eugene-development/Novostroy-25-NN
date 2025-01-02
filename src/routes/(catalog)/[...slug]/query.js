@@ -79,7 +79,6 @@ export const RUBRIC = gql`
 	}
 `;
 
-
 export const CATEGORY = gql`
 	query category($slug: String!, $key: UUID!) {
 		category(slug: $slug, key: $key) {
