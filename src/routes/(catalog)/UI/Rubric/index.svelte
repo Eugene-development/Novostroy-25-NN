@@ -1,9 +1,12 @@
 <script>
+	import {BreadCrumbs} from '../../UI';
 	let { data } = $props();
 </script>
 
 <section class="rounded-xl bg-gray-50/50 py-2 antialiased md:py-4">
 	<div class="mx-auto max-w-screen-xl">
+		<BreadCrumbs  />
+
 		<!-- <Button value={"Категории каталога"} />
 
 	  <BreadCrumbs data={dataCatalog} /> -->
@@ -16,10 +19,6 @@
 		{data}
 	  </h2>  -->
 
-		<!-- <p class="mt-6 text-lg leading-8 text-gray-600">
-		Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-		fugiat veniam occaecat fugiat aliqua.
-	  </p>  -->
 		<!-- </div> -->
 	</div>
 
