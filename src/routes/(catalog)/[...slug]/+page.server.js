@@ -6,12 +6,6 @@ export async function load({ params, url }) {
 	const urlCRUD = import.meta.env.VITE_URL;
 	const key = import.meta.env.VITE_KEY;
 
-	const variables = {
-		key,
-		slug: params.slug
-	};
-
-	const slugLength = params.slug.length;
 
 	const segments = url.pathname.split('/').filter((segment) => segment.length > 0);
 
@@ -19,7 +13,13 @@ export async function load({ params, url }) {
 
 	switch (segments.length) {
 		case 1:
+			
 			try {
+
+				const variables = {
+					key,
+					slug: segments[0]
+				};
 				const req = await request(urlCRUD, CATALOG, variables);
 				return {
 					req,
@@ -32,7 +32,13 @@ export async function load({ params, url }) {
 			break;
 
 		case 2:
+			
 			try {
+
+				const variables = {
+					key,
+					slug: segments[1]
+				};
 				const req = await request(urlCRUD, PRODUCT, variables);
 				return {
 					req,
@@ -46,7 +52,13 @@ export async function load({ params, url }) {
 			break;
 
 		case 3:
+			
 			try {
+
+				const variables = {
+					key,
+					slug: segments[2]
+				};
 				const req = await request(urlCRUD, CATEGORY, variables);
 				return {
 					req,

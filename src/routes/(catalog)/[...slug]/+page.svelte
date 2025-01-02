@@ -12,8 +12,10 @@
 	{#if data.isCatalog}
 	<Catalog data={data.req.catalog} />
 	{:else if data.isCategory}
-	<Category data={data.req.category} />
+	category
+	<!-- <Category data={data.req.category} /> -->
 	{:else if data.isProduct}
-	<Product data={data.req.product} />
+	product
+	<!-- <Product data={data.req.product} /> -->
 	{/if}
 </main>

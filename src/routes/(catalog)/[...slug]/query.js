@@ -49,7 +49,7 @@ export const CATALOG = gql`
 	}
 `;
 
-const CATEGORY = gql`
+export const CATEGORY = gql`
 	query category($slug: String!, $key: UUID!) {
 		category(slug: $slug, key: $key) {
 			value
@@ -109,7 +109,7 @@ const CATEGORY = gql`
 	}
 `;
 
-const PRODUCT = gql`
+export const PRODUCT = gql`
 	query product($slug: String!, $key: UUID!) {
 		product(slug: $slug, key: $key) {
 			id
