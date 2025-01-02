@@ -1,7 +1,7 @@
 <script>
 	let { data } = $props();
 
-    $inspect(data);
+    // $inspect(data);
 
     const parentable = data?.parentable || {};
     const grandParent = parentable.parentable?.parentable  || {};
