@@ -83,6 +83,7 @@ export const CATEGORY = gql`
 	query category($slug: String!, $key: UUID!) {
 		category(slug: $slug, key: $key) {
 			value
+			slug
 			metaTitle {
 				value
 			}
@@ -127,6 +128,7 @@ export const CATEGORY = gql`
 			parentable {
 				... on Rubric {
 					value
+					slug
 					parentable {
 						... on Catalog {
 							value
