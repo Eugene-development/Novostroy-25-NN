@@ -1,11 +1,11 @@
 <script>
-	import {BreadCrumbs} from '../../UI';
+	import {PageControls} from '../../UI';
 	let { data } = $props();
 </script>
 
 <section class="rounded-xl bg-gray-50/50 py-2 antialiased md:py-4">
 	<div class="mx-auto max-w-screen-xl">
-		<BreadCrumbs  />
+		<PageControls  />
 
 		<!-- <Button value={"Категории каталога"} />
 
