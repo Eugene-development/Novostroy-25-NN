@@ -54,8 +54,8 @@
       {/if}
 
        <!-- Значение  -->
-      {#if !grandParent}
+      <!-- {#if !grandParent} -->
         <span>{data?.value}</span>
-      {/if}
+      <!-- {/if}111 -->
     </span>
   </div>
