@@ -1,11 +1,11 @@
 <script>
-	import {PageControls} from '../../UI';
+	import { PageControls } from '../../UI';
 	let { data } = $props();
 </script>
 
 <section class="rounded-xl bg-gray-50/50 py-2 antialiased md:py-4">
 	<div class="mx-auto max-w-screen-xl">
-		<PageControls data={data} />
+		<PageControls {data} />
 
 		<!-- <Button value={"Категории каталога"} />
 

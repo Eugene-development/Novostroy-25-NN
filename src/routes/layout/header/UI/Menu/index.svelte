@@ -102,9 +102,9 @@
 						transition:fade={{ duration: 100, delay: 50 }}
 						role="menu"
 						tabindex="0"
-						class="absolute -left-8 top-full z-20 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 "
+						class="absolute -left-8 top-full z-20 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5"
 					>
-						<div class="px-3 py-2 *:my-1 divide-y">
+						<div class="divide-y px-3 py-2 *:my-1">
 							<div class="group relative flex gap-x-6 rounded-3xl p-4 text-sm/6 hover:bg-gray-50">
 								<!-- <div
 									class="mt-1 flex size-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white"

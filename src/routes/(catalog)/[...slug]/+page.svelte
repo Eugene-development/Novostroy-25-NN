@@ -5,9 +5,8 @@
 
 	let { data } = $props();
 	$inspect(data);
-
 </script>
 
-<main class="flex-1 py-3 h-full overflow-y-auto lg:pl-4">
+<main class="h-full flex-1 overflow-y-auto py-3 lg:pl-4">
 	<Rubric data={data.req.catalog} />
 </main>
