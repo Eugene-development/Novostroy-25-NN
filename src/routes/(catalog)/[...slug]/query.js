@@ -49,6 +49,37 @@ export const CATALOG = gql`
 	}
 `;
 
+export const RUBRIC = gql`
+	query rubric($slug: String!, $key: UUID!) {
+		rubric(slug: $slug, key: $key) {
+			value
+			slug
+			metaTitle {
+				value
+			}
+			metaDescription {
+				value
+			}
+			# rubric {
+			# 	value
+			# 	slug
+			# 	category {
+			# 		is_active
+			# 		value
+			# 		slug
+			# 	}
+			# }
+			# text {
+			# 	value
+			# }
+			# image {
+			# 	hash
+			# }
+		}
+	}
+`;
+
+
 export const CATEGORY = gql`
 	query category($slug: String!, $key: UUID!) {
 		category(slug: $slug, key: $key) {

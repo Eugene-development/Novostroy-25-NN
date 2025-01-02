@@ -1,7 +1,7 @@
 <script>
 	/** @type {{ data: import('./$types').PageData }} */
 
-	import { Catalog, Category, Product } from '../UI';
+	import { Catalog, Rubric, Category, Product } from '../UI';
 
 	let { data } = $props();
 	$inspect(data);
@@ -11,6 +11,9 @@
 	
 	{#if data.isCatalog}
 	<Catalog data={data.req.catalog} />
+	{:else if data.isRubric}
+	rubric
+	<!-- <Rubric data={data.req.rubric} /> -->
 	{:else if data.isCategory}
 	category
 	<!-- <Category data={data.req.category} /> -->

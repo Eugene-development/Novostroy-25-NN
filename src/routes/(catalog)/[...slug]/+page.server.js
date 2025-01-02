@@ -1,6 +1,6 @@
 /** @type {import('./$types').PageServerLoad} */
 import { request } from 'graphql-request';
-import { CATALOG, CATEGORY, PRODUCT } from './query';
+import { CATALOG, RUBRIC, CATEGORY, PRODUCT } from './query';
 
 export async function load({ params, url }) {
 	const urlCRUD = import.meta.env.VITE_URL;
@@ -9,7 +9,7 @@ export async function load({ params, url }) {
 
 	const segments = url.pathname.split('/').filter((segment) => segment.length > 0);
 
-	let isCatalog, isCategory, isProduct;
+	let isCatalog, isRubric, isCategory, isProduct;
 
 	switch (segments.length) {
 		case 1:
@@ -39,16 +39,17 @@ export async function load({ params, url }) {
 					key,
 					slug: segments[1]
 				};
-				const req = await request(urlCRUD, PRODUCT, variables);
+				// TODO fix RUBRIC нужен бекенд
+				const req = await request(urlCRUD, RUBRIC, variables);
 				return {
 					req,
-					isProduct: true
+					isRubric: true
 				};
 			} catch (error) {
 				console.log(error);
 			}
 
-			isProduct = true;
+			
 			break;
 
 		case 3:
@@ -67,7 +68,28 @@ export async function load({ params, url }) {
 			} catch (error) {
 				console.log(error);
 			}
-			isCategory = true;
+		
 			break;
+
+		case 4:
+			
+			try {
+
+				const variables = {
+					key,
+					slug: segments[3]
+				};
+				const req = await request(urlCRUD, PRODUCT, variables);
+				return {
+					req,
+					isProduct: true
+				};
+			} catch (error) {
+				console.log(error);
+			}
+
+			
+			break;
+			
 	}
 }
