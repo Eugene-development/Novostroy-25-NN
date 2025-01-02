@@ -4,7 +4,7 @@
 	$inspect(data);
 </script>
 
-<ul class="mb-6 space-y-3 rounded-xl bg-gray-50/50 px-3 py-6">
+<ul class="mb-6 space-y-3 rounded-xl bg-gray-50/50 px-3 py-6 ">
 
 
 
