@@ -5,9 +5,6 @@
 
 	let { data } = $props();
 
-	// $inspect(data);
 </script>
-
-<!-- {@debug data} -->
 
 <Rubric data={data.req.catalog} />
