@@ -3,6 +3,10 @@
 
     $inspect(data);
 
+    const parentable = data?.parentable || {};
+    const grandParent = parentable.parentable?.parentable  || {};
+    const parent = parentable?.parentable || {};
+
 </script>
 
 <div class="inline-flex space-x-0 whitespace-pre">
@@ -44,7 +48,9 @@
        
       {:else}
         <span>{parentable.value}</span>
-        {#if parent} <ChevronIcon /> {/if}
+        {#if parent}
+         <!-- <ChevronIcon />  -->
+         {/if}
       {/if}
 
        <!-- Значение  -->
