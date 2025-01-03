@@ -23,9 +23,13 @@ options={ {
   } }>
 
     {#each data as item}
-        <SplideSlide class="w-full aspect-w-15 aspect-h-12">
-            <img src={`${import.meta.env.VITE_S3}/catalog/${item.hash}`} alt="Slide showing a placeholder for Slide 1" class="w-full object-contain object-center"/>
+    
+        <SplideSlide >
+            <div class="w-full aspect-w-15 aspect-h-12">
+            <img src={`${import.meta.env.VITE_S3}/catalog/${item.hash}`} alt="Slide showing a placeholder for Slide 1" class="w-full object-cover object-center"/>
+        </div>
         </SplideSlide>
+   
     {/each}
    
     
