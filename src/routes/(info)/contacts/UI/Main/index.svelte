@@ -1,4 +1,4 @@
-<div class="isolate bg-white px-6 py-24 sm:py-24 lg:px-8">
+<div class="isolate bg-white px-6 py-24 sm:py-24 lg:px-8 animate-in fade-in-10">
 	<div class="mx-auto max-w-3xl sm:text-center">
 		<h2 class="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
 			Связь с нами

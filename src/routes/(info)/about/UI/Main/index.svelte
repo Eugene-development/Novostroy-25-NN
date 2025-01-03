@@ -1,4 +1,4 @@
-<div class="overflow-hidden bg-white py-24 sm:py-32">
+<div class="overflow-hidden bg-white py-24 sm:py-32 animate-in fade-in-10">
 	<div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
 		<div class="max-w-4xl">
 			<p class="text-base/7 font-semibold text-sky-600">Информация</p>
