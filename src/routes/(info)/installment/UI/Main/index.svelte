@@ -4,7 +4,7 @@
 			<h2 class="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
 				Мы предлагаем рассрочку с выгодными условиями
 			</h2>
-			<p class="mt-6 text-base/7 text-gray-600">ххх</p>
+			<p class="mt-6 text-base/7 text-gray-600">В случае, если покупка необходима и не хватает определённой суммы денег, наши банки партнёры предоставляют возможность рассрочки.</p>
 		</div>
 		<div
 			class="mx-auto mt-16 flex max-w-2xl flex-col gap-8 lg:mx-0 lg:mt-20 lg:max-w-none lg:flex-row lg:items-end"
@@ -16,7 +16,7 @@
 				<div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
 					<p class="text-lg font-semibold tracking-tight text-gray-900">Стабильный доход</p>
 					<p class="mt-2 text-base/7 text-gray-600">
-						Vel labore deleniti veniam consequuntur sunt nobis.
+						Покажите ваш уверенный ежемесячный доход.
 					</p>
 				</div>
 			</div>
@@ -27,7 +27,7 @@
 				<div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
 					<p class="text-lg font-semibold tracking-tight text-white">Хорошая кредитная история</p>
 					<p class="mt-2 text-base/7 text-gray-400">
-						Eu duis porta aliquam ornare. Elementum eget magna egestas.
+						Это гарантия одобрения услуги по предоставлению рассрочки от банка.
 					</p>
 				</div>
 			</div>
@@ -38,8 +38,7 @@
 				<div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
 					<p class="text-lg font-semibold tracking-tight text-white">Первый взнос</p>
 					<p class="mt-2 text-base/7 text-indigo-200">
-						Eu duis porta aliquam ornare. Elementum eget magna egestas. Eu duis porta aliquam
-						ornare.
+						Минимальная сумма первого взноса это показатель вашей платёжеспособности.
 					</p>
 				</div>
 			</div>
