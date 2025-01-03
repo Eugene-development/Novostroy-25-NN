@@ -2,14 +2,23 @@
 	/** @type {{ data: import('./$types').PageData }} */
     import SwiperSlider from './SwiperSlider/index.svelte';
 	let { data } = $props();
-    // $inspect(data);
+    $inspect(data);
 
 </script>
-
-{data.value}
+<div class="bg-white py-2 sm:py-4">
+    <div class="mx-auto max-w-7xl ">
+      <div class="mx-auto max-w-2xl lg:mx-0">
+        <p class="text-base/7 font-semibold text-sky-600">{data.parentable.value}</p>
+        <h2 class="mt-2 text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">{data.value}</h2>
+        <!-- <p class="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</p> -->
+      </div>
+    </div>
+  </div>
+  
+<!-- {data.value} -->
 <div class="sm:mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
     {#each data.product as item (item.slug)}
-      <div class="space-y-4 rounded-lg border border-gray-200 bg-white p-6 shadow-sm">
+      <div class="space-y-4 rounded-lg border border-gray-100 bg-gray-50/10 p-6 shadow-sm">
         <div class="">
           <!-- Carousel wrapper -->
           <div class="mb-4 rounded-lg">
@@ -21,6 +30,7 @@
           <a href="/{data.parentable.parentable.slug}/{data.parentable.slug}/{data.slug}/{item.slug}" class="text-xl font-semibold leading-tight text-gray-900 hover:underline">
             {item.value}
           </a>
+
         </div>
 
         <button type="button" class="inline-flex items-center gap-2 text-sm font-medium text-gray-700 hover:underline hover:text-sky-700">

@@ -1,5 +1,5 @@
 <div
-	class="my-2 flex w-full items-center justify-between rounded-lg bg-gray-50/50 p-2 focus:ring-4 focus:ring-gray-200"
+	class="my-2 flex w-full items-center justify-between rounded-lg bg-gray-50/50 p-2 focus:ring-4 focus:ring-gray-200 border border-gray-100"
 	type="button"
 >
 	<span class="sr-only">Информация о дизайнере</span>

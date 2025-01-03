@@ -1,6 +1,10 @@
 <script>
 import { Splide, SplideSlide } from '@splidejs/svelte-splide';
 import '@splidejs/svelte-splide/css';
+// import '@splidejs/svelte-splide/css/skyblue';
+// import '@splidejs/svelte-splide/css/sea-green';
+
+// import '@splidejs/svelte-splide/css/core';
 
 
 let { data } = $props();

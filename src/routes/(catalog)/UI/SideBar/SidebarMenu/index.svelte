@@ -2,11 +2,11 @@
 	let { data } = $props();
 </script>
 
-<ul class="mb-6 space-y-3 rounded-xl bg-gray-50/50 px-3 py-6">
+<ul class="mb-6 space-y-3 rounded-xl bg-gray-50/20 px-3 py-6 border border-gray-50/50">
 	{#each data.rubric as item (item.value)}
 		<li>
 			<div
-				class="group flex w-full items-center rounded-lg bg-gray-100 py-2 text-base font-semibold tracking-wide text-gray-900 transition duration-75 hover:bg-gray-100"
+				class="group flex w-full items-center rounded-lg bg-gray-100/20 border border-gray-50 py-2 text-base font-semibold tracking-wide text-gray-900 transition duration-75 hover:bg-gray-100"
 			>
 				<span class="ml-3 flex-1 whitespace-nowrap text-left">
 					{item.value}
