@@ -57,5 +57,5 @@ export default {
 	},
 
 	plugins: [typography, forms, containerQueries],
-	plugins:[require('tailwindcss-animate')]
+	plugins: [require('tailwindcss-animate')]
 };

@@ -1,10 +1,13 @@
-<div class="bg-white py-24 sm:py-32 animate-in fade-in-10">
+<div class="bg-white py-24 animate-in fade-in-10 sm:py-32">
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto max-w-2xl lg:mx-0">
 			<h2 class="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
 				Мы предлагаем рассрочку с выгодными условиями
 			</h2>
-			<p class="mt-6 text-base/7 text-gray-600">В случае, если покупка необходима и не хватает определённой суммы денег, наши банки партнёры предоставляют возможность рассрочки.</p>
+			<p class="mt-6 text-base/7 text-gray-600">
+				В случае, если покупка необходима и не хватает определённой суммы денег, наши банки партнёры
+				предоставляют возможность рассрочки.
+			</p>
 		</div>
 		<div
 			class="mx-auto mt-16 flex max-w-2xl flex-col gap-8 lg:mx-0 lg:mt-20 lg:max-w-none lg:flex-row lg:items-end"
@@ -15,9 +18,7 @@
 				<p class="flex-none text-3xl font-bold tracking-tight text-gray-900">70k+</p>
 				<div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
 					<p class="text-lg font-semibold tracking-tight text-gray-900">Стабильный доход</p>
-					<p class="mt-2 text-base/7 text-gray-600">
-						Покажите ваш уверенный ежемесячный доход.
-					</p>
+					<p class="mt-2 text-base/7 text-gray-600">Покажите ваш уверенный ежемесячный доход.</p>
 				</div>
 			</div>
 			<div

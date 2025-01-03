@@ -21,9 +21,14 @@
 			>
 				<circle cx={1} cy={1} r={1} />
 			</svg>
-			<a href="/partnership" class={page.url.pathname === '/partnership'
-			? 'whitespace-nowrap text-xs text-sky-500 '
-			: 'whitespace-nowrap text-xs text-gray-50 hover:text-sky-500'}> Партнёрство </a>
+			<a
+				href="/partnership"
+				class={page.url.pathname === '/partnership'
+					? 'whitespace-nowrap text-xs text-sky-500 '
+					: 'whitespace-nowrap text-xs text-gray-50 hover:text-sky-500'}
+			>
+				Партнёрство
+			</a>
 			<svg
 				viewBox="0 0 2 2"
 				class="inline h-0.5 w-0.5 fill-current text-sky-500"
@@ -31,9 +36,14 @@
 			>
 				<circle cx={1} cy={1} r={1} />
 			</svg>
-			<a href="/testimonials" class={page.url.pathname === '/testimonials'
-			? 'whitespace-nowrap text-xs text-sky-500 '
-			: 'whitespace-nowrap text-xs text-gray-50 hover:text-sky-500'}> Отзывы </a>
+			<a
+				href="/testimonials"
+				class={page.url.pathname === '/testimonials'
+					? 'whitespace-nowrap text-xs text-sky-500 '
+					: 'whitespace-nowrap text-xs text-gray-50 hover:text-sky-500'}
+			>
+				Отзывы
+			</a>
 			<svg
 				viewBox="0 0 2 2"
 				class="inline h-0.5 w-0.5 fill-current text-sky-500"
@@ -41,9 +51,14 @@
 			>
 				<circle cx={1} cy={1} r={1} />
 			</svg>
-			<a href="/installment" class={page.url.pathname === '/installment'
-			? 'whitespace-nowrap text-xs text-sky-500 '
-			: 'whitespace-nowrap text-xs text-gray-50 hover:text-sky-500'}> Рассрочка </a>
+			<a
+				href="/installment"
+				class={page.url.pathname === '/installment'
+					? 'whitespace-nowrap text-xs text-sky-500 '
+					: 'whitespace-nowrap text-xs text-gray-50 hover:text-sky-500'}
+			>
+				Рассрочка
+			</a>
 			<svg
 				viewBox="0 0 2 2"
 				class="inline h-0.5 w-0.5 fill-current text-sky-500"
@@ -51,9 +66,14 @@
 			>
 				<circle cx={1} cy={1} r={1} />
 			</svg>
-			<a href="/guarantees" class={page.url.pathname === '/guarantees'
-			? 'whitespace-nowrap text-xs text-sky-500 '
-			: 'whitespace-nowrap text-xs text-gray-50 hover:text-sky-500'}> Гарантии </a>
+			<a
+				href="/guarantees"
+				class={page.url.pathname === '/guarantees'
+					? 'whitespace-nowrap text-xs text-sky-500 '
+					: 'whitespace-nowrap text-xs text-gray-50 hover:text-sky-500'}
+			>
+				Гарантии
+			</a>
 			<svg
 				viewBox="0 0 2 2"
 				class="inline h-0.5 w-0.5 fill-current text-sky-500"
@@ -61,9 +81,14 @@
 			>
 				<circle cx={1} cy={1} r={1} />
 			</svg>
-			<a href="/contacts" class={page.url.pathname === '/contacts'
-			? 'whitespace-nowrap text-xs text-sky-500 '
-			: 'whitespace-nowrap text-xs text-gray-50 hover:text-sky-500'}> Контакты </a>
+			<a
+				href="/contacts"
+				class={page.url.pathname === '/contacts'
+					? 'whitespace-nowrap text-xs text-sky-500 '
+					: 'whitespace-nowrap text-xs text-gray-50 hover:text-sky-500'}
+			>
+				Контакты
+			</a>
 		</div>
 	</div>
 
