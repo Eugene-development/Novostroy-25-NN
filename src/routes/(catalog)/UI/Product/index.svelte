@@ -3,9 +3,8 @@
 
 	let { data } = $props();
 
-	$inspect(data);
+	// $inspect(data);
 </script>
-
 
 
 <div class="bg-white">
