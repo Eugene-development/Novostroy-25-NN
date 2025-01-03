@@ -2,12 +2,14 @@
 	/** @type {{ data: import('./$types').PageData }} */
 
 	let { data } = $props();
+
+	$inspect(data);
 </script>
 
 
 
 <div class="bg-white">
-    <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+    <div class="mx-auto max-w-2xl px-4 py-8 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
       <div class="lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8">
         <!-- Image gallery -->
         <div class="flex flex-col-reverse">
@@ -17,7 +19,7 @@
               <button id="tabs-1-tab-1" class="relative flex h-24 cursor-pointer items-center justify-center rounded-md bg-white text-sm font-medium uppercase text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-indigo-500/50 focus:ring-offset-4" aria-controls="tabs-1-panel-1" role="tab" type="button">
                 <span class="sr-only">Angled view</span>
                 <span class="absolute inset-0 overflow-hidden rounded-md">
-                  <img src="https://tailwindui.com/plus/img/ecommerce-images/product-page-03-product-01.jpg" alt="" class="size-full object-cover">
+                  <img src={`${import.meta.env.VITE_S3}/catalog/${data.image[0].hash}`} alt="" class="size-full object-cover">
                 </span>
                 <!-- Selected: "ring-indigo-500", Not Selected: "ring-transparent" -->
                 <span class="pointer-events-none absolute inset-0 rounded-md ring-2 ring-transparent ring-offset-2" aria-hidden="true"></span>
@@ -30,7 +32,7 @@
           <div>
             <!-- Tab panel, show/hide based on tab state. -->
             <div id="tabs-1-panel-1" aria-labelledby="tabs-1-tab-1" role="tabpanel" tabindex="0">
-              <img src="https://tailwindui.com/plus/img/ecommerce-images/product-page-03-product-01.jpg" alt="Angled front view with bag zipped and handles upright." class="aspect-square w-full object-cover sm:rounded-lg">
+              <img src={`${import.meta.env.VITE_S3}/catalog/${data.image[0].hash}`} alt="Angled front view with bag zipped and handles upright." class="aspect-square w-full object-cover sm:rounded-lg">
             </div>
   
             <!-- More images... -->
@@ -52,19 +54,19 @@
             <div class="flex items-center">
               <div class="flex items-center">
                 <!-- Active: "text-indigo-500", Inactive: "text-gray-300" -->
-                <svg class="size-5 shrink-0 text-indigo-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+                <svg class="size-5 shrink-0 text-red-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
                   <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
                 </svg>
-                <svg class="size-5 shrink-0 text-indigo-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+                <svg class="size-5 shrink-0 text-red-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
                   <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
                 </svg>
-                <svg class="size-5 shrink-0 text-indigo-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+                <svg class="size-5 shrink-0 text-red-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
                   <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
                 </svg>
-                <svg class="size-5 shrink-0 text-indigo-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+                <svg class="size-5 shrink-0 text-red-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
                   <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
                 </svg>
-                <svg class="size-5 shrink-0 text-gray-300" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+                <svg class="size-5 shrink-0 text-red-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
                   <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
                 </svg>
               </div>
@@ -81,30 +83,7 @@
           </div>
   
           <form class="mt-6">
-            <!-- Colors -->
-            <div>
-              <h3 class="text-sm font-medium text-gray-600">Color</h3>
-  
-              <fieldset aria-label="Choose a color" class="mt-2">
-                <div class="flex items-center gap-x-3">
-                  <!-- Active and Checked: "ring ring-offset-1" -->
-                  <label aria-label="Washed Black" class="relative -m-0.5 flex cursor-pointer items-center justify-center rounded-full p-0.5 ring-gray-700 focus:outline-none">
-                    <input type="radio" name="color-choice" value="Washed Black" class="sr-only">
-                    <span aria-hidden="true" class="size-8 rounded-full border border-black/10 bg-gray-700"></span>
-                  </label>
-                  <!-- Active and Checked: "ring ring-offset-1" -->
-                  <label aria-label="White" class="relative -m-0.5 flex cursor-pointer items-center justify-center rounded-full p-0.5 ring-gray-400 focus:outline-none">
-                    <input type="radio" name="color-choice" value="White" class="sr-only">
-                    <span aria-hidden="true" class="size-8 rounded-full border border-black/10 bg-white"></span>
-                  </label>
-                  <!-- Active and Checked: "ring ring-offset-1" -->
-                  <label aria-label="Washed Gray" class="relative -m-0.5 flex cursor-pointer items-center justify-center rounded-full p-0.5 ring-gray-500 focus:outline-none">
-                    <input type="radio" name="color-choice" value="Washed Gray" class="sr-only">
-                    <span aria-hidden="true" class="size-8 rounded-full border border-black/10 bg-gray-500"></span>
-                  </label>
-                </div>
-              </fieldset>
-            </div>
+            
   
             <div class="mt-10 flex">
               <button type="submit" class="flex max-w-xs flex-1 items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50 sm:w-full">Add to bag</button>
