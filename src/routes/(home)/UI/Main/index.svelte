@@ -14,7 +14,7 @@
 							class="bg-gradient-to-b from-white to-neutral-400 bg-clip-text py-4 text-center text-3xl font-bold text-transparent md:text-8xl"
 						>
 							<h1>
-								<span class="text-5xl sm:text-6xl md:text-8xl">Мебель</span>
+								<span class="text-5xl sm:text-6xl md:text-8xl ">Мебель</span>
 
 								<br />
 								<span class="text-3xl sm:text-6xl md:text-8xl"> для вашего дома </span>

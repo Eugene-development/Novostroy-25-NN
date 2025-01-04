@@ -2,7 +2,7 @@
 	import MCardBody1 from './MCardBody/index.svelte';
 </script>
 
-<section class="bg-white animate-in fade-in-10">
+<section class="bg-white animate-in fade-in-10 duration-300">
 	<div class="mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:px-6">
 		<h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900">
 			We didn't reinvent the wheel

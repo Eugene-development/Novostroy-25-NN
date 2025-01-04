@@ -1,4 +1,4 @@
-<div class="relative isolate bg-white py-24 animate-in fade-in-10 sm:py-32">
+<div class="relative isolate bg-white py-24 animate-in fade-in-10 duration-300 sm:py-32">
 	<div
 		class="absolute inset-x-0 top-1/2 -z-10 -translate-y-1/2 transform-gpu overflow-hidden opacity-30 blur-3xl"
 		aria-hidden="true"
