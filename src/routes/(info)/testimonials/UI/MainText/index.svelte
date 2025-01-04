@@ -18,10 +18,10 @@
 		></div>
 	</div>
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
-		<div class="mx-auto max-w-2xl text-center">
+		<div class="mx-auto max-w-4xl text-center">
 			<h2 class="text-base/7 font-semibold text-sky-600">Отзывы</h2>
 			<p class="mt-2 text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-				We have worked with thousands of amazing people
+				Мы работаем ради таких отзывов клиентов о нашей работе
 			</p>
 		</div>
 		<div
@@ -34,28 +34,26 @@
 					class="p-6 text-lg font-semibold tracking-tight text-gray-900 sm:p-12 sm:text-xl/8"
 				>
 					<p>
-						“Integer id nunc sit semper purus. Bibendum at lacus ut arcu blandit montes vitae auctor
-						libero. Hac condimentum dignissim nibh vulputate ut nunc. Amet nibh orci mi venenatis
-						blandit vel et proin. Non hendrerit in vel ac diam.”
+						Ваша работа - это лучший знак качества. Убедились в этом снова. Наш новый гарнитур на кухне стал очень хорошим дополнением к интерьеру. Спасибо за вашу работу!
 					</p>
 				</blockquote>
 				<figcaption
 					class="flex flex-wrap items-center gap-x-4 gap-y-4 border-t border-gray-900/10 px-6 py-4 sm:flex-nowrap"
 				>
-					<img
+					<!-- <img
 						class="size-10 flex-none rounded-full bg-gray-50"
 						src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=1024&h=1024&q=80"
 						alt=""
-					/>
+					/> -->
 					<div class="flex-auto">
-						<div class="font-semibold">Brenna Goyette</div>
-						<div class="text-gray-600">@brennagoyette</div>
+						<div class="font-semibold">Тамара Фёдоровна Лукьянова</div>
+						<div class="text-gray-600">Москва</div>
 					</div>
-					<img
+					<!-- <img
 						class="h-10 w-auto flex-none"
 						src="https://tailwindui.com/plus/img/logos/savvycal-logo-gray-900.svg"
 						alt=""
-					/>
+					/> -->
 				</figcaption>
 			</figure>
 			<div class="space-y-8 xl:contents xl:space-y-0">
@@ -63,19 +61,72 @@
 					<figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
 						<blockquote class="text-gray-900">
 							<p>
-								“Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut
-								enim doloremque et ipsam.”
+								Купили гардероб. Каждая деталь хорошо продумана. Мы остались довольны своей покупкой. Закажем ещё.
 							</p>
 						</blockquote>
 						<figcaption class="mt-6 flex items-center gap-x-4">
-							<img
+							<!-- <img
 								class="size-10 rounded-full bg-gray-50"
 								src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
 								alt=""
-							/>
+							/> -->
 							<div>
-								<div class="font-semibold">Leslie Alexander</div>
-								<div class="text-gray-600">@lesliealexander</div>
+								<div class="font-semibold">Сергей Александров</div>
+								<div class="text-gray-600">Балашиха</div>
+							</div>
+						</figcaption>
+					</figure>
+					<figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
+						<blockquote class="text-gray-900">
+							<p>
+								Советую всем дизайнера Евгения. Подобрал вариант с техникой по нашему бюджету и уложились в сроки. Благодарю!
+							</p>
+						</blockquote>
+						<figcaption class="mt-6 flex items-center gap-x-4">
+							<!-- <img
+								class="size-10 rounded-full bg-gray-50"
+								src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+								alt=""
+							/> -->
+							<div>
+								<div class="font-semibold">LazyRich99</div>
+								<div class="text-gray-600">Реутов</div>
+							</div>
+						</figcaption>
+					</figure>
+					<figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
+						<blockquote class="text-gray-900">
+							<p>
+								Спасибо!  С вашей помощью мы удачно обновили кухню и теперь там больше времени проводим вместе с семьёй. Обновка удалась!
+							</p>
+						</blockquote>
+						<figcaption class="mt-6 flex items-center gap-x-4">
+							<!-- <img
+								class="size-10 rounded-full bg-gray-50"
+								src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+								alt=""
+							/> -->
+							<div>
+								<div class="font-semibold">Серафима</div>
+								<div class="text-gray-600">Казань</div>
+							</div>
+						</figcaption>
+					</figure>
+					<figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
+						<blockquote class="text-gray-900">
+							<p>
+								Мы довольны результатом выполненных работ этой компании. Новый шкаф в прихожую - это просто красота! Сборщики тоже хорошие.
+							</p>
+						</blockquote>
+						<figcaption class="mt-6 flex items-center gap-x-4">
+							<!-- <img
+								class="size-10 rounded-full bg-gray-50"
+								src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+								alt=""
+							/> -->
+							<div>
+								<div class="font-semibold">Лена</div>
+								<div class="text-gray-600">Московская область</div>
 							</div>
 						</figcaption>
 					</figure>
@@ -86,44 +137,112 @@
 					<figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
 						<blockquote class="text-gray-900">
 							<p>
-								“Aut reprehenderit voluptatem eum asperiores beatae id. Iure molestiae ipsam ut
-								officia rem nulla blanditiis.”
+								Наш новый шкаф купе - это радость для меня! Получилось стильно и удобно. Теперь наши вещи будут в порядке) Будем вас советовать.
 							</p>
 						</blockquote>
 						<figcaption class="mt-6 flex items-center gap-x-4">
-							<img
+							<!-- <img
 								class="size-10 rounded-full bg-gray-50"
 								src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
 								alt=""
-							/>
+							/> -->
 							<div>
-								<div class="font-semibold">Lindsay Walton</div>
-								<div class="text-gray-600">@lindsaywalton</div>
+								<div class="font-semibold">Лана и Лёша</div>
+								<div class="text-gray-600">Мытищи</div>
+							</div>
+						</figcaption>
+					</figure>
+					<figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
+						<blockquote class="text-gray-900">
+							<p>
+								Хороший шкаф. Купили в мае. Покупка, которая оправдала все ожидания. Пришлось взять в рассрочку, так как не уложились в бюджет.
+							</p>
+						</blockquote>
+						<figcaption class="mt-6 flex items-center gap-x-4">
+							<!-- <img
+								class="size-10 rounded-full bg-gray-50"
+								src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+								alt=""
+							/> -->
+							<div>
+								<div class="font-semibold">Лекс</div>
+								<div class="text-gray-600">Москва</div>
+							</div>
+						</figcaption>
+					</figure>
+					<figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
+						<blockquote class="text-gray-900">
+							<p>
+								Купил кухонный гарнитур через этих ребят. Работают профессионалы. Все идеально подходит, ничего не смущает даже. В идеале сроки бы покороче.
+							</p>
+						</blockquote>
+						<figcaption class="mt-6 flex items-center gap-x-4">
+							<!-- <img
+								class="size-10 rounded-full bg-gray-50"
+								src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+								alt=""
+							/> -->
+							<div>
+								<div class="font-semibold">Таймураз</div>
+								<div class="text-gray-600">Нижний Новгород (Бор)</div>
 							</div>
 						</figcaption>
 					</figure>
 
 					<!-- More testimonials... -->
 				</div>
-			</div>
-			<div class="space-y-8 xl:contents xl:space-y-0">
 				<div class="space-y-8 xl:row-start-1">
 					<figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
 						<blockquote class="text-gray-900">
 							<p>
-								“Voluptas quos itaque ipsam in voluptatem est. Iste eos blanditiis repudiandae.
-								Earum deserunt enim molestiae ipsum perferendis recusandae saepe corrupti.”
+								У нас самый крутой кухонный гарнитур среди друзей. Не можем налюбоваться! Спасибо за работу. Мы рады!
 							</p>
 						</blockquote>
 						<figcaption class="mt-6 flex items-center gap-x-4">
-							<img
+							<!-- <img
 								class="size-10 rounded-full bg-gray-50"
 								src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
 								alt=""
-							/>
+							/> -->
 							<div>
-								<div class="font-semibold">Tom Cook</div>
-								<div class="text-gray-600">@tomcook</div>
+								<div class="font-semibold">Танечка</div>
+								<div class="text-gray-600">Нижний Новгород</div>
+							</div>
+						</figcaption>
+					</figure>
+					<figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
+						<blockquote class="text-gray-900">
+							<p>
+								Мне очень нужен был вместительный шкаф. Мы довольны своим выбором дизайнера! Так же хочу сказать спасибо за скидку.
+							</p>
+						</blockquote>
+						<figcaption class="mt-6 flex items-center gap-x-4">
+							<!-- <img
+								class="size-10 rounded-full bg-gray-50"
+								src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+								alt=""
+							/> -->
+							<div>
+								<div class="font-semibold">Анатолий</div>
+								<div class="text-gray-600">Владимир</div>
+							</div>
+						</figcaption>
+					</figure>
+					<figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
+						<blockquote class="text-gray-900">
+							<p>
+								Юрий! Большое спасибо за оперативность и дружелюбие. Мебель была мне в подарок и хорошо что успели к Дню рождения!
+							</p>
+						</blockquote>
+						<figcaption class="mt-6 flex items-center gap-x-4">
+							<!-- <img
+								class="size-10 rounded-full bg-gray-50"
+								src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+								alt=""
+							/> -->
+							<div>
+								<div class="font-semibold">Марина</div>
+								<div class="text-gray-600">Санкт-Петербург</div>
 							</div>
 						</figcaption>
 					</figure>
@@ -134,23 +253,58 @@
 					<figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
 						<blockquote class="text-gray-900">
 							<p>
-								“Molestias ea earum quos nostrum doloremque sed. Quaerat quasi aut velit incidunt
-								excepturi rerum voluptatem minus harum.”
+								Знаком с вами очень давно. Не подвели. Меня порадовал адекватный выбор материалов для нашей спальни.
 							</p>
 						</blockquote>
 						<figcaption class="mt-6 flex items-center gap-x-4">
-							<img
+							<!-- <img
 								class="size-10 rounded-full bg-gray-50"
 								src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
 								alt=""
-							/>
+							/> -->
 							<div>
-								<div class="font-semibold">Leonard Krasner</div>
-								<div class="text-gray-600">@leonardkrasner</div>
+								<div class="font-semibold">Георгий Феликсович</div>
+								<div class="text-gray-600">Санкт-Петербург</div>
 							</div>
 						</figcaption>
 					</figure>
-
+					<figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
+						<blockquote class="text-gray-900">
+							<p>
+								Начали переезд с обновления мебели. Заказали гардероб и гарнитур. Получилось функциональное украшение нашей спальни и кухни. Все удобно и лаконично! Рекомендуем.
+							</p>
+						</blockquote>
+						<figcaption class="mt-6 flex items-center gap-x-4">
+							<!-- <img
+								class="size-10 rounded-full bg-gray-50"
+								src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+								alt=""
+							/> -->
+							<div>
+								<div class="font-semibold">Дина</div>
+								<div class="text-gray-600">Казань</div>
+							</div>
+						</figcaption>
+					</figure>
+					<figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
+						<blockquote class="text-gray-900">
+							<p>
+								Заказали дорогой кухонный гарнитур в загородный дом с подсветкой, мойкой и бытовой техникой. Очень боялись ошибиться. В итоге получили то что хотели. Мы счастливы, что сделали выбор с вашей помощью. Однозначно будем рекомендовать.
+							</p>
+						</blockquote>
+						<figcaption class="mt-6 flex items-center gap-x-4">
+							<!-- <img
+								class="size-10 rounded-full bg-gray-50"
+								src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+								alt=""
+							/> -->
+							<div>
+								<div class="font-semibold">Счастливая семья Зиминых</div>
+								<div class="text-gray-600">Москва</div>
+							</div>
+						</figcaption>
+					</figure>
+					
 					<!-- More testimonials... -->
 				</div>
 			</div>
