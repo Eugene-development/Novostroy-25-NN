@@ -38,14 +38,12 @@
 										class="size-full object-contain"
 									/>
 								</span>
-								<!-- Selected: "ring-indigo-500", Not Selected: "ring-transparent" -->
 								<span
 									class="pointer-events-none absolute inset-0 rounded-md ring-2 ring-transparent ring-offset-2"
 									aria-hidden="true"
 								></span>
 							</button>
 						{/each}
-						<!-- More images... -->
 					</div>
 				</div>
 
@@ -55,15 +53,12 @@
 						<img
 							src={`${import.meta.env.VITE_S3}/catalog/${data.image[currentImageIndex].hash}`}
 							alt={data.item?.alt}
-							class="h-full w-full rounded-lg object-contain object-center"
+							class="h-[450px] w-full rounded-lg object-contain object-center"
 						/>
 					</div>
-
-					<!-- More images... -->
 				</div>
 			</div>
 
-			<!-- Product info -->
 			<div class="mt-10 px-4 sm:mt-16 lg:mt-0">
 				<div class="mb-3">
 					<h2 class="sr-only">{data.parentable.value}</h2>
