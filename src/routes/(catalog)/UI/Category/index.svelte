@@ -8,7 +8,7 @@
 <div class="bg-white py-2 sm:py-4">
 	<div class="mx-auto max-w-7xl">
 		<div class="mx-auto max-w-2xl lg:mx-0">
-			<p class="text-base/7 font-semibold text-sky-600">{data.parentable.value}</p>
+			<p class="text-xl/7 font-semibold text-sky-600">{data.parentable.value}</p>
 			<h2 class="mt-2 text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
 				{data.value}
 			</h2>
@@ -20,7 +20,7 @@
 <!-- {data.value} -->
 <div class="grid gap-4 sm:mt-4 sm:grid-cols-2 lg:grid-cols-3">
 	{#each data.product as item (item.slug)}
-		<div class="space-y-4 rounded-lg border border-gray-100 bg-gray-50/10 p-6 shadow-sm">
+		<div class="space-y-4 rounded-lg border border-gray-100 bg-gray-50/10 p-6 shadow-sm animate-fade-up animate-duration-1000 animate-delay-700 animate-ease-in-out">
 			<div class="">
 				<!-- Carousel wrapper -->
 				<div class="mb-4 rounded-lg">
