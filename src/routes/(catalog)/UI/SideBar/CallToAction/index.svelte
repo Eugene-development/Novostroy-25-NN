@@ -20,7 +20,7 @@
 						/>
 					</svg>
 				</span>
-				<span class="text-xs font-normal text-blue-600"> Проект </span>
+				<span class="text-xs font-normal text-blue-600"> Дизайнер </span>
 			</div>
 		</li>
 		<li>
@@ -47,7 +47,7 @@
 						<path d="M12 7.875a1.125 1.125 0 1 0 0-2.25 1.125 1.125 0 0 0 0 2.25Z" />
 					</svg>
 				</span>
-				<span class="text-xs font-normal text-purple-600"> Салон </span>
+				<span class="text-xs font-normal text-purple-600"> Замер </span>
 			</div>
 		</li>
 		<li>
@@ -68,7 +68,7 @@
 						/>
 					</svg>
 				</span>
-				<span class="text-xs font-normal text-teal-600"> Замер </span>
+				<span class="text-xs font-normal text-teal-600"> Проект </span>
 			</div>
 		</li>
 	</ul>
