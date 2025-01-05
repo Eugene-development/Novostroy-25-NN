@@ -47,7 +47,7 @@
 					<!-- Tab panel, show/hide based on tab state. -->
 					<div class="aspect-w-15 aspect-h-10 scale110 w-full cursor-pointer">
 						<img
-							src={`${import.meta.env.VITE_S3}/catalog/${data.image[0].hash}`}
+							src={`${import.meta.env.VITE_S3}/catalog/${data.image[1].hash}`}
 							alt={data.item?.alt}
 							class="h-full w-full rounded-lg object-contain object-center"
 						/>
@@ -59,9 +59,7 @@
 
 			<!-- Product info -->
 			<div class="mt-10 px-4 sm:mt-16 lg:mt-0">
-				<h1 class="text-3xl font-bold tracking-tight text-gray-900">{data.value}</h1>
-
-				<div class="mt-3">
+				<div class="mb-3">
 					<h2 class="sr-only">{data.parentable.value}</h2>
 
 					<a
@@ -86,6 +84,9 @@
 						{data.parentable.value}</a
 					>
 				</div>
+
+				<h1 class="text-4xl font-bold tracking-tight text-gray-900">{data.value}</h1>
+
 
 				<!-- Reviews -->
 				<div class="mt-3">
