@@ -291,7 +291,7 @@
 					></span>
 				</span>
 				<span
-					class="backdrop absolute inset-px rounded-[11px] bg-gray-50 transition-colors duration-200 group-hover:bg-gray-100"
+					class="backdrop absolute inset-px rounded-[11px] bg-gray-50/90 transition-colors duration-200 group-hover:bg-gray-50"
 				></span>
 				<span class="z-10 flex text-base font-medium text-gray-900">
 					<path
