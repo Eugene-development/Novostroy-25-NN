@@ -1,9 +1,15 @@
 <script>
 	/** @type {{ data: import('./$types').PageData }} */
 
+	let currentImageIndex = $state(0);
+
+	function setNewImageIndex(i) {
+		currentImageIndex = i;
+	}
+
 	let { data } = $props();
 
-	$inspect(data);
+	// $inspect(data);
 </script>
 
 <div class="animate-fade-up bg-white animate-delay-700 animate-duration-1000 animate-ease-in-out">
@@ -14,8 +20,8 @@
 				<!-- Image selector -->
 				<div class="mx-auto mt-6 hidden w-full max-w-2xl sm:block lg:max-w-none">
 					<div class="grid grid-cols-4 gap-6" aria-orientation="horizontal" role="tablist">
-						{#each data.image as image}
-							<button
+						{#each data.image as image, i}
+							<button  onclick={() => setNewImageIndex(i)}
 								id="tabs-1-tab-1"
 								class="relative flex h-24 cursor-pointer items-center justify-center rounded-md bg-white text-sm font-medium uppercase text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-indigo-500/50 focus:ring-offset-4"
 								aria-controls="tabs-1-panel-1"
@@ -47,7 +53,7 @@
 					<!-- Tab panel, show/hide based on tab state. -->
 					<div class="aspect-w-15 aspect-h-10 scale110 w-full cursor-pointer">
 						<img
-							src={`${import.meta.env.VITE_S3}/catalog/${data.image[1].hash}`}
+							src={`${import.meta.env.VITE_S3}/catalog/${data.image[currentImageIndex].hash}`}
 							alt={data.item?.alt}
 							class="h-full w-full rounded-lg object-contain object-center"
 						/>
