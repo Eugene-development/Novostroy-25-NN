@@ -1,4 +1,4 @@
-<div class="bg-white py-24 animate-fade animate-duration-500 animate-ease-in-outsm:py-32">
+<div class="animate-ease-in-outsm:py-32 animate-fade bg-white py-24 animate-duration-500">
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto max-w-7xl items-start lg:mx-0 lg:max-w-none">
 			<div>

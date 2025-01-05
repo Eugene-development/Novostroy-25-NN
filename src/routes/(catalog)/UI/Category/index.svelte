@@ -20,7 +20,9 @@
 <!-- {data.value} -->
 <div class="grid gap-4 sm:mt-4 sm:grid-cols-2 lg:grid-cols-3">
 	{#each data.product as item (item.slug)}
-		<div class="space-y-4 rounded-lg border border-gray-100 bg-gray-50/10 p-6 shadow-sm animate-fade-up animate-duration-1000 animate-delay-700 animate-ease-in-out">
+		<div
+			class="animate-fade-up space-y-4 rounded-lg border border-gray-100 bg-gray-50/10 p-6 shadow-sm animate-delay-700 animate-duration-1000 animate-ease-in-out"
+		>
 			<div class="">
 				<!-- Carousel wrapper -->
 				<div class="mb-4 rounded-lg">
