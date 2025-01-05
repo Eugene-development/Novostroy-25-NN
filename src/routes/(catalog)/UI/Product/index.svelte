@@ -14,19 +14,20 @@
 				<!-- Image selector -->
 				<div class="mx-auto mt-6 hidden w-full max-w-2xl sm:block lg:max-w-none">
 					<div class="grid grid-cols-4 gap-6" aria-orientation="horizontal" role="tablist">
+						{#each data.image as image}
 						<button
 							id="tabs-1-tab-1"
-							class="relative flex h-24 cursor-pointer items-center justify-center rounded-md bg-white text-sm font-medium uppercase text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-indigo-500/50 focus:ring-offset-4"
+							class="relative flex h-24 cursor-pointer items-center justify-center rounded-md bg-white text-sm font-medium uppercase text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-indigo-500/50 focus:ring-offset-4 "
 							aria-controls="tabs-1-panel-1"
 							role="tab"
 							type="button"
 						>
-							<span class="sr-only">Angled view</span>
-							<span class="absolute inset-0 overflow-hidden rounded-md">
+							<span class="sr-only">Предпросмотр</span>
+							<span class="absolute inset-0 overflow-hidden rounded-md border border-gray-200 p-1 ">
 								<img
-									src={`${import.meta.env.VITE_S3}/catalog/${data.image[0].hash}`}
+									src={`${import.meta.env.VITE_S3}/catalog/${image.hash}`}
 									alt=""
-									class="size-full object-contain"
+									class="size-full object-contain "
 								/>
 							</span>
 							<!-- Selected: "ring-indigo-500", Not Selected: "ring-transparent" -->
@@ -35,7 +36,7 @@
 								aria-hidden="true"
 							></span>
 						</button>
-
+{/each}
 						<!-- More images... -->
 					</div>
 				</div>
@@ -43,16 +44,12 @@
 				<div>
 					<!-- Tab panel, show/hide based on tab state. -->
 					<div
-						id="tabs-1-panel-1"
-						aria-labelledby="tabs-1-tab-1"
-						role="tabpanel"
-						tabindex="0"
 						class="aspect-w-15 aspect-h-10 scale110 w-full cursor-pointer"
 					>
 						<img
 							src={`${import.meta.env.VITE_S3}/catalog/${data.image[0].hash}`}
-							alt="Angled front view with bag zipped and handles upright."
-							class="h-[30rem] w-full object-contain sm:rounded-lg"
+							alt={data.item?.alt}
+							class="w-full h-full object-contain object-center rounded-lg"
 						/>
 					</div>
 
@@ -66,10 +63,22 @@
 
 				<div class="mt-3">
 					<h2 class="sr-only">{data.parentable.value}</h2>
+
+					<a
+						href="/{data.parentable.parentable.parentable.slug}"
+						class="text-sm tracking-tight text-gray-900"> {data.parentable.parentable.parentable.value}</a
+					>
+					<span class="mx-0.5">/</span>
+					<a
+						href="/{data.parentable.parentable.parentable.slug}/{data.parentable.parentable
+							.slug}"
+						class="text-sm tracking-tight text-gray-900"> {data.parentable.parentable.value}</a
+					>
+					<span class="mx-0.5">/</span>
 					<a
 						href="/{data.parentable.parentable.parentable.slug}/{data.parentable.parentable
 							.slug}/{data.parentable.slug}"
-						class="text-xl tracking-tight text-gray-900">{data.parentable.value}</a
+						class="text-sm tracking-tight text-gray-900"> {data.parentable.value}</a
 					>
 				</div>
 
@@ -77,9 +86,9 @@
 				<div class="mt-3">
 					<h3 class="sr-only">Reviews</h3>
 					<div class="flex items-center">
-						<div class="flex items-center">
+						<div class="flex items-center *:mx-0.5">
 							<svg
-								class="size-5 shrink-0 text-red-600"
+								class="size-4 shrink-0 text-red-600"
 								viewBox="0 0 20 20"
 								fill="currentColor"
 								aria-hidden="true"
@@ -92,7 +101,7 @@
 								/>
 							</svg>
 							<svg
-								class="size-5 shrink-0 text-red-600"
+								class="size-4 shrink-0 text-red-600"
 								viewBox="0 0 20 20"
 								fill="currentColor"
 								aria-hidden="true"
@@ -105,7 +114,7 @@
 								/>
 							</svg>
 							<svg
-								class="size-5 shrink-0 text-red-600"
+								class="size-4 shrink-0 text-red-600"
 								viewBox="0 0 20 20"
 								fill="currentColor"
 								aria-hidden="true"
@@ -118,7 +127,7 @@
 								/>
 							</svg>
 							<svg
-								class="size-5 shrink-0 text-red-600"
+								class="size-4 shrink-0 text-red-600"
 								viewBox="0 0 20 20"
 								fill="currentColor"
 								aria-hidden="true"
@@ -131,7 +140,7 @@
 								/>
 							</svg>
 							<svg
-								class="size-5 shrink-0 text-red-600"
+								class="size-4 shrink-0 text-red-600"
 								viewBox="0 0 20 20"
 								fill="currentColor"
 								aria-hidden="true"
@@ -148,27 +157,22 @@
 					</div>
 				</div>
 
-				<div class="mt-6">
+				<div class="mt-8">
 					<h3 class="sr-only">Description</h3>
 
-					<div class="space-y-6 text-base text-gray-700">
+					<div class="space-y-4 text-base text-gray-700">
 						<p>
-							Наш дизайнер бесплатно даст вам общую консультацию по интересующим вас вопросам,
-							связанным с проектированием мебели и условиям нашей работы.
-						</p>
-						<p>
-							Мы дадим советы по выбору материалов и цветов и составим для вас стартовый
-							дизайн-проект.
+							Наш дизайнер бесплатно проконсультирует вас по всем интересующим вопросам и расскажет об условиях нашего сотрудничества. Мы также предоставим рекомендации по выбору фурнитуры, материалов и цветовых решений, а еще подготовим для вас стартовый дизайн-проект.
 						</p>
 					</div>
 				</div>
 
-				<form class="mt-6">
+				<form class="mt-2">
 					<div class="mt-10 flex">
 						<button
 							type="submit"
-							class="flex max-w-xs flex-1 items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50 sm:w-full"
-							>Добавьте в избранное</button
+							class="flex max-w-xs flex-1 items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-sky-500 to-blue-600 hover:from-blue-600 hover:to-sky-500  px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50 sm:w-full"
+							>Бесплатная консультация</button
 						>
 
 						<button
@@ -194,6 +198,30 @@
 						</button>
 					</div>
 				</form>
+
+				<button
+      type="button"
+      class="flex items-center gap-1 mt-4"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        strokeWidth={1.5}
+        stroke="currentColor"
+        class="w-5 h-5 text-gray-700"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M2.25 18.75a60.07 60.07 0 0 1 15.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 0 1 3 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 0 0-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 0 1-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 0 0 3 15h-.75M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm3 0h.008v.008H18V10.5Zm-12 0h.008v.008H6V10.5Z"
+        />
+      </svg>
+
+      <p class="text-sm font-medium text-gray-700">
+        Запрос актуальной цены
+      </p>
+    </button>
 
 				<section aria-labelledby="details-heading" class="mt-12">
 					<h2 id="details-heading" class="sr-only">Additional details</h2>
