@@ -276,7 +276,6 @@
 					</div>
 				{/if}
 			</div>
-
 			<a href="/actions" class="text-base font-semibold text-gray-900">Акции</a>
 			<a href="/blog" class="text-base font-semibold text-gray-900">Блог</a>
 		</div>
