@@ -52,7 +52,7 @@
 						<img
 							src={`${import.meta.env.VITE_S3}/catalog/${data.image[0].hash}`}
 							alt="Angled front view with bag zipped and handles upright."
-							class=" w-full object-contain sm:rounded-lg"
+							class="h-[30rem] w-full object-contain sm:rounded-lg"
 						/>
 					</div>
 
