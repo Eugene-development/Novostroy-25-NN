@@ -1,4 +1,4 @@
-<div class="bg-white py-24 animate-in fade-in-10 duration-300 sm:py-32">
+<div class="bg-white py-24 animate-fade animate-once animate-duration-500 animate-ease-in-outsm:py-32">
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto max-w-2xl lg:mx-0">
 			<h2 class="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
@@ -113,8 +113,7 @@
 				</time>
 				<p class="mt-6 text-lg/8 font-semibold tracking-tight text-gray-900">20-0-24</p>
 				<p class="mt-1 text-base/7 text-gray-600">
-					Кредит на один год с первым взносом от 0 до 20%. Проценты по кредиту
-					включены в цену.
+					Кредит на один год с первым взносом от 0 до 20%. Проценты по кредиту включены в цену.
 				</p>
 			</div>
 		</div>

@@ -1,4 +1,4 @@
-<div class="relative isolate bg-white py-24 animate-in fade-in-10 duration-300 sm:py-32">
+<div class="relative isolate bg-white py-24 animate-fade animate-once animate-duration-500 animate-ease-in-out sm:py-32">
 	<div
 		class="absolute inset-x-0 top-1/2 -z-10 -translate-y-1/2 transform-gpu overflow-hidden opacity-30 blur-3xl"
 		aria-hidden="true"
@@ -34,7 +34,8 @@
 					class="p-6 text-lg font-semibold tracking-tight text-gray-900 sm:p-12 sm:text-xl/8"
 				>
 					<p>
-						Ваша работа - это лучший знак качества. Убедились в этом снова. Наш новый гарнитур на кухне стал очень хорошим дополнением к интерьеру. Спасибо за вашу работу!
+						Ваша работа - это лучший знак качества. Убедились в этом снова. Наш новый гарнитур на
+						кухне стал очень хорошим дополнением к интерьеру. Спасибо за вашу работу!
 					</p>
 				</blockquote>
 				<figcaption
@@ -61,7 +62,8 @@
 					<figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
 						<blockquote class="text-gray-900">
 							<p>
-								Купили гардероб. Каждая деталь хорошо продумана. Мы остались довольны своей покупкой. Закажем ещё.
+								Купили гардероб. Каждая деталь хорошо продумана. Мы остались довольны своей
+								покупкой. Закажем ещё.
 							</p>
 						</blockquote>
 						<figcaption class="mt-6 flex items-center gap-x-4">
@@ -79,7 +81,8 @@
 					<figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
 						<blockquote class="text-gray-900">
 							<p>
-								Советую всем дизайнера Евгения. Подобрал вариант с техникой по нашему бюджету и уложились в сроки. Благодарю!
+								Советую всем дизайнера Евгения. Подобрал вариант с техникой по нашему бюджету и
+								уложились в сроки. Благодарю!
 							</p>
 						</blockquote>
 						<figcaption class="mt-6 flex items-center gap-x-4">
@@ -97,7 +100,8 @@
 					<figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
 						<blockquote class="text-gray-900">
 							<p>
-								Спасибо!  С вашей помощью мы удачно обновили кухню и теперь там больше времени проводим вместе с семьёй. Обновка удалась!
+								Спасибо! С вашей помощью мы удачно обновили кухню и теперь там больше времени
+								проводим вместе с семьёй. Обновка удалась!
 							</p>
 						</blockquote>
 						<figcaption class="mt-6 flex items-center gap-x-4">
@@ -115,7 +119,8 @@
 					<figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
 						<blockquote class="text-gray-900">
 							<p>
-								Мы довольны результатом выполненных работ этой компании. Новый шкаф в прихожую - это просто красота! Сборщики тоже хорошие.
+								Мы довольны результатом выполненных работ этой компании. Новый шкаф в прихожую - это
+								просто красота! Сборщики тоже хорошие.
 							</p>
 						</blockquote>
 						<figcaption class="mt-6 flex items-center gap-x-4">
@@ -137,7 +142,8 @@
 					<figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
 						<blockquote class="text-gray-900">
 							<p>
-								Наш новый шкаф купе - это радость для меня! Получилось стильно и удобно. Теперь наши вещи будут в порядке) Будем вас советовать.
+								Наш новый шкаф купе - это радость для меня! Получилось стильно и удобно. Теперь наши
+								вещи будут в порядке) Будем вас советовать.
 							</p>
 						</blockquote>
 						<figcaption class="mt-6 flex items-center gap-x-4">
@@ -155,7 +161,8 @@
 					<figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
 						<blockquote class="text-gray-900">
 							<p>
-								Хороший шкаф. Купили в мае. Покупка, которая оправдала все ожидания. Пришлось взять в рассрочку, так как не уложились в бюджет.
+								Хороший шкаф. Купили в мае. Покупка, которая оправдала все ожидания. Пришлось взять
+								в рассрочку, так как не уложились в бюджет.
 							</p>
 						</blockquote>
 						<figcaption class="mt-6 flex items-center gap-x-4">
@@ -173,7 +180,8 @@
 					<figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
 						<blockquote class="text-gray-900">
 							<p>
-								Купил кухонный гарнитур через этих ребят. Работают профессионалы. Все идеально подходит, ничего не смущает даже. В идеале сроки бы покороче.
+								Купил кухонный гарнитур через этих ребят. Работают профессионалы. Все идеально
+								подходит, ничего не смущает даже. В идеале сроки бы покороче.
 							</p>
 						</blockquote>
 						<figcaption class="mt-6 flex items-center gap-x-4">
@@ -195,7 +203,8 @@
 					<figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
 						<blockquote class="text-gray-900">
 							<p>
-								У нас самый крутой кухонный гарнитур среди друзей. Не можем налюбоваться! Спасибо за работу. Мы рады!
+								У нас самый крутой кухонный гарнитур среди друзей. Не можем налюбоваться! Спасибо за
+								работу. Мы рады!
 							</p>
 						</blockquote>
 						<figcaption class="mt-6 flex items-center gap-x-4">
@@ -213,7 +222,8 @@
 					<figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
 						<blockquote class="text-gray-900">
 							<p>
-								Мне очень нужен был вместительный шкаф. Мы довольны своим выбором дизайнера! Так же хочу сказать спасибо за скидку.
+								Мне очень нужен был вместительный шкаф. Мы довольны своим выбором дизайнера! Так же
+								хочу сказать спасибо за скидку.
 							</p>
 						</blockquote>
 						<figcaption class="mt-6 flex items-center gap-x-4">
@@ -231,7 +241,8 @@
 					<figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
 						<blockquote class="text-gray-900">
 							<p>
-								Юрий! Большое спасибо за оперативность и дружелюбие. Мебель была мне в подарок и хорошо что успели к Дню рождения!
+								Юрий! Большое спасибо за оперативность и дружелюбие. Мебель была мне в подарок и
+								хорошо что успели к Дню рождения!
 							</p>
 						</blockquote>
 						<figcaption class="mt-6 flex items-center gap-x-4">
@@ -253,7 +264,8 @@
 					<figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
 						<blockquote class="text-gray-900">
 							<p>
-								Знаком с вами очень давно. Не подвели. Меня порадовал адекватный выбор материалов для нашей спальни.
+								Знаком с вами очень давно. Не подвели. Меня порадовал адекватный выбор материалов
+								для нашей спальни.
 							</p>
 						</blockquote>
 						<figcaption class="mt-6 flex items-center gap-x-4">
@@ -271,7 +283,8 @@
 					<figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
 						<blockquote class="text-gray-900">
 							<p>
-								Начали переезд с обновления мебели. Заказали гардероб и гарнитур. Получилось функциональное украшение нашей спальни и кухни. Все удобно и лаконично! Рекомендуем.
+								Начали переезд с обновления мебели. Заказали гардероб и гарнитур. Получилось
+								функциональное украшение нашей спальни и кухни. Все удобно и лаконично! Рекомендуем.
 							</p>
 						</blockquote>
 						<figcaption class="mt-6 flex items-center gap-x-4">
@@ -289,7 +302,9 @@
 					<figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
 						<blockquote class="text-gray-900">
 							<p>
-								Заказали дорогой кухонный гарнитур в загородный дом с подсветкой, мойкой и бытовой техникой. Очень боялись ошибиться. В итоге получили то что хотели. Мы счастливы, что сделали выбор с вашей помощью. Однозначно будем рекомендовать.
+								Заказали дорогой кухонный гарнитур в загородный дом с подсветкой, мойкой и бытовой
+								техникой. Очень боялись ошибиться. В итоге получили то что хотели. Мы счастливы, что
+								сделали выбор с вашей помощью. Однозначно будем рекомендовать.
 							</p>
 						</blockquote>
 						<figcaption class="mt-6 flex items-center gap-x-4">
@@ -304,7 +319,7 @@
 							</div>
 						</figcaption>
 					</figure>
-					
+
 					<!-- More testimonials... -->
 				</div>
 			</div>

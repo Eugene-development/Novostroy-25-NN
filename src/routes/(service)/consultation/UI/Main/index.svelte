@@ -51,9 +51,14 @@
 	</div>
 	<div class="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
 		<img
-			class="aspect-[3/2] object-cover lg:aspect-auto lg:size-full"
-			src="https://images.unsplash.com/photo-1483389127117-b6a2102724ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80"
+			class="aspect-[3/2] object-contain lg:aspect-auto lg:size-full"
+			src="https://nsk-zabor.nethouse.ru/static/img/0000/0005/5075/55075406.m909a6efnd.W665.png"
 			alt=""
 		/>
+		<!-- <img
+			class="aspect-[3/2] object-contain lg:aspect-auto lg:size-full"
+			src="https://sun9-78.userapi.com/s/v1/ig2/BMl8fmrHbPAlTUnt7Yh2tRT807hMFbtxCEq-hZWCQkJE6PxMwvAzitAiQi8WtRmJ7gAZbK1jpZTs5XD3ZZcHMAYr.jpg?quality=96&as=32x38,48x58,72x86,108x130,160x192,240x288,360x432,480x576,540x648,640x768,720x864,1080x1296,1280x1536,1440x1728,1800x2160&from=bu&u=eCQKi2IfXXl34kgFPjpk_7ut5G_Zn0i57jy8qzGZp4E&cs=672x807"
+			alt=""
+		/> -->
 	</div>
 </div>

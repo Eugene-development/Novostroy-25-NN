@@ -1,4 +1,6 @@
-<script>
+<button class="animate-jump-in animate-duration-100"> Hej, look at me! </button>
+
+<!-- <script>
 	import { VERSION } from '@sveltejs/kit';
 
 	import { browser, building, dev, version } from '$app/environment';
@@ -26,7 +28,7 @@
 
 {#key count.current}
 	<div transition:fade><ArrowUp size={count.current} strokeWidth={1.5} absoluteStrokeWidth /></div>
-{/key}
+{/key} -->
 
 <!-- {VERSION} -->
 

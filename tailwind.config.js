@@ -22,7 +22,7 @@ export default {
 			animation: {
 				shine: 'shine 2s linear infinite',
 				flip: 'flip 6s infinite steps(2, end)',
-				kitrotate: 'kitrotate 3s linear infinite both',
+				kitrotate: 'kitrotate 3s linear infinite both'
 				// 'accordion-down': 'accordion-down 0.2s ease-out',
 				// 'accordion-up': 'accordion-up 0.2s ease-out',
 				// 'border-beam': 'border-beam calc(var(--duration)*1s) infinite linear',
@@ -56,6 +56,11 @@ export default {
 		}
 	},
 
-	plugins: [typography, forms, containerQueries],
-	plugins: [require('tailwindcss-animate')]
+	plugins: [
+		typography,
+		forms,
+		containerQueries,
+		require('tailwindcss-animate'),
+		require('tailwindcss-animated')
+	]
 };

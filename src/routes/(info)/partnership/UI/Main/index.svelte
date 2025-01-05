@@ -1,4 +1,6 @@
-<div class="relative isolate overflow-hidden bg-white py-24 animate-in fade-in-10 duration-300 sm:py-32">
+<div
+	class="relative isolate overflow-hidden bg-white py-24 animate-fade animate-once animate-duration-500 animate-ease-in-outsm:py-32"
+>
 	<div
 		class="absolute -top-80 left-[max(6rem,33%)] -z-10 transform-gpu blur-3xl sm:left-1/2 md:top-20 lg:ml-20 xl:top-3 xl:ml-56"
 		aria-hidden="true"
