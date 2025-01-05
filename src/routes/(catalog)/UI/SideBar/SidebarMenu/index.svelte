@@ -1,21 +1,25 @@
 <script>
 	import { page } from '$app/state';
+	/** @type {{ data: import('./$types').PageData }} */
 
 	let { data } = $props();
 
+	let lastElement = $state('');
+	let secondToLast = $state('');
+
+	$effect(() => {
+		const segments = page.url.pathname.split('/').filter((segment) => segment.length > 0);
+		lastElement = segments.slice(-1)[0];
+		secondToLast = segments.slice(-2)[0];
+	});
+
+	import { IsMounted } from "runed";
+ 
+	const isMounted = new IsMounted();
+
+
 	const segmentsURL = page.url.pathname.split('/').filter((segment) => segment.length > 0);
 
-	let lastElement = segmentsURL.slice(-1)[0];
-	const secondToLast = segmentsURL.slice(-2)[0];
-
-	// $effect(() => {lastElement = segmentsURL.slice(-1)[0]})
-
-	// 	if (segmentsURL.length >= 2) {
-	//     const lastElement = segmentsURL[segmentsURL.length - 1];
-	//     const secondToLast = segmentsURL[segmentsURL.length - 2];
-	// }
-
-	$inspect(lastElement);
 </script>
 
 <ul class="mb-6 space-y-3 rounded-xl border border-gray-50/50 bg-gray-50/20 px-3 py-6">
@@ -38,7 +42,7 @@
 					<li class="flex items-center rounded-lg">
 						<a
 							href={`/${data.slug}/${item.slug}/${subitem.slug}`}
-							class="group flex w-full items-center justify-between rounded-lg p-1 pl-4 text-sm font-medium tracking-wide  transition duration-75 hover:bg-gray-100 hover:text-sky-600"
+							class="group flex w-full items-center justify-between rounded-lg p-1 pl-4 text-sm font-medium tracking-wide  transition duration-75 hover:bg-gray-100 hover:text-gray-900"
 						>
 							{subitem.value}
 							<span

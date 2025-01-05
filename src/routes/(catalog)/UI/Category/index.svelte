@@ -2,7 +2,7 @@
 	/** @type {{ data: import('./$types').PageData }} */
 	import SwiperSlider from './SwiperSlider/index.svelte';
 	let { data } = $props();
-	$inspect(data);
+	// $inspect(data);
 </script>
 
 <div class="bg-white py-2 sm:py-4">
