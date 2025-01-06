@@ -1,9 +1,9 @@
 <script>
 	/** @type {{ data: import('./$types').PageData }} */
 
-	import { PersistedState } from "runed";
- 
-	const favorites = new PersistedState("favorites", []);
+	import { PersistedState } from 'runed';
+
+	const favorites = new PersistedState('favorites', []);
 
 	let currentImageIndex = $state(0);
 
@@ -193,7 +193,7 @@
 							newProduct,
 						  ] -->
 						<button
-							onclick={() => favorites.current = [...favorites.current, data]}
+							onclick={() => (favorites.current = [...favorites.current, data])}
 							type="button"
 							class="ml-4 flex items-center justify-center rounded-md px-3 py-3 text-gray-400 hover:bg-gray-100 hover:text-gray-500"
 						>

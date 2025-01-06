@@ -1,7 +1,7 @@
 <script>
-  import { getContext } from 'svelte';
-  const is = getContext('is');
-  // $inspect(is);
+	import { getContext } from 'svelte';
+	const is = getContext('is');
+	// $inspect(is);
 
 	const cards = [
 		{
@@ -69,7 +69,9 @@
 			</p>
 		</div>
 		<div
-    class={is ? "mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8 animate-fade-up animate-delay-700 animate-duration-1000 animate-ease-in-out": "mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"}
+			class={is
+				? 'mx-auto mt-16 grid max-w-2xl animate-fade-up grid-cols-1 gap-6 animate-delay-700 animate-duration-1000 animate-ease-in-out sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8'
+				: 'mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8'}
 		>
 			{#each cards as card}
 				<div>
@@ -97,6 +99,5 @@
 				</div>
 			{/each}
 		</div>
-   
 	</div>
 </div>

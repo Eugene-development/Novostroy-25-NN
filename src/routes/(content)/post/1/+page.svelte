@@ -4,7 +4,9 @@
 		<h1 class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
 			JavaScript for beginners
 		</h1>
-		<p class="mt-6 text-xl/8 animate-fade-up animate-delay-700 animate-duration-1000 animate-ease-in-out">
+		<p
+			class="mt-6 animate-fade-up text-xl/8 animate-delay-700 animate-duration-1000 animate-ease-in-out"
+		>
 			Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh
 			dui, diam eget aliquam. Quisque id at vitae feugiat egestas ac. Diam nulla orci at in viverra
 			scelerisque eget. Eleifend egestas fringilla sapien.
@@ -19,7 +21,6 @@
 						aria-hidden="true"
 						data-slot="icon"
 					>
-					
 						<path
 							fill-rule="evenodd"
 							d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
@@ -147,5 +148,8 @@
 	</div>
 </div>
 
-
-<div class="bg-cyan-500 intersect:bg-indigo-600 transition-colors p-8 intersect:animate-fade-up intersect:animate-delay-700 intersect:animate-duration-1000 intersect:animate-ease-in-out">77777</div>
+<div
+	class="bg-cyan-500 p-8 transition-colors intersect:animate-fade-up intersect:bg-indigo-600 intersect:animate-delay-700 intersect:animate-duration-1000 intersect:animate-ease-in-out"
+>
+	77777
+</div>

@@ -8,7 +8,6 @@
 	// let isIntersecting = $state(false);
 	// $inspect(isIntersecting);
 
-
 	// setContext('is', () => isIntersecting);
 
 	// useIntersectionObserver(
@@ -32,11 +31,10 @@
 </svelte:head>
 
 <!-- <div bind:this={root} class="h-screen overflow-auto"> -->
-	<Main />
-	<Incentives />
-	<!-- <Offer /> -->
-	<!-- <div bind:this={target}> -->
-		<Stage />
-	<!-- </div> -->
+<Main />
+<Incentives />
+<!-- <Offer /> -->
+<!-- <div bind:this={target}> -->
+<Stage />
 <!-- </div> -->
-
+<!-- </div> -->

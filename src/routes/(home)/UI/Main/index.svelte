@@ -8,7 +8,7 @@
 		<div class="absolute inset-0 -z-10 bg-black/60"></div>
 		<div class="mx-auto max-w-7xl px-6 lg:px-8">
 			<div class="mx-auto max-w-6xl py-32 sm:py-48 lg:py-56">
-				<div class="animate-fade-up animate-delay-200 animate-duration-5000 animate-ease-in-out">
+				<div class="animate-duration-5000 animate-fade-up animate-delay-200 animate-ease-in-out">
 					<div class="z-50 -mt-24 flex flex-col items-center justify-center">
 						<div
 							class="bg-gradient-to-b from-white to-neutral-400 bg-clip-text py-4 text-center text-3xl font-bold text-transparent md:text-8xl"
