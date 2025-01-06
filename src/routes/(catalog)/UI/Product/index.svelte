@@ -21,7 +21,8 @@
 				<div class="mx-auto mt-6 hidden w-full max-w-2xl sm:block lg:max-w-none">
 					<div class="grid grid-cols-4 gap-6" aria-orientation="horizontal" role="tablist">
 						{#each data.image as image, i}
-							<button  onclick={() => setNewImageIndex(i)}
+							<button
+								onclick={() => setNewImageIndex(i)}
 								id="tabs-1-tab-1"
 								class="relative flex h-24 cursor-pointer items-center justify-center rounded-md bg-white text-sm font-medium uppercase text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-indigo-500/50 focus:ring-offset-4"
 								aria-controls="tabs-1-panel-1"
@@ -87,7 +88,6 @@
 				</div>
 
 				<h1 class="text-4xl font-bold tracking-tight text-gray-900">{data.value}</h1>
-
 
 				<!-- Reviews -->
 				<div class="mt-3">

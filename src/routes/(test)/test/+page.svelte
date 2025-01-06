@@ -49,10 +49,8 @@
 
 <ArrowUp size={48} strokeWidth={1.5} absoluteStrokeWidth /> -->
 
-
-
 <script lang="ts">
-	import { useIntersectionObserver } from "runed";
+	import { useIntersectionObserver } from 'runed';
 	// import { Checkbox, Label, DemoContainer } from "@svecodocs/kit";
 
 	let root = $state<HTMLElement>(null!);
@@ -70,7 +68,7 @@
 			}
 		},
 		{
-			root: () => root,
+			root: () => root
 		}
 	);
 </script>
@@ -104,7 +102,7 @@
 		<span
 			class="font-medium {isVisible ? 'text-green-600 dark:text-green-500' : 'text-destructive'}"
 		>
-			{isVisible ? "inside" : "outside"}
+			{isVisible ? 'inside' : 'outside'}
 		</span>
 		the viewport
 	</div>

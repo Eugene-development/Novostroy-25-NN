@@ -13,13 +13,11 @@
 		secondToLast = segments.slice(-2)[0];
 	});
 
-	import { IsMounted } from "runed";
- 
+	import { IsMounted } from 'runed';
+
 	const isMounted = new IsMounted();
 
-
 	const segmentsURL = page.url.pathname.split('/').filter((segment) => segment.length > 0);
-
 </script>
 
 <ul class="mb-6 space-y-3 rounded-xl border border-gray-50/50 bg-gray-50/20 px-3 py-6">
@@ -34,19 +32,19 @@
 			</div>
 
 			{#each item.category as subitem (subitem.value)}
-				<ul id="dropdown-orders" 
-				class={secondToLast === subitem.slug || lastElement === subitem.slug
-					? 'space-y-2 p-2 *:text-sky-600 '
-					: 'space-y-2 p-2 *:text-gray-900'}
+				<ul
+					id="dropdown-orders"
+					class={secondToLast === subitem.slug || lastElement === subitem.slug
+						? 'space-y-2 p-2 *:text-sky-600 '
+						: 'space-y-2 p-2 *:text-gray-900'}
 				>
 					<li class="flex items-center rounded-lg">
 						<a
 							href={`/${data.slug}/${item.slug}/${subitem.slug}`}
-							class="group flex w-full items-center justify-between rounded-lg p-1 pl-4 text-sm font-medium tracking-wide  transition duration-75 hover:bg-gray-100 hover:text-gray-900"
+							class="group flex w-full items-center justify-between rounded-lg p-1 pl-4 text-sm font-medium tracking-wide transition duration-75 hover:bg-gray-100 hover:text-gray-900"
 						>
 							{subitem.value}
-							<span
-								class="inline-flex h-5 w-5 items-center rounded-full text-xs font-semibold "
+							<span class="inline-flex h-5 w-5 items-center rounded-full text-xs font-semibold"
 								>{subitem.product_count}</span
 							>
 						</a>
@@ -55,8 +53,6 @@
 			{/each}
 		</li>
 	{/each}
-
-	
 </ul>
 
 <ul class="space-y-2 border-t border-gray-200 py-6">
