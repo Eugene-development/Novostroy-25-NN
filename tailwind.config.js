@@ -47,5 +47,5 @@ export default {
 		}
 	},
 
-	plugins: [typography, forms, containerQueries, require('tailwindcss-animated')]
+	plugins: [typography, forms, containerQueries, require('tailwindcss-animated'), require('tailwindcss-intersect')]
 };
