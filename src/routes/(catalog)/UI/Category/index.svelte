@@ -1,6 +1,9 @@
 <script>
 	/** @type {{ data: import('./$types').PageData }} */
 	import SwiperSlider from './SwiperSlider/index.svelte';
+	import { PersistedState } from "runed";
+	const favorites = new PersistedState("favorites", []);
+
 	let { data } = $props();
 	// $inspect(data);
 </script>
@@ -63,9 +66,49 @@
 			<div class="mt-4 max-w-sm sm:flex sm:items-center md:mt-6 lg:flex-col">
 				<!-- <FavoriteButton product={item} /> -->
 
+				<button
+      type="button"
+      onclick={() => favorites.current = [...favorites.current, item]}
+      class={`flex items-center w-full justify-center py-2.5 px-5 text-sm font-medium focus:outline-none focus:z-10 focus:ring-4 rounded-lg border ${
+        true
+          ? "text-red-900 bg-white border-red-700 hover:bg-red-100 hover:text-red-700 focus:ring-red-300"
+          : "text-gray-900 bg-white border-gray-200 hover:bg-gray-100 hover:text-sky-700 focus:ring-gray-100"
+      }`}
+    >
+      <svg
+        class={`w-5 h-5 -ms-2 me-2 ${
+          true ? "fill-red-700" : "fill-none"
+        }`}
+        aria-hidden="true"
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        fill="none"
+        viewBox="0 0 24 24"
+      >
+        <path
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"
+        />
+      </svg>
+	  {#if true}
+		<span class="">В избранном</span>
+	{:else}
+		<span class="">Добавить в избранное</span>
+	{/if}
+      
+    </button>
+
+				
+			</div>
+			<div class=" max-w-sm sm:flex sm:items-center md:mt-6 lg:flex-col">
+
 				<a
 					href="/{data.parentable.parentable.slug}/{data.parentable.slug}/{data.slug}/{item.slug}"
-					class="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-sky-600 to-blue-700 px-5 py-2.5 text-sm font-medium text-white hover:from-blue-600 hover:to-sky-500 focus:outline-none focus:ring-4 focus:ring-sky-300"
+					class="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-sky-600 to-blue-700 px-5 py-2.5 text-sm font-medium text-white hover:from-blue-600 hover:to-sky-500 focus:outline-none focus:ring-4 focus:ring-sky-300"
 				>
 					Подробнее
 				</a>
