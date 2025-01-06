@@ -1,26 +1,31 @@
 <script>
 	import { IsMounted } from 'runed';
+    import { PersistedState } from "runed";
+
 
 	const isMounted = new IsMounted();
-</script>
 
-{#if IsMounted && currentFavoritesProducts.length > 0}
-	<section class="bg-gray-50 py-8 antialiased md:py-16 dark:bg-gray-900">
+    const fav = new PersistedState("favorites");
+    $inspect(fav.current);
+
+</script>
+<!-- {fav.current.length} -->
+
+{#if isMounted}
+	<section class="bg-gray-50 py-8 antialiased md:py-16 ">
 		<div class="mx-auto max-w-screen-xl px-4 2xl:px-0">
 			<div class="mb-4 flex items-center justify-between gap-4 md:mb-8">
-				<h2 class="text-xl font-semibold text-gray-900 sm:text-2xl dark:text-white">Избранное</h2>
-
-				<ButtonBack />
+				<h2 class="text-xl font-semibold text-gray-900 sm:text-2xl ">Избранное</h2>
 			</div>
 
 			<div class="grid grid-cols-1 gap-4 sm:mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:gap-8">
-				{#each currentFavoritesProducts as item (item.slug)}
+				{#each fav.current as item }
 					<div
-						class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800"
+						class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm "
 					>
 						<img
-							class="mx-auto mb-4 h-[20rem] rounded-lg object-contain md:mb-6 dark:hidden"
-							src={`${process.env.NEXT_PUBLIC_S3}/catalog/${item?.image[0]?.hash}`}
+							class="mx-auto mb-4 h-[20rem] rounded-lg object-contain md:mb-6 "
+							src={`${import.meta.env.VITE_S3}/catalog/${item?.image[0]?.hash}`}
 							alt={item.value}
 						/>
 
@@ -38,9 +43,9 @@
 
 						<div class="mt-8 flex justify-between space-x-12">
 							<a
-								href={`/${item.parentable.parentable.parentable.slug}/${item.slug}`}
+								href={`/${item.parentable.parentable.parentable.slug}/${item.parentable.parentable.slug}/${item.parentable.slug}/${item.slug}`}
 								title=""
-								class=" inline-flex items-center gap-1.5 font-medium text-sky-700 hover:text-sky-600 dark:text-sky-500 dark:hover:text-sky-400"
+								class=" inline-flex items-center gap-1.5 font-medium text-sky-700 hover:text-sky-600 "
 							>
 								Подробнее
 								<svg
@@ -62,7 +67,6 @@
 
 							<button
 								type="button"
-								onClick={() => removeFromFavoritesProducts(item.id)}
 								class="flex w-full items-center justify-center rounded-lg border border-gray-700 bg-white px-5 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-gray-700 focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-300"
 							>
 								<svg
@@ -92,12 +96,10 @@
 		</div>
 	</section>
 {:else}
-	<section class="bg-gray-50 py-8 antialiased md:py-16 dark:bg-gray-900">
+	<section class="bg-gray-50 py-8 antialiased md:py-16 ">
 		<div class="mx-auto max-w-screen-xl px-4 2xl:px-0">
 			<div class="mb-4 flex items-center justify-between gap-4 md:mb-8">
-				<h2 class="text-xl font-semibold text-gray-900 sm:text-2xl dark:text-white">Избранное</h2>
-
-				<!-- <ButtonBack /> -->
+				<h2 class="text-xl font-semibold text-gray-900 sm:text-2xl ">Избранное</h2>
 			</div>
 
 			<div class="grid grid-cols-1 gap-4 sm:mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:gap-8">
