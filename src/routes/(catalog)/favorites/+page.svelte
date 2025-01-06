@@ -1,17 +1,17 @@
 <script>
 	import { IsMounted } from 'runed';
     import { PersistedState } from "runed";
+    import { browser } from '$app/environment';
 
 
 	const isMounted = new IsMounted();
 
     const fav = new PersistedState("favorites");
-    $inspect(fav.current);
+    // $inspect(fav.current.length);
 
 </script>
-<!-- {fav.current.length} -->
 
-{#if isMounted}
+{#if browser && fav.current.length > 0}
 	<section class="bg-gray-50 py-8 antialiased md:py-16 ">
 		<div class="mx-auto max-w-screen-xl px-4 2xl:px-0">
 			<div class="mb-4 flex items-center justify-between gap-4 md:mb-8">
@@ -66,6 +66,9 @@
 							</a>
 
 							<button
+                            onclick={() => {
+                                fav.current = fav.current.filter((item) => item.slug !== item.slug);
+                            }}
 								type="button"
 								class="flex w-full items-center justify-center rounded-lg border border-gray-700 bg-white px-5 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-gray-700 focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-300"
 							>
