@@ -2,7 +2,7 @@
 	import { setContext } from 'svelte';
 	import { useIntersectionObserver } from 'runed';
 	import IntersectionBlock from './IntersectionBlock.svelte';
-	import IntersectionBlock2 from './IntersectionBlock2.svelte';
+	// import IntersectionBlock2 from './IntersectionBlock2.svelte';
 	import DeploySection from './DeploySection.svelte';
 
 	let target = $state<HTMLElement | null>(null);
@@ -12,7 +12,7 @@
 	let isIntersecting = $state(false);
 	let isIntersecting2 = $state(false);
 	$inspect('sss:', isIntersecting);
-	$inspect('sss2:', isIntersecting2);
+	// $inspect('sss2:', isIntersecting2);
 
 	// Передача контекста
 	setContext('is', () => isIntersecting);
@@ -49,6 +49,7 @@
 
 <div bind:this={root} class="h-screen overflow-auto">
 	<DeploySection />
+	<div class="h-[50vh]"></div>
 
 	<div bind:this={target}>
 		<IntersectionBlock />
@@ -56,7 +57,7 @@
 
 	<div class="h-[50vh]"></div>
 
-	<div bind:this={target2}>
+	<!-- <div bind:this={target2}>
 		<IntersectionBlock2 />
-	</div>
+	</div> -->
 </div>

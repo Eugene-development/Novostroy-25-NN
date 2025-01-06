@@ -4,7 +4,7 @@
 		<h1 class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
 			JavaScript for beginners
 		</h1>
-		<p class="mt-6 text-xl/8">
+		<p class="mt-6 text-xl/8 animate-fade-up animate-delay-700 animate-duration-1000 animate-ease-in-out">
 			Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh
 			dui, diam eget aliquam. Quisque id at vitae feugiat egestas ac. Diam nulla orci at in viverra
 			scelerisque eget. Eleifend egestas fringilla sapien.
@@ -19,6 +19,7 @@
 						aria-hidden="true"
 						data-slot="icon"
 					>
+					
 						<path
 							fill-rule="evenodd"
 							d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
@@ -88,11 +89,11 @@
 					</p>
 				</blockquote>
 				<figcaption class="mt-6 flex gap-x-4">
-					<img
+					<!-- <img
 						class="size-6 flex-none rounded-full bg-gray-50"
 						src="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
 						alt=""
-					/>
+					/> -->
 					<div class="text-sm/6">
 						<strong class="font-semibold text-gray-900">Maria Hill</strong> – Marketing Manager
 					</div>
@@ -105,11 +106,11 @@
 			</p>
 		</div>
 		<figure class="mt-16">
-			<img
+			<!-- <img
 				class="aspect-video rounded-xl bg-gray-50 object-cover"
 				src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3"
 				alt=""
-			/>
+			/> -->
 			<figcaption class="mt-4 flex gap-x-2 text-sm/6 text-gray-500">
 				<svg
 					class="mt-0.5 size-5 flex-none text-gray-300"
@@ -145,3 +146,6 @@
 		</div>
 	</div>
 </div>
+
+
+<div class="bg-cyan-500 intersect:bg-indigo-600 transition-colors p-8 intersect:animate-fade-up intersect:animate-delay-700 intersect:animate-duration-1000 intersect:animate-ease-in-out">77777</div>
