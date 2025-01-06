@@ -2,16 +2,17 @@
 	import { IsMounted } from 'runed';
     import { PersistedState } from "runed";
     import { browser } from '$app/environment';
+    import RemoveButton from './RemoveButton/index.svelte';
 
 
 	const isMounted = new IsMounted();
 
-    const fav = new PersistedState("favorites");
-    // $inspect(fav.current.length);
+    const favorites = new PersistedState("favorites");
+    // $inspect(favorites.current.length);
 
 </script>
 
-{#if browser && fav.current.length > 0}
+{#if browser && favorites.current.length > 0}
 	<section class="bg-gray-50 py-8 antialiased md:py-16 ">
 		<div class="mx-auto max-w-screen-xl px-4 2xl:px-0">
 			<div class="mb-4 flex items-center justify-between gap-4 md:mb-8">
@@ -19,7 +20,7 @@
 			</div>
 
 			<div class="grid grid-cols-1 gap-4 sm:mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:gap-8">
-				{#each fav.current as item }
+				{#each favorites.current as item }
 					<div
 						class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm "
 					>
@@ -65,33 +66,9 @@
 								</svg>
 							</a>
 
-							<button
-                            onclick={() => {
-                                fav.current = fav.current.filter((item) => item.slug !== item.slug);
-                            }}
-								type="button"
-								class="flex w-full items-center justify-center rounded-lg border border-gray-700 bg-white px-5 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-gray-700 focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-300"
-							>
-								<svg
-									class="-ms-2 me-2 h-5 w-5 fill-red-700"
-									aria-hidden="true"
-									xmlns="http://www.w3.org/2000/svg"
-									width="24"
-									height="24"
-									fill="none"
-									viewBox="0 0 24 24"
-								>
-									<path
-										stroke="currentColor"
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth="2"
-										d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"
-									/>
-								</svg>
+                            <RemoveButton data={item.id} />
 
-								<span>Убрать</span>
-							</button>
+							
 						</div>
 					</div>
 				{/each}
