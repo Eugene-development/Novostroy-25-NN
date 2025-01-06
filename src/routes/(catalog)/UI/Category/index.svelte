@@ -26,20 +26,13 @@
 		<div
 			class="animate-fade-up rounded-lg border border-gray-100 bg-gray-50/10 p-6 shadow-sm animate-delay-700 animate-duration-1000 animate-ease-in-out"
 		>
+
+		
 			<div class="">
 				<!-- Carousel wrapper -->
 				<div class="mb-4 rounded-lg">
 					<SwiperSlider data={item.image} />
 				</div>
-			</div>
-
-			<div class="h-11">
-				<a
-					href="/{data.parentable.parentable.slug}/{data.parentable.slug}/{data.slug}/{item.slug}"
-					class="text-xl font-semibold leading-tight text-gray-900 hover:underline"
-				>
-					{item.value}
-				</a>
 			</div>
 
 			<button
@@ -63,41 +56,52 @@
 				Узнайте актуальную цену
 			</button>
 
-			<div class="mx-auto mt-4 max-w-sm sm:flex sm:items-center md:mt-6 lg:flex-col">
-				<button
-					type="button"
-					onclick={() => (favorites.current = [...favorites.current, item])}
-					class={`flex w-full items-center justify-center rounded-lg border px-5 py-2.5 text-sm font-medium focus:z-10 focus:outline-none focus:ring-4 ${
-						true
-							? 'border-red-700 bg-white text-red-900 hover:bg-red-100 hover:text-red-700 focus:ring-red-300'
-							: 'border-gray-200 bg-white text-gray-900 hover:bg-gray-100 hover:text-sky-700 focus:ring-gray-100'
-					}`}
+			<div class="h-14">
+				<a
+					href="/{data.parentable.parentable.slug}/{data.parentable.slug}/{data.slug}/{item.slug}"
+					class="text-xl font-semibold leading-tight text-gray-900 hover:underline"
 				>
-					<svg
-						class={`-ms-2 me-2 h-5 w-5 ${true ? 'fill-red-700' : 'fill-none'}`}
-						aria-hidden="true"
-						xmlns="http://www.w3.org/2000/svg"
-						width="24"
-						height="24"
-						fill="none"
-						viewBox="0 0 24 24"
-					>
-						<path
-							stroke="currentColor"
-							strokeLinecap="round"
-							strokeLinejoin="round"
-							strokeWidth="2"
-							d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"
-						/>
-					</svg>
-					{#if true}
-						<span class="">В избранном</span>
-					{:else}
-						<span class="">Добавить в избранное</span>
-					{/if}
-				</button>
+					{item.value}
+				</a>
 			</div>
-			<div class=" max-w-sm sm:flex sm:items-center md:mt-6 lg:flex-col">
+
+			
+
+			
+			<div class="mx-auto max-w-sm sm:flex sm:items-center md:mt-4 lg:flex-col">
+
+				<button
+				type="button"
+				onclick={() => (favorites.current = [...favorites.current, item])}
+				class={`flex w-full items-center justify-center rounded-lg border px-5 py-2.5 mb-3  text-sm font-medium focus:z-10 focus:outline-none focus:ring-4 ${
+					true
+						? 'border-red-700 bg-white text-red-900 hover:bg-red-100 hover:text-red-700 focus:ring-red-300'
+						: 'border-gray-200 bg-white text-gray-900 hover:bg-gray-100 hover:text-sky-700 focus:ring-gray-100'
+				}`}
+			>
+				<svg
+					class={`-ms-2 me-2 h-5 w-5 ${true ? 'fill-red-700' : 'fill-none'}`}
+					aria-hidden="true"
+					xmlns="http://www.w3.org/2000/svg"
+					width="24"
+					height="24"
+					fill="none"
+					viewBox="0 0 24 24"
+				>
+					<path
+						stroke="currentColor"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						strokeWidth="2"
+						d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"
+					/>
+				</svg>
+				{#if true}
+					<span class="">В избранном</span>
+				{:else}
+					<span class="">Добавить в избранное</span>
+				{/if}
+			</button>
 				<a
 					href="/{data.parentable.parentable.slug}/{data.parentable.slug}/{data.slug}/{item.slug}"
 					class="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-sky-600 to-blue-700 px-5 py-2.5 text-sm font-medium text-white hover:from-blue-600 hover:to-sky-500 focus:outline-none focus:ring-4 focus:ring-sky-300"
