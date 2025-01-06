@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { setContext } from 'svelte';
 	import { useIntersectionObserver } from "runed";
 	import IntersectionBlock from './IntersectionBlock.svelte';
 	import DeploySection from './DeploySection.svelte';
@@ -8,6 +9,9 @@
  
 	let isIntersecting = $state(false);
 	$inspect(isIntersecting);
+
+	// Передача контекста
+	setContext('is', () => isIntersecting);
  
 	useIntersectionObserver(
 		() => target,
@@ -28,6 +32,6 @@
 	<DeploySection />
 	
 	<div bind:this={target} >
-		<IntersectionBlock data={isIntersecting} />
+		<IntersectionBlock />
 	</div>
 </div>
