@@ -28,6 +28,6 @@
 	<DeploySection />
 	
 	<div bind:this={target} >
-		<IntersectionBlock {isIntersecting} />
+		<IntersectionBlock data={isIntersecting} />
 	</div>
 </div>
