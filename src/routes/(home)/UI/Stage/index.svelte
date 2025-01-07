@@ -74,13 +74,10 @@ import { IsInViewport } from "runed";
 		<div bind:this={targetNode}>
 			{#if inViewport.current}
 			<div 
-				class={inViewport.current
-					? 'mx-auto mt-16 grid max-w-2xl animate-fade-up grid-cols-1 gap-6  animate-duration-1000 animate-ease-in-out sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8'
-					: 'mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8'}
+				class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8 animate-fade-up animate-duration-1000 animate-ease-in-out"
 			>
 				{#each cards as card}
-					<div >
-						<div class="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
+						<div class="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10 ">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								fill="none"
@@ -101,7 +98,6 @@ import { IsInViewport } from "runed";
 								</p>
 							</div>
 						</div>
-					</div>
 				{/each}
 			</div>
 			{/if}
