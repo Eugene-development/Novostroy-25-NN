@@ -83,8 +83,7 @@
                                     />
                                 </svg>
                                 <span>Убрать</span>
-
-                            <!-- <RemoveButton data={item.id} /> -->
+                            </button>
                         </div>
                     </div>
                 {/each}

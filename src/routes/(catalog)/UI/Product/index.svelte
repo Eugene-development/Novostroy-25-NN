@@ -169,7 +169,7 @@
 				</div>
 
 				<div class="mt-8">
-					<h3 class="sr-only">Description</h3>
+					<h3 class="sr-only">Описание</h3>
 
 					<div class="space-y-4 text-base text-gray-700">
 						<p>
@@ -193,12 +193,19 @@
 							newProduct,
 						  ] -->
 						<button
-							onclick={() => (favorites.current = [...favorites.current, data])}
+							onclick={() => {
+								const isInFavorites = favorites.current.some(item => item.id === data.id);
+								if (isInFavorites) {
+									favorites.current = favorites.current.filter((i) => i.id !== data.id);
+								} else {
+									favorites.current = [...favorites.current, data];
+								}
+							}}
 							type="button"
 							class="ml-4 flex items-center justify-center rounded-md px-3 py-3 text-gray-400 hover:bg-gray-100 hover:text-gray-500"
 						>
 							<svg
-								class="size-6 shrink-0"
+								class="size-6 shrink-0 {favorites.current.some(item => item.id === data.id) ? 'text-red-500' : 'text-gray-400'}"
 								fill="none"
 								viewBox="0 0 24 24"
 								stroke-width="1.5"
