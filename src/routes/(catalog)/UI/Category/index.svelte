@@ -7,6 +7,14 @@
  * @type {import('./$types').PageData}
  */
 	let { data } = $props();
+	const toggleFavorite = (item) => {
+		const isInFavorites = favorites.current.some(i => i.id === item.id);
+		if (isInFavorites) {
+			favorites.current = favorites.current.filter((i) => i.id !== item.id);
+		} else {
+			favorites.current = [...favorites.current, item];
+		}
+	};
 	// $inspect(data);
 </script>
 
@@ -72,7 +80,7 @@
 
 				<button
 				type="button"
-				onclick={() => (favorites.current = [...favorites.current, item])}
+				onclick={() => toggleFavorite(item)}
 				class={`flex w-full items-center justify-center rounded-lg border px-5 py-2.5 mb-3  text-sm font-medium focus:z-10 focus:outline-none focus:ring-4 ${
 					favorites.current.some(i => i.id === item.id)
 						? 'border-red-700 bg-white text-red-900 hover:bg-red-100 hover:text-red-700 focus:ring-red-300'
