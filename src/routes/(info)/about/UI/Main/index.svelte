@@ -5,34 +5,55 @@
 		<div class="max-w-4xl">
 			<p class="text-base/7 font-semibold text-sky-600">Информация</p>
 			<h1 class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-				О компании
+				О компании "Новострой"
 			</h1>
-			<p class="mt-6 text-balance text-xl/8 text-gray-700">
-				<span class="font-semibold">Наша команда</span> оказывает профессиональные дизайнерские услуги
-				в сфере мебельной индустрии и создании интерьеров.
-			</p>
+			
 		</div>
-		<section class="mt-20 grid grid-cols-1 lg:grid-cols-2 lg:gap-x-8 lg:gap-y-16">
+		<section class="mt-12 grid grid-cols-1 lg:grid-cols-2 lg:gap-x-8 lg:gap-y-2">
 			<div class="lg:pr-8">
-				<h2 class="text-pretty text-2xl font-semibold tracking-tight text-gray-900">
-					Наша команда
-				</h2>
-				<p class="mt-6 text-base/7 text-gray-600">
-					Оказываем профессиональные дизайнерские услуги в сфере мебельной индустрии и создании
-					интерьеров. За два десятилетия мы накопили богатый опыт, позволяющий нам создавать
-					уникальные интерьеры, которые удовлетворяют самые разнообразные запросы клиентов.
+				<!-- <a href="/">
+					<span class="sr-only">Новострой</span>
+					<img
+						class="h-14 w-auto transition delay-100 duration-500 ease-in-out hover:scale-110 sm:h-48"
+						src="https://storage.yandexcloud.net/brand-logo/novostroy/logomain.png"
+						alt="Логотип"
+					/>
+				</a> -->
+				<!-- <h2 class="text-pretty text-2xl font-semibold tracking-tight text-gray-900">
+					НОВОСТРОЙ
+				</h2> -->
+				<p class="text-lg/7 text-gray-600">
+					Более 20 лет мы оказываем профессиональные дизайнерские услуги
+					в сфере мебельной индустрии и создании интерьеров.				</p>
+				<p class="mt-6 text-lg/7 text-gray-600">
+					Наша компания – это команда профессионалов, страстно увлечённых созданием уникальных пространств и индивидуальных интерьерных решений. Мы специализируемся на дизайне мебели и интерьеров, объединяя функциональность, эстетику и современные тренды.
 				</p>
-				<p class="mt-8 text-base/7 text-gray-600">
-					Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit
-					molestie auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius
-					vulputate et ultrices hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem
-					vel integer orci.
+				<p class="mt-8 text-lg/7 text-gray-600">
+					Сотрудничая с нами, вы получите не только качественные дизайнерские услуги, но и персональный подход, который позволяет воплотить ваши идеи и пожелания в каждой детали. Мы создаём пространство, которое не просто отвечает вашим требованиям, но вдохновляет и радует каждый день.
 				</p>
 			</div>
 			<div class="pt-16 lg:row-span-2 lg:-mr-16 xl:mr-auto">
 				<div
 					class="-mx-8 grid grid-cols-2 gap-4 sm:-mx-16 sm:grid-cols-4 lg:mx-0 lg:grid-cols-2 lg:gap-4 xl:gap-8"
 				>
+					<div
+						class="aspect-square overflow-hidden rounded-xl shadow-xl outline outline-1 -outline-offset-1 outline-black/10"
+					>
+						<img
+							alt=""
+							src="https://images.unsplash.com/photo-1590650516494-0c8e4a4dd67e?&auto=format&fit=crop&crop=center&w=560&h=560&q=90"
+							class="block size-full object-cover"
+						/>
+					</div>
+					<div
+						class="-mt-8 aspect-square overflow-hidden rounded-xl shadow-xl outline outline-1 -outline-offset-1 outline-black/10 lg:-mt-40"
+					>
+						<img
+							alt=""
+							src="https://images.unsplash.com/photo-1557804506-669a67965ba0?&auto=format&fit=crop&crop=left&w=560&h=560&q=90"
+							class="block size-full object-cover"
+						/>
+					</div>
 					<div
 						class="aspect-square overflow-hidden rounded-xl shadow-xl outline outline-1 -outline-offset-1 outline-black/10"
 					>
@@ -71,8 +92,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="max-lg:mt-16 lg:col-span-1">
-				<p class="text-base/7 font-semibold text-gray-500">Мы в цифрах</p>
+			<div class="mt-16 lg:col-span-1">
+				<p class="text-3xl/7 font-semibold text-gray-900">Мы в цифрах</p>
 				<hr class="mt-6 border-t border-gray-200" />
 				<dl class="mt-6 grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
 					<div class="flex flex-col gap-y-2 border-b border-dotted border-gray-200 pb-4">
