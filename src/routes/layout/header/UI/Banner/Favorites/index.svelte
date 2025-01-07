@@ -1,10 +1,14 @@
 <script>
-	    import { PersistedState } from "runed";
+import { PersistedState } from "runed";
+
+import { isF} from "$lib/state/favorites.svelte";
+$inspect(isF.value);
 
 const favorites = new PersistedState("favorites", []);
 
-let h = $state(false);
+// import { getContext } from 'svelte';
 
+// 	const isFavorite = getContext('isFavorite');
 </script>
 
 
@@ -19,9 +23,7 @@ let h = $state(false);
 		strokeWidth="2"
 		strokeLinecap="round"
 		strokeLinejoin="round"
-		class={`icon size-5 ${
-			favorites.current.length > 0 ? 'animate-pulse fill-red-500 text-red-700' : 'text-gray-50'
-		}`}
+		class={`icon size-5 ${isF.value ? 'animate-pulse fill-red-500 text-red-700' : 'text-gray-50'}`}
 	>
 		
 		<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>

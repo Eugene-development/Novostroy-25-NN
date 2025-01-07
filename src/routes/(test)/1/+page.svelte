@@ -11,7 +11,7 @@
 
 	let isIntersecting = $state(false);
 	let isIntersecting2 = $state(false);
-	$inspect('sss:', isIntersecting);
+	// $inspect('sss:', isIntersecting);
 	// $inspect('sss2:', isIntersecting2);
 
 	// Передача контекста

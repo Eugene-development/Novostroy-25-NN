@@ -2,6 +2,10 @@
 	/** @type {{ data: import('./$types').PageData }} */
 
 	import { PersistedState } from 'runed';
+	import { setContext } from 'svelte';
+
+	import { isF } from "$lib/state/favorites.svelte";
+
 
 	const favorites = new PersistedState('favorites', []);
 
@@ -17,6 +21,8 @@
 		const isInFavorites = favorites.current.some(item => item.id === data.id);
 		if (isInFavorites) {
 			favorites.current = favorites.current.filter((i) => i.id !== data.id);
+			// () => setContext('isFavorite', isInFavorites);
+			isF.value = true
 		} else {
 			favorites.current = [...favorites.current, data];
 		}
