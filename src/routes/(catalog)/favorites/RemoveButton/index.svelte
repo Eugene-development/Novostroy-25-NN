@@ -1,3 +1,4 @@
+<!-- Кнопка закомментирована -->
 <script>
     import { PersistedState } from "runed";
 
@@ -31,5 +32,5 @@
             d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"
         />
     </svg>
-    <span>Убрать</span>
+    <span>Убрать-{favorites.current.length}</span>
 </button>
