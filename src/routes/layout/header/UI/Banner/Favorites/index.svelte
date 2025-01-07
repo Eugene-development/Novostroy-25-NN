@@ -1,11 +1,14 @@
 <script>
-import { PersistedState } from "runed";
 
-import { isF} from "$lib/state/favorites.svelte";
+import { isF } from "$lib/state/favorites.svelte";
 $inspect(isF.value);
 
-const favorites = new PersistedState("favorites", []);
 
+// let test = $state(favorites.current);
+// 	$effect(() => {
+// 		test = favorites.current
+// 	})
+// $inspect(test);
 // import { getContext } from 'svelte';
 
 // 	const isFavorite = getContext('isFavorite');

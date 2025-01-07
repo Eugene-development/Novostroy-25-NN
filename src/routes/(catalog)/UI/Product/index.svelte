@@ -9,6 +9,19 @@
 
 	const favorites = new PersistedState('favorites', []);
 
+	let test = $state(favorites.current);
+	
+	$effect(() => {
+		test = favorites.current
+		if (test.length > 0) {
+			isF.value = true
+		} else {
+			isF.value = false
+		}
+	})
+
+	$inspect(isF);
+
 	let currentImageIndex = $state(0);
 
 	function setNewImageIndex(i) {
@@ -22,7 +35,7 @@
 		if (isInFavorites) {
 			favorites.current = favorites.current.filter((i) => i.id !== data.id);
 			// () => setContext('isFavorite', isInFavorites);
-			isF.value = true
+			// isF.value = true
 		} else {
 			favorites.current = [...favorites.current, data];
 		}
