@@ -1,5 +1,7 @@
 <script>
     import { PersistedState } from "runed";
+    import { setContext } from 'svelte';
+
 
     const favorites = new PersistedState("favorites");
 
@@ -12,8 +14,8 @@
 
 <button
     onclick={() => {
-        console.log(data);
         favorites.current = favorites.current.filter((item) => item.id !== data);
+        // setContext('currentFavorites', favorites.current)
     }}
     type="button"
     class="flex w-full items-center justify-center rounded-lg border border-gray-700 bg-white px-5 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-gray-700 focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-300"

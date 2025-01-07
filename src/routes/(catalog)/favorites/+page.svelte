@@ -2,17 +2,25 @@
 	import { IsMounted } from 'runed';
     import { PersistedState } from "runed";
     import { browser } from '$app/environment';
+    import { setContext, getContext } from 'svelte';
+
     import RemoveButton from './RemoveButton/index.svelte';
 
 
 	const isMounted = new IsMounted();
 
     const favorites = new PersistedState("favorites");
-    // $inspect(favorites.current.length);
 
+    $inspect(favorites.current);
+
+	setContext('currentFavorites', favorites.current);
+
+    const currentFavorites = getContext('currentFavorites');
+
+    $inspect(currentFavorites);
 </script>
 
-{#if browser && favorites.current.length > 0}
+{#if browser && currentFavorites.length > 0}
 	<section class="bg-gray-50 py-8 antialiased md:py-16 ">
 		<div class="mx-auto max-w-screen-xl px-4 2xl:px-0">
 			<div class="mb-4 flex items-center justify-between gap-4 md:mb-8">
@@ -20,7 +28,7 @@
 			</div>
 
 			<div class="grid grid-cols-1 gap-4 sm:mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:gap-8">
-				{#each favorites.current as item }
+				{#each currentFavorites as item }
 					<div
 						class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm "
 					>
