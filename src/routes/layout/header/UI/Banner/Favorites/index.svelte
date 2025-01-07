@@ -3,6 +3,8 @@
 
 const favorites = new PersistedState("favorites", []);
 
+let h = $state(false);
+
 </script>
 
 
@@ -17,7 +19,7 @@ const favorites = new PersistedState("favorites", []);
 		strokeWidth="2"
 		strokeLinecap="round"
 		strokeLinejoin="round"
-		class={`icon icon-tabler icons-tabler-outline icon-tabler-heart size-5 ${
+		class={`icon size-5 ${
 			favorites.current.length > 0 ? 'animate-pulse fill-red-500 text-red-700' : 'text-gray-50'
 		}`}
 	>

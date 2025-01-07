@@ -190,10 +190,10 @@
 					</div>
 				</div>
 
-				<form class="mt-2">
+				<div class="mt-2">
 					<div class="mt-10 flex">
 						<button
-							type="submit"
+							type="button"
 							class="flex max-w-xs flex-1 items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-sky-500 to-blue-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 hover:from-blue-600 hover:to-sky-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50 sm:w-full"
 							>Бесплатная консультация</button
 						>
@@ -220,7 +220,7 @@
 							<span class="sr-only">Добавьте в избранное</span>
 						</button>
 					</div>
-				</form>
+				</div>
 
 				<button type="button" class="mt-4 flex items-center gap-1">
 					<svg
