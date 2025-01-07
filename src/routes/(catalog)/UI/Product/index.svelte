@@ -13,6 +13,15 @@
 
 	let { data } = $props();
 
+	const toggleFavorite = () => {
+		const isInFavorites = favorites.current.some(item => item.id === data.id);
+		if (isInFavorites) {
+			favorites.current = favorites.current.filter((i) => i.id !== data.id);
+		} else {
+			favorites.current = [...favorites.current, data];
+		}
+	};
+
 	// $inspect(data);
 </script>
 
@@ -188,19 +197,8 @@
 							class="flex max-w-xs flex-1 items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-sky-500 to-blue-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 hover:from-blue-600 hover:to-sky-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50 sm:w-full"
 							>Бесплатная консультация</button
 						>
-						<!-- currentFavoritesProducts: [
-							...state.currentFavoritesProducts,
-							newProduct,
-						  ] -->
 						<button
-							onclick={() => {
-								const isInFavorites = favorites.current.some(item => item.id === data.id);
-								if (isInFavorites) {
-									favorites.current = favorites.current.filter((i) => i.id !== data.id);
-								} else {
-									favorites.current = [...favorites.current, data];
-								}
-							}}
+							onclick={toggleFavorite}
 							type="button"
 							class="ml-4 flex items-center justify-center rounded-md px-3 py-3 text-gray-400 hover:bg-gray-100 hover:text-gray-500"
 						>
