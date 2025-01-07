@@ -20,7 +20,7 @@
 
 <div class="bg-white py-2 sm:py-4">
 	<div class="mx-auto max-w-7xl">
-		<div class="mx-auto max-w-2xl lg:mx-0">
+		<div class="mx-auto max-w-3xl lg:mx-0">
 			<p class="text-xl/7 font-semibold text-sky-600">{data.parentable.value}</p>
 			<h2 class="mt-2 text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
 				{data.value}
