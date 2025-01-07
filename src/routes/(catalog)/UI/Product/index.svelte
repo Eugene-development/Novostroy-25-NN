@@ -37,7 +37,7 @@
 							<button
 								onclick={() => setNewImageIndex(i)}
 								id="tabs-1-tab-1"
-								class="relative flex h-24 cursor-pointer items-center justify-center rounded-md bg-white text-sm font-medium uppercase text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-indigo-500/50 focus:ring-offset-4"
+								class="relative scale110 flex h-24 cursor-pointer items-center justify-center rounded-md bg-white text-sm font-medium uppercase text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-indigo-500/50 focus:ring-offset-4"
 								aria-controls="tabs-1-panel-1"
 								role="tab"
 								type="button"
@@ -63,7 +63,7 @@
 
 				<div>
 					<!-- Tab panel, show/hide based on tab state. -->
-					<div class="aspect-w-15 aspect-h-10 scale110 w-full cursor-pointer">
+					<div class="aspect-w-15 aspect-h-10 w-full">
 						<img
 							src={`${import.meta.env.VITE_S3}/catalog/${data.image[currentImageIndex].hash}`}
 							alt={data.item?.alt}
