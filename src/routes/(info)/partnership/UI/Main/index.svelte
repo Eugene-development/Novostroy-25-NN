@@ -60,8 +60,8 @@
 							class="mt-1 size-10 flex-none rounded-full bg-gray-50"
 						/>
 						<div class="text-sm/6">
-							<div class="font-semibold text-gray-900">Бренна Гойетте</div>
-							<div class="text-gray-600">@brenna</div>
+							<div class="font-semibold text-gray-900">Евгений Че</div>
+							<div class="text-gray-600">СЕО компании "Новострой"</div>
 						</div>
 					</figcaption>
 				</figure>
