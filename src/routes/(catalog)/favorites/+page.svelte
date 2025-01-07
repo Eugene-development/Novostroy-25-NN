@@ -4,31 +4,20 @@
     import RemoveButton from './RemoveButton/index.svelte';
 
     const favorites = new PersistedState("favorites", []);
-    let items = $state([]);
 
-    // $effect(() => {
-	// 	const id = setInterval(() => {
-	// 		items = favorites.current;
-	// 	}, favorites.current);
-	// });
-
-    $effect(() => {
-            items = favorites.current;
-            $inspect('Избранное обновлено:', items.length);
-    }, );
 </script>
 
-{#if browser && items.length > 0}
+{#if browser && favorites.current.length > 0}
     <section class="bg-gray-50 py-8 antialiased md:py-16">
         <div class="mx-auto max-w-screen-xl px-4 2xl:px-0">
             <div class="mb-4 flex items-center justify-between gap-4 md:mb-8">
                 <h2 class="text-xl font-semibold text-gray-900 sm:text-2xl">
-                    Избранное ({items.length})
+                    Избранное ({favorites.current.length})
                 </h2>
             </div>
 
             <div class="grid grid-cols-1 gap-4 sm:mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:gap-8">
-                {#each items as item (item.id)}
+                {#each favorites.current as item (item.id)}
                     <div class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm">
                         <img
                             class="mx-auto mb-4 h-[20rem] rounded-lg object-contain md:mb-6"
