@@ -4,7 +4,7 @@
 	import { PersistedState } from 'runed';
 	import { setContext } from 'svelte';
 
-	import { isF } from "$lib/state/favorites.svelte";
+	import { isFavorites } from "$lib/state/favorites.svelte";
 
 
 	const favorites = new PersistedState('favorites', []);
@@ -13,31 +13,20 @@
 	let favoritesList = $state(favorites.current);
 	$effect(() => {
 		favoritesList = favorites.current
-		favoritesList.length > 0 ? isF.value = true : isF.value = false
+		favoritesList.length > 0 ? isFavorites.value = true : isFavorites.value = false
 	})
 
-	$inspect(isF);
-
 	let currentImageIndex = $state(0);
-
 	function setNewImageIndex(i) {
 		currentImageIndex = i;
 	}
 
 	let { data } = $props();
-
 	const toggleFavorite = () => {
 		const isInFavorites = favorites.current.some(item => item.id === data.id);
-		if (isInFavorites) {
-			favorites.current = favorites.current.filter((i) => i.id !== data.id);
-			// () => setContext('isFavorite', isInFavorites);
-			// isF.value = true
-		} else {
-			favorites.current = [...favorites.current, data];
-		}
+		isInFavorites ? favorites.current = favorites.current.filter((i) => i.id !== data.id) : favorites.current = [...favorites.current, data];
 	};
 
-	// $inspect(data);
 </script>
 
 <div class="animate-fade-up bg-white animate-delay-700 animate-duration-1000 animate-ease-in-out">

@@ -1,6 +1,6 @@
 <script>
 
-import { isF } from "$lib/state/favorites.svelte";
+import { isFavorites } from "$lib/state/favorites.svelte";
 
 </script>
 
@@ -16,7 +16,7 @@ import { isF } from "$lib/state/favorites.svelte";
 		strokeWidth="2"
 		strokeLinecap="round"
 		strokeLinejoin="round"
-		class="icon size-5 {isF.value ? 'animate-pulse fill-red-500 text-red-700' : 'text-gray-50'}"
+		class="icon size-5 {isFavorites.value ? 'animate-pulse fill-red-500 text-red-700' : 'text-gray-50'}"
 	>
 		
 		<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>

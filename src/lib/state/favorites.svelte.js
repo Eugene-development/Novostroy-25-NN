@@ -1,3 +1,3 @@
-export const isF = $state({
+export const isFavorites = $state({
 	value: false
 });
