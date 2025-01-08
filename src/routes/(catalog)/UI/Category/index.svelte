@@ -80,11 +80,11 @@
 				<button
 					type="button"
 					onclick={() => toggleFavorite(item)}
-					class={`mb-3 flex w-full items-center justify-center rounded-lg border px-5 py-2.5 text-sm font-medium focus:z-10 focus:outline-none focus:ring-4 ${
+					class="mb-3 flex w-full items-center justify-center rounded-lg border px-5 py-2.5 text-sm font-medium focus:z-10 focus:outline-none focus:ring-4 bg-white {
 					favorites.current.some(i => i.id === item.id)
-						? 'border-red-700 bg-white text-red-900 hover:bg-red-100 hover:text-red-700 focus:ring-red-300'
-						: 'border-gray-200 bg-white text-gray-900 hover:bg-gray-100 hover:text-sky-700 focus:ring-gray-100'
-				}`}
+						? 'border-red-700 text-red-900 hover:bg-red-100 hover:text-red-700 focus:ring-red-300'
+						: 'border-gray-200 text-gray-900 hover:bg-gray-100 hover:text-sky-700 focus:ring-gray-100'
+				}"
 				>
 					<svg
 						class="mr-1 h-5 w-5 {favorites.current.some(i => i.id === item.id) ? 'fill-red-700' : 'fill-none'}"
@@ -104,7 +104,7 @@
 						></path>
 					</svg>
 					{#if favorites.current.some(i => i.id === item.id)}<span class="">В избранном</span>
-					{:else}<span class="">Добавить в избранное</span>
+					{:else}<span class="">Добавьте в избранное</span>
 					{/if}
 				</button>
 				<a
