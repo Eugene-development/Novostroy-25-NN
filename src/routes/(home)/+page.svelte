@@ -8,10 +8,10 @@
 </svelte:head>
 
 <Main />
-<Incentives />
 <Equipment />
 <!-- <Offer /> -->
 
 <Stage />
+<Incentives />
 
 <Brands />

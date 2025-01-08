@@ -4,40 +4,10 @@
   
     const reviews = [
       {
-        name: "Bhide",
-        username: "@Bhide",
-        body: "Noicee work. I love it. Keep it up.",
+        name: "БЛЮМ",
+        username: "Фурнитура",
+        body: "ТЕСТ3",
         img: "https://avatar.vercel.sh/jack",
-      },
-      {
-        name: "Jodd",
-        username: "@Jodd",
-        body: "Wooww, this is what I was looking for. Great work.",
-        img: "https://avatar.vercel.sh/jill",
-      },
-      {
-        name: "Pokie",
-        username: "@Pokie",
-        body: "Svelte is Amazing and so are you. Keep it up.",
-        img: "https://avatar.vercel.sh/john",
-      },
-      {
-        name: "pablo",
-        username: "@pablo",
-        body: "Remarkable Stuff broooo. Added to my favourites.",
-        img: "https://avatar.vercel.sh/jane",
-      },
-      {
-        name: "Saloni",
-        username: "@Saloni",
-        body: "Acche hai, Chal mera Portfolio banade.",
-        img: "https://avatar.vercel.sh/jenny",
-      },
-      {
-        name: "Bhai",
-        username: "@Bhai",
-        body: "Svelte made easy with these components. Great work.",
-        img: "https://avatar.vercel.sh/james",
       },
     ];
   
