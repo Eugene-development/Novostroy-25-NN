@@ -2,7 +2,14 @@
 	import { IsInViewport } from 'runed';
 
 	let targetNode = $state();
+	let hasBeenVisible = $state(false);
 	const inViewport = new IsInViewport(() => targetNode);
+
+	$effect(() => {
+		if (inViewport.current && !hasBeenVisible) {
+			hasBeenVisible = true;
+		}
+	});
 
 	const cards = [
 		{
@@ -70,7 +77,7 @@
 			</p>
 		</div>
 		<div bind:this={targetNode}>
-			{#if inViewport.current}
+			{#if hasBeenVisible}
 				<div
 					class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"
 				>
