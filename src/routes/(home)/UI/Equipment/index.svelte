@@ -27,7 +27,7 @@
                     <p class="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit maiores impedit.</p>
                     </div>
                     <div class="relative m-12  w-full grow">
-                        <img class="size-full object-cover object-top" src="https://storage.yandexcloud.net/mine2024/novostroy/catalog/c8dbd6a37c3abb7bcc60eabf2dda8635.jpg" alt="">
+                        <img class="size-full object-contain" src="https://storage.yandexcloud.net/mine2024/novostroy/catalog/c8dbd6a37c3abb7bcc60eabf2dda8635.jpg" alt="">
                     </div>
 
                 </div>
@@ -44,7 +44,7 @@
 			  <p class="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi.</p>
 			</div>
             <div class="relative m-12  w-full grow">
-                <img class="size-full object-cover object-top" src="https://storage.yandexcloud.net/mine2024/novostroy/catalog/emq-2665.pl-agat.1200x800w.jpg" alt="">
+                <img class="size-full object-contain" src="https://емар.рф/design/emar/images/main_content_1.jpg" alt="">
 			</div>
         </a>
 		  </div>
@@ -58,10 +58,8 @@
 			  <p class="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">Бытовая техника</p>
 			  <p class="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit maiores impedit.</p>
 			</div>
-            <div class="relative m-8 min-h-[30rem] w-full grow">
-                <img class="size-full mt-8 object-contain object-top" src="https://storage.yandexcloud.net/mine2024/novostroy/catalog/qw5yl8ky74uqksdk65plp18s8wxa4ctn.jpg" alt="">
-			</div>
-            </a>
+            <img class="size-full mt-8 object-cover object-top" src="https://storage.yandexcloud.net/mine2024/novostroy/catalog/qw5yl8ky74uqksdk65plp18s8wxa4ctn.jpg" alt="">
+        </a>
 		  </div>
 		  <div class="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 max-lg:rounded-b-[2rem] lg:rounded-r-[2rem]"></div>
 		</div>
