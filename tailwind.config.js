@@ -22,7 +22,9 @@ export default {
 			animation: {
 				shine: 'shine 2s linear infinite',
 				flip: 'flip 6s infinite steps(2, end)',
-				kitrotate: 'kitrotate 3s linear infinite both'
+				kitrotate: 'kitrotate 3s linear infinite both',
+				marquee: "marquee var(--duration) linear infinite",
+        		"marquee-vertical": "marquee-vertical var(--duration) linear infinite",
 			},
 			keyframes: {
 				shine: {
@@ -34,6 +36,14 @@ export default {
 						transform: 'rotate(360deg)'
 					}
 				},
+				marquee: {
+					from: { transform: "translateX(0)" },
+					to: { transform: "translateX(calc(-100% - var(--gap)))" },
+				  },
+				  "marquee-vertical": {
+					from: { transform: "translateY(0)" },
+					to: { transform: "translateY(calc(-100% - var(--gap)))" },
+				  },
 				kitrotate: {
 					to: {
 						transform: 'rotate(90deg)'
