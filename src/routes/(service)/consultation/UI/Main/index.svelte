@@ -16,10 +16,10 @@
 						<div
 							class="relative rounded-full px-3 py-1 text-sm/6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
 						>
-							Anim aute id magna aliqua ad ad non deserunt sunt. <a
+							Прочтите статью об этой услуге. Посетите <a
 								href="/"
-								class="whitespace-nowrap font-semibold text-pink-600"
-								><span class="absolute inset-0" aria-hidden="true"></span>Наш блог
+								class="whitespace-nowrap font-semibold text-sky-600"
+								><span class="absolute inset-0" aria-hidden="true"></span>наш блог
 								<span aria-hidden="true">&rarr;</span></a
 							>
 						</div>
@@ -38,23 +38,30 @@
 					<div class="mt-10 flex items-center gap-x-6">
 						<a
 							href="/"
-							class="rounded-md bg-pink-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-pink-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pink-600"
+							class="rounded-md bg-sky-600 px-12 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
 							>Закажите услугу</a
 						>
-						<a href="/" class="text-sm/6 font-semibold text-gray-900"
+						<!-- <a href="/" class="text-sm/6 font-semibold text-gray-900"
 							>Ознакомиться подробнее <span aria-hidden="true">→</span></a
-						>
+						> -->
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-		<img
+	<div class="bg-gray-50/50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+		<div class="mx-auto flex h-full max-w-2xl items-center justify-center py-4">
+			<img
+				src="https://storage.yandexcloud.net/brand-logo/novostroy/logomain.png"
+				alt="логотип"
+				class="animate-fade-up w-full max-w-7xl object-contain object-center animate-duration-1000 animate-ease-in-out"
+			/>
+		</div>
+		<!-- <img
 			class="aspect-[3/2] object-contain lg:aspect-auto lg:size-full"
 			src="https://nsk-zabor.nethouse.ru/static/img/0000/0005/5075/55075406.m909a6efnd.W665.png"
 			alt=""
-		/>
+		/> -->
 		<!-- <img
 			class="aspect-[3/2] object-contain lg:aspect-auto lg:size-full"
 			src="https://sun9-78.userapi.com/s/v1/ig2/BMl8fmrHbPAlTUnt7Yh2tRT807hMFbtxCEq-hZWCQkJE6PxMwvAzitAiQi8WtRmJ7gAZbK1jpZTs5XD3ZZcHMAYr.jpg?quality=96&as=32x38,48x58,72x86,108x130,160x192,240x288,360x432,480x576,540x648,640x768,720x864,1080x1296,1280x1536,1440x1728,1800x2160&from=bu&u=eCQKi2IfXXl34kgFPjpk_7ut5G_Zn0i57jy8qzGZp4E&cs=672x807"
