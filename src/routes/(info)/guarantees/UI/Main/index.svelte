@@ -59,7 +59,7 @@
 		<h2 class="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Заявить о гарантийном случае</h2>
 		<p class="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-gray-600">Заполните форму и наш менеджер свяжется с вами в ближайшее время и поможет решить вопрос.</p>
 		<div class="mt-10 flex items-center justify-center gap-x-6">
-		  <a href="/" class="rounded-md bg-indigo-600 px-8 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Отправить форму</a>
+		  <a href="/" class="rounded-md bg-sky-600 px-8 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600">Отправить форму</a>
 		  <!-- <a href="#" class="text-sm/6 font-semibold text-gray-900">Learn more <span aria-hidden="true">→</span></a> -->
 		</div>
 	  </div>
