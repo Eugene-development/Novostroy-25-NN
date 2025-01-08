@@ -39,30 +39,34 @@
 	];
 </script>
 
-<div class="rounded-t-3xl bg-gray-50">
+<div class="bg-gray-50">
 	<div class="mx-auto max-w-7xl py-24 sm:px-2 sm:py-32 lg:px-4">
-		<div class="mx-auto max-w-2xl px-4 lg:max-w-none">
-			<div class="grid grid-cols-1 items-center gap-x-16 gap-y-10 lg:grid-cols-2">
-				<div>
-					<h2 class="mb-8 whitespace-nowrap text-lg font-extrabold text-gray-900 md:text-6xl">
-						С нами вы экономите
+		<div class="mx-auto max-w-4xl px-4 lg:max-w-none">
+			<div class="grid grid-cols-1 items-center gap-x-2 gap-y-8 lg:grid-cols-12">
+				<div class="col-span-8">
+					<h2 class="my-8 text-balance text-5xl font-semibold tracking-tight text-gray-950 sm:text-7xl">
+						Экономия и качество
 					</h2>
-					<p class="mt-4 text-sm leading-6 text-gray-700 sm:text-base">
-						Наш опыт и знание рынка позволяют предложить решения, которые максимально соответствуют
-						вашему стилю, бюджету и требованиям к высокому качеству.
-					</p>
+					<div class="mr-36">
 
-					<p class="mt-4 text-sm leading-6 text-gray-700 sm:text-base">
-						Мы помогаем нашим клиентам сделать правильный выбор материалов, цвета и производителя
-						мебели. Это позволит сэкономить ваши затраты!
-					</p>
+						<p class="mt-4 text-sm leading-6 text-gray-700 sm:text-lg">
+							Наш опыт и знание рынка позволяют предложить решения, которые максимально соответствуют
+							вашему стилю, бюджету и требованиям к высокому качеству.
+						</p>
+	
+						<p class="mt-4 text-sm leading-6 text-gray-700 sm:text-lg">
+							Мы помогаем нашим клиентам сделать правильный выбор материалов, цвета и производителя
+							мебели. Это позволит значительно сэкономить ваши затраты!
+						</p>
+	
+						<p class="mt-4 text-sm leading-6 text-gray-700 sm:text-lg">
+							К мебели мы подбираем стильные и качественные столешницы, технику и мойки чтобы создать
+							продуманный и функциональный интерьер под ключ.
+						</p>
 
-					<p class="mt-4 text-sm leading-6 text-gray-700 sm:text-base">
-						К мебели мы подбираем стильные и качественные столешницы, технику и мойки чтобы создать
-						продуманный и функциональный интерьер под ключ.
-					</p>
+					</div>
 				</div>
-				<div class="aspect-h-2 aspect-w-3 mx-12 overflow-hidden rounded-lg">
+				<div class="col-span-4">
 					<img
 						src="https://storage.yandexcloud.net/brand-logo/novostroy/logomain.png"
 						alt="логотип"
