@@ -11,7 +11,7 @@
   
   <div
     class={cn(
-      "group flex overflow-hidden p-2 [--duration:2s] [--gap:1rem] [gap:var(--gap)]",
+      "group flex overflow-hidden p-2 [--duration:5s] [--gap:2rem] [gap:var(--gap)]",
       {
         "flex-row": !vertical,
         "flex-col": vertical,
