@@ -39,7 +39,7 @@
 						<a
 							href="/"
 							class="rounded-md bg-sky-600 px-12 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
-							>Закажите услугу</a
+							>Закажите услугу <span aria-hidden="true">→</span></a
 						>
 						<!-- <a href="/" class="text-sm/6 font-semibold text-gray-900"
 							>Ознакомиться подробнее <span aria-hidden="true">→</span></a
