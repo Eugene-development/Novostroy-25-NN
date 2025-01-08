@@ -3,7 +3,6 @@
 
 	let targetNode = $state();
 	const inViewport = new IsInViewport(() => targetNode);
-	$inspect(inViewport.current);
 
 	const cards = [
 		{
