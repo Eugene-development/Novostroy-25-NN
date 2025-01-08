@@ -2,8 +2,15 @@
 	import { browser } from '$app/environment';
 	import { PersistedState } from 'runed';
 	import RemoveButton from './RemoveButton/index.svelte';
+    import { isFavorites } from '$lib/state/favorites.svelte';
 
 	const favorites = new PersistedState('favorites', []);
+
+	let favoritesList = $state(favorites.current);
+	$effect(() => {
+		favoritesList = favorites.current;
+		favoritesList.length > 0 ? (isFavorites.value = true) : (isFavorites.value = false);
+	});
 </script>
 
 {#if browser && favorites.current.length > 0}
