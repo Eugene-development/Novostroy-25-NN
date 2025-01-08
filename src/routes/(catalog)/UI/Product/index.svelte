@@ -10,14 +10,9 @@
 	const favorites = new PersistedState('favorites', []);
 
 	let test = $state(favorites.current);
-	
 	$effect(() => {
 		test = favorites.current
-		if (test.length > 0) {
-			isF.value = true
-		} else {
-			isF.value = false
-		}
+		test.length > 0 ? isF.value = true : isF.value = false
 	})
 
 	$inspect(isF);
