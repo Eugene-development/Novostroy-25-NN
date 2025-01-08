@@ -1,10 +1,9 @@
 <script>
+	import { IsInViewport } from 'runed';
 
-import { IsInViewport } from "runed";
- 
- let targetNode = $state();
- const inViewport = new IsInViewport(() => targetNode);
- $inspect(inViewport.current);
+	let targetNode = $state();
+	const inViewport = new IsInViewport(() => targetNode);
+	$inspect(inViewport.current);
 
 	const cards = [
 		{
@@ -63,7 +62,7 @@ import { IsInViewport } from "runed";
 			}}
 		></div>
 	</div>
-	<div  class="mx-auto max-w-7xl px-6 lg:px-8">
+	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto max-w-3xl lg:mx-0">
 			<h2 class="text-4xl font-bold text-gray-50 md:text-7xl">Наша работа</h2>
 			<p class="mx-auto mt-6 text-sm leading-7 text-gray-300 sm:text-lg">
@@ -73,41 +72,39 @@ import { IsInViewport } from "runed";
 		</div>
 		<div bind:this={targetNode}>
 			{#if inViewport.current}
-			<div 
-				class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"
-			>
-				{#each cards as card, i}
-					<div 
-						class="animate-fade-up animate-duration-1000 animate-ease-in-out "
-						style="animation-delay: {i * 0.2}s"
-					>
-						<div class="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10 ">
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								stroke-width={1.5}
-								stroke="currentColor"
-								class="h-7 w-5 flex-none text-sky-400"
-							>
-								<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-							</svg>
-	
-							<div class="leading-7">
-								<h3 class="text-base font-semibold text-white">
-									{card.name}
-								</h3>
-								<p class="mt-2 text-pretty text-sm text-gray-300">
-									{card.description}
-								</p>
+				<div
+					class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"
+				>
+					{#each cards as card, i}
+						<div
+							class="animate-fade-up animate-duration-1000 animate-ease-in-out"
+							style="animation-delay: {i * 0.2}s"
+						>
+							<div class="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width={1.5}
+									stroke="currentColor"
+									class="h-7 w-5 flex-none text-sky-400"
+								>
+									<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+								</svg>
+
+								<div class="leading-7">
+									<h3 class="text-base font-semibold text-white">
+										{card.name}
+									</h3>
+									<p class="mt-2 text-pretty text-sm text-gray-300">
+										{card.description}
+									</p>
+								</div>
 							</div>
 						</div>
-					</div>
-				{/each}
-			</div>
+					{/each}
+				</div>
 			{/if}
-
 		</div>
-		
 	</div>
 </div>

@@ -3,12 +3,12 @@
 	import SwiperSlider from './SwiperSlider/index.svelte';
 	import { PersistedState } from 'runed';
 	const favorites = new PersistedState('favorites', []);
-/**
- * @type {import('./$types').PageData}
- */
+	/**
+	 * @type {import('./$types').PageData}
+	 */
 	let { data } = $props();
 	const toggleFavorite = (item) => {
-		const isInFavorites = favorites.current.some(i => i.id === item.id);
+		const isInFavorites = favorites.current.some((i) => i.id === item.id);
 		if (isInFavorites) {
 			favorites.current = favorites.current.filter((i) => i.id !== item.id);
 		} else {
@@ -73,45 +73,39 @@
 				</a>
 			</div>
 
-			
-
-			
 			<div class="mx-auto max-w-sm sm:flex sm:items-center md:mt-4 lg:flex-col">
-
 				<button
-				type="button"
-				onclick={() => toggleFavorite(item)}
-				class={`flex w-full items-center justify-center rounded-lg border px-5 py-2.5 mb-3  text-sm font-medium focus:z-10 focus:outline-none focus:ring-4 ${
+					type="button"
+					onclick={() => toggleFavorite(item)}
+					class={`mb-3 flex w-full items-center justify-center rounded-lg border px-5 py-2.5 text-sm font-medium focus:z-10 focus:outline-none focus:ring-4 ${
 					favorites.current.some(i => i.id === item.id)
 						? 'border-red-700 bg-white text-red-900 hover:bg-red-100 hover:text-red-700 focus:ring-red-300'
 						: 'border-gray-200 bg-white text-gray-900 hover:bg-gray-100 hover:text-sky-700 focus:ring-gray-100'
-				}`}
-			>
-				<svg
-					class={`-ms-2 me-2 h-5 w-5 ${favorites.current.some(i => i.id === item.id) ? 'fill-red-700' : 'fill-none'}`}
-					aria-hidden="true"
-					xmlns="http://www.w3.org/2000/svg"
-					width="24"
-					height="24"
-					fill="none"
-					viewBox="0 0 24 24"
+				}`}}
 				>
-					<path
-						stroke="currentColor"
-						strokeLinecap="round"
-						strokeLinejoin="round"
-						strokeWidth="2"
-						d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"
-					/>
-				</svg>
-				{#if favorites.current.some(i => i.id === item.id)}
-					<span class="">В избранном</span>
-				{:else}
-					<span class="">Добавить в избранное</span>
-				{/if}
-			</button>
+					<svg
+						class={-ms-2 me-2 h-5 w-5 ${favorites.current.some(i => i.id === item.id) ? 'fill-red-700' : 'fill-none'}`}}
+						aria-hidden="true"
+						xmlns="http://www.w3.org/2000/svg"
+						width="24"
+						height="24"
+						fill="none"
+						viewBox="0 0 24 24"
+					>
+						<path
+							stroke="currentColor"
+							strokeLinecap="round"
+							strokeLinejoin="round"
+							strokeWidth="2"
+							d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"
+						></path>
+					</svg>
+					{#if avorites.current.some(i => i.id === item.id)}}<span class="">В избранном</span>
+					{:else}<span class="">Добавить в избранное</span>
+					{/if}
+				</button>
 				<a
-					href="/{data.parentable.parentable.slug}/{data.parentable.slug}/{data.slug}/{item.slug}"
+					href="/{ata.parentable.parentable.slug}}/{ata.parentable.slug}}/{ata.slug}}/{tem.slug}}"
 					class="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-sky-600 to-blue-700 px-5 py-2.5 text-sm font-medium text-white hover:from-blue-600 hover:to-sky-500 focus:outline-none focus:ring-4 focus:ring-sky-300"
 				>
 					Подробнее

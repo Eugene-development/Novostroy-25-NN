@@ -4,17 +4,15 @@
 	import { PersistedState } from 'runed';
 	import { setContext } from 'svelte';
 
-	import { isFavorites } from "$lib/state/favorites.svelte";
-
+	import { isFavorites } from '$lib/state/favorites.svelte';
 
 	const favorites = new PersistedState('favorites', []);
 
-	
 	let favoritesList = $state(favorites.current);
 	$effect(() => {
-		favoritesList = favorites.current
-		favoritesList.length > 0 ? isFavorites.value = true : isFavorites.value = false
-	})
+		favoritesList = favorites.current;
+		favoritesList.length > 0 ? (isFavorites.value = true) : (isFavorites.value = false);
+	});
 
 	let currentImageIndex = $state(0);
 	function setNewImageIndex(i) {
@@ -23,10 +21,11 @@
 
 	let { data } = $props();
 	const toggleFavorite = () => {
-		const isInFavorites = favorites.current.some(item => item.id === data.id);
-		isInFavorites ? favorites.current = favorites.current.filter((i) => i.id !== data.id) : favorites.current = [...favorites.current, data];
+		const isInFavorites = favorites.current.some((item) => item.id === data.id);
+		isInFavorites
+			? (favorites.current = favorites.current.filter((i) => i.id !== data.id))
+			: (favorites.current = [...favorites.current, data]);
 	};
-
 </script>
 
 <div class="animate-fade-up bg-white animate-delay-700 animate-duration-1000 animate-ease-in-out">
@@ -41,7 +40,7 @@
 							<button
 								onclick={() => setNewImageIndex(i)}
 								id="tabs-1-tab-1"
-								class="relative scale110 flex h-24 cursor-pointer items-center justify-center rounded-md bg-white text-sm font-medium uppercase text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-indigo-500/50 focus:ring-offset-4"
+								class="scale110 relative flex h-24 cursor-pointer items-center justify-center rounded-md bg-white text-sm font-medium uppercase text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-indigo-500/50 focus:ring-offset-4"
 								aria-controls="tabs-1-panel-1"
 								role="tab"
 								type="button"
@@ -207,7 +206,9 @@
 							class="ml-4 flex items-center justify-center rounded-md px-3 py-3 text-gray-400 hover:bg-gray-100 hover:text-gray-500"
 						>
 							<svg
-								class="size-6 shrink-0 {favorites.current.some(item => item.id === data.id) ? 'text-red-500' : 'text-gray-400'}"
+								class="size-6 shrink-0 {favorites.current.some((item) => item.id === data.id)
+									? 'text-red-500'
+									: 'text-gray-400'}"
 								fill="none"
 								viewBox="0 0 24 24"
 								stroke-width="1.5"

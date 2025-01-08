@@ -1,10 +1,6 @@
 <script>
-
-import { isFavorites } from "$lib/state/favorites.svelte";
-
+	import { isFavorites } from '$lib/state/favorites.svelte';
 </script>
-
-
 
 <a href="/favorites" class="relative isolate z-20 px-3 focus-visible:outline-offset-[-4px]">
 	<span class="sr-only">Избранное</span>
@@ -16,8 +12,10 @@ import { isFavorites } from "$lib/state/favorites.svelte";
 		strokeWidth="2"
 		strokeLinecap="round"
 		strokeLinejoin="round"
-		class="icon size-5 {isFavorites.value ? 'animate-pulse fill-red-500 text-red-700' : 'text-gray-50'}"
-	>		
+		class="icon size-5 {isFavorites.value
+			? 'animate-pulse fill-red-500 text-red-700'
+			: 'text-gray-50'}"
+	>
 		<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
 		<path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"></path>
 	</svg>
