@@ -1,3 +1,8 @@
+<script>
+    import { visibleConsultationForm } from "$lib/state/formConsultation.svelte";
+</script>
+
+
 <div class="relative">
 	<div class="mx-auto max-w-7xl">
 		<div class="relative z-10 pt-14 lg:w-full lg:max-w-3xl">
@@ -36,7 +41,7 @@
 						commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
 					</p>
 					<div class="mt-10 flex items-center gap-x-6">
-						<button
+						<button onclick={() => visibleConsultationForm.value = true}
 							type="button"
 							class="rounded-md bg-sky-600 px-12 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
 							>Закажите услугу <span aria-hidden="true">→</span></button
