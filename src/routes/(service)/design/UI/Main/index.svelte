@@ -2,7 +2,7 @@
 	import { visibleDesignForm } from '$lib/state/formDesign.svelte';
 </script>
 
-<div class="relative">
+<div class="relative animate-fade animate-duration-500 animate-ease-in-out">
 	<div class="mx-auto max-w-7xl">
 		<div class="relative z-10 pt-14 lg:w-full lg:max-w-3xl">
 			<svg
@@ -59,7 +59,7 @@
 			<img
 				src="https://storage.yandexcloud.net/brand-logo/novostroy/logomain.png"
 				alt="логотип"
-				class="w-full max-w-7xl animate-fade-up object-contain object-center animate-duration-1000 animate-ease-in-out"
+				class="w-full max-w-7xl object-contain object-center"
 			/>
 		</div>
 		<!-- <img
