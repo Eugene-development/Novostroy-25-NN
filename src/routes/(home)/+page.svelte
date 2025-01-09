@@ -1,5 +1,5 @@
 <script>
-	import { Main, Incentives, Offer, Stage, Equipment, Brands } from './UI';
+	import { Main, Incentives, Offer, Stage, Equipment, Brands, Message } from './UI';
 </script>
 
 <svelte:head>
@@ -13,5 +13,7 @@
 
 <Stage />
 <Incentives />
+
+<Message />
 
 <Brands />

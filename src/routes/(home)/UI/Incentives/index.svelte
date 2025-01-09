@@ -39,7 +39,7 @@
 	];
 </script>
 
-<div class="bg-gray-50">
+<div class="bg-gray-50/50">
 	<div class="mx-auto max-w-7xl py-24 sm:px-2 sm:py-32 lg:px-4">
 		<div class="mx-auto max-w-4xl px-4 lg:max-w-none">
 			<div class="grid grid-cols-1 items-center gap-x-2 gap-y-8 lg:grid-cols-12">

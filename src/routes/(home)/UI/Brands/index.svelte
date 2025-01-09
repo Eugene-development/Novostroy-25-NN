@@ -16,37 +16,37 @@
 			img: 'https://w7.pngwing.com/pngs/685/353/png-transparent-blum-hd-logo.png'
 		},
 		{
-			name: 'BLUM',
+			name: 'FGV',
 			username: 'Фурнитура',
 			body: 'Австрийская компания BLUM занимается производством премиальной фурнитуры.',
 			img: 'https://w7.pngwing.com/pngs/685/353/png-transparent-blum-hd-logo.png'
 		},
 		{
-			name: 'BLUM',
+			name: 'Egger',
 			username: 'Фурнитура',
 			body: 'Австрийская компания BLUM занимается производством премиальной фурнитуры.',
 			img: 'https://w7.pngwing.com/pngs/685/353/png-transparent-blum-hd-logo.png'
 		},
 		{
-			name: 'BLUM',
+			name: 'ЗОВ',
 			username: 'Фурнитура',
 			body: 'Австрийская компания BLUM занимается производством премиальной фурнитуры.',
 			img: 'https://w7.pngwing.com/pngs/685/353/png-transparent-blum-hd-logo.png'
 		},
 		{
-			name: 'BLUM',
+			name: 'Мария',
 			username: 'Фурнитура',
 			body: 'Австрийская компания BLUM занимается производством премиальной фурнитуры.',
 			img: 'https://w7.pngwing.com/pngs/685/353/png-transparent-blum-hd-logo.png'
 		},
 		{
-			name: 'BLUM',
+			name: 'Стильные кухни',
 			username: 'Фурнитура',
 			body: 'Австрийская компания BLUM занимается производством премиальной фурнитуры.',
 			img: 'https://w7.pngwing.com/pngs/685/353/png-transparent-blum-hd-logo.png'
 		},
 		{
-			name: 'BLUM',
+			name: 'Нижегородская кухня',
 			username: 'Фурнитура',
 			body: 'Австрийская компания BLUM занимается производством премиальной фурнитуры.',
 			img: 'https://w7.pngwing.com/pngs/685/353/png-transparent-blum-hd-logo.png'

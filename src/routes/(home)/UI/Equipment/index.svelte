@@ -1,4 +1,4 @@
-<div class="bg-gray-50 py-24 sm:py-32">
+<div class="bg-gray-50/50 py-24 sm:py-32">
 	<div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
 		<h2 class="text-center text-base/7 font-semibold text-sky-600">Комплектация</h2>
 		<p
