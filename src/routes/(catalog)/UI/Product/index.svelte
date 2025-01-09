@@ -4,6 +4,7 @@
 	import { PersistedState } from 'runed';
 	import { setContext } from 'svelte';
 
+	import { visibleConsultationForm } from '$lib/state/formConsultation.svelte';
 	import { isFavorites } from '$lib/state/favorites.svelte';
 
 	const favorites = new PersistedState('favorites', []);
@@ -195,7 +196,7 @@
 
 				<div class="mt-2">
 					<div class="mt-10 flex">
-						<button
+						<button onclick={() => (visibleConsultationForm.value = true)}
 							type="button"
 							class="flex max-w-xs flex-1 items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-sky-500 to-blue-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 hover:from-blue-600 hover:to-sky-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50 sm:w-full"
 							>Бесплатная консультация</button
