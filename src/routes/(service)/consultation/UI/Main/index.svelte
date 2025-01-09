@@ -1,7 +1,6 @@
 <script>
-    import { visibleConsultationForm } from "$lib/state/formConsultation.svelte";
+	import { visibleConsultationForm } from '$lib/state/formConsultation.svelte';
 </script>
-
 
 <div class="relative">
 	<div class="mx-auto max-w-7xl">
@@ -41,7 +40,8 @@
 						commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
 					</p>
 					<div class="mt-10 flex items-center gap-x-6">
-						<button onclick={() => visibleConsultationForm.value = true}
+						<button
+							onclick={() => (visibleConsultationForm.value = true)}
 							type="button"
 							class="rounded-md bg-sky-600 px-12 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
 							>Закажите услугу <span aria-hidden="true">→</span></button
@@ -59,7 +59,7 @@
 			<img
 				src="https://storage.yandexcloud.net/brand-logo/novostroy/logomain.png"
 				alt="логотип"
-				class="animate-fade-up w-full max-w-7xl object-contain object-center animate-duration-1000 animate-ease-in-out"
+				class="w-full max-w-7xl animate-fade-up object-contain object-center animate-duration-1000 animate-ease-in-out"
 			/>
 		</div>
 		<!-- <img

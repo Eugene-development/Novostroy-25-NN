@@ -11,8 +11,8 @@
 
 <Banner />
 <Menu />
-	{@render children()}
+{@render children()}
 <Footer />
 
 <!-- Modals -->
- <FormConsultation />
+<FormConsultation />
