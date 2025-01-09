@@ -5,10 +5,14 @@
 	import { Banner } from './layout/header/UI';
 	import { Menu } from './layout/header/UI';
 	import { Footer } from './layout/footer/UI';
+
+	import { FormConsultation } from './layout/modals';
 </script>
 
 <Banner />
 <Menu />
-
-{@render children()}
+	{@render children()}
 <Footer />
+
+<!-- Modals -->
+ <FormConsultation />
