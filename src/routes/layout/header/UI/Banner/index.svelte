@@ -1,6 +1,6 @@
 <script>
 	import { page } from '$app/state';
-	import Favorites from './Favorites/index.svelte';
+	import FavoriteButton from './FavoriteButton/index.svelte';
 </script>
 
 <div class="sticky top-0 z-40 hidden items-center bg-gray-900 px-4 sm:px-3.5 md:flex">
@@ -127,7 +127,7 @@
 					<circle cx={1} cy={1} r={1} />
 				</svg>
 
-				<Favorites />
+				<FavoriteButton />
 			</div>
 		</div>
 	</div>
@@ -156,7 +156,7 @@
 	</div>
 
 	<div class="flex divide-x">
-		<Favorites />
+		<FavoriteButton />
 		<!-- <MobileButton /> -->
 	</div>
 </div>
