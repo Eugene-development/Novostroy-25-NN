@@ -1,1 +1,76 @@
-<p>Замер</p>
+<script>
+	import { visibleMeasuringForm } from '$lib/state/formMeasuring.svelte';
+</script>
+
+<div class="relative">
+	<div class="mx-auto max-w-7xl">
+		<div class="relative z-10 pt-14 lg:w-full lg:max-w-3xl">
+			<svg
+				class="absolute inset-y-0 right-8 hidden h-full w-80 translate-x-1/2 transform fill-white lg:block"
+				viewBox="0 0 100 100"
+				preserveAspectRatio="none"
+				aria-hidden="true"
+			>
+				<polygon points="0,0 90,0 50,100 0,100" />
+			</svg>
+
+			<div class="relative px-6 py-24 sm:py-32 lg:px-8 lg:py-36 lg:pr-0">
+				<div class="mx-auto max-w-3xl lg:mx-0 lg:max-w-2xl">
+					<div class="hidden sm:mb-10 sm:flex">
+						<div
+							class="relative rounded-full px-3 py-1 text-sm/6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
+						>
+							Прочтите статью об этой услуге. Посетите <a
+								href="/"
+								class="whitespace-nowrap font-semibold text-sky-600"
+								><span class="absolute inset-0" aria-hidden="true"></span>наш блог
+								<span aria-hidden="true">&rarr;</span></a
+							>
+						</div>
+					</div>
+					<h1 class="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-6xl">
+						Замер помещения
+					</h1>
+					<p class="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
+						Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat
+						commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
+					</p>
+					<p class="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
+						Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat
+						commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
+					</p>
+					<div class="mt-10 flex items-center gap-x-6">
+						<button
+							onclick={() => (visibleMeasuringForm.value = true)}
+							type="button"
+							class="rounded-md bg-sky-600 px-12 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+							>Закажите услугу <span aria-hidden="true">→</span></button
+						>
+						<!-- <a href="/" class="text-sm/6 font-semibold text-gray-900"
+							>Ознакомиться подробнее <span aria-hidden="true">→</span></a
+						> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bg-gray-50/50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+		<div class="mx-auto flex h-full max-w-2xl items-center justify-center py-4">
+			<img
+				src="https://storage.yandexcloud.net/brand-logo/novostroy/logomain.png"
+				alt="логотип"
+				class="w-full max-w-7xl animate-fade-up object-contain object-center animate-duration-1000 animate-ease-in-out"
+			/>
+		</div>
+		<!-- <img
+			class="aspect-[3/2] object-contain lg:aspect-auto lg:size-full"
+			src="https://nsk-zabor.nethouse.ru/static/img/0000/0005/5075/55075406.m909a6efnd.W665.png"
+			alt=""
+		/> -->
+		<!-- <img
+			class="aspect-[3/2] object-contain lg:aspect-auto lg:size-full"
+			src="https://sun9-78.userapi.com/s/v1/ig2/BMl8fmrHbPAlTUnt7Yh2tRT807hMFbtxCEq-hZWCQkJE6PxMwvAzitAiQi8WtRmJ7gAZbK1jpZTs5XD3ZZcHMAYr.jpg?quality=96&as=32x38,48x58,72x86,108x130,160x192,240x288,360x432,480x576,540x648,640x768,720x864,1080x1296,1280x1536,1440x1728,1800x2160&from=bu&u=eCQKi2IfXXl34kgFPjpk_7ut5G_Zn0i57jy8qzGZp4E&cs=672x807"
+			alt=""
+		/> -->
+	</div>
+</div>

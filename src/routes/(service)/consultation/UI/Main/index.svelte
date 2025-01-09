@@ -15,7 +15,7 @@
 			</svg>
 
 			<div class="relative px-6 py-24 sm:py-32 lg:px-8 lg:py-36 lg:pr-0">
-				<div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
+				<div class="mx-auto max-w-3xl lg:mx-0 lg:max-w-2xl">
 					<div class="hidden sm:mb-10 sm:flex">
 						<div
 							class="relative rounded-full px-3 py-1 text-sm/6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
@@ -28,7 +28,7 @@
 							>
 						</div>
 					</div>
-					<h1 class="text-pretty text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
+					<h1 class="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-6xl">
 						Консультация
 					</h1>
 					<p class="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
