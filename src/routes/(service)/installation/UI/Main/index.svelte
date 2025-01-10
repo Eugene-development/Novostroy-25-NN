@@ -4,7 +4,7 @@
 
 <div class="relative animate-fade animate-duration-500 animate-ease-in-out">
 	<div class="mx-auto max-w-7xl">
-		<div class="relative z-10 pt-14 lg:w-full lg:max-w-3xl">
+		<div class="relative z-10 pt-8 lg:w-full lg:max-w-3xl">
 			<svg
 				class="absolute inset-y-0 right-8 hidden h-full w-80 translate-x-1/2 transform fill-white lg:block"
 				viewBox="0 0 100 100"
@@ -28,16 +28,19 @@
 							>
 						</div>
 					</div>
-					<h1 class="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-6xl">
+					<h1 class="mb-6 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
 						Сборка мебели
 					</h1>
-					<p class="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
-						Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat
-						commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
+					<p class="mt-2 text-pretty text-base font-medium text-gray-500 sm:text-lg/8">
+						Грамотная сборка и установка мебели — залог её долговечности и удобства в использовании.
 					</p>
-					<p class="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
-						Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat
-						commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
+					<p class="mt-2 text-pretty text-base font-medium text-gray-500 sm:text-lg/8">
+						Наши мастера быстро и аккуратно соберут любую мебель, учитывая все нюансы конструкции и
+						особенностей помещения. Мы гарантируем качественный результат: надёжные крепления, ровные
+						стыки и безопасное использование.
+					</p>
+					<p class="mt-2 text-pretty text-base font-medium text-gray-500 sm:text-lg/8">
+						Доверьте сборку профессионалам — наслаждайтесь комфортом без лишних забот о сборке!
 					</p>
 					<div class="mt-10 flex items-center gap-x-6">
 						<button
