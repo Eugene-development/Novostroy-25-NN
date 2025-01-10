@@ -28,16 +28,18 @@
 							>
 						</div>
 					</div>
-					<h1 class="mb-6 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+					<h1
+						class="mb-6 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl"
+					>
 						Замер помещения
 					</h1>
 					<p class="mt-2 text-pretty text-base font-medium text-gray-500 sm:text-lg/8">
 						Точный замер помещения — основа идеального дизайна и грамотного размещения мебели.
 					</p>
 					<p class="mt-2 text-pretty text-base font-medium text-gray-500 sm:text-lg/8">
-						Наши специалисты проводят замеры с использованием современного оборудования, учитывая все
-						нюансы: углы, неровности стен и другие особенности. Это позволяет избежать серьёзных ошибок при
-						проектировании и заказе мебели.
+						Наши специалисты проводят замеры с использованием современного оборудования, учитывая
+						все нюансы: углы, неровности стен и другие особенности. Это позволяет избежать серьёзных
+						ошибок при проектировании и заказе мебели.
 					</p>
 					<p class="mt-2 text-pretty text-base font-medium text-gray-500 sm:text-lg/8">
 						Доверьте точность профессионалам — мы гарантируем качественный результат для вашего

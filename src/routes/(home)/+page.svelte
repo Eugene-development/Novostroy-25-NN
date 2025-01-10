@@ -14,5 +14,3 @@
 <Incentives />
 <Message />
 <Brands />
-
-  

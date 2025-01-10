@@ -28,7 +28,9 @@
 							>
 						</div>
 					</div>
-					<h1 class="mb-6 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+					<h1
+						class="mb-6 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl"
+					>
 						Сборка мебели
 					</h1>
 					<p class="mt-2 text-pretty text-base font-medium text-gray-500 sm:text-lg/8">
@@ -36,8 +38,8 @@
 					</p>
 					<p class="mt-2 text-pretty text-base font-medium text-gray-500 sm:text-lg/8">
 						Наши мастера быстро и аккуратно соберут любую мебель, учитывая все нюансы конструкции и
-						особенностей помещения. Мы гарантируем качественный результат: надёжные крепления, ровные
-						стыки и безопасное использование.
+						особенностей помещения. Мы гарантируем качественный результат: надёжные крепления,
+						ровные стыки и безопасное использование.
 					</p>
 					<p class="mt-2 text-pretty text-base font-medium text-gray-500 sm:text-lg/8">
 						Доверьте сборку профессионалам — наслаждайтесь комфортом без лишних забот о сборке!

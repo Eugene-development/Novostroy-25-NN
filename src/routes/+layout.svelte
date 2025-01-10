@@ -6,7 +6,14 @@
 	import { Menu } from './layout/header/UI';
 	import { Footer } from './layout/footer/UI';
 
-	import { FormConsultation, FormDelivery, FormDesign, FormInstallation, FormMeasuring, FormProject } from './layout/modals';
+	import {
+		FormConsultation,
+		FormDelivery,
+		FormDesign,
+		FormInstallation,
+		FormMeasuring,
+		FormProject
+	} from './layout/modals';
 </script>
 
 <Banner />

@@ -3,7 +3,7 @@
 </script>
 
 <div class="relative animate-fade animate-duration-500 animate-ease-in-out">
-	<div class="mx-auto max-w-7xl ">
+	<div class="mx-auto max-w-7xl">
 		<div class="relative z-10 pt-8 lg:w-full lg:max-w-3xl">
 			<svg
 				class="absolute inset-y-0 right-8 hidden h-full w-80 translate-x-1/2 transform fill-white lg:block"
@@ -28,17 +28,22 @@
 							>
 						</div>
 					</div>
-					<h1 class="mb-6 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+					<h1
+						class="mb-6 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl"
+					>
 						Консультация дизайнера
 					</h1>
 					<p class="mt-2 text-pretty text-base font-medium text-gray-500 sm:text-lg/8">
-						Планируете обновление интерьера или подбор мебели? Наш дизайнер поможет создать гармоничное и стильное пространство!
+						Планируете обновление интерьера или подбор мебели? Наш дизайнер поможет создать
+						гармоничное и стильное пространство!
 					</p>
 					<p class="mt-2 text-pretty text-base font-medium text-gray-500 sm:text-lg/8">
-						В рамках консультации вы получите профессиональные рекомендации по подбору материалов, расстановке мебели, выбору цветовых решений и декора.
+						В рамках консультации вы получите профессиональные рекомендации по подбору материалов,
+						расстановке мебели, выбору цветовых решений и декора.
 					</p>
 					<p class="mt-2 text-pretty text-base font-medium text-gray-500 sm:text-lg/8">
-						Мы помогаем реализовать ваши идеи, учитывая функциональность и индивидуальный вкус. Оставьте заявку, и сделаем ваш дом уютным и красивым!
+						Мы помогаем реализовать ваши идеи, учитывая функциональность и индивидуальный вкус.
+						Оставьте заявку, и сделаем ваш дом уютным и красивым!
 					</p>
 					<div class="mt-10 flex items-center gap-x-6">
 						<button

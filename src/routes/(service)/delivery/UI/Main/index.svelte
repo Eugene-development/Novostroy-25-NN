@@ -28,15 +28,22 @@
 							>
 						</div>
 					</div>
-					<h1 class="mb-6 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+					<h1
+						class="mb-6 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl"
+					>
 						Доставка с грузчиками
 					</h1>
 					<p class="mt-2 text-pretty text-base font-medium text-gray-500 sm:text-lg/8">
-						Доставка мебели с грузчиками — это удобно, быстро и без забот! Мы организуем транспортировку вашей мебели до двери и её аккуратную разгрузку.					</p>
+						Доставка мебели с грузчиками — это удобно, быстро и без забот! Мы организуем
+						транспортировку вашей мебели до двери и её аккуратную разгрузку.
+					</p>
 					<p class="mt-2 text-pretty text-base font-medium text-gray-500 sm:text-lg/8">
-						Наши грузчики бережно поднимут мебель на любой этаж и разместят в нужной комнате.					</p>
+						Наши грузчики бережно поднимут мебель на любой этаж и разместят в нужной комнате.
+					</p>
 					<p class="mt-2 text-pretty text-base font-medium text-gray-500 sm:text-lg/8">
-						Забудьте о сложностях перевозки — доверьте это нашим профессионалам, и ваша мебель будет доставлена в целости и сохранности!					</p>
+						Забудьте о сложностях перевозки — доверьте это нашим профессионалам, и ваша мебель будет
+						доставлена в целости и сохранности!
+					</p>
 					<div class="mt-10 flex items-center gap-x-6">
 						<button
 							onclick={() => (visibleDeliveryForm.value = true)}

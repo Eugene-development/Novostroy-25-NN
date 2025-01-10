@@ -70,37 +70,81 @@
 				<p>Приглашаем вас в наше партнерство, если вы:</p>
 				<ul role="list" class="mt-8 max-w-xl space-y-8 text-gray-600">
 					<li class="flex gap-x-3">
-						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mt-1 size-7 flex-none text-sky-600">
-							<path stroke-linecap="round" stroke-linejoin="round" d="M8.25 9V5.25A2.25 2.25 0 0 1 10.5 3h6a2.25 2.25 0 0 1 2.25 2.25v13.5A2.25 2.25 0 0 1 16.5 21h-6a2.25 2.25 0 0 1-2.25-2.25V15M12 9l3 3m0 0-3 3m3-3H2.25" />
-						  </svg>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							class="mt-1 size-7 flex-none text-sky-600"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M8.25 9V5.25A2.25 2.25 0 0 1 10.5 3h6a2.25 2.25 0 0 1 2.25 2.25v13.5A2.25 2.25 0 0 1 16.5 21h-6a2.25 2.25 0 0 1-2.25-2.25V15M12 9l3 3m0 0-3 3m3-3H2.25"
+							/>
+						</svg>
 						<span
 							><strong class="font-semibold text-gray-900">Дизайнер интерьеров.</strong> Совместно мы
 							сможем реализовать ваши идеи в дизайне.</span
 						>
 					</li>
 					<li class="flex gap-x-3">
-						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mt-1 size-7 flex-none text-sky-600">
-							<path stroke-linecap="round" stroke-linejoin="round" d="M8.25 9V5.25A2.25 2.25 0 0 1 10.5 3h6a2.25 2.25 0 0 1 2.25 2.25v13.5A2.25 2.25 0 0 1 16.5 21h-6a2.25 2.25 0 0 1-2.25-2.25V15M12 9l3 3m0 0-3 3m3-3H2.25" />
-						  </svg>
-						  
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							class="mt-1 size-7 flex-none text-sky-600"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M8.25 9V5.25A2.25 2.25 0 0 1 10.5 3h6a2.25 2.25 0 0 1 2.25 2.25v13.5A2.25 2.25 0 0 1 16.5 21h-6a2.25 2.25 0 0 1-2.25-2.25V15M12 9l3 3m0 0-3 3m3-3H2.25"
+							/>
+						</svg>
+
 						<span
 							><strong class="font-semibold text-gray-900">Ремонтная бригада.</strong> Как правило, после
 							ремонта клиенты приобретают новую мебель.</span
 						>
 					</li>
 					<li class="flex gap-x-3">
-						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mt-1 size-7 flex-none text-sky-600">
-							<path stroke-linecap="round" stroke-linejoin="round" d="M8.25 9V5.25A2.25 2.25 0 0 1 10.5 3h6a2.25 2.25 0 0 1 2.25 2.25v13.5A2.25 2.25 0 0 1 16.5 21h-6a2.25 2.25 0 0 1-2.25-2.25V15M12 9l3 3m0 0-3 3m3-3H2.25" />
-						  </svg>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							class="mt-1 size-7 flex-none text-sky-600"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M8.25 9V5.25A2.25 2.25 0 0 1 10.5 3h6a2.25 2.25 0 0 1 2.25 2.25v13.5A2.25 2.25 0 0 1 16.5 21h-6a2.25 2.25 0 0 1-2.25-2.25V15M12 9l3 3m0 0-3 3m3-3H2.25"
+							/>
+						</svg>
 						<span
 							><strong class="font-semibold text-gray-900">Продавец мебели.</strong> Иногда ваши покупатели
 							желают то, чего нет в вашем ассортименте.</span
 						>
 					</li>
 					<li class="flex gap-x-3">
-						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mt-1 size-7 flex-none text-sky-600">
-							<path stroke-linecap="round" stroke-linejoin="round" d="M8.25 9V5.25A2.25 2.25 0 0 1 10.5 3h6a2.25 2.25 0 0 1 2.25 2.25v13.5A2.25 2.25 0 0 1 16.5 21h-6a2.25 2.25 0 0 1-2.25-2.25V15M12 9l3 3m0 0-3 3m3-3H2.25" />
-						  </svg>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							class="mt-1 size-7 flex-none text-sky-600"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M8.25 9V5.25A2.25 2.25 0 0 1 10.5 3h6a2.25 2.25 0 0 1 2.25 2.25v13.5A2.25 2.25 0 0 1 16.5 21h-6a2.25 2.25 0 0 1-2.25-2.25V15M12 9l3 3m0 0-3 3m3-3H2.25"
+							/>
+						</svg>
 						<span
 							><strong class="font-semibold text-gray-900">Самозанятый.</strong> Мы предложим интересные
 							условия для вашего дополнительного дохода.</span
