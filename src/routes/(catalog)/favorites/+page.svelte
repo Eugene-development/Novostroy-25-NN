@@ -110,12 +110,11 @@
 				{/each}
 			</div>
 		{:else}
-			<div class="mb-4 flex items-center justify-between gap-4 md:mb-8">
-				<h2 class="text-xl font-semibold text-gray-900 sm:text-2xl">Избранное</h2>
-			</div>
-
-			<div class="flex min-h-[50vh] items-center justify-center">
-				<p class="text-xl text-gray-500">В избранном пока ничего нет</p>
+		<div class="bg-white px-6 py-24 sm:py-32 lg:px-8">
+				<div class="mx-auto max-w-2xl text-center">
+					<h2 class="text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">Избранное</h2>
+					<p class="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">К сожалению, у вас пока нет ни одного избранного объекта. Нажмите на сердечко, чтобы добавить его в избранное.</p>
+				</div>
 			</div>
 		{/if}
 	</div>
