@@ -13,9 +13,27 @@
 	});
 </script>
 
-{#if browser && favorites.current.length > 0}
+<!-- {#snippet figure()}
+	<p>123</p>
+{/snippet}
+
+
+	{#if false}
+		<p >
+			777
+			{@render figure()}
+		</p>
+	{:else}
+		{@render figure(image)}
+	{/if} -->
+
+
+
 	<section class="bg-gray-50 py-8 antialiased md:py-16">
 		<div class="mx-auto max-w-screen-xl px-4 2xl:px-0">
+			{#if browser && favorites.current.length > 0}
+
+
 			<div class="mb-4 flex items-center justify-between gap-4 md:mb-8">
 				<h2 class="text-xl font-semibold text-gray-900 sm:text-2xl">
 					Избранное ({favorites.current.length})
@@ -95,11 +113,8 @@
 					</div>
 				{/each}
 			</div>
-		</div>
-	</section>
-{:else}
-	<section class="bg-gray-50 py-8 antialiased md:py-16">
-		<div class="mx-auto max-w-screen-xl px-4 2xl:px-0">
+			{:else}
+
 			<div class="mb-4 flex items-center justify-between gap-4 md:mb-8">
 				<h2 class="text-xl font-semibold text-gray-900 sm:text-2xl">Избранное</h2>
 			</div>
@@ -107,6 +122,8 @@
 			<div class="flex min-h-[50vh] items-center justify-center">
 				<p class="text-xl text-gray-500">В избранном пока ничего нет</p>
 			</div>
+
+			{/if}
+
 		</div>
 	</section>
-{/if}
