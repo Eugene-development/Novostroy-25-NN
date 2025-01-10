@@ -10,10 +10,9 @@
 <Main />
 <Equipment />
 <!-- <Offer /> -->
-
 <Stage />
 <Incentives />
-
 <Message />
-
 <Brands />
+
+  

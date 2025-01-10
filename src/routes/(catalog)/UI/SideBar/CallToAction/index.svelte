@@ -1,7 +1,14 @@
+<script>
+	import { visibleConsultationForm } from '$lib/state/formConsultation.svelte';
+	import { visibleMeasuringForm } from '$lib/state/formMeasuring.svelte';
+	import { visibleDesignForm } from '$lib/state/formDesign.svelte';
+</script>
+
 <div class="mb-3">
-	<ul class="grid grid-cols-3 gap-2">
-		<li>
-			<div
+	<div class="grid grid-cols-3 gap-1">
+			<button
+				onclick={() => (visibleConsultationForm.value = true)}
+				type="button"
 				class="group flex cursor-pointer flex-col items-center justify-center rounded-xl bg-blue-50 p-2.5 hover:bg-blue-100"
 			>
 				<span
@@ -21,10 +28,10 @@
 					</svg>
 				</span>
 				<span class="text-xs font-normal text-blue-600"> Дизайнер </span>
-			</div>
-		</li>
-		<li>
-			<div
+			</button>
+			<button 
+				onclick={() => (visibleMeasuringForm.value = true)}
+				type="button"
 				class="group flex cursor-pointer flex-col items-center justify-center rounded-xl bg-purple-50 p-2.5 hover:bg-purple-100"
 			>
 				<span
@@ -48,10 +55,10 @@
 					</svg>
 				</span>
 				<span class="text-xs font-normal text-purple-600"> Замер </span>
-			</div>
-		</li>
-		<li>
-			<div
+			</button>
+			<button 
+				onclick={() => (visibleDesignForm.value = true)}
+				type="button"
 				class="group flex cursor-pointer flex-col items-center justify-center rounded-xl bg-teal-50 p-2.5 hover:bg-teal-100"
 			>
 				<span
@@ -69,7 +76,6 @@
 					</svg>
 				</span>
 				<span class="text-xs font-normal text-teal-600"> Проект </span>
-			</div>
-		</li>
-	</ul>
+			</button>
+	</div>
 </div>

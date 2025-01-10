@@ -18,7 +18,7 @@
 								<div class="bg-blue-700 px-4 py-6 sm:px-6">
 									<div class="flex items-center justify-between">
 										<h2 class="text-base font-semibold text-white" id="slide-over-title">
-											Новая консультация
+											Консультация дизайнера
 										</h2>
 										<div class="ml-3 flex h-7 items-center">
 											<button
