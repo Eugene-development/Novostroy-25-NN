@@ -9,10 +9,8 @@
 
 <figure
 	class={cn(
-		'relative w-64 cursor-pointer overflow-hidden rounded-2xl border p-4',
-		// light styles
+		'relative w-96 cursor-pointer overflow-hidden rounded-2xl border p-4',
 		'border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]'
-		// dark styles
 	)}
 >
 	<div class="flex flex-row items-center gap-2">

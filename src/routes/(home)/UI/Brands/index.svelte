@@ -6,19 +6,19 @@
 		{
 			name: 'BLUM',
 			username: 'Австрия',
-			body: 'Компания BLUM занимается производством премиальной фурнитуры.',
+			body: 'Компания BLUM занимается производством премиальной фурнитуры',
 			img: 'https://w7.pngwing.com/pngs/685/353/png-transparent-blum-hd-logo.png'
 		},
 		{
 			name: 'Hettich',
 			username: 'Германия',
-			body: 'Австрийская компания BLUM занимается производством премиальной фурнитуры.',
+			body: 'Бренд, специализирующийся на производстве мебельной фурнитуры',
 			img: 'https://w7.pngwing.com/pngs/685/353/png-transparent-blum-hd-logo.png'
 		},
 		{
 			name: 'FGV',
-			username: 'Фурнитура',
-			body: 'Австрийская компания BLUM занимается производством премиальной фурнитуры.',
+			username: 'Италия',
+			body: 'Компания, специализирующаяся на производстве систем выдвижения и петель',
 			img: 'https://w7.pngwing.com/pngs/685/353/png-transparent-blum-hd-logo.png'
 		},
 		{
@@ -115,7 +115,7 @@
 	  <div class="mt-16 flex justify-center">
 		<p class="relative rounded-full bg-gray-50 px-4 py-1.5 text-sm/6 text-gray-600 ring-1 ring-inset ring-gray-900/5">
 		  <span class="hidden md:inline">В нашей партнёрской сети уже более 240 компаний.</span>
-		  <a href="/" class="font-semibold text-sky-600"><span class="absolute inset-0" aria-hidden="true"></span> Присоединяйтесь <span aria-hidden="true">&rarr;</span></a>
+		  <a href="/partnership" class="font-semibold text-sky-600"><span class="absolute inset-0" aria-hidden="true"></span> Присоединяйтесь <span aria-hidden="true">&rarr;</span></a>
 		</p>
 	  </div>
 	</div>
