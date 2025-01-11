@@ -1,3 +1,8 @@
+<script>
+	import { visibleProjectForm } from '$lib/state/formProject.svelte';
+</script>
+
+
 <div class="bg-gray-900">
 	<div class="relative isolate overflow-hidden pt-14">
 		<img
@@ -40,7 +45,7 @@
 							согласует его с фабрикой, а также подберёт столешницу и аксессуары. Это поможет
 							оптимизировать ваши затраты и сэкономить время на поиске лучших решений.
 						</p>
-						<button
+						<button onclick={() => (visibleProjectForm.value = true)}
 							class="scale110 relative mx-4 mt-8 rounded-full border border-sky-500/20 bg-sky-300/10 px-8 py-2 text-center text-white backdrop-blur-sm sm:py-4"
 						>
 							<span class="mt-6 text-xs sm:text-lg"> Закажите бесплатный проект и просчёт → </span>
