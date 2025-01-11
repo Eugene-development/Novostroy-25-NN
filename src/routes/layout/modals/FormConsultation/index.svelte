@@ -1,4 +1,16 @@
-<script>
+<script lang="ts">
+	import { onClickOutside } from "runed";
+	let dialog = $state<HTMLDialogElement>()!;
+
+	const clickOutside = onClickOutside(
+		() => dialog,
+		() => {
+			() => (visibleConsultationForm.value = false);
+			clickOutside.stop();
+		},
+		{ immediate: false }
+	);
+
 	import { visibleConsultationForm } from '$lib/state/formConsultation.svelte';
 </script>
 
