@@ -11,6 +11,8 @@
 			hasBeenVisible = true;
 		}
 	});
+
+	const text = 'Наша компания предлагает создание стильных дизайн-проектов мебели с точным подбором бытовой техники, освещением, сантехники и столешниц для гармоничного интерьера и комфортного пространства.';
 </script>
 
 <div class="bg-white pb-16 pt-24 sm:pb-24 sm:pt-32 xl:pb-32">
@@ -32,7 +34,7 @@
 					/>
 				</div>
 			</div>
-			<div class="w-full max-w-2xl xl:max-w-none xl:flex-auto xl:px-16 xl:py-24">
+			<div class="w-full max-w-3xl xl:max-w-none xl:flex-auto xl:px-8 xl:py-24">
 				<figure class="relative isolate pt-6 sm:pt-12">
 					<svg
 						viewBox="0 0 162 128"
@@ -53,14 +55,14 @@
 						{#if hasBeenVisible}
 							<p>
 								<WordsFadeIn
-									words="Gravida quam mi erat tortor neque molestie. Auctor aliquet at porttitor a enim nunc suscipit tincidunt nunc. Et non lorem tortor posuere. Nunc eu scelerisque interdum eget tellus non nibh scelerisque bibendum."
+									words={text}
 								/>
 							</p>
 						{/if}
 					</blockquote>
 					<figcaption class="mt-8 text-base">
-						<div class="font-semibold text-white">Judith Black</div>
-						<div class="mt-1 text-gray-400">CEO of Workcation</div>
+						<!-- <div class="font-semibold text-gray-900">Judith Black</div> -->
+						<div class="mt-1 text-gray-400">Коллектив компании "Новострой"</div>
 					</figcaption>
 				</figure>
 			</div>
