@@ -4,8 +4,6 @@
 	import { Catalog, Rubric, Category, Product } from '../UI';
 
 	let { data } = $props();
-
-	$inspect(data);
 </script>
 
 <svelte:head>
