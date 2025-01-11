@@ -105,7 +105,7 @@
 				class="relative rounded-full bg-gray-50 px-4 py-1.5 text-sm/6 text-gray-600 ring-1 ring-inset ring-gray-900/5"
 			>
 				<span class="hidden md:inline">В нашей партнёрской сети уже более 240 компаний.</span>
-				<a href="/partnership" class="font-semibold text-sky-600"
+				<a href="/partnership" class="font-semibold text-gray-900"
 					><span class="absolute inset-0" aria-hidden="true"></span> Присоединяйтесь
 					<span aria-hidden="true">&rarr;</span></a
 				>
