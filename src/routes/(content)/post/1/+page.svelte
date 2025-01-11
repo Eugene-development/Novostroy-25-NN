@@ -1,3 +1,10 @@
+<svelte:head>
+	<title>Пост 1</title>
+	<meta name="description" content="Пост 1" />
+</svelte:head>
+
+
+
 <div class="bg-white px-6 py-32 lg:px-8">
 	<div class="mx-auto max-w-4xl text-base/7 text-gray-700">
 		<p class="text-base/7 font-semibold text-sky-600">Introducing</p>
