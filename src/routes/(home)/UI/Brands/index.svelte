@@ -6,74 +6,38 @@
 		{
 			name: 'BLUM',
 			username: 'Австрия',
-			body: 'Компания BLUM занимается производством премиальной фурнитуры',
-			img: 'https://w7.pngwing.com/pngs/685/353/png-transparent-blum-hd-logo.png'
+			body: 'Компания BLUM занимается производством премиальной мебельной фурнитуры',
+			img: 'https://avatars.mds.yandex.net/i?id=1d1d8921520f354e5488f26d3015ec591ed887c4-5031604-images-thumbs&n=13'
 		},
 		{
 			name: 'Hettich',
 			username: 'Германия',
-			body: 'Бренд, специализирующийся на производстве мебельной фурнитуры',
-			img: 'https://w7.pngwing.com/pngs/685/353/png-transparent-blum-hd-logo.png'
+			body: 'Бренд, специализирующийся на производстве мебельной фурнитуры высокого класса',
+			img: 'https://avatars.mds.yandex.net/i?id=3121a17134e862686c9e9adeba4322bbdd7745de-5231861-images-thumbs&n=13'
 		},
 		{
 			name: 'FGV',
 			username: 'Италия',
-			body: 'Компания, специализирующаяся на производстве систем выдвижения и петель',
-			img: 'https://w7.pngwing.com/pngs/685/353/png-transparent-blum-hd-logo.png'
+			body: 'Компания, специализирующаяся на производстве систем выдвижения и мебельных петель',
+			img: 'https://avatars.mds.yandex.net/i?id=d8338ae7f892f1b8478da83c4e8d535a_sr-7106899-images-thumbs&n=13'
 		},
 		{
 			name: 'Egger',
-			username: 'Фурнитура',
-			body: 'Австрийская компания BLUM занимается производством премиальной фурнитуры.',
-			img: 'https://w7.pngwing.com/pngs/685/353/png-transparent-blum-hd-logo.png'
+			username: 'Австрия',
+			body: 'Производство плитных материалов различной толщины для каркасов и мебельных фасадов',
+			img: 'https://logos-world.net/wp-content/uploads/2022/07/Egger-Logo.png'
 		},
 		{
-			name: 'ЗОВ',
-			username: 'Фурнитура',
-			body: 'Австрийская компания BLUM занимается производством премиальной фурнитуры.',
-			img: 'https://w7.pngwing.com/pngs/685/353/png-transparent-blum-hd-logo.png'
+			name: 'Renolit',
+			username: 'Германия',
+			body: 'Высококачественные полимерные пленки и термопластик для фасадов различного цвета',
+			img: 'https://www.renolit.com/typo3conf/ext/renolit/Resources/Public/Svg/RENOLIT_Rely_on_it.svg'
 		},
 		{
-			name: 'Мария',
-			username: 'Фурнитура',
-			body: 'Австрийская компания BLUM занимается производством премиальной фурнитуры.',
-			img: 'https://w7.pngwing.com/pngs/685/353/png-transparent-blum-hd-logo.png'
-		},
-		{
-			name: 'Стильные кухни',
-			username: 'Фурнитура',
-			body: 'Австрийская компания BLUM занимается производством премиальной фурнитуры.',
-			img: 'https://w7.pngwing.com/pngs/685/353/png-transparent-blum-hd-logo.png'
-		},
-		{
-			name: 'Нижегородская кухня',
-			username: 'Фурнитура',
-			body: 'Австрийская компания BLUM занимается производством премиальной фурнитуры.',
-			img: 'https://w7.pngwing.com/pngs/685/353/png-transparent-blum-hd-logo.png'
-		},
-		{
-			name: 'BLUM',
-			username: 'Фурнитура',
-			body: 'Австрийская компания BLUM занимается производством премиальной фурнитуры.',
-			img: 'https://w7.pngwing.com/pngs/685/353/png-transparent-blum-hd-logo.png'
-		},
-		{
-			name: 'BLUM',
-			username: 'Фурнитура',
-			body: 'Австрийская компания BLUM занимается производством премиальной фурнитуры.',
-			img: 'https://w7.pngwing.com/pngs/685/353/png-transparent-blum-hd-logo.png'
-		},
-		{
-			name: 'BLUM',
-			username: 'Фурнитура',
-			body: 'Австрийская компания BLUM занимается производством премиальной фурнитуры.',
-			img: 'https://w7.pngwing.com/pngs/685/353/png-transparent-blum-hd-logo.png'
-		},
-		{
-			name: 'BLUM',
-			username: 'Фурнитура',
-			body: 'Австрийская компания BLUM занимается производством премиальной фурнитуры.',
-			img: 'https://w7.pngwing.com/pngs/685/353/png-transparent-blum-hd-logo.png'
+			name: 'GTV',
+			username: 'Польша',
+			body: 'Доступная и качественная мебельная фурнитура и освещение из Польши с доставкой по всему миру',
+			img: 'https://avatars.mds.yandex.net/i?id=a03767dd6a932bb1ef750ad2ee69b774_l-10136504-images-thumbs&n=13'
 		}
 	];
 
@@ -81,9 +45,13 @@
 	let secondRow = reviews.slice(reviews.length / 2);
 </script>
 
+
+  
+
 <div
-	class="bg-background relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-lg border py-20 md:shadow-xl"
+	class="bg-background relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-lg py-20 md:shadow-xl"
 >
+
 	<Marquee pauseOnHover class="[--duration:100s]">
 		{#each firstRow as item}
 			<Reviewcard {...item} />

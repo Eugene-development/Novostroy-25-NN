@@ -9,12 +9,12 @@
 
 <figure
 	class={cn(
-		'relative w-96 cursor-pointer overflow-hidden rounded-2xl border p-4',
+		'relative w-80 overflow-hidden rounded-2xl border p-4',
 		'border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]'
 	)}
 >
 	<div class="flex flex-row items-center gap-2">
-		<img class="rounded-full" width="32" height="32" alt="" src={img} />
+		<img class="h-12 mr-2" alt="" src={img} />
 		<div class="flex flex-col">
 			<!-- svelte-ignore a11y-structure -->
 			<figcaption class="text-sm font-medium">
