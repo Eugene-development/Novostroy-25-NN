@@ -18,7 +18,7 @@
 								<div class="bg-blue-700 px-4 py-6 sm:px-6">
 									<div class="flex items-center justify-between">
 										<h2 class="text-base font-semibold text-white" id="slide-over-title">
-											Новый проект
+											Создание и просчёт проекта
 										</h2>
 										<div class="ml-3 flex h-7 items-center">
 											<button
@@ -48,7 +48,7 @@
 									</div>
 									<div class="mt-1">
 										<p class="text-sm text-blue-300">
-											Get started by filling in the information below to create your new project.
+											Составим стартовый проект со всеми деталями и просчитаем стоимость
 										</p>
 									</div>
 								</div>

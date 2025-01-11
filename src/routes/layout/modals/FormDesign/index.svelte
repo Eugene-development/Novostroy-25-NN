@@ -48,7 +48,8 @@
 									</div>
 									<div class="mt-1">
 										<p class="text-sm text-blue-300">
-											Get started by filling in the information below to create your new project.
+											Подготовим для вас дизайн интерьера, который будет соответствовать вашим
+											пожеланиям
 										</p>
 									</div>
 								</div>

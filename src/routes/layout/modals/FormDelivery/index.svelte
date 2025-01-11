@@ -48,7 +48,7 @@
 									</div>
 									<div class="mt-1">
 										<p class="text-sm text-blue-300">
-											Get started by filling in the information below to create your new project.
+											Организуем и проконтролируем доставку вашего заказа в нужный срок
 										</p>
 									</div>
 								</div>

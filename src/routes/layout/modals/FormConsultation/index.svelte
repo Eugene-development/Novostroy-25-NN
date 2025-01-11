@@ -48,7 +48,7 @@
 									</div>
 									<div class="mt-1">
 										<p class="text-sm text-blue-300">
-											Get started by filling in the information below to create your new project.
+											Дадим исчерпывающую консультацию по вашему будущему проекту
 										</p>
 									</div>
 								</div>
