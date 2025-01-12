@@ -3,8 +3,8 @@
 </script>
 
 <svelte:head>
-	<title>Блог</title>
-	<meta name="description" content="Блог" />
+	<title>Новострой | Блог</title>
+	<meta name="description" content="Блог компании Новострой." />
 </svelte:head>
 
 <Main />
