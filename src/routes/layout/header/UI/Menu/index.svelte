@@ -7,7 +7,7 @@
 	let visibleServicesMenu = $state(false);
 </script>
 
-<header class="bg-white">
+<header class="bg-gray-50/50">
 	<nav class="max-w-9xl mx-auto flex items-center justify-between p-3 lg:px-8" aria-label="Global">
 		<div class="flex items-center lg:flex-1">
 			<a href="/" class="-m-1.5 p-1.5">
