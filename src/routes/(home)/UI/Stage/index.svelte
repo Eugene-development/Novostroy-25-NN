@@ -45,7 +45,7 @@
 	];
 </script>
 
-<div class="relative isolate overflow-hidden bg-gray-950 py-24 sm:py-32">
+<div class="relative isolate overflow-hidden bg-gray-50 py-24 sm:py-32">
 	<div
 		class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
 	>
@@ -70,8 +70,8 @@
 	</div>
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto max-w-3xl lg:mx-0">
-			<h2 class="text-4xl font-bold text-gray-50 md:text-7xl">Наша работа</h2>
-			<p class="mx-auto mt-6 text-sm leading-7 text-gray-300 sm:text-lg">
+			<h2 class="text-4xl font-bold text-gray-950 md:text-7xl">Наша работа</h2>
+			<p class="mx-auto mt-6 text-sm leading-7 text-gray-950 sm:text-lg">
 				Мы будем вас сопровождать на всех этапах проектирования и изготовления мебели. От
 				консультации до дня сборки проекта.
 			</p>
@@ -99,10 +99,10 @@
 								</svg>
 
 								<div class="leading-7">
-									<h3 class="text-base font-semibold text-white">
+									<h3 class="text-base font-semibold text-gray-900">
 										{card.name}
 									</h3>
-									<p class="mt-2 text-pretty text-sm text-gray-300">
+									<p class="mt-2 text-pretty text-sm text-gray-600">
 										{card.description}
 									</p>
 								</div>
