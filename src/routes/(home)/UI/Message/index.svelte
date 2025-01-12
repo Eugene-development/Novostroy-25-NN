@@ -30,7 +30,7 @@
 					<img
 						src="https://storage.yandexcloud.net/brand-logo/novostroy/logomain.png"
 						alt="логотип"
-						class="inset-0 size-full rounded-2xl  object-contain shadow-2xl"
+						class="inset-0 size-full rounded-2xl object-contain shadow-2xl"
 					/>
 				</div>
 			</div>
@@ -49,19 +49,17 @@
 						<use href="#b56e9dab-6ccb-4d32-ad02-6b4bb5d9bbeb" x="86" />
 					</svg>
 					<blockquote
-						bind:this={targetNode}
 						class="text-xl/8 font-semibold text-gray-800 sm:text-2xl/9"
 					>
-						{#if hasBeenVisible}
-							<p>
+						<p class="h-48" bind:this={targetNode}>
+							{#if hasBeenVisible}
 								<WordsFadeIn
 									words={text}
 								/>
-							</p>
-						{/if}
+							{/if}
+						</p>
 					</blockquote>
 					<figcaption class="mt-8 text-base">
-						<!-- <div class="font-semibold text-gray-900">Judith Black</div> -->
 						<div class="mt-1 text-gray-400">Коллектив компании "Новострой"</div>
 					</figcaption>
 				</figure>
