@@ -9,7 +9,7 @@
 			alt=""
 			class="absolute inset-0 -z-10 size-full animate-fade object-cover animate-delay-500 animate-duration-[3000ms]"
 		/>
-		<div class="absolute inset-0 -z-10 bg-black/60"></div>
+		<div class="absolute inset-0 -z-10 bg-black/40"></div>
 		<div class="mx-auto max-w-7xl px-6 lg:px-8">
 			<div class="mx-auto max-w-6xl py-32 sm:py-48 lg:py-56">
 				<div class="animate-duration-5000 animate-fade-up animate-delay-200 animate-ease-in-out">
