@@ -3,12 +3,12 @@
 </script>
 
 
-<div class="bg-gray-900">
+<div class="bg-gray-500 animate-fade animate-duration-[3000ms]">
 	<div class="relative isolate overflow-hidden pt-14">
 		<img
 			src="https://storage.yandexcloud.net/mine2024/novostroy/site/slider/cam-1-1600x1472.jpg"
 			alt=""
-			class="absolute inset-0 -z-10 size-full object-cover"
+			class="absolute inset-0 -z-10 size-full object-cover animate-fade animate-duration-[3000ms] animate-delay-500"
 		/>
 		<div class="absolute inset-0 -z-10 bg-black/60"></div>
 		<div class="mx-auto max-w-7xl px-6 lg:px-8">
