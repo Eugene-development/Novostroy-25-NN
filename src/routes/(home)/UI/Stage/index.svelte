@@ -20,7 +20,7 @@
 		{
 			name: 'Замер',
 			description:
-				'Осуществим проектный замер помещения с обозначением углов, коммуникаций и розеток'
+				'Организуем и осуществим проектный замер помещения с обозначением углов, коммуникаций и розеток'
 		},
 		{
 			name: 'Проект',
@@ -40,7 +40,7 @@
 		{
 			name: 'Сборка',
 			description:
-				'Профессиональные сборщики, состоящие в штате компании, качественно выполнят всю работу'
+				'Профессиональные сборщики, прошедшие специализированное обучение, качественно выполнят работу'
 		}
 	];
 
@@ -74,9 +74,7 @@
 		<div class="mx-auto max-w-3xl lg:mx-0">
 			<h2 class="text-4xl font-bold text-gray-950 md:text-7xl">Наша работа</h2>
 			<p class="mx-auto mt-6 text-sm leading-7 text-gray-950 sm:text-lg">
-				Мы будем вас сопровождать на всех этапах проектирования и изготовления мебели. От
-				консультации до дня сборки проекта.
-			</p>
+				Мы поддержим вас на всех этапах работы над мебельным проектом: от первой консультации до дня финальной сборки. Наша задача — сделать процесс максимально комфортным и результат безупречным.			</p>
 		</div>
 		<div bind:this={targetNode}>
 			{#if hasBeenVisible}
@@ -88,7 +86,7 @@
 							class="animate-fade-up animate-duration-1000 animate-ease-in-out"
 							style="animation-delay: {i * 0.2}s"
 						>
-							<div class="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
+							<div class="flex gap-x-3 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									fill="none"
