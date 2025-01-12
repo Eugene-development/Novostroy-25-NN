@@ -12,7 +12,8 @@
 		}
 	});
 
-	const text = 'Наша компания предлагает создание стильных дизайн-проектов мебели с точным подбором бытовой техники, освещением, сантехники и столешниц для гармоничного интерьера и комфортного пространства.';
+	const text =
+		'Наша компания предлагает создание стильных дизайн-проектов мебели с точным подбором бытовой техники, освещением, сантехники и столешниц для гармоничного интерьера и комфортного пространства.';
 </script>
 
 <div class="bg-white pb-16 pt-24 sm:pb-24 sm:pt-32 xl:pb-32">
@@ -48,14 +49,10 @@
 						/>
 						<use href="#b56e9dab-6ccb-4d32-ad02-6b4bb5d9bbeb" x="86" />
 					</svg>
-					<blockquote
-						class="text-xl/8 font-semibold text-gray-800 sm:text-2xl/9"
-					>
+					<blockquote class="text-xl/8 font-semibold text-gray-800 sm:text-2xl/9">
 						<p class="h-48" bind:this={targetNode}>
 							{#if hasBeenVisible}
-								<WordsFadeIn
-									words={text}
-								/>
+								<WordsFadeIn words={text} />
 							{/if}
 						</p>
 					</blockquote>

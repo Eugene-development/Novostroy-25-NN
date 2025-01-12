@@ -3,8 +3,6 @@
 	<meta name="description" content="Пост 1" />
 </svelte:head>
 
-
-
 <div class="bg-white px-6 py-32 lg:px-8">
 	<div class="mx-auto max-w-4xl text-base/7 text-gray-700">
 		<p class="text-base/7 font-semibold text-sky-600">Introducing</p>
@@ -156,7 +154,7 @@
 </div>
 
 <div
-	class="bg-cyan-500 p-8 transition-colors intersect:animate-fade-up intersect:bg-indigo-600 intersect:animate-delay-700 intersect:animate-duration-1000 intersect:animate-ease-in-out"
+	class="intersect:animate-fade-up intersect:bg-indigo-600 intersect:animate-delay-700 intersect:animate-duration-1000 intersect:animate-ease-in-out bg-cyan-500 p-8 transition-colors"
 >
 	77777
 </div>

@@ -110,10 +110,13 @@
 				{/each}
 			</div>
 		{:else}
-		<div class="bg-white px-6 py-24 sm:py-32 lg:px-8">
+			<div class="bg-white px-6 py-24 sm:py-32 lg:px-8">
 				<div class="mx-auto max-w-2xl text-center">
 					<h2 class="text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">Избранное</h2>
-					<p class="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">К сожалению, у вас пока нет ни одного избранного объекта. Нажмите на сердечко, чтобы добавить его в избранное.</p>
+					<p class="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
+						К сожалению, у вас пока нет ни одного избранного объекта. Нажмите на сердечко, чтобы
+						добавить его в избранное.
+					</p>
 				</div>
 			</div>
 		{/if}

@@ -43,11 +43,9 @@
 				'Профессиональные сборщики, прошедшие специализированное обучение, качественно выполнят работу'
 		}
 	];
-
-
 </script>
 
-<div class="relative isolate overflow-hidden  py-24 sm:py-32">
+<div class="relative isolate overflow-hidden py-24 sm:py-32">
 	<div
 		class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
 	>
@@ -74,12 +72,15 @@
 		<div class="mx-auto max-w-3xl lg:mx-0">
 			<h2 class="text-4xl font-bold text-gray-950 md:text-7xl">Наша работа</h2>
 			<p class="mx-auto mt-6 text-sm leading-7 text-gray-950 sm:text-lg">
-				Мы поддержим вас на всех этапах работы над мебельным проектом: от первой консультации до дня финальной сборки. Наша задача — сделать процесс максимально комфортным и результат безупречным.			</p>
+				Мы поддержим вас на всех этапах работы над мебельным проектом: от первой консультации до дня
+				финальной сборки. Наша задача — сделать процесс максимально комфортным и результат
+				безупречным.
+			</p>
 		</div>
 		<div bind:this={targetNode}>
 			{#if hasBeenVisible}
 				<div
-					class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8 border-t border-gray-500/10 pt-10"
+					class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 border-t border-gray-500/10 pt-10 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"
 				>
 					{#each cards as card, i}
 						<div
@@ -112,7 +113,5 @@
 				</div>
 			{/if}
 		</div>
-	
 	</div>
-
 </div>

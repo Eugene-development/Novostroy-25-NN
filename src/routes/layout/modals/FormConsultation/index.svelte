@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { onClickOutside } from "runed";
+	import { onClickOutside } from 'runed';
 	let dialog = $state<HTMLDialogElement>()!;
 
 	const clickOutside = onClickOutside(
@@ -17,10 +17,10 @@
 {#if visibleConsultationForm.value}
 	<div class="relative z-50" aria-labelledby="slide-over-title" role="dialog" aria-modal="true">
 		<!-- Background backdrop, show/hide based on slide-over state. -->
-		<div class="fixed "></div>
+		<div class="fixed"></div>
 
-		<div class="fixed  overflow-hidden">
-			<div class="absolute  overflow-hidden">
+		<div class="fixed overflow-hidden">
+			<div class="absolute overflow-hidden">
 				<div class="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10 sm:pl-16">
 					<div
 						class="pointer-events-auto w-screen max-w-md animate-fade-left animate-duration-100 animate-ease-linear"

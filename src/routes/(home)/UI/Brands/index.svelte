@@ -45,13 +45,9 @@
 	let secondRow = reviews.slice(reviews.length / 2);
 </script>
 
-
-  
-
 <div
 	class="bg-background relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-lg py-20 md:shadow-xl"
 >
-
 	<Marquee pauseOnHover class="[--duration:100s]">
 		{#each firstRow as item}
 			<Reviewcard {...item} />
@@ -75,47 +71,42 @@
 		<div
 			class="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-5"
 		>
-		<a href="https://zovofficial.com/" target="_blank">
-			<img
-			class="col-span-2 max-h-14 w-full object-contain lg:col-span-1"
-			src="https://zovofficial.com/image/catalog/logo-rus-x2.png"
-			alt="ЗОВ"
-		/>
-	</a>
-	
-	<a href="https://www.stilkuhni.ru/" target="_blank">
-		<img
-		class="col-span-2 max-h-14 w-full object-contain lg:col-span-1"
-		src="https://avatars.mds.yandex.net/i?id=ada48033e9cfa95f38d69fc9ae7b5bcc25b72f13-5037427-images-thumbs&n=13"
-		alt="Стильные кухни"			/>
-	</a>
-	<a href="https://www.marya.ru/" target="_blank">
-		<img
-		class="col-span-2 max-h-24 w-full object-contain lg:col-span-1"
-		src="https://avatars.mds.yandex.net/i?id=b761d395235060d89bd5d574233ee6bca202edcb-2037526-images-thumbs&n=13"
-		alt="Мария"
-	/>
-	</a>
-	<a href="https://www.mrdoors.ru/" target="_blank">
-		<img
-		class="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-		src="https://avatars.mds.yandex.net/i?id=cf4673eacc853d6f062852c16c8f10af8dd28ace-7909006-images-thumbs&n=13"
-		alt="Мистер Дорс"
-	/>
-	</a>
-	<a href="https://www.kuxni.net/" target="_blank">
-		<img
-		class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-		src="https://avatars.mds.yandex.net/i?id=a74ec62d72576744e414d4b9ac3b0455aa296a51-4477047-images-thumbs&n=13"
-		alt="Кухонный двор"
-	/>
-	</a>
+			<a href="https://zovofficial.com/" target="_blank">
+				<img
+					class="col-span-2 max-h-14 w-full object-contain lg:col-span-1"
+					src="https://zovofficial.com/image/catalog/logo-rus-x2.png"
+					alt="ЗОВ"
+				/>
+			</a>
 
-			
-			
-			
-			
-			
+			<a href="https://www.stilkuhni.ru/" target="_blank">
+				<img
+					class="col-span-2 max-h-14 w-full object-contain lg:col-span-1"
+					src="https://avatars.mds.yandex.net/i?id=ada48033e9cfa95f38d69fc9ae7b5bcc25b72f13-5037427-images-thumbs&n=13"
+					alt="Стильные кухни"
+				/>
+			</a>
+			<a href="https://www.marya.ru/" target="_blank">
+				<img
+					class="col-span-2 max-h-24 w-full object-contain lg:col-span-1"
+					src="https://avatars.mds.yandex.net/i?id=b761d395235060d89bd5d574233ee6bca202edcb-2037526-images-thumbs&n=13"
+					alt="Мария"
+				/>
+			</a>
+			<a href="https://www.mrdoors.ru/" target="_blank">
+				<img
+					class="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
+					src="https://avatars.mds.yandex.net/i?id=cf4673eacc853d6f062852c16c8f10af8dd28ace-7909006-images-thumbs&n=13"
+					alt="Мистер Дорс"
+				/>
+			</a>
+			<a href="https://www.kuxni.net/" target="_blank">
+				<img
+					class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+					src="https://avatars.mds.yandex.net/i?id=a74ec62d72576744e414d4b9ac3b0455aa296a51-4477047-images-thumbs&n=13"
+					alt="Кухонный двор"
+				/>
+			</a>
 		</div>
 		<div class="mt-16 flex justify-center">
 			<p

@@ -18,7 +18,11 @@
 		<meta name="description" content={data.req.category.metaDescription.value} />
 	{:else if data.isProduct}
 		<title>Новострой | {data.req.product.value}</title>
-		<meta name="description" content="{data.req.product.value} подбирается из категории {data.req.product.parentable.value} с учётом ваших пожеланий, чтобы создать уют и комфорт в соответствии с вашим дизайн-проектом."/>
+		<meta
+			name="description"
+			content="{data.req.product.value} подбирается из категории {data.req.product.parentable
+				.value} с учётом ваших пожеланий, чтобы создать уют и комфорт в соответствии с вашим дизайн-проектом."
+		/>
 	{/if}
 </svelte:head>
 
