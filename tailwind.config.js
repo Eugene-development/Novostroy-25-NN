@@ -61,7 +61,6 @@ export default {
 		typography,
 		forms,
 		containerQueries,
-		require('tailwindcss-animated'),
-		require('tailwindcss-intersect')
+		require('tailwindcss-animated')
 	]
 };
