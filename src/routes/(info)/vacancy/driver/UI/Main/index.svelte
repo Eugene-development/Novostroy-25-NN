@@ -11,18 +11,12 @@
 					</h1>
 					<div class="max-w-xl">
 						<p class="mt-6">
-							Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
-							semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus
-							viverra tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat.
-							Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id.
+							Приглашаем водителей-экспедиторов для транспортировки мебели по городу и области. Мы доставляем заказы со склада до дома или офиса клиента, обеспечивая бережное отношение к грузам. Наш автопарк укомплектован современными автомобилями, а команда славится слаженностью.
 						</p>
 					</div>
 					<div class="max-w-xl">
 						<p class="mt-6">
-							Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
-							semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus
-							viverra tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat.
-							Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id.
+							В обязанности входит погрузка/разгрузка (с помощниками), своевременная доставка, оформление документов и контроль сохранности товара. Если вы уверенно управляете грузовым авто и готовы к ответственности — присылайте нам свое резюме на почту компании info@novostroy.org.
 						</p>
 					</div>
 				</div>

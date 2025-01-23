@@ -11,18 +11,12 @@
 					</h1>
 					<div class="max-w-xl">
 						<p class="mt-6">
-							Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
-							semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus
-							viverra tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat.
-							Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id.
+							Наша компания ищет специалиста для продвижения бренда "Новострой". Ваша цель — повысить узнаваемость компании через digital-каналы, создать яркие кампании и увеличить лояльность аудитории. Работать можно удаленно или в нашем офисе с креативной командой.
 						</p>
 					</div>
 					<div class="max-w-xl">
 						<p class="mt-6">
-							Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
-							semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus
-							viverra tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat.
-							Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id.
+							Вы будете разрабатывать стратегии, анализировать рынок, создавать рекламу и организовывать коллаборации. Мы поддерживаем инициативы и обучаем новым инструментам. Отправьте резюме и кейсы на нашу почту info@novostroy.org — расскажем подробности!
 						</p>
 					</div>
 				</div>
