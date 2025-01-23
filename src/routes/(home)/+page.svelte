@@ -14,6 +14,7 @@
 <Equipment />
 <!-- <Offer /> -->
 <Stage />
-<Incentives />
 <Message />
+
+<Incentives />
 <Brands />

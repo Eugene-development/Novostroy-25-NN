@@ -57,7 +57,7 @@
 						</p>
 					</blockquote>
 					<figcaption class="mt-8 text-base">
-						<div class="mt-1 text-gray-400">Коллектив компании "Новострой"</div>
+						<div class="mt-1 text-sky-400">Коллектив компании "Новострой"</div>
 					</figcaption>
 				</figure>
 			</div>

@@ -14,7 +14,7 @@
 	)}
 >
 	<div class="flex flex-row items-center gap-2">
-		<img class="mr-2 h-12" alt="" src={img} />
+		<img class="mr-2 h-12" alt={name} src={img} />
 		<div class="flex flex-col">
 			<!-- svelte-ignore a11y-structure -->
 			<figcaption class="text-sm font-medium">
