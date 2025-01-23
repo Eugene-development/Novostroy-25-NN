@@ -1,6 +1,6 @@
 <div class="bg-gray-50/50 py-24 sm:py-32">
 	<div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
-		<h2 class="text-center text-base/7 font-semibold text-sky-600">Комплектация</h2>
+		<h2 class="text-center text-base/7 font-semibold text-red-600">Комплектация</h2>
 		<p
 			class="mx-auto mt-2 max-w-3xl text-balance text-center text-4xl font-semibold tracking-tight text-gray-950 sm:text-5xl"
 		>
