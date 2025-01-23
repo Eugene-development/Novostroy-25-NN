@@ -16,7 +16,7 @@
 		'Наша компания предлагает создание стильных дизайн-проектов мебели с точным подбором бытовой техники, освещением, сантехники и столешниц для гармоничного интерьера и комфортного пространства.';
 </script>
 
-<div class="bg-white pb-16 pt-24 sm:pb-24 sm:pt-32 xl:pb-32">
+<div class="bg-white py-12 sm:py-24 xl:py-36">
 	<div class="bg-gray-50/50 pb-20 sm:pb-24 xl:pb-0">
 		<div
 			class="mx-auto flex max-w-7xl flex-col items-center gap-x-8 gap-y-10 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch"
