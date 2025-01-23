@@ -13,18 +13,12 @@
 					</h1>
 					<div class="max-w-xl">
 						<p class="mt-6">
-							Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
-							semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus
-							viverra tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat.
-							Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id.
+							Компании партнёры приглашают опытных сборщиков для работы с корпусной мебелью. Мы помогаем клиентам воплощать их интерьерные мечты, обеспечивая качественную и профессиональную сборку на дому и в офисах. Наш приоритет — аккуратность и ответственность на каждом этапе.
 						</p>
 					</div>
 					<div class="max-w-xl">
 						<p class="mt-6">
-							Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
-							semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus
-							viverra tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat.
-							Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id.
+							Ваша работа будет включать сборку по схемам, проверку комплектующих и выполнение дополнительных работ. Мы гарантируем постоянную работу с качественной мебелью и своевременную оплату. Оставьте информацию о себе и мы обсудим условия работы!
 						</p>
 					</div>
 				</div>
