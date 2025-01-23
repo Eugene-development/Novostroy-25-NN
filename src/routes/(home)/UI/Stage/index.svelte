@@ -47,9 +47,9 @@
 
 <div class="relative isolate overflow-hidden py-24 sm:py-32 bg-gray-800">
 	<img
-			src="https://storage.yandexcloud.net/mine2024/novostroy/site/slider/cam-1-1600x1472.jpg"
+			src="https://zovofficial.com/image/cache/catalog/products/kuhni/2022/pemont-22/cam-1-1087x890.jpg"
 			alt=""
-			class="absolute inset-0 -z-10 size-full animate-fade object-cover animate-delay-500 animate-duration-[3000ms]"
+			class="absolute inset-0 -z-10 size-full animate-fade object-cover "
 		/>
 		<div class="absolute inset-0 -z-10 bg-black/50"></div>
 	
@@ -83,7 +83,7 @@
 							class="animate-fade-up animate-duration-1000 animate-ease-in-out"
 							style="animation-delay: {i * 0.2}s"
 						>
-							<div class="flex gap-x-3 rounded-xl bg-gray-300/10 p-6 ring-1 ring-inset ring-white/10">
+							<div class="flex gap-x-3 rounded-xl bg-gray-950/30 p-6 ring-1 ring-inset ring-white/10">
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									fill="none"
