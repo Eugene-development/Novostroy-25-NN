@@ -11,18 +11,12 @@
 					</h1>
 					<div class="max-w-xl">
 						<p class="mt-6">
-							Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
-							semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus
-							viverra tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat.
-							Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id.
+							Студии ведущих мебельных компаний ищут творческого мебельного дизайнера для реализации уникальных проектов. Вы будете создавать авторскую мебель, сочетающую функциональность и эстетику. Ваши идеи станут частью интерьеров домов и офисов наших клиентов.
 						</p>
 					</div>
 					<div class="max-w-xl">
 						<p class="mt-6">
-							Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
-							semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus
-							viverra tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat.
-							Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id.
+							В задачи войдет разработка концепций, создание 3D-моделей, а также взаимодействие с клиентами и производственной командой. Будет плюсом креативный подход, внимание к деталям и умение работать в динамичной среде. Присылайте информацию о себе и резюме на info@novostroy.org с пометкой «Работа Дизайнером», чтобы присоединиться к нашей команде.
 						</p>
 					</div>
 				</div>
