@@ -10,7 +10,7 @@
 <figure
 	class={cn(
 		'relative w-80 overflow-hidden rounded-2xl border p-4',
-		'border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]'
+		'border-gray-950/[.1] '
 	)}
 >
 	<div class="flex flex-row items-center gap-2">
