@@ -110,7 +110,7 @@
 		</div>
 		<div class="mt-16 flex justify-center">
 			<p
-				class="relative rounded-full bg-gray-50 px-4 py-1.5 text-sm/6 text-gray-600 ring-1 ring-inset ring-gray-900/5"
+				class="relative rounded-full bg-gray-50/50 px-4 py-1.5 text-sm/6 text-gray-600 ring-1 ring-inset ring-gray-900/5"
 			>
 				<span class="hidden md:inline">В нашей партнёрской сети уже более 240 компаний.</span>
 				<a href="/partnership" class="font-semibold text-gray-900"
