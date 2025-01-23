@@ -6,10 +6,10 @@
 	<div class="relative isolate overflow-hidden pt-14">
 		<img
 			src="https://storage.yandexcloud.net/mine2024/novostroy/site/slider/cam-1-1600x1472.jpg"
-			alt=""
+			alt="Кухонный гарнитур"
 			class="absolute inset-0 -z-10 size-full animate-fade object-cover animate-delay-500 animate-duration-[3000ms]"
 		/>
-		<div class="absolute inset-0 -z-10 bg-black/40"></div>
+		<div class="absolute inset-0 -z-10 bg-black/50"></div>
 		<div class="mx-auto max-w-7xl px-6 lg:px-8">
 			<div class="mx-auto max-w-6xl py-32 sm:py-48 lg:py-56">
 				<div class="animate-duration-5000 animate-fade-up animate-delay-200 animate-ease-in-out">
@@ -26,19 +26,19 @@
 						</div>
 
 						<h2
-							class="max-w-2xl px-3 text-center text-sm font-extralight tracking-wide text-gray-100 md:hidden xl:max-w-4xl xl:text-lg"
+							class="max-w-2xl px-3 text-center text-sm font-extralight tracking-wide text-white md:hidden xl:max-w-4xl xl:text-lg"
 						>
 							Бесплатная консультация профессионального дизайнера, замер помещения и дизайн-проект.
 						</h2>
 
 						<h2
-							class="hidden max-w-2xl px-8 text-center text-sm font-extralight tracking-wide text-gray-100 md:block xl:max-w-4xl xl:text-lg"
+							class="hidden max-w-2xl px-8 text-center text-sm font-extralight tracking-wide text-white md:block xl:max-w-4xl xl:text-2xl"
 						>
 							Бесплатная консультация, замер и дизайн-проект.
 						</h2>
 
 						<p
-							class="mt-4 hidden max-w-2xl px-1 text-center font-extralight tracking-wide text-gray-100 md:block xl:max-w-4xl xl:text-lg"
+							class="mt-4 hidden max-w-2xl px-1 text-center text-white font-extralight tracking-wide md:block xl:max-w-4xl xl:text-lg"
 						>
 							Наш профессиональный дизайнер создаст для вас проект мебели по вашим размерам,
 							согласует его с фабрикой, а также подберёт столешницу и аксессуары. Это поможет
@@ -46,7 +46,7 @@
 						</p>
 						<button
 							onclick={() => (visibleProjectForm.value = true)}
-							class="scale110 relative mx-4 mt-8 rounded-full border border-sky-500/20 bg-sky-300/10 px-8 py-2 text-center text-white backdrop-blur-sm sm:py-4"
+							class="scale110 relative mx-4 mt-8 rounded-full border border-sky-500/20 bg-sky-400/10 px-8 py-2 text-center text-white backdrop-blur-sm sm:py-4"
 						>
 							<span class="mt-6 text-xs sm:text-lg"> Закажите бесплатный проект и просчёт → </span>
 							<div
