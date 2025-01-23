@@ -3,7 +3,7 @@
 	import FavoriteButton from './FavoriteButton/index.svelte';
 </script>
 
-<div class="sticky top-0 z-40 hidden items-center bg-gray-900 px-4 sm:px-3.5 md:flex">
+<div class="sticky top-0 z-40 hidden items-center bg-gray-950 px-4 sm:px-3.5 md:flex">
 	<div class="hidden flex-1 justify-start lg:flex">
 		<div class="flex items-center justify-center space-x-3.5 tracking-wide">
 			<a
