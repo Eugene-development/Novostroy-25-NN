@@ -18,7 +18,7 @@
 								Мебель для дома
 							</p>
 							<p class="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-								Lorem ipsum, dolor sit amet consectetur adipisicing elit maiores impedit.
+								Изысканная мебель на заказ высокого качества с учетом ваших пожеланий и особенностей помещения.
 							</p>
 						</div>
 						<img
@@ -44,7 +44,7 @@
 								Столешницы
 							</p>
 							<p class="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-								Lorem ipsum, dolor sit amet consectetur adipisicing elit maiores impedit.
+								Широкий выбор дизайнов для вашей кухни. Качественные столешницы от ведущих производителей.
 							</p>
 						</div>
 						<div class="relative m-12 w-full grow">
@@ -71,7 +71,7 @@
 								Сантехника
 							</p>
 							<p class="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-								Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi.
+								Качественная сантехника для ванной и кухни от ведущих мировых и Российских производителей с гарантией.
 							</p>
 						</div>
 						<div class="relative m-12 w-full grow">
@@ -100,7 +100,7 @@
 								Бытовая техника
 							</p>
 							<p class="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-								Lorem ipsum, dolor sit amet consectetur adipisicing elit maiores impedit.
+								Встраиваемая и отдельностоящая бытовая техника от проверенных производителей с официальной гарантией.
 							</p>
 						</div>
 						<img
