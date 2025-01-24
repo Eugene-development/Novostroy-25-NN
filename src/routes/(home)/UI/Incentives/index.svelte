@@ -6,21 +6,21 @@
 		<div
 			class="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8"
 		>
-			<div class="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
-				<h2 class="text-base/7 font-semibold text-red-600">Экономия</h2>
+			<div class="lg:col-end-1 lg:w-full lg:max-w-xl lg:pb-8">
+				<h2 class="text-base/7 font-semibold text-sky-600">Экономия</h2>
 
-				<h2 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-7xl">
-					Это выгодно!
+				<h2 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+					С нами выгодно!
 				</h2>
-				<p class="mt-6 text-base/7 text-gray-600">
+				<p class="mt-6 text-lg/8 text-gray-600">
 					Наш опыт и знание рынка позволяют предложить решения, которые максимально соответствуют
 					вашему стилю, бюджету и требованиям к высокому качеству.
 				</p>
-				<p class="mt-6 text-base/7 text-gray-600">
+				<p class="mt-6 text-lg/8 text-gray-600">
 					Мы помогаем нашим клиентам сделать правильный выбор материалов, цвета и производителя
 					мебели. Это позволит сильно <span class="font-semibold">сэкономить время и материальные затраты!</span>
 				</p>
-				<p class="mt-6 text-base/7 text-gray-600">
+				<p class="mt-6 text-lg/8 text-gray-600">
 					К мебели мы подбираем стильные и качественные столешницы, технику и мойки чтобы создать
 					продуманный и функциональный интерьер под ключ.
 				</p>

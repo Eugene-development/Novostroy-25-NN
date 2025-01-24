@@ -11,15 +11,16 @@
 </svelte:head>
 
 <Main />
+<Message />
+
 <Equipment />
 <!-- <Offer /> -->
 <Stage />
 
 
 
-<Message />
+<Direction />
 
 <Incentives />
-<Direction />
 
 <Brands />

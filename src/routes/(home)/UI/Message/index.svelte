@@ -13,7 +13,7 @@
 	});
 
 	const text =
-		'Наша компания предлагает создание стильных дизайн-проектов корпусной мебели с точным подбором бытовой техники, освещением, сантехники и кухонных столешниц.';
+		'Наша компания предлагает создание стильных дизайн-проектов корпусной мебели с точным подбором бытовой техники, освещением, сантехники и кухонных столешниц';
 </script>
 
 
@@ -42,7 +42,7 @@
 						viewBox="0 0 162 128"
 						fill="none"
 						aria-hidden="true"
-						class="absolute left-0 top-0 -z-10 h-32 stroke-white/20"
+						class="absolute left-0 top-0 -z-10 h-24 stroke-gray-300/40"
 					>
 						<path
 							id="b56e9dab-6ccb-4d32-ad02-6b4bb5d9bbeb"
@@ -50,7 +50,7 @@
 						/>
 						<use href="#b56e9dab-6ccb-4d32-ad02-6b4bb5d9bbeb" x="86" />
 					</svg>
-					<blockquote class="text-xl/8 font-semibold text-gray-800 sm:text-2xl/9">
+					<blockquote class="">
 						<p class="h-48" bind:this={targetNode}>
 							{#if hasBeenVisible}
 								<WordsFadeIn words={text} />
