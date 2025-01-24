@@ -40,7 +40,7 @@
 		{
 			name: 'Сборка',
 			description:
-				'Профессиональные сборщики, прошедшие специализированное обучение, качественно выполнят работу'
+				'Профессиональные сборщики, прошедшие специализированное обучение, качественно сделают работу'
 		}
 	];
 </script>
@@ -66,6 +66,7 @@
 	</div>
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto max-w-3xl lg:mx-0">
+			<h2 class="text-base/7 font-semibold text-sky-600">Это важно</h2>
 			<h2 class="text-4xl font-bold text-gray-950 md:text-7xl">Наша работа</h2>
 			<p class="mx-auto mt-6 text-sm leading-7 text-gray-950 sm:text-lg">
 				Мы поддержим вас на всех этапах работы над мебельным проектом: от первой консультации до дня
@@ -76,27 +77,27 @@
 		<div bind:this={targetNode}>
 			{#if hasBeenVisible}
 				<div
-					class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 border-t border-blue-200 pt-10 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"
+					class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 border-t border-gray-200 pt-10 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"
 				>
 					{#each cards as card, i}
 						<div
 							class="animate-fade-up animate-duration-1000 animate-ease-in-out"
 							style="animation-delay: {i * 0.2}s"
 						>
-							<div class="flex gap-x-3 rounded-xl bg-gradient-to-br from-gray-50 to-blue-100 p-6 ring-1 ring-inset ring-blue-100">
+							<div class="flex gap-x-3 rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-5 ring-1 ring-inset ring-gray-100 shadow-lg shadow-gray-700/10">
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									fill="none"
 									viewBox="0 0 24 24"
 									stroke-width={1.5}
 									stroke="currentColor"
-									class="h-7 w-5 flex-none text-blue-500"
+									class="size-7 flex-none text-sky-500"
 								>
 									<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
 								</svg>
 
 								<div class="leading-7">
-									<h3 class="text-base font-semibold text-gray-950">
+									<h3 class="text-base font-semibold text-gray-600">
 										{card.name}
 									</h3>
 									<p class="mt-2 text-pretty text-sm text-gray-950">
