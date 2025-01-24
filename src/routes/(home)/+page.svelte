@@ -17,8 +17,9 @@
 
 
 
-<Direction />
 <Message />
 
 <Incentives />
+<Direction />
+
 <Brands />

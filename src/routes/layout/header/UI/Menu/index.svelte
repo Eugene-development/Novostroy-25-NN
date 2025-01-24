@@ -231,7 +231,7 @@
 								</div>
 							</div>
 						</div>
-						<div
+						<!-- <div
 							class="grid grid-cols-2 divide-x divide-gray-300 border-t border-gray-300 bg-gray-100"
 						>
 							<a
@@ -272,7 +272,7 @@
 								>
 								Телеграм канал
 							</a>
-						</div>
+						</div> -->
 					</div>
 				{/if}
 			</div>

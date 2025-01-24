@@ -76,21 +76,21 @@
 		<div bind:this={targetNode}>
 			{#if hasBeenVisible}
 				<div
-					class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 border-t border-gray-200 pt-10 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"
+					class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 border-t border-blue-200 pt-10 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"
 				>
 					{#each cards as card, i}
 						<div
 							class="animate-fade-up animate-duration-1000 animate-ease-in-out"
 							style="animation-delay: {i * 0.2}s"
 						>
-							<div class="flex gap-x-3 rounded-xl bg-gray-50 p-6 ring-1 ring-inset ring-gray-100">
+							<div class="flex gap-x-3 rounded-xl bg-gradient-to-br from-gray-50 to-blue-100 p-6 ring-1 ring-inset ring-blue-100">
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									fill="none"
 									viewBox="0 0 24 24"
 									stroke-width={1.5}
 									stroke="currentColor"
-									class="h-7 w-5 flex-none text-sky-500"
+									class="h-7 w-5 flex-none text-blue-500"
 								>
 									<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
 								</svg>
