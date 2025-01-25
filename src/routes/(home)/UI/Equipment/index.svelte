@@ -1,4 +1,77 @@
-<div class="bg-gray-50/50 py-24 sm:py-32">
+<div class="bg-white py-24 sm:py-32">
+	<div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
+	  <h2 class="text-base/7 font-semibold text-sky-600">Дополнительно</h2>
+	  <p class="mt-2 max-w-lg text-pretty text-4xl font-semibold tracking-tight text-gray-950 sm:text-5xl">Комплектация</p>
+	  <div class="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
+		<div class="relative lg:col-span-3">
+		  <div class="absolute inset-px rounded-lg bg-white max-lg:rounded-t-[2rem] lg:rounded-tl-[2rem]"></div>
+		  <div class="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)] lg:rounded-tl-[calc(2rem+1px)]">
+			<img class="h-80 object-cover object-left" src="https://storage.yandexcloud.net/mine2024/novostroy/catalog/c8dbd6a37c3abb7bcc60eabf2dda8635.jpg" alt="">
+			<div class="p-10 pt-4">
+			  <!-- <h3 class="text-sm/4 font-semibold text-sky-600">Performance</h3> -->
+			  <p class="mt-2 text-lg font-medium tracking-tight text-gray-950">Столешницы и стеновые панели</p>
+			  <p class="mt-2 max-w-lg text-sm/6 text-gray-600">Широкий выбор дизайнов для вашей кухни. Качественные столешницы от ведущих производителей.</p>
+			</div>
+		  </div>
+		  <div class="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 max-lg:rounded-t-[2rem] lg:rounded-tl-[2rem]"></div>
+		</div>
+		<div class="relative lg:col-span-3">
+		  <div class="absolute inset-px rounded-lg bg-white lg:rounded-tr-[2rem]"></div>
+		  <div class="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] lg:rounded-tr-[calc(2rem+1px)]">
+			<img class="h-80 object-cover object-left lg:object-right" src="https://www.blum.com/images/676/507/4067487/corporate/media/bilder/produkte/boxsysteme/legrabox-design/me18652757_aa_fot_fo_bau_-sall_-amc_-v1_4:3.jpg" alt="">
+			<div class="p-10 pt-4">
+			  <!-- <h3 class="text-sm/4 font-semibold text-sky-600">Системы выдвижения</h3> -->
+			  <p class="mt-2 text-lg font-medium tracking-tight text-gray-950">Системы выдвижения</p>
+			  <p class="mt-2 max-w-lg text-sm/6 text-gray-600">Curabitur auctor, ex quis auctor venenatis, eros arcu rhoncus massa, laoreet dapibus ex elit vitae odio.</p>
+			</div>
+		  </div>
+		  <div class="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 lg:rounded-tr-[2rem]"></div>
+		</div>
+		<div class="relative lg:col-span-2">
+		  <div class="absolute inset-px rounded-lg bg-white lg:rounded-bl-[2rem]"></div>
+		  <div class="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] lg:rounded-bl-[calc(2rem+1px)]">
+			<img class="h-80 object-cover object-left" src="https://krona.ru/upload/iblock/118/uss0ccrd4e6qk9kjdnq0f2xl11klq4a4/5.webp" alt="">
+			<div class="p-10 pt-4">
+			  <!-- <h3 class="text-sm/4 font-semibold text-sky-600">Бытовая техника</h3> -->
+			  <p class="mt-2 text-lg font-medium tracking-tight text-gray-950">Бытовая техника</p>
+			  <p class="mt-2 max-w-lg text-sm/6 text-gray-600">Встраиваемая и отдельностоящая бытовая техника от проверенных производителей с официальной гарантией.</p>
+			</div>
+		  </div>
+		  <div class="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 lg:rounded-bl-[2rem]"></div>
+		</div>
+		<div class="relative lg:col-span-2">
+		  <div class="absolute inset-px rounded-lg bg-white"></div>
+		  <div class="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)]">
+			<img class="h-80 object-cover" src="https://емар.рф/design/emar/images/main_content_1.jpg" alt="">
+			<div class="p-10 pt-4">
+			  <!-- <h3 class="text-sm/4 font-semibold text-sky-600">Integrations</h3> -->
+			  <p class="mt-2 text-lg font-medium tracking-tight text-gray-950">Мойки и смесители</p>
+			  <p class="mt-2 max-w-lg text-sm/6 text-gray-600">Качественная сантехника для ванной и кухни от ведущих мировых и Российских производителей с гарантией.</p>
+			</div>
+		  </div>
+		  <div class="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5"></div>
+		</div>
+		<div class="relative lg:col-span-2">
+		  <div class="absolute inset-px rounded-lg bg-white max-lg:rounded-b-[2rem] lg:rounded-br-[2rem]"></div>
+		  <div class="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] max-lg:rounded-b-[calc(2rem+1px)] lg:rounded-br-[calc(2rem+1px)]">
+			<img class="h-80 object-cover" src="https://storage.yandexcloud.net/mine2024/novostroy/catalog/mlZe9k3pajrkXpD9EFYv3fJsnqDxEqbMXMqEk1ZW.jpg" alt="">
+			<div class="p-10 pt-4">
+			  <!-- <h3 class="text-sm/4 font-semibold text-sky-600">Network</h3> -->
+			  <p class="mt-2 text-lg font-medium tracking-tight text-gray-950">Зональное освещение</p>
+			  <p class="mt-2 max-w-lg text-sm/6 text-gray-600">Aenean vulputate justo commodo auctor vehicula in malesuada semper.</p>
+			</div>
+		  </div>
+		  <div class="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 max-lg:rounded-b-[2rem] lg:rounded-br-[2rem]"></div>
+		</div>
+	  </div>
+	</div>
+  </div>
+  
+
+
+
+
+<!-- <div class="bg-gray-50/50 py-24 sm:py-32">
 	<div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
 		<h2 class="text-center text-base/7 font-semibold text-sky-600">Комплектация</h2>
 		<p
@@ -116,4 +189,4 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
