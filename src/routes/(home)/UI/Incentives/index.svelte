@@ -10,22 +10,22 @@
 				<h2 class="text-base/7 font-semibold text-sky-600">Экономия</h2>
 
 				<h2 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">С нами выгодно!</h2>
-				<p class="mt-6 text-lg/7 text-gray-600">
+				<p class="mt-6 text-base/6 sm:text-lg/7 text-gray-600">
 					Мы помогаем нашим клиентам сделать правильный выбор материалов, цвета и производителя
 					мебели. Это позволит сильно <span class="font-semibold"
 						>сэкономить время и материальные затраты!</span
 					>
 				</p>
 
-				<p class="mt-2 text-lg/7 text-gray-600">
+				<p class="mt-2 text-base/6 sm:text-lg/7 text-gray-600">
 					Наш опыт и знание рынка позволяют предложить решения, которые максимально соответствуют
 					вашему стилю, бюджету и требованиям к высокому качеству.
 				</p>
-				<p class="mt-2 text-lg/7 text-gray-600">
+				<p class="mt-2 text-base/6 sm:text-lg/7 text-gray-600">
 					К кухонным гарнитурам мы подбираем качественную фурнитуру, стильную столешницу, технику и
 					мойку чтобы создать функциональный и красивый дизайн.
 				</p>
-				<p class="mt-2 text-lg/7 text-gray-600">
+				<p class="mt-2 text-base/6 sm:text-lg/7 text-gray-600">
 					Работая со шкафами мы организуем удобство и функциональность, продумывая эргономику,
 					необходимое освещение и системы хранения.
 				</p>
