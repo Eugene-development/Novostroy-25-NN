@@ -10,7 +10,7 @@
 			JavaScript for beginners
 		</h1>
 		<p
-			class="mt-6 animate-fade-up text-xl/8 animate-delay-700 animate-duration-1000 animate-ease-in-out"
+			class="animate-fade-up animate-delay-700 animate-duration-1000 animate-ease-in-out mt-6 text-xl/8"
 		>
 			Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh
 			dui, diam eget aliquam. Quisque id at vitae feugiat egestas ac. Diam nulla orci at in viverra

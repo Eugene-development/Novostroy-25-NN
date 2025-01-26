@@ -1,5 +1,5 @@
 <div
-	class="relative isolate animate-fade overflow-hidden bg-white py-24 animate-duration-500 animate-ease-in-out sm:py-32"
+	class="animate-fade animate-duration-500 animate-ease-in-out relative isolate overflow-hidden bg-white py-24 sm:py-32"
 >
 	<div
 		class="absolute -top-80 left-[max(6rem,33%)] -z-10 transform-gpu blur-3xl sm:left-1/2 md:top-20 lg:ml-20 xl:top-3 xl:ml-56"

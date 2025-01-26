@@ -29,7 +29,7 @@
 	};
 </script>
 
-<div class="animate-fade-up bg-white animate-delay-700 animate-duration-1000 animate-ease-in-out">
+<div class="animate-fade-up animate-delay-700 animate-duration-1000 animate-ease-in-out bg-white">
 	<div class="mx-auto max-w-2xl px-4 py-8 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
 		<div class="lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8">
 			<!-- Image gallery -->

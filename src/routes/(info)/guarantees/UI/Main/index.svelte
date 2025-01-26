@@ -1,12 +1,13 @@
-<div class="animate-ease-in-outsm:py-32 animate-fade bg-white py-24 animate-duration-500">
+<div class="animate-ease-in-outsm:py-32 animate-fade animate-duration-500 bg-white py-24">
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto max-w-2xl lg:max-w-none">
-			<div class="mx-auto text-center max-w-2xl lg:max-w-3xl">
+			<div class="mx-auto max-w-2xl text-center lg:max-w-3xl">
 				<h2 class="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
 					Расширенная гарантия
 				</h2>
 				<p class="mt-4 text-lg/8 text-gray-600">
-					Мы уверены в качестве продукции наших партнёров, поэтому вся продукция имеет расширенную гарантию на материалы и работу мастеров.
+					Мы уверены в качестве продукции наших партнёров, поэтому вся продукция имеет расширенную
+					гарантию на материалы и работу мастеров.
 				</p>
 			</div>
 			<dl

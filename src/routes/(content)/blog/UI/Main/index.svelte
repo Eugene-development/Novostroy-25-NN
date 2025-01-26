@@ -184,7 +184,7 @@
 </script>
 
 <div
-	class=" animate-ease-in-outsm:py-32 animate-fade bg-white py-24 animate-duration-500 animate-once"
+	class=" animate-ease-in-outsm:py-32 animate-fade animate-duration-500 animate-once bg-white py-24"
 >
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto max-w-2xl lg:mx-0">

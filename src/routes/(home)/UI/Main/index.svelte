@@ -2,12 +2,12 @@
 	import { visibleProjectForm } from '$lib/state/formProject.svelte';
 </script>
 
-<div class="animate-fade bg-gray-500 animate-duration-[3000ms]">
+<div class="animate-fade animate-duration-[3000ms] bg-gray-500">
 	<div class="relative isolate overflow-hidden pt-14">
 		<img
 			src="https://storage.yandexcloud.net/mine2024/novostroy/site/slider/cam-1-1600x1472.jpg"
 			alt="Кухонный гарнитур"
-			class="absolute inset-0 -z-10 size-full animate-fade object-cover animate-delay-500 animate-duration-[3000ms]"
+			class="animate-fade animate-delay-500 animate-duration-[3000ms] absolute inset-0 -z-10 size-full object-cover"
 		/>
 		<div class="absolute inset-0 -z-10 bg-black/50"></div>
 		<div class="mx-auto max-w-7xl px-6 lg:px-8">
@@ -38,7 +38,7 @@
 						</h2>
 
 						<p
-							class="mt-4 hidden max-w-2xl px-1 text-center text-white font-extralight tracking-wide md:block xl:max-w-4xl xl:text-lg"
+							class="mt-4 hidden max-w-2xl px-1 text-center font-extralight tracking-wide text-white md:block xl:max-w-4xl xl:text-lg"
 						>
 							Наш профессиональный дизайнер создаст для вас проект мебели по вашим размерам,
 							согласует его с фабрикой, а также подберёт столешницу и аксессуары. Это поможет

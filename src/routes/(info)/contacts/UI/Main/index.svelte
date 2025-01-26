@@ -1,5 +1,5 @@
 <div
-	class="isolate animate-fade bg-white px-6 py-24 animate-duration-500 animate-ease-in-out sm:py-24 lg:px-8"
+	class="animate-fade animate-duration-500 animate-ease-in-out isolate bg-white px-6 py-24 sm:py-24 lg:px-8"
 >
 	<div class="mx-auto max-w-3xl sm:text-center">
 		<h2 class="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">

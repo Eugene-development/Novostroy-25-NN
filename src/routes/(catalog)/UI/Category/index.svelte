@@ -39,13 +39,13 @@
 <div class="grid gap-4 sm:mt-4 sm:grid-cols-2 lg:grid-cols-3">
 	{#each data.product as item (item.slug)}
 		<div
-			class="animate-fade-up rounded-lg border border-gray-100 bg-gray-50/10 p-6 shadow-sm animate-delay-700 animate-duration-1000 animate-ease-in-out"
+			class="animate-fade-up animate-delay-700 animate-duration-1000 animate-ease-in-out rounded-lg border border-gray-100 bg-gray-50/10 p-6 shadow-sm"
 		>
 			<Carousel data={item.image} />
 
 			<button
 				type="button"
-				class="inline-flex mt-4 items-center gap-2 text-sm font-medium text-gray-700 hover:text-sky-700 hover:underline"
+				class="mt-4 inline-flex items-center gap-2 text-sm font-medium text-gray-700 hover:text-sky-700 hover:underline"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"

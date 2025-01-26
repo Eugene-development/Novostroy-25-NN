@@ -2,7 +2,7 @@
 	import { visibleMeasuringForm } from '$lib/state/formMeasuring.svelte';
 </script>
 
-<div class="relative animate-fade animate-duration-500 animate-ease-in-out">
+<div class="animate-fade animate-duration-500 animate-ease-in-out relative">
 	<div class="mx-auto max-w-7xl">
 		<div class="relative z-10 pt-8 lg:w-full lg:max-w-3xl">
 			<svg

@@ -17,8 +17,6 @@
 <!-- <Offer /> -->
 <Stage />
 
-
-
 <Direction />
 
 <Incentives />

@@ -45,14 +45,14 @@
 	];
 </script>
 
-<div class="relative isolate overflow-hidden py-24 sm:py-36 bg-gray-50/50">
+<div class="relative isolate overflow-hidden bg-gray-50/50 py-24 sm:py-36">
 	<!-- <img
 			src="https://zovofficial.com/image/cache/catalog/products/kuhni/2023/berkli-24/cam-1-1087x890.jpg"
 			alt="Кухонный гарнитур"
 			class="absolute inset-0 -z-10 size-full object-cover "
 		/>
 		<div class="absolute inset-0 -z-10 bg-black/40"></div> -->
-	
+
 	<div
 		class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu"
 	>
@@ -84,7 +84,9 @@
 							class="animate-fade-up animate-duration-1000 animate-ease-in-out"
 							style="animation-delay: {i * 0.2}s"
 						>
-							<div class="flex gap-x-3 rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-5 ring-1 ring-inset ring-gray-100 shadow-lg shadow-gray-700/10">
+							<div
+								class="flex gap-x-3 rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-5 shadow-lg shadow-gray-700/10 ring-1 ring-inset ring-gray-100"
+							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									fill="none"
@@ -112,4 +114,3 @@
 		</div>
 	</div>
 </div>
-
