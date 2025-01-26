@@ -82,7 +82,7 @@
 <div class="bg-white py-24 sm:py-32">
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div
-			class="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-5"
+			class="mx-auto grid max-w-lg grid-cols-2 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none"
 		>
 			<a href="https://zovofficial.com/" target="_blank">
 				<img
@@ -117,6 +117,13 @@
 				<img
 					class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
 					src="https://avatars.mds.yandex.net/i?id=a74ec62d72576744e414d4b9ac3b0455aa296a51-4477047-images-thumbs&n=13"
+					alt="Кухонный двор"
+				/>
+			</a>
+			<a href="https://www.kuhzavod.ru/" target="_blank">
+				<img
+					class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+					src="https://www.kuhzavod.ru/local/templates/kuhzavod/f/img/logo-kz-mob.svg"
 					alt="Кухонный двор"
 				/>
 			</a>
