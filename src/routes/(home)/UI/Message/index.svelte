@@ -13,7 +13,7 @@
 	});
 
 	const text =
-		'Наша компания предлагает создание стильных дизайн-проектов корпусной мебели с точным подбором бытовой техники, освещением, сантехники и кухонных столешниц';
+		'Наша компания предлагает создание стильных дизайн-проектов корпусной мебели с точным подбором бытовой техники, освещением, сантехники и кухонных столешниц.';
 </script>
 
 <div class="bg-white py-12 sm:py-24 xl:py-36">
@@ -31,7 +31,7 @@
 					<img
 						src="https://storage.yandexcloud.net/brand-logo/novostroy/logomain.png"
 						alt="логотип"
-						class="inset-0 size-full rounded-2xl object-contain shadow-2xl"
+						class="inset-0 pb-4 size-full rounded-2xl object-contain shadow-2xl"
 					/>
 				</div>
 			</div>
@@ -50,14 +50,14 @@
 						<use href="#b56e9dab-6ccb-4d32-ad02-6b4bb5d9bbeb" x="86" />
 					</svg>
 					<blockquote class="">
-						<p class="h-48" bind:this={targetNode}>
+						<p class="h-32 sm:h-48" bind:this={targetNode}>
 							{#if hasBeenVisible}
 								<WordsFadeIn words={text} />
 							{/if}
 						</p>
 					</blockquote>
-					<figcaption class="mt-8 text-base">
-						<div class="mt-1 text-sky-400">Коллектив компании "Новострой"</div>
+					<figcaption class="mt-1 sm:mt-4 text-base">
+						<div class=" text-sky-400">Коллектив компании "Новострой"</div>
 					</figcaption>
 				</figure>
 			</div>
