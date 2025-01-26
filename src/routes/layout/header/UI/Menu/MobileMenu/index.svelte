@@ -1,5 +1,5 @@
 <!-- Mobile menu, show/hide based on menu open state. -->
-<div class="lg:hidden" role="dialog" aria-modal="true">
+<div class="hidden" role="dialog" aria-modal="true">
 	<!-- Background backdrop, show/hide based on slide-over state. -->
 	<div class="fixed inset-0 z-10"></div>
 	<div
