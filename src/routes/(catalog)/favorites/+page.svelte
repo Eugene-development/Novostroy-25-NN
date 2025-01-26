@@ -47,13 +47,13 @@
 
 						<a
 							href={`/${item.parentable.parentable.parentable.slug}/${item.parentable.parentable.slug}/${item.parentable.slug}`}
-							class="-ml-1 me-2 inline-flex items-center rounded-full px-3 py-1 text-xs font-medium text-gray-800"
+							class="-ml-1 me-2 inline-flex items-center rounded-full py-1 text-xs font-medium text-gray-800"
 						>
-							<span class="font-bold">Каталог: </span>&nbsp;
+							<span class="font-bold"></span>&nbsp;
 							{item.parentable.parentable.value} / {item.parentable.value}
 						</a>
 
-						<span class="my-4 block h-16 rounded-lg bg-gray-50 px-2 py-1 font-medium text-gray-900">
+						<span class="my-4 block h-16 rounded-lg bg-gray-50 px-2 py-1 font-semibold text-gray-900">
 							{item.value}
 						</span>
 
