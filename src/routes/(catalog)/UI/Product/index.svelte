@@ -30,18 +30,18 @@
 </script>
 
 <div class="animate-fade-up animate-delay-700 animate-duration-1000 animate-ease-in-out bg-white">
-	<div class="mx-auto max-w-2xl px-4 py-8 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
+	<div class="mx-auto max-w-2xl px-4 py-4 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
 		<div class="lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8">
 			<!-- Image gallery -->
 			<div class="flex flex-col-reverse">
 				<!-- Image selector -->
-				<div class="mx-auto mt-6 hidden w-full max-w-2xl sm:block lg:max-w-none">
+				<div class="mx-auto mt-6 w-full max-w-2xl sm:block lg:max-w-none">
 					<div class="grid grid-cols-4 gap-6" aria-orientation="horizontal" role="tablist">
 						{#each data.image as image, i}
 							<button
 								onclick={() => setNewImageIndex(i)}
 								id="tabs-1-tab-1"
-								class="scale110 relative flex h-24 cursor-pointer items-center justify-center rounded-md bg-white text-sm font-medium uppercase text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-indigo-500/50 focus:ring-offset-4"
+								class="scale110 relative flex h-12 sm:h-24 cursor-pointer items-center justify-center rounded-md bg-white text-sm font-medium uppercase text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-indigo-500/50 focus:ring-offset-4"
 								aria-controls="tabs-1-panel-1"
 								role="tab"
 								type="button"
@@ -71,13 +71,13 @@
 						<img
 							src={`${import.meta.env.VITE_S3}/catalog/${data.image[currentImageIndex].hash}`}
 							alt={data.item?.alt}
-							class="h-[450px] w-full rounded-lg object-contain object-center"
+							class="h-[220px] sm:h-[450px] w-full rounded-lg object-contain object-center"
 						/>
 					</div>
 				</div>
 			</div>
 
-			<div class="mt-10 px-4 sm:mt-16 lg:mt-0">
+			<div class="mt-10 sm:px-4 sm:mt-16 lg:mt-0">
 				<div class="mb-3 *:text-xs *:sm:text-sm ">
 					<a
 						href="/{data.parentable.parentable.parentable.slug}"
@@ -106,7 +106,6 @@
 
 				<!-- Reviews -->
 				<div class="mt-3">
-					<h3 class="sr-only">Reviews</h3>
 					<div class="flex items-center">
 						<div class="flex items-center *:mx-0.5">
 							<svg
@@ -245,7 +244,7 @@
 				</button>
 
 				<section aria-labelledby="details-heading" class="mt-12">
-					<h2 id="details-heading" class="sr-only">Additional details</h2>
+					<h2 id="details-heading" class="sr-only">Теги</h2>
 
 					<div class="divide-y divide-gray-200 border-t">
 						<div>
@@ -257,7 +256,7 @@
 							<div class="pb-6" id="disclosure-1">
 								<ul
 									role="list"
-									class="list-disc space-y-1 pl-5 text-sm/6 text-gray-700 marker:text-gray-300"
+									class="list-disc space-y-1 pl-5 text-sm/6 text-gray-700 marker:text-gray-300 grid grid-cols-2"
 								>
 									{#each data.tag as item}
 										<li class="pl-2">{item.value}</li>
