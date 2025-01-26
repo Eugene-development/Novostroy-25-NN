@@ -48,7 +48,7 @@
 							onclick={() => (visibleProjectForm.value = true)}
 							class="scale110 relative mx-4 mt-8 rounded-full border border-sky-500/20 bg-sky-400/10 px-8 py-2 text-center text-white backdrop-blur-sm sm:py-4"
 						>
-							<span class="mt-6 text-xs sm:text-lg"> Закажите бесплатный проект и просчёт → </span>
+							<span class="mt-6 text-xs sm:text-lg"> Бесплатный проект и просчёт → </span>
 							<div
 								class="absolute inset-x-0 -bottom-px mx-auto h-px w-3/4 bg-gradient-to-r from-transparent via-sky-500 to-transparent"
 							></div>
