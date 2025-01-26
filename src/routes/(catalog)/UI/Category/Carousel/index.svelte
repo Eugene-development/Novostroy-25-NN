@@ -1,0 +1,38 @@
+<script>
+    // import * as Card from "$lib/components/ui/card/index.js";
+    import * as Carousel from "$lib/components/ui/carousel/index.js";
+
+    let { data } = $props();
+
+   </script>
+    
+   <Carousel.Root class="w-full">
+    <Carousel.Content>
+     {#each data as item, i (i)}
+
+      <Carousel.Item>
+
+      <img
+      src={`${import.meta.env.VITE_S3}/catalog/${item.hash}`}
+      alt="Выполненный проект"
+      class="flex aspect-[4/3] items-center justify-center"
+    />
+
+      <!-- <Card.Root>
+       <Card.Content
+        class="flex aspect-square items-center justify-center p-6"
+       >
+        <span class="text-4xl font-semibold">{i + 1}</span>
+       </Card.Content>
+      </Card.Root> -->
+    </Carousel.Item>
+     {/each}
+
+
+    </Carousel.Content>
+
+
+      <Carousel.Previous class="ml-8"/>
+
+      <Carousel.Next class="mr-8"/>
+   </Carousel.Root>

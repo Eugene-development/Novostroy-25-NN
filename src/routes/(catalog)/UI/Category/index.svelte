@@ -1,6 +1,6 @@
 <script>
 	/** @type {{ data: import('./$types').PageData }} */
-	import SwiperSlider from './SwiperSlider/index.svelte';
+	import Carousel from './Carousel/index.svelte';
 	import { PersistedState } from 'runed';
 	import { isFavorites } from '$lib/state/favorites.svelte';
 
@@ -41,16 +41,11 @@
 		<div
 			class="animate-fade-up rounded-lg border border-gray-100 bg-gray-50/10 p-6 shadow-sm animate-delay-700 animate-duration-1000 animate-ease-in-out"
 		>
-			<div class="">
-				<!-- Carousel wrapper -->
-				<div class="mb-4 rounded-lg">
-					<SwiperSlider data={item.image} />
-				</div>
-			</div>
+			<Carousel data={item.image} />
 
 			<button
 				type="button"
-				class="inline-flex items-center gap-2 text-sm font-medium text-gray-700 hover:text-sky-700 hover:underline"
+				class="inline-flex mt-4 items-center gap-2 text-sm font-medium text-gray-700 hover:text-sky-700 hover:underline"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
