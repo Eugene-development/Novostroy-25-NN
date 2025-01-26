@@ -45,7 +45,7 @@
 	];
 </script>
 
-<div class="relative isolate overflow-hidden bg-gray-50/50 py-24 sm:py-36">
+<div class="relative isolate overflow-hidden bg-gray-50/50 py-24 sm:py-48">
 	<!-- <img
 			src="https://zovofficial.com/image/cache/catalog/products/kuhni/2023/berkli-24/cam-1-1087x890.jpg"
 			alt="Кухонный гарнитур"
