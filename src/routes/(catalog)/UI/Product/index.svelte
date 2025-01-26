@@ -78,19 +78,17 @@
 			</div>
 
 			<div class="mt-10 px-4 sm:mt-16 lg:mt-0">
-				<div class="mb-3">
-					<h2 class="sr-only">{data.parentable.value}</h2>
-
+				<div class="mb-3 *:text-xs *:sm:text-sm ">
 					<a
 						href="/{data.parentable.parentable.parentable.slug}"
-						class="text-sm tracking-tight text-gray-900"
+						class=" tracking-tight text-gray-900"
 					>
 						{data.parentable.parentable.parentable.value}</a
 					>
 					<span class="mx-0.5">/</span>
 					<a
 						href="/{data.parentable.parentable.parentable.slug}/{data.parentable.parentable.slug}"
-						class="text-sm tracking-tight text-gray-900"
+						class="tracking-tight text-gray-900"
 					>
 						{data.parentable.parentable.value}</a
 					>
@@ -98,13 +96,13 @@
 					<a
 						href="/{data.parentable.parentable.parentable.slug}/{data.parentable.parentable
 							.slug}/{data.parentable.slug}"
-						class="text-sm tracking-tight text-gray-900"
+						class=" tracking-tight text-gray-900"
 					>
 						{data.parentable.value}</a
 					>
 				</div>
 
-				<h1 class="text-4xl font-bold tracking-tight text-gray-900">{data.value}</h1>
+				<h1 class="text-2xl sm:text-4xl font-bold tracking-tight text-gray-900">{data.value}</h1>
 
 				<!-- Reviews -->
 				<div class="mt-3">
@@ -177,14 +175,12 @@
 								/>
 							</svg>
 						</div>
-						<p class="sr-only">5 out of 5 stars</p>
 					</div>
 				</div>
 
 				<div class="mt-8">
-					<h3 class="sr-only">Описание</h3>
 
-					<div class="space-y-4 text-base text-gray-700">
+					<div class="space-y-4 text-sm sm:text-base text-gray-700">
 						<p>
 							Наш дизайнер бесплатно проконсультирует вас по всем интересующим вопросам и расскажет
 							об условиях нашего сотрудничества. Мы также предоставим рекомендации по выбору
@@ -199,7 +195,7 @@
 						<button
 							onclick={() => (visibleConsultationForm.value = true)}
 							type="button"
-							class="flex max-w-xs flex-1 items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-sky-500 to-blue-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 hover:from-blue-600 hover:to-sky-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50 sm:w-full"
+							class="flex max-w-xs flex-1 items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-sky-500 to-blue-600 px-2 sm:px-8 py-3 text-sm sm:text-base font-medium text-white hover:bg-indigo-700 hover:from-blue-600 hover:to-sky-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50 sm:w-full"
 							>Бесплатная консультация</button
 						>
 						<button
