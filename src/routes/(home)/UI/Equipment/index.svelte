@@ -1,4 +1,4 @@
-<div class="bg-white py-24 sm:py-32">
+<div class="bg-white py-12 sm:py-32">
 	<div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
 		<h2 class="text-base/7 font-semibold text-sky-600">Дополнительно</h2>
 		<p
@@ -19,7 +19,7 @@
 						src="https://storage.yandexcloud.net/mine2024/novostroy/catalog/c8dbd6a37c3abb7bcc60eabf2dda8635.jpg"
 						alt=""
 					/>
-					<div class="p-10 pt-4">
+					<div class="p-8 pt-4">
 						<!-- <h3 class="text-sm/4 font-semibold text-sky-600">Performance</h3> -->
 						<p class="mt-2 text-lg font-medium tracking-tight text-gray-950">
 							Столешницы и стеновые панели
@@ -44,7 +44,7 @@
 						src="https://www.blum.com/images/676/507/4067487/corporate/media/bilder/produkte/boxsysteme/legrabox-design/me18652757_aa_fot_fo_bau_-sall_-amc_-v1_4:3.jpg"
 						alt=""
 					/>
-					<div class="p-10 pt-4">
+					<div class="p-8 pt-4">
 						<!-- <h3 class="text-sm/4 font-semibold text-sky-600">Системы выдвижения</h3> -->
 						<p class="mt-2 text-lg font-medium tracking-tight text-gray-950">Системы выдвижения</p>
 						<p class="mt-2 max-w-lg text-sm/6 text-gray-600">
@@ -66,7 +66,7 @@
 						src="https://krona.ru/upload/iblock/118/uss0ccrd4e6qk9kjdnq0f2xl11klq4a4/5.webp"
 						alt=""
 					/>
-					<div class="p-10 pt-4">
+					<div class="p-8 pt-4">
 						<!-- <h3 class="text-sm/4 font-semibold text-sky-600">Бытовая техника</h3> -->
 						<p class="mt-2 text-lg font-medium tracking-tight text-gray-950">Бытовая техника</p>
 						<p class="mt-2 max-w-lg text-sm/6 text-gray-600">
@@ -89,7 +89,7 @@
 						src="https://емар.рф/design/emar/images/main_content_1.jpg"
 						alt=""
 					/>
-					<div class="p-10 pt-4">
+					<div class="p-8 pt-4">
 						<!-- <h3 class="text-sm/4 font-semibold text-sky-600">Integrations</h3> -->
 						<p class="mt-2 text-lg font-medium tracking-tight text-gray-950">Мойки и смесители</p>
 						<p class="mt-2 max-w-lg text-sm/6 text-gray-600">
@@ -114,7 +114,7 @@
 						src="https://storage.yandexcloud.net/mine2024/novostroy/catalog/mlZe9k3pajrkXpD9EFYv3fJsnqDxEqbMXMqEk1ZW.jpg"
 						alt=""
 					/>
-					<div class="p-10 pt-4">
+					<div class="p-8 pt-4">
 						<!-- <h3 class="text-sm/4 font-semibold text-sky-600">Network</h3> -->
 						<p class="mt-2 text-lg font-medium tracking-tight text-gray-950">Зональное освещение</p>
 						<p class="mt-2 max-w-lg text-sm/6 text-gray-600">
