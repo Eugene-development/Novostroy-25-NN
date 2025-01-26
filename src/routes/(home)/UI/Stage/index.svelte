@@ -85,7 +85,7 @@
 							style="animation-delay: {i * 0.2}s"
 						>
 							<div
-								class="flex gap-x-3 rounded-xl bg-gradient-to-br from-white to-gray-100 p-5 shadow-lg shadow-gray-700/10 ring-1 ring-inset ring-gray-100"
+								class="flex gap-x-3 rounded-xl bg-gradient-to-br from-white to-gray-100 p-5 shadow-lg shadow-gray-700/20 ring-2 ring-inset ring-gray-200"
 							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
