@@ -85,7 +85,7 @@
 							style="animation-delay: {i * 0.2}s"
 						>
 							<div
-								class="flex gap-x-3 rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 p-5 shadow-lg shadow-gray-700/10 ring-1 ring-inset ring-gray-100"
+								class="flex gap-x-3 rounded-xl bg-gradient-to-br from-white to-gray-100 p-5 shadow-lg shadow-gray-700/10 ring-1 ring-inset ring-gray-100"
 							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
@@ -99,7 +99,7 @@
 								</svg>
 
 								<div class="leading-7">
-									<h3 class="text-base font-semibold text-gray-600">
+									<h3 class="text-lg font-semibold text-gray-600">
 										{card.name}
 									</h3>
 									<p class="mt-2 text-pretty text-sm text-gray-950">

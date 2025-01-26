@@ -1,13 +1,18 @@
-<script lang="ts">
+<script >
 	import { cn } from '$lib/utils';
 
-	export let img: string;
-	export let name: string;
-	export let username: string;
-	export let body: string;
+	export let img
+	export let name
+	export let username
+	export let body
 </script>
 
-<figure class={cn('relative w-80 overflow-hidden rounded-2xl border p-4', 'border-gray-950/[.1] ')}>
+<figure
+	class={cn(
+		'relative w-80 overflow-hidden rounded-2xl border p-4',
+		'border-gray-950/[.1] '
+	)}
+>
 	<div class="flex flex-row items-center gap-2">
 		<img class="mr-2 h-12" alt={name} src={img} />
 		<div class="flex flex-col">
