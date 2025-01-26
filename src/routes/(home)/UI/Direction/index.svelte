@@ -5,7 +5,7 @@
 <div class="grid h-screen grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1">
 	<div class="relative flex">
 		<img
-			src="https://tailwindui.com/plus/img/ecommerce-images/home-page-02-edition-01.jpg"
+			src="https://storage.yandexcloud.net/mine2024/novostroy/catalog/ba658117195293a0f84c5e6fe32f3391.jpg"
 			alt=""
 			class="absolute inset-0 size-full object-cover"
 		/>
