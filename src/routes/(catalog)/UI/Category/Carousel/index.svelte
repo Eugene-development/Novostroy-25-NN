@@ -1,5 +1,4 @@
 <script>
-	// import * as Card from "$lib/components/ui/card/index.js";
 	import * as Carousel from '$lib/components/ui/carousel/index.js';
 
 	let { data } = $props();
@@ -20,5 +19,5 @@
 
 	<Carousel.Previous class="ml-8" />
 	<Carousel.Next class="mr-8" />
-  
+
 </Carousel.Root>
