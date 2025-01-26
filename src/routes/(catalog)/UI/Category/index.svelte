@@ -26,8 +26,8 @@
 <div class="bg-white py-2 sm:py-4">
 	<div class="mx-auto max-w-7xl">
 		<div class="mx-auto max-w-3xl lg:mx-0">
-			<p class="text-xl/7 font-semibold text-sky-600">{data.parentable.value}</p>
-			<h2 class="mt-2 text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
+			<p class="text-lg sm:text-xl font-semibold text-sky-600">{data.parentable.value}</p>
+			<h2 class="mt-2 text-4xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
 				{data.value}
 			</h2>
 			<!-- <p class="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</p> -->

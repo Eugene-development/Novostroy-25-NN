@@ -2,7 +2,7 @@
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto max-w-2xl lg:mx-0">
 			<h2 class="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-				Мы предлагаем рассрочку с выгодными условиями
+				Рассрочка платежа с выгодными условиями
 			</h2>
 			<p class="mt-6 text-base/7 text-gray-600">
 				В случае, если покупка необходима и не хватает определённой суммы денег, наши банки партнёры

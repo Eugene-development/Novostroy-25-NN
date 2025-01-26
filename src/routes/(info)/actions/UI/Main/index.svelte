@@ -58,7 +58,7 @@
 							style="transform-origin: top center"
 						></div> -->
 						<div
-							class="absolute flex size-full items-center justify-center rounded-2xl border border-gray-200 bg-white p-2 shadow-[0px_0px_24px_rgba(39,39,42,0.2)] md:p-6"
+							class="absolute flex size-full items-center justify-center rounded-2xl border border-gray-200 bg-white p-4 shadow-[0px_0px_24px_rgba(39,39,42,0.2)] md:p-6"
 							style="transform-origin: top center"
 						>
 							<div>

@@ -3,7 +3,7 @@
 		<div class="mx-auto max-w-2xl lg:max-w-none">
 			<div class="mx-auto max-w-2xl text-center lg:max-w-3xl">
 				<h2 class="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-					Расширенная гарантия
+					Гарантия
 				</h2>
 				<p class="mt-4 text-lg/8 text-gray-600">
 					Мы уверены в качестве продукции наших партнёров, поэтому вся продукция имеет расширенную
@@ -60,7 +60,7 @@
 	<div class="px-6 py-12 sm:px-6 sm:py-24 lg:px-8">
 		<div class="mx-auto max-w-5xl text-center">
 			<h2 class="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-				Заявить о гарантийном случае
+				Гарантийный случай?
 			</h2>
 			<p class="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-gray-600">
 				Заполните форму и наш менеджер свяжется с вами в ближайшее время и поможет решить вопрос.

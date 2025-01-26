@@ -14,7 +14,7 @@
 				<polygon points="0,0 90,0 50,100 0,100" />
 			</svg>
 
-			<div class="relative px-6 py-24 sm:py-32 lg:px-8 lg:py-36 lg:pr-0">
+			<div class="relative px-6 py-2 sm:py-32 lg:px-8 lg:py-36 lg:pr-0">
 				<div class="mx-auto max-w-3xl lg:mx-0 lg:max-w-2xl">
 					<div class="hidden sm:mb-10 sm:flex">
 						<div
