@@ -66,12 +66,12 @@
 		></div>
 	</div>
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
-		<div class="p-8 mx-auto max-w-3xl lg:mx-0 bg-gray-900/10">
-			<!-- <h2 class="text-base/7 font-semibold text-sky-600">Это важно</h2> -->
+		<div class="p-8 mx-auto max-w-2xl lg:mx-0 bg-gray-900/10">
+			<h2 class="text-base/7 font-semibold text-red-500">Это важно</h2>
 			<h2 class="text-4xl font-bold text-white md:text-7xl">Наша работа</h2>
 			<p class="mx-auto mt-6 text-sm leading-7 text-white sm:text-xl">
 				Мы поддержим вас на всех этапах работы над мебельным проектом: от первой консультации до дня
-				финальной сборки. Наша задача — сделать процесс максимально комфортным и результат
+				финальной сборки. Наша основная задача — сделать для вас процесс максимально комфортным и результат
 				безупречным.
 			</p>
 		</div>
@@ -86,7 +86,7 @@
 							style="animation-delay: {i * 0.2}s"
 						>
 							<div
-								class="flex gap-x-3 rounded-xl bg-gradient-to-br from-gray-200/60 to-gray-300 p-5 shadow-lg shadow-gray-500/20 ring-1 ring-inset ring-gray-300"
+								class="flex gap-x-3 rounded-xl bg-gradient-to-br from-gray-100/60 to-gray-200 p-5 shadow-lg shadow-gray-500/20 ring-1 ring-inset ring-gray-300"
 							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
@@ -94,7 +94,7 @@
 									viewBox="0 0 24 24"
 									stroke-width={1.5}
 									stroke="currentColor"
-									class="size-7 flex-none text-sky-600"
+									class="size-7 flex-none text-red-600"
 								>
 									<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
 								</svg>

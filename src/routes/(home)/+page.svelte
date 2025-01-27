@@ -14,6 +14,6 @@
 <Message />
 <Equipment />
 <Stage />
-<Direction />
+<!-- <Direction /> -->
 <Incentives />
 <Brands />
