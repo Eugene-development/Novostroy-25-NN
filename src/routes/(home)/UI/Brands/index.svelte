@@ -84,10 +84,10 @@
 		<div
 			class="mx-auto grid max-w-lg grid-cols-2 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none"
 		>
-			<a href="https://zovofficial.com/" target="_blank">
+			<a href="https://zov.top/" target="_blank">
 				<img
 					class="col-span-2 max-h-14 w-full object-contain lg:col-span-1"
-					src="https://zovofficial.com/image/catalog/logo-rus-x2.png"
+					src="https://storage.yandexcloud.net/zovrus/brand/logo-rus-x2.png"
 					alt="ЗОВ"
 				/>
 			</a>
