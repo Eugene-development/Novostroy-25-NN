@@ -1,6 +1,7 @@
 <script>
 	import { page } from '$app/state';
 	import FavoriteButton from './FavoriteButton/index.svelte';
+	import MobileButton from './MobileButton/index.svelte';
 </script>
 
 <div class="sticky top-0 z-40 hidden items-center bg-gray-950 px-4 sm:px-3.5 md:flex">
@@ -136,8 +137,8 @@
 <div
 	class="sticky top-0 z-50 flex items-center justify-between bg-gray-900 px-1.5 py-2 opacity-95 lg:hidden"
 >
-	<a href="/">
-		<span class="sr-only">Novostroy</span>
+	<a href="/" class="w-24">
+		<span class="sr-only">Логотип</span>
 		<img
 			class="size-7 w-auto px-1 sm:px-0"
 			src="https://storage.yandexcloud.net/brand-logo/novostroy/logomain.png"
@@ -155,8 +156,8 @@
 		</a>
 	</div>
 
-	<div class="flex divide-x">
+	<div class="flex divide-x w-24 justify-end">
 		<FavoriteButton />
-		<!-- <MobileButton /> -->
+		<MobileButton />
 	</div>
 </div>
