@@ -51,7 +51,7 @@
 			alt="Кухонный гарнитур"
 			class="absolute inset-0 -z-10 w-full h-full object-cover"
 		/>
-		<div class="absolute inset-0 -z-10 bg-black/50"></div>
+		<div class="absolute inset-0 -z-10 bg-black/50 rounded-xl"></div>
 		<!-- <div class="absolute inset-0 -z-10 bg-gradient-to-br from-gray-50/10 to-gray-900/90"></div> -->
 
 	<div
@@ -78,12 +78,12 @@
 		<div bind:this={targetNode}>
 			{#if hasBeenVisible}
 				<div
-					class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 border-t border-sky-200 pt-10 sm:mt-20 lg:mx-0 bg-black/40 rounded-xl p-6 lg:max-w-none lg:grid-cols-3 lg:gap-8"
+					class=" mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 border-t border-sky-200 pt-10 sm:mt-20 lg:mx-0 bg-black/40 rounded-xl p-6 lg:max-w-none lg:grid-cols-3 lg:gap-8"
 				>
 					{#each cards as card, i}
 						<div
-							class="animate-fade-up animate-duration-1000 animate-ease-in-out"
-							style="animation-delay: {i * 0.2}s"
+							class="animate-fade-up animate-duration-2000 animate-ease-in-out"
+							style="animation-delay: {i * 0.4}s"
 						>
 							<div
 								class="flex gap-x-3 rounded-xl bg-gradient-to-br from-black/20 to-black/40 p-5 shadow-lg shadow-gray-500/20 ring-1 ring-inset ring-sky-500/50"
