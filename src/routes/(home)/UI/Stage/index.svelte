@@ -45,11 +45,11 @@
 	];
 </script>
 
-<div class="relative isolate overflow-hidden bg-gray-50/50 py-24 sm:py-48">
+<div class="relative isolate overflow-hidden bg-gray-50/50 py-24 sm:py-32 h-screen">
 	<img
 			src="https://zov.top/_next/image?url=https%3A%2F%2Fstorage.yandexcloud.net%2Fmine2024%2Fzov%2FZg7llpCInCBFGyb7xO0B7Qkac7pwWVorXWQeLC2K.jpg&w=1920&q=75"
 			alt="Кухонный гарнитур"
-			class="absolute inset-0 -z-10 size-full object-cover "
+			class="absolute inset-0 -z-10 w-full h-full object-cover"
 		/>
 		<div class="absolute inset-0 -z-10 bg-black/50"></div>
 		<!-- <div class="absolute inset-0 -z-10 bg-gradient-to-br from-gray-50/10 to-gray-900/90"></div> -->
@@ -78,7 +78,7 @@
 		<div bind:this={targetNode}>
 			{#if hasBeenVisible}
 				<div
-					class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 border-t border-gray-200 pt-10 sm:mt-20 lg:mx-0 bg-black/40 rounded-xl p-6 lg:max-w-none lg:grid-cols-3 lg:gap-8"
+					class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 border-t border-sky-200 pt-10 sm:mt-20 lg:mx-0 bg-black/40 rounded-xl p-6 lg:max-w-none lg:grid-cols-3 lg:gap-8"
 				>
 					{#each cards as card, i}
 						<div
