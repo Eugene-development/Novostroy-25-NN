@@ -2,7 +2,7 @@
 	import { visibleProjectForm } from '$lib/state/formProject.svelte';
 </script>
 
-<div class="animate-fade animate-duration-500 animate-ease-in-out relative">
+<div class="relative animate-fade animate-duration-500 animate-ease-in-out">
 	<div class="mx-auto max-w-7xl">
 		<div class="relative z-10 pt-8 lg:w-full lg:max-w-3xl">
 			<svg

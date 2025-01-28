@@ -45,21 +45,22 @@
 	let secondRow = reviews.slice(reviews.length / 2);
 </script>
 
-
-  <div class="bg-white py-8 sm:py-12">
+<div class="bg-white py-8 sm:py-12">
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
-	  <div class="mx-auto max-w-5xl lg:text-center">
-		<h2 class="text-base/7 font-semibold text-sky-600">Материалы</h2>
-		<p class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl lg:text-balance">Бренды, говорящие о качестве</p>
-		<!-- <p class="mt-6 text-lg/8 text-gray-600">Компания BLUM занимается производством премиальной мебельной фурнитуры</p> -->
-	  </div>
+		<div class="mx-auto max-w-5xl lg:text-center">
+			<h2 class="text-base/7 font-semibold text-sky-600">Материалы</h2>
+			<p
+				class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl lg:text-balance"
+			>
+				Бренды, говорящие о качестве
+			</p>
+			<!-- <p class="mt-6 text-lg/8 text-gray-600">Компания BLUM занимается производством премиальной мебельной фурнитуры</p> -->
+		</div>
 	</div>
-  </div>
-  
-	
+</div>
 
 <div
-	class="bg-background relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-lg py-12 md:shadow-xl"
+	class="relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-lg bg-background py-12 md:shadow-xl"
 >
 	<Marquee pauseOnHover class="[--duration:100s]">
 		{#each firstRow as item}

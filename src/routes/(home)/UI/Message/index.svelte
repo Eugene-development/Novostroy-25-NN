@@ -31,7 +31,7 @@
 					<img
 						src="https://storage.yandexcloud.net/brand-logo/novostroy/logomain.png"
 						alt="логотип"
-						class="inset-0 pb-4 size-full rounded-2xl object-contain shadow-2xl"
+						class="inset-0 size-full rounded-2xl object-contain pb-4 shadow-2xl"
 					/>
 				</div>
 			</div>
@@ -56,7 +56,7 @@
 							{/if}
 						</p>
 					</blockquote>
-					<figcaption class="mt-1 sm:mt-4 text-base">
+					<figcaption class="mt-1 text-base sm:mt-4">
 						<div class=" text-sky-400">Коллектив компании "Новострой"</div>
 					</figcaption>
 				</figure>

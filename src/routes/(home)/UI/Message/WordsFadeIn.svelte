@@ -21,7 +21,7 @@
 <Motion {variants} initial="hidden" animate="visible" let:motion>
 	<h1
 		class={cn(
-			'text-base sm:text-xl font-semibold tracking-[-0.01em] text-black drop-shadow-sm md:text-3xl/10 ',
+			'text-base font-semibold tracking-[-0.01em] text-black drop-shadow-sm sm:text-xl md:text-3xl/10 ',
 			className
 		)}
 		use:motion

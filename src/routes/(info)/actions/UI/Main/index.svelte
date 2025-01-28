@@ -39,7 +39,7 @@
 	];
 </script>
 
-<section class="animate-fade animate-duration-500 animate-ease-in-out my-12 bg-white">
+<section class="my-12 animate-fade bg-white animate-duration-500 animate-ease-in-out">
 	<div class="mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:px-6">
 		<div class="mx-auto mb-12 max-w-screen-sm text-center">
 			<h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900">

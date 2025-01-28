@@ -2,8 +2,6 @@
 	import '../app.css';
 	let { children, data } = $props();
 
-
-
 	import { Banner } from './layout/header/UI';
 	import { Menu } from './layout/header/UI';
 	import { Footer } from './layout/footer/UI';
@@ -19,7 +17,7 @@
 </script>
 
 <Banner />
-<Menu data={data.req.catalog_tree}/>
+<Menu data={data.req.catalog_tree} />
 {@render children()}
 <Footer />
 

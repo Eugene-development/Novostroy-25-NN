@@ -10,7 +10,10 @@
 </script>
 
 <header class="bg-gray-50/50">
-	<nav class="max-w-9xl mx-auto hidden lg:flex items-center justify-between p-3 lg:px-8" aria-label="Global">
+	<nav
+		class="max-w-9xl mx-auto hidden items-center justify-between p-3 lg:flex lg:px-8"
+		aria-label="Global"
+	>
 		<div class="flex items-center lg:flex-1">
 			<a href="/" class="-m-1.5 p-1.5">
 				<span class="sr-only">КОМПАНИЯ</span>
@@ -29,7 +32,7 @@
           </svg>
         </button>
       </div> -->
-		<div class="-ml-7 items-center flex lg:gap-x-12">
+		<div class="-ml-7 flex items-center lg:gap-x-12">
 			<a href="/" class="text-base font-semibold text-gray-900">Главная</a>
 
 			<div onmouseleave={() => (visibleServicesMenu = false)} class="relative" role="navigation">
@@ -282,7 +285,7 @@
 			<a href="/blog" class="text-base font-semibold text-gray-900">Блог</a>
 		</div>
 
-		<div class="items-center flex lg:flex-1 lg:justify-end">
+		<div class="flex items-center lg:flex-1 lg:justify-end">
 			<p
 				class="duration-400 group relative grid overflow-hidden rounded-xl px-4 py-2 shadow-[0_1000px_0_0_hsl(0_0%_70%)_inset] transition-colors"
 			>

@@ -156,7 +156,7 @@
 		</a>
 	</div>
 
-	<div class="flex divide-x w-24 justify-end">
+	<div class="flex w-24 justify-end divide-x">
 		<FavoriteButton />
 		<MobileButton />
 	</div>

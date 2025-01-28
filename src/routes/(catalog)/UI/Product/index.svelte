@@ -29,7 +29,7 @@
 	};
 </script>
 
-<div class="animate-fade-up animate-delay-700 animate-duration-1000 animate-ease-in-out bg-white">
+<div class="animate-fade-up bg-white animate-delay-700 animate-duration-1000 animate-ease-in-out">
 	<div class="mx-auto max-w-2xl px-4 py-4 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
 		<div class="lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8">
 			<!-- Image gallery -->
@@ -41,7 +41,7 @@
 							<button
 								onclick={() => setNewImageIndex(i)}
 								id="tabs-1-tab-1"
-								class="scale110 relative flex h-12 sm:h-24 cursor-pointer items-center justify-center rounded-md bg-white text-sm font-medium uppercase text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-indigo-500/50 focus:ring-offset-4"
+								class="scale110 relative flex h-12 cursor-pointer items-center justify-center rounded-md bg-white text-sm font-medium uppercase text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-indigo-500/50 focus:ring-offset-4 sm:h-24"
 								aria-controls="tabs-1-panel-1"
 								role="tab"
 								type="button"
@@ -71,14 +71,14 @@
 						<img
 							src={`${import.meta.env.VITE_S3}/catalog/${data.image[currentImageIndex].hash}`}
 							alt={data.item?.alt}
-							class="h-[220px] sm:h-[450px] w-full rounded-lg object-contain object-center"
+							class="h-[220px] w-full rounded-lg object-contain object-center sm:h-[450px]"
 						/>
 					</div>
 				</div>
 			</div>
 
-			<div class="mt-10 sm:px-4 sm:mt-16 lg:mt-0">
-				<div class="mb-3 *:text-xs *:sm:text-sm ">
+			<div class="mt-10 sm:mt-16 sm:px-4 lg:mt-0">
+				<div class="mb-3 *:text-xs *:sm:text-sm">
 					<a
 						href="/{data.parentable.parentable.parentable.slug}"
 						class=" tracking-tight text-gray-900"
@@ -102,7 +102,7 @@
 					>
 				</div>
 
-				<h1 class="text-2xl sm:text-4xl font-bold tracking-tight text-gray-900">{data.value}</h1>
+				<h1 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">{data.value}</h1>
 
 				<!-- Reviews -->
 				<div class="mt-3">
@@ -178,13 +178,11 @@
 				</div>
 
 				<div class="mt-8">
-
-					<div class="space-y-4 text-sm sm:text-base text-gray-700">
+					<div class="space-y-4 text-sm text-gray-700 sm:text-base">
 						<p>
 							Наш дизайнер бесплатно проконсультирует вас по всем интересующим вопросам и расскажет
-							об условиях сотрудничества. Мы также дадим рекомендации по выбору
-							фурнитуры, материалов и цвета, а ещё подготовим для вас
-							дизайн-проект.
+							об условиях сотрудничества. Мы также дадим рекомендации по выбору фурнитуры,
+							материалов и цвета, а ещё подготовим для вас дизайн-проект.
 						</p>
 					</div>
 				</div>
@@ -194,7 +192,7 @@
 						<button
 							onclick={() => (visibleConsultationForm.value = true)}
 							type="button"
-							class="flex max-w-xs flex-1 items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-sky-500 to-blue-600 px-2 sm:px-8 py-3 text-sm sm:text-base font-medium text-white hover:bg-indigo-700 hover:from-blue-600 hover:to-sky-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50 sm:w-full"
+							class="flex max-w-xs flex-1 items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-sky-500 to-blue-600 px-2 py-3 text-sm font-medium text-white hover:bg-indigo-700 hover:from-blue-600 hover:to-sky-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50 sm:w-full sm:px-8 sm:text-base"
 							>Бесплатная консультация</button
 						>
 						<button
@@ -256,7 +254,7 @@
 							<div class="pb-6" id="disclosure-1">
 								<ul
 									role="list"
-									class="list-disc space-y-1 pl-5 text-sm/6 text-gray-700 marker:text-gray-300 grid grid-cols-2"
+									class="grid list-disc grid-cols-2 space-y-1 pl-5 text-sm/6 text-gray-700 marker:text-gray-300"
 								>
 									{#each data.tag as item}
 										<li class="pl-2">{item.value}</li>

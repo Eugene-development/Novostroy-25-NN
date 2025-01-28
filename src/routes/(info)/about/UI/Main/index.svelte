@@ -1,5 +1,5 @@
 <div
-	class="animate-fade animate-delay-1000 animate-duration-500 animate-ease-in-out overflow-hidden bg-white py-24 sm:py-32"
+	class="animate-fade overflow-hidden bg-white py-24 animate-delay-1000 animate-duration-500 animate-ease-in-out sm:py-32"
 >
 	<div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
 		<div class="max-w-4xl">

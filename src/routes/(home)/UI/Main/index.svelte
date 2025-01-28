@@ -2,12 +2,12 @@
 	import { visibleProjectForm } from '$lib/state/formProject.svelte';
 </script>
 
-<div class="animate-fade animate-duration-[3000ms] bg-gray-500">
+<div class="animate-fade bg-gray-500 animate-duration-[3000ms]">
 	<div class="relative isolate overflow-hidden pt-14">
 		<img
 			src="https://storage.yandexcloud.net/mine2024/novostroy/site/slider/cam-1-1600x1472.jpg"
 			alt="Кухонный гарнитур"
-			class="animate-fade animate-delay-500 animate-duration-[3000ms] absolute inset-0 -z-10 size-full object-cover"
+			class="absolute inset-0 -z-10 size-full animate-fade object-cover animate-delay-500 animate-duration-[3000ms]"
 		/>
 		<div class="absolute inset-0 -z-10 bg-black/50"></div>
 		<div class="mx-auto max-w-7xl px-6 lg:px-8">

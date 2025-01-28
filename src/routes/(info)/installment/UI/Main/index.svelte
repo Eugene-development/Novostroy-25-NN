@@ -1,4 +1,4 @@
-<div class="animate-ease-in-out animate-fade animate-duration-500 bg-white py-24 sm:py-32">
+<div class="animate-fade bg-white py-24 animate-duration-500 animate-ease-in-out sm:py-32">
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto max-w-2xl lg:mx-0">
 			<h2 class="text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">

@@ -23,7 +23,7 @@
 			<div class="absolute overflow-hidden">
 				<div class="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10 sm:pl-16">
 					<div
-						class="animate-fade-left animate-duration-100 animate-ease-linear pointer-events-auto w-screen max-w-md"
+						class="pointer-events-auto w-screen max-w-md animate-fade-left animate-duration-100 animate-ease-linear"
 					>
 						<form class="flex h-full flex-col divide-y divide-gray-200 bg-white shadow-xl">
 							<div class="h-0 flex-1 overflow-y-auto">

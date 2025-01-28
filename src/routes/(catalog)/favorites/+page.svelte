@@ -53,7 +53,9 @@
 							{item.parentable.parentable.value} / {item.parentable.value}
 						</a>
 
-						<span class="my-4 block h-16 rounded-lg bg-gray-50 px-2 py-1 font-semibold text-gray-900">
+						<span
+							class="my-4 block h-16 rounded-lg bg-gray-50 px-2 py-1 font-semibold text-gray-900"
+						>
 							{item.value}
 						</span>
 

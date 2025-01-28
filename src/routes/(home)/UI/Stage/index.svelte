@@ -45,14 +45,14 @@
 	];
 </script>
 
-<div class="relative isolate overflow-hidden bg-gray-50/50 py-24 sm:py-32 h-screen">
+<div class="relative isolate h-screen overflow-hidden bg-gray-50/50 py-24 sm:py-32">
 	<img
-			src="https://zov.top/_next/image?url=https%3A%2F%2Fstorage.yandexcloud.net%2Fmine2024%2Fzov%2FZg7llpCInCBFGyb7xO0B7Qkac7pwWVorXWQeLC2K.jpg&w=1920&q=75"
-			alt="Кухонный гарнитур"
-			class="absolute inset-0 -z-10 w-full h-full object-cover"
-		/>
-		<div class="absolute inset-0 -z-10 bg-black/50 rounded-xl"></div>
-		<!-- <div class="absolute inset-0 -z-10 bg-gradient-to-br from-gray-50/10 to-gray-900/90"></div> -->
+		src="https://zov.top/_next/image?url=https%3A%2F%2Fstorage.yandexcloud.net%2Fmine2024%2Fzov%2FZg7llpCInCBFGyb7xO0B7Qkac7pwWVorXWQeLC2K.jpg&w=1920&q=75"
+		alt="Кухонный гарнитур"
+		class="absolute inset-0 -z-10 h-full w-full object-cover"
+	/>
+	<div class="absolute inset-0 -z-10 rounded-xl bg-black/50"></div>
+	<!-- <div class="absolute inset-0 -z-10 bg-gradient-to-br from-gray-50/10 to-gray-900/90"></div> -->
 
 	<div
 		class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu"
@@ -66,23 +66,23 @@
 		></div>
 	</div>
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
-		<div class="p-8 mx-auto max-w-2xl lg:mx-0 bg-gray-900/10">
+		<div class="mx-auto max-w-2xl bg-gray-900/10 p-8 lg:mx-0">
 			<h2 class="text-base/7 font-semibold text-sky-300">Это важно</h2>
 			<h2 class="text-4xl font-bold text-white md:text-7xl">Наша работа</h2>
 			<p class="mx-auto mt-6 text-sm leading-7 text-white sm:text-xl">
 				Мы поддержим вас на всех этапах работы над мебельным проектом: от первой консультации до дня
-				финальной сборки. Наша основная задача — сделать для вас процесс максимально комфортным и результат
-				безупречным.
+				финальной сборки. Наша основная задача — сделать для вас процесс максимально комфортным и
+				результат безупречным.
 			</p>
 		</div>
 		<div bind:this={targetNode}>
 			{#if hasBeenVisible}
 				<div
-					class=" mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 border-t border-sky-200 pt-10 sm:mt-20 lg:mx-0 bg-black/40 rounded-xl p-6 lg:max-w-none lg:grid-cols-3 lg:gap-8"
+					class=" mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 rounded-xl border-t border-sky-200 bg-black/40 p-6 pt-10 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"
 				>
 					{#each cards as card, i}
 						<div
-							class="animate-fade-up animate-duration-2000 animate-ease-in-out"
+							class="animate-duration-2000 animate-fade-up animate-ease-in-out"
 							style="animation-delay: {i * 0.4}s"
 						>
 							<div
@@ -103,7 +103,7 @@
 									<h3 class="text-lg font-semibold text-gray-50">
 										{card.name}
 									</h3>
-									<p class="mt-2 text-pretty font-medium text-sm text-gray-300">
+									<p class="mt-2 text-pretty text-sm font-medium text-gray-300">
 										{card.description}
 									</p>
 								</div>

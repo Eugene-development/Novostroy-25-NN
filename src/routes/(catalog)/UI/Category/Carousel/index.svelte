@@ -19,5 +19,4 @@
 
 	<Carousel.Previous class="ml-8" />
 	<Carousel.Next class="mr-8" />
-
 </Carousel.Root>
