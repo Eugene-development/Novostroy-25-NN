@@ -150,33 +150,37 @@
 											<!-- <DropdownMenu.Separator class="my-1 -ml-1 -mr-1 block h-px bg-muted" /> -->
 
 											{#each catalog.rubric as rubric}
-											<DropdownMenu.Sub>
-												<DropdownMenu.SubTrigger
-													class="rounded-button flex h-10 select-none items-center py-3 pl-3 pr-1.5 text-sm font-medium !ring-0 !ring-transparent data-[highlighted]:bg-muted data-[state=open]:bg-muted"
-												>
-													<div class="flex items-center">{rubric.value}</div>
-													<div class="ml-auto flex items-center gap-px"></div>
-												</DropdownMenu.SubTrigger>
-
-												
-													<DropdownMenu.SubContent
-														class="w-full max-w-[209px] rounded-xl border border-muted bg-background px-1 py-1.5 shadow-popover !ring-0 !ring-transparent"
-														sideOffset={10}
+											
+												<DropdownMenu.Sub>
+													<DropdownMenu.SubTrigger
+														class="rounded-button flex h-10 select-none items-center py-3 pl-3  pr-1.5 text-sm font-medium !ring-0 !ring-transparent data-[highlighted]:bg-muted data-[state=open]:bg-muted"
 													>
-													{#each rubric.category as category}
-														<DropdownMenu.Item
-															class="rounded-button flex h-10 select-none items-center py-3 pl-3 pr-1.5 text-sm font-medium !ring-0 !ring-transparent data-[highlighted]:bg-muted"
+														<div class="flex items-center">{rubric.value}</div>
+														<div class="ml-auto flex items-center gap-px"></div>
+													</DropdownMenu.SubTrigger>
+	
+													
+														<DropdownMenu.SubContent
+															class="w-full max-w-[209px] rounded-xl border border-muted bg-background px-1 py-1.5 shadow-popover !ring-0 !ring-transparent"
+															sideOffset={2}
 														>
-															{category.value}
-														</DropdownMenu.Item>
-													{/each}
-													</DropdownMenu.SubContent>
-												
+														{#each rubric.category as category}
+															<DropdownMenu.Item
+																class="rounded-button flex h-10 select-none items-center py-3 pl-3 pr-1.5 text-sm font-medium !ring-0 !ring-transparent data-[highlighted]:bg-muted"
+															>
+																{category.value}
+															</DropdownMenu.Item>
+														{/each}
+														</DropdownMenu.SubContent>
+													
+	
+													
+	
+	
+												</DropdownMenu.Sub>
 
-												
-
-
-											</DropdownMenu.Sub>
+											
+											
 											{/each}
 										</DropdownMenu.Content>
 									</DropdownMenu.Root>
