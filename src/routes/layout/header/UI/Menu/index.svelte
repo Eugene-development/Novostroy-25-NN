@@ -7,7 +7,6 @@
 	let visibleServicesMenu = $state(false);
 
 	let { data } = $props();
-	$inspect(data);
 </script>
 
 <header class="bg-gray-50/50">
@@ -312,5 +311,5 @@
 		</div>
 	</nav>
 
-	<MobileMenu />
+	<MobileMenu {data} />
 </header>

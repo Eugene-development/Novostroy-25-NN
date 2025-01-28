@@ -1,6 +1,13 @@
 <script>
 	import { visibleMobileMenu } from "$lib/state/visibleMobileMenu.svelte";
 
+	import { DropdownMenu } from "bits-ui";
+
+	
+
+	let { data } = $props();
+	$inspect(data);
+
 </script>
 
 {#if visibleMobileMenu.value}
@@ -115,16 +122,90 @@
 								/>
 							</svg>
 						</button>
+
+
+						<!--  -->
+						{#each data as catalog}
+						<DropdownMenu.Root class="flex-col">
+							
+							<DropdownMenu.Trigger
+							><span class="ml-3 flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base/7 font-semibold text-sky-700 hover:bg-gray-50">
+							{catalog.value}
+							<svg
+									class="size-5 flex-none"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+									data-slot="icon"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+										clip-rule="evenodd"
+									/>
+								</svg>
+							</span>
+
+							</DropdownMenu.Trigger>
+							<DropdownMenu.Content
+							  class="w-full max-w-[229px] rounded-xl border border-muted bg-background px-1 py-1.5 shadow-popover"
+							  sideOffset={8}
+							>
+							  <DropdownMenu.Item
+								class="flex h-10 select-none items-center rounded-button py-3 pl-3 pr-1.5 text-sm font-medium !ring-0 !ring-transparent data-[highlighted]:bg-muted"
+							  >
+								<div class="flex items-center">
+								  Profile
+								</div>
+								
+							  </DropdownMenu.Item>
+						
+						
+						
+							  <DropdownMenu.Separator class="my-1 -ml-1 -mr-1 block h-px bg-muted" />
+						
+							  <DropdownMenu.Sub>
+								<DropdownMenu.SubTrigger
+								  class="flex h-10 select-none items-center rounded-button py-3 pl-3 pr-1.5 text-sm font-medium !ring-0 !ring-transparent data-[highlighted]:bg-muted data-[state=open]:bg-muted"
+								>
+								  <div class="flex items-center">
+									Invite users
+								  </div>
+								  <div class="ml-auto flex items-center gap-px">
+								  </div>
+								</DropdownMenu.SubTrigger>
+								<DropdownMenu.SubContent
+								  class="w-full max-w-[209px] rounded-xl border border-muted bg-background px-1 py-1.5 shadow-popover !ring-0 !ring-transparent"
+								  sideOffset={10}
+								>
+								  <DropdownMenu.Item
+									class="flex h-10 select-none items-center rounded-button py-3 pl-3 pr-1.5 text-sm font-medium !ring-0 !ring-transparent data-[highlighted]:bg-muted"
+								  >
+									
+									@huntabyte
+								  </DropdownMenu.Item>
+								</DropdownMenu.SubContent>
+							  </DropdownMenu.Sub>
+						
+							</DropdownMenu.Content>
+							
+						  </DropdownMenu.Root>
+						  {/each}
+
+
+
+
+
 						<!-- 'Product' sub-menu, show/hide based on menu state. -->
 						<div class=" mt-2 space-y-2" id="disclosure-1">
-
+							{#each data as catalog}
 							<button
 								type="button"
-								class="ml-3 flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+								class="ml-3 flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base/7 font-semibold text-sky-700 hover:bg-gray-50"
 								aria-controls="disclosure-1"
 								aria-expanded="false"
 							>
-								Мебель
+								{catalog.value}
 								<svg
 										class="size-5 flex-none"
 										viewBox="0 0 20 20"
@@ -138,15 +219,21 @@
 											clip-rule="evenodd"
 										/>
 									</svg>
-								</button>
+							</button>
 								<!-- 'Product' sub-menu, show/hide based on menu state. -->
-								<div class="mt-3 space-y-2" id="disclosure-1">
+								<div class="mt-3 space-y-2 bg-gray-100/50 rounded-lg" id="disclosure-1">
+									{#each catalog.rubric as category}
 									<a
 										href="/"
 										class="block ml-3 rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
-										>Кухонные гарнитуры</a
+										>{category.value}</a
 									>
+									{/each}
 								</div>
+								
+							{/each}
+
+							
 						</div>
 					</div>
 
