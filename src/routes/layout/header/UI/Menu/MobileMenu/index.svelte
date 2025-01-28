@@ -142,10 +142,10 @@
 												</span>
 											</DropdownMenu.Trigger>
 
-											<DropdownMenu.Content class="w-full max-w-[229px] rounded-xl border border-muted bg-background px-1 py-1.5 shadow-popover">
+											<DropdownMenu.Content class="w-full max-w-[229px] rounded-xl border border-muted bg-background px-1 py-1.5 outline-none shadow-popover">
 												{#each rubric.category as category}
 													<DropdownMenu.Item
-														class="flex h-10 select-none items-center rounded-button py-3 pl-3 pr-1.5 text-sm font-medium !ring-0 !ring-transparent data-[highlighted]:bg-muted"
+														class="flex h-10 select-none items-center rounded-button py-3 pl-3 pr-1.5 text-sm font-medium outline-none data-[highlighted]:bg-muted"
 													>
 														{category.value}
 													</DropdownMenu.Item>
