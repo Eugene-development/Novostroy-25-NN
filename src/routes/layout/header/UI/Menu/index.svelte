@@ -15,7 +15,7 @@
 				<img
 					class="h-12 w-auto"
 					src="https://storage.yandexcloud.net/brand-logo/novostroy/logomain.png"
-					alt=""
+					alt="Логотип компании Новострой"
 				/>
 			</a>
 		</div>
