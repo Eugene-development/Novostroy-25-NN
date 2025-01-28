@@ -1,5 +1,5 @@
 <div
-	class="animate-fade animate-duration-500 animate-ease-in-out relative isolate bg-white py-24 sm:py-32"
+	class="animate-fade animate-duration-500 animate-ease-in-out relative isolate bg-white py-12 sm:py-32"
 >
 	<div
 		class="absolute inset-x-0 top-1/2 -z-10 -translate-y-1/2 transform-gpu overflow-hidden opacity-30 blur-3xl"
@@ -22,7 +22,7 @@
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto max-w-4xl text-center">
 			<h2 class="text-base/7 font-semibold text-sky-600">Отзывы</h2>
-			<p class="mt-2 text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+			<p class="mt-2 text-balance text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
 				Мы работаем ради таких отзывов клиентов о нашей работе
 			</p>
 		</div>
