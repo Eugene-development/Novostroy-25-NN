@@ -125,8 +125,10 @@
 
 
 						<!--  -->
-						{#each data as catalog}
-						<DropdownMenu.Root class="flex-col">
+
+						<div class="">
+							{#each data as catalog}
+						<DropdownMenu.Root >
 							
 							<DropdownMenu.Trigger
 							><span class="ml-3 flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base/7 font-semibold text-sky-700 hover:bg-gray-50">
@@ -191,6 +193,10 @@
 							
 						  </DropdownMenu.Root>
 						  {/each}
+
+
+						</div>
+						
 
 
 
