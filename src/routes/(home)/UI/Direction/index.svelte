@@ -21,7 +21,7 @@
 	</div>
 	<div class="relative flex">
 		<img
-			src="https://zov.top/_next/image?url=https%3A%2F%2Fstorage.yandexcloud.net%2Fmine2024%2Fzov%2FZg7llpCInCBFGyb7xO0B7Qkac7pwWVorXWQeLC2K.jpg&w=1920&q=75"
+			src="https://zovofficial.com/image/cache/catalog/products/garderobnye-shkafy-i-sistemy/2024/linejnaya-2/03-1087x890.jpg"
 			alt="Шкафы и гардеробы"
 			class="absolute inset-0 size-full object-cover"
 		/>

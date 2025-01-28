@@ -1,21 +1,25 @@
-<!-- Mobile menu, show/hide based on menu open state. -->
-<div class="hidden" role="dialog" aria-modal="true">
+<script>
+	import { visibleMobileMenu } from "$lib/state/visibleMobileMenu.svelte";
+</script>
+
+{#if visibleMobileMenu.value}
+<div class="" role="dialog" aria-modal="true">
 	<!-- Background backdrop, show/hide based on slide-over state. -->
 	<div class="fixed inset-0 z-10"></div>
 	<div
-		class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
+		class="mt-24 fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
 	>
 		<div class="flex items-center justify-between">
 			<a href="/" class="-m-1.5 p-1.5">
-				<span class="sr-only">Your Company</span>
+				<span class="sr-only">Логотип компании Новострой</span>
 				<img
 					class="h-8 w-auto"
-					src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
-					alt=""
+					src="https://storage.yandexcloud.net/brand-logo/novostroy/logomain.png"
+					alt="Логотип компании Новострой"
 				/>
 			</a>
-			<button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
-				<span class="sr-only">Close menu</span>
+			<button onclick={() => (visibleMobileMenu.value = false)} type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+				<span class="sr-only">Закрыть меню</span>
 				<svg
 					class="size-6"
 					fill="none"
@@ -35,11 +39,11 @@
 					<div class="-mx-3">
 						<button
 							type="button"
-							class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+							class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-lg/7 font-semibold text-gray-900 hover:bg-gray-50"
 							aria-controls="disclosure-1"
 							aria-expanded="false"
 						>
-							Product
+							Услуги
 							<!--
                     Expand/collapse icon, toggle classes based on menu open state.
   
@@ -60,64 +64,99 @@
 							</svg>
 						</button>
 						<!-- 'Product' sub-menu, show/hide based on menu state. -->
-						<div class="mt-2 space-y-2" id="disclosure-1">
+						<div class="hidden mt-2 space-y-2" id="disclosure-1">
 							<a
 								href="/"
 								class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
-								>Analytics</a
+								>Консультация</a
 							>
 							<a
 								href="/"
 								class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
-								>Engagement</a
+								>Дизайн проекта</a
 							>
 							<a
 								href="/"
 								class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
-								>Security</a
+								>Замер помещения</a
 							>
 							<a
 								href="/"
 								class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
-								>Integrations</a
+								>Проект мебели</a
 							>
 							<a
 								href="/"
 								class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
-								>Automations</a
-							>
-							<a
-								href="/"
-								class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
-								>Watch demo</a
-							>
-							<a
-								href="/"
-								class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
-								>Contact sales</a
+								>Сборка и установка</a
 							>
 						</div>
 					</div>
+					<div class="-mx-3">
+						<button
+							type="button"
+							class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-lg/7 font-semibold text-gray-900 hover:bg-gray-50"
+							aria-controls="disclosure-1"
+							aria-expanded="false"
+						>
+							Каталог
+							<svg
+								class="size-5 flex-none"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+								data-slot="icon"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+									clip-rule="evenodd"
+								/>
+							</svg>
+						</button>
+						<!-- 'Product' sub-menu, show/hide based on menu state. -->
+						<div class=" mt-2 space-y-2" id="disclosure-1">
+							<button
+								type="button"
+								class="ml-3 flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+								aria-controls="disclosure-1"
+								aria-expanded="false"
+							>
+								Мебель
+								<svg
+										class="size-5 flex-none"
+										viewBox="0 0 20 20"
+										fill="currentColor"
+										aria-hidden="true"
+										data-slot="icon"
+									>
+										<path
+											fill-rule="evenodd"
+											d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+											clip-rule="evenodd"
+										/>
+									</svg>
+								</button>
+								<!-- 'Product' sub-menu, show/hide based on menu state. -->
+								<div class="mt-3 space-y-2" id="disclosure-1">
+									<a
+										href="/"
+										class="block ml-3 rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
+										>Кухонные гарнитуры</a
+									>
+								</div>
+						</div>
+					</div>
 
-					<a
-						href="/"
-						class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
-						>Features</a
-					>
-					<a
-						href="/"
-						class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
-						>Marketplace</a
-					>
 
 					<div class="-mx-3">
 						<button
 							type="button"
-							class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+							class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-lg/7 font-semibold text-gray-900 hover:bg-gray-50"
 							aria-controls="disclosure-2"
 							aria-expanded="false"
 						>
-							Company
+							Информация
 							<!--
                     Expand/collapse icon, toggle classes based on menu open state.
   
@@ -138,43 +177,63 @@
 							</svg>
 						</button>
 						<!-- 'Company' sub-menu, show/hide based on menu state. -->
-						<div class="mt-2 space-y-2" id="disclosure-2">
+						<div class="hidden mt-2 space-y-2" id="disclosure-2">
 							<a
 								href="/"
 								class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
-								>About us</a
+								>О компании</a
 							>
 							<a
 								href="/"
 								class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
-								>Careers</a
+								>Партнёрство</a
 							>
 							<a
 								href="/"
 								class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
-								>Support</a
+								>Отзывы</a
 							>
 							<a
 								href="/"
 								class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
-								>Press</a
+								>Рассрочка</a
 							>
 							<a
 								href="/"
 								class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
-								>Blog</a
+								>Гарантии</a
+							>
+							<a
+								href="/"
+								class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
+								>Контакты</a
 							>
 						</div>
 					</div>
+					
+
 				</div>
 				<div class="py-6">
-					<p
+					<!-- <p
 						class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
 					>
 						Москва и МО
-					</p>
+					</p> -->
+					<a
+					href="/"
+					class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+					>Акции</a
+				>
+				<a
+					href="/"
+					class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+					>Блог</a
+				>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+
+	
+{/if}
