@@ -1,7 +1,7 @@
-<div class="animate-ease-in-outsm:py-32 animate-fade animate-duration-500 bg-white py-24">
+<div class="animate-ease-in-out animate-fade animate-duration-500 bg-white py-24 sm:py-32">
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto max-w-2xl lg:mx-0">
-			<h2 class="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+			<h2 class="text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
 				Рассрочка платежа с выгодными условиями
 			</h2>
 			<p class="mt-6 text-base/7 text-gray-600">

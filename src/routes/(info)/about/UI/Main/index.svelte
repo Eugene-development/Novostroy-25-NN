@@ -4,7 +4,7 @@
 	<div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
 		<div class="max-w-4xl">
 			<p class="text-base/7 font-semibold text-sky-600">Информация</p>
-			<h1 class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+			<h1 class="mt-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
 				О компании "Новострой"
 			</h1>
 		</div>
