@@ -1,5 +1,8 @@
 <script>
 	import { visibleMobileMenu } from "$lib/state/visibleMobileMenu.svelte";
+
+	import * as DropdownMenu from "$lib/components/ui/dropdown-menu/index.js";
+  	import { buttonVariants } from "$lib/components/ui/button/index.js";
 </script>
 
 {#if visibleMobileMenu.value}
@@ -116,6 +119,7 @@
 						</button>
 						<!-- 'Product' sub-menu, show/hide based on menu state. -->
 						<div class=" mt-2 space-y-2" id="disclosure-1">
+
 							<button
 								type="button"
 								class="ml-3 flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
