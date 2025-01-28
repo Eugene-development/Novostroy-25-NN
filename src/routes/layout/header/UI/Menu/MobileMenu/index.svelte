@@ -128,45 +128,39 @@
 
 							<div class="flex flex-col">
 								{#each data as catalog}
-									<DropdownMenu.Root>
+									<DropdownMenu.Root class="-ml-8">
 										<DropdownMenu.Trigger
 											><span
-												class="ml-3 flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base/7 font-semibold text-sky-700 hover:bg-gray-50"
+												class="ml-3 flex w-full rounded-lg py-2 px-1 pr-3.5 text-base/7 font-semibold text-sky-700 hover:bg-gray-50"
 											>
 												{catalog.value}
-												
 											</span>
 										</DropdownMenu.Trigger>
 										<DropdownMenu.Content
-											class="w-full max-w-[229px] rounded-xl border border-muted bg-background px-1 py-1.5 shadow-popover"
-											sideOffset={8}
+											class="rounded-xl bg-gray-100 border border-muted  py-1.5 shadow-popover !ring-0 !ring-transparent"
+											sideOffset={-50}
 										>
-											<!-- <DropdownMenu.Item
-												class="rounded-button flex h-10 select-none items-center py-3 pl-3 pr-1.5 text-sm font-medium !ring-0 !ring-transparent data-[highlighted]:bg-muted"
-											>
-												<div class="flex items-center">Profile</div>
-											</DropdownMenu.Item> -->
-
-											<!-- <DropdownMenu.Separator class="my-1 -ml-1 -mr-1 block h-px bg-muted" /> -->
+										
 
 											{#each catalog.rubric as rubric}
 											
-												<DropdownMenu.Sub>
+												<DropdownMenu.Sub >
 													<DropdownMenu.SubTrigger
-														class="rounded-button flex h-10 select-none items-center py-3 pl-3  pr-1.5 text-sm font-medium !ring-0 !ring-transparent data-[highlighted]:bg-muted data-[state=open]:bg-muted"
+														class="flex h-10 select-none  py-3 pl-3  pr-1.5 text-sm font-medium !ring-0 !ring-transparent data-[highlighted]:bg-muted data-[state=open]:bg-muted"
 													>
-														<div class="flex items-center">{rubric.value}</div>
-														<div class="ml-auto flex items-center gap-px"></div>
+														<div >{rubric.value}</div>
+														<!-- <div class="ml-auto flex items-center gap-px"></div> -->
 													</DropdownMenu.SubTrigger>
 	
 													
 														<DropdownMenu.SubContent
-															class="w-full max-w-[209px] rounded-xl border border-muted bg-background px-1 py-1.5 shadow-popover !ring-0 !ring-transparent"
-															sideOffset={2}
+															class="rounded-xl border border-muted bg-background px-1 py-1.5 shadow-popover !ring-0 !ring-transparent"
+															
+															sideOffset={1}
 														>
 														{#each rubric.category as category}
 															<DropdownMenu.Item
-																class="rounded-button flex h-10 select-none items-center py-3 pl-3 pr-1.5 text-sm font-medium !ring-0 !ring-transparent data-[highlighted]:bg-muted"
+																class="flex h-10 select-none py-3 pl-3 pr-1.5 text-sm font-medium !ring-0 !ring-transparent data-[highlighted]:bg-muted"
 															>
 																{category.value}
 															</DropdownMenu.Item>
