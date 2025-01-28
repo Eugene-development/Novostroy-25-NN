@@ -142,7 +142,7 @@
 												</span>
 											</DropdownMenu.Trigger>
 
-											<DropdownMenu.Content class="w-full max-w-[229px] rounded-xl border border-muted bg-background px-1 py-1.5 outline-none shadow-popover">
+											<DropdownMenu.Content class="w-full max-w-[229px] rounded-xl border border-muted bg-gray-200 shadow-xl px-6 py-1.5 outline-none">
 												{#each rubric.category as category}
 													<DropdownMenu.Item
 														class="flex h-10 select-none items-center rounded-button py-3 pl-3 pr-1.5 text-sm font-medium outline-none data-[highlighted]:bg-muted"
