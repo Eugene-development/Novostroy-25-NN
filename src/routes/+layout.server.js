@@ -1,19 +1,17 @@
 /** @type {import('./$types').PageServerLoad} */
 import { request } from 'graphql-request';
-import { SIDEBAR } from '$lib/query';
+import { CATALOG_TREE } from '$lib/query';
 
 export async function load({ url }) {
 	const urlCRUD = import.meta.env.VITE_URL;
 	const key = import.meta.env.VITE_KEY;
-	const segments = url.pathname.split('/').filter((segment) => segment.length > 0);
 
 	const variables = {
-		key,
-		slug: segments[0]
+		key
 	};
 
 	try {
-		const req = await request(urlCRUD, SIDEBAR, variables);
+		const req = await request(urlCRUD, CATALOG_TREE, variables);
 		return {
 			req
 		};

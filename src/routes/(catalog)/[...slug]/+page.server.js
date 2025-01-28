@@ -1,6 +1,6 @@
 /** @type {import('./$types').PageServerLoad} */
 import { request } from 'graphql-request';
-import { CATALOG, RUBRIC, CATEGORY, PRODUCT } from './query';
+import { CATALOG, RUBRIC, CATEGORY, PRODUCT } from '$lib/query';
 
 export async function load({ params, url }) {
 	const urlCRUD = import.meta.env.VITE_URL;

@@ -5,6 +5,9 @@
 
 	let visibleCatalogMenu = $state(false);
 	let visibleServicesMenu = $state(false);
+
+	let { data } = $props();
+	$inspect(data);
 </script>
 
 <header class="bg-gray-50/50">

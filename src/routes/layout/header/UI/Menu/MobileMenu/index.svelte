@@ -1,8 +1,6 @@
 <script>
 	import { visibleMobileMenu } from "$lib/state/visibleMobileMenu.svelte";
 
-	import * as DropdownMenu from "$lib/components/ui/dropdown-menu/index.js";
-  	import { buttonVariants } from "$lib/components/ui/button/index.js";
 </script>
 
 {#if visibleMobileMenu.value}

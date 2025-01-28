@@ -19,6 +19,23 @@ export const SIDEBAR = gql`
 	}
 `;
 
+export const CATALOG_TREE = gql`
+	query catalogTree {
+		catalog_tree {
+			value
+			slug
+			rubric {
+				value
+				slug
+				category {
+					value
+					slug
+				}
+			}
+		}
+	}
+`;
+
 export const CATALOG = gql`
 	query catalog($slug: String!, $key: UUID!) {
 		catalog(slug: $slug, key: $key) {
