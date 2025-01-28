@@ -126,7 +126,7 @@
 
 							<!--  -->
 
-							<div class="">
+							<div class="flex flex-col">
 								{#each data as catalog}
 									<DropdownMenu.Root>
 										<DropdownMenu.Trigger
