@@ -2,7 +2,7 @@
 	import { visibleConsultationForm } from '$lib/state/formConsultation.svelte';
 </script>
 
-<div class="grid h-screen grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1">
+<div class="grid h-screen grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 py-24">
 	<div class="relative flex">
 		<img
 			src="https://storage.yandexcloud.net/mine2024/novostroy/catalog/ba658117195293a0f84c5e6fe32f3391.jpg"

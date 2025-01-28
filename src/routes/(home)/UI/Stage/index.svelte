@@ -51,7 +51,7 @@
 			alt="Кухонный гарнитур"
 			class="absolute inset-0 -z-10 size-full object-cover "
 		/>
-		<div class="absolute inset-0 -z-10 bg-black/60"></div>
+		<div class="absolute inset-0 -z-10 bg-black/50"></div>
 		<!-- <div class="absolute inset-0 -z-10 bg-gradient-to-br from-gray-50/10 to-gray-900/90"></div> -->
 
 	<div
@@ -67,7 +67,7 @@
 	</div>
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="p-8 mx-auto max-w-2xl lg:mx-0 bg-gray-900/10">
-			<h2 class="text-base/7 font-semibold text-red-500">Это важно</h2>
+			<h2 class="text-base/7 font-semibold text-sky-300">Это важно</h2>
 			<h2 class="text-4xl font-bold text-white md:text-7xl">Наша работа</h2>
 			<p class="mx-auto mt-6 text-sm leading-7 text-white sm:text-xl">
 				Мы поддержим вас на всех этапах работы над мебельным проектом: от первой консультации до дня
@@ -78,7 +78,7 @@
 		<div bind:this={targetNode}>
 			{#if hasBeenVisible}
 				<div
-					class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 border-t border-gray-200 pt-10 sm:mt-20 lg:mx-0 bg-black/40 p-6 lg:max-w-none lg:grid-cols-3 lg:gap-8"
+					class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 border-t border-gray-200 pt-10 sm:mt-20 lg:mx-0 bg-black/40 rounded-xl p-6 lg:max-w-none lg:grid-cols-3 lg:gap-8"
 				>
 					{#each cards as card, i}
 						<div
@@ -86,7 +86,7 @@
 							style="animation-delay: {i * 0.2}s"
 						>
 							<div
-								class="flex gap-x-3 rounded-xl bg-gradient-to-br from-gray-100/60 to-gray-200 p-5 shadow-lg shadow-gray-500/20 ring-1 ring-inset ring-gray-300"
+								class="flex gap-x-3 rounded-xl bg-gradient-to-br from-black/20 to-black/40 p-5 shadow-lg shadow-gray-500/20 ring-1 ring-inset ring-sky-500/50"
 							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
@@ -94,16 +94,16 @@
 									viewBox="0 0 24 24"
 									stroke-width={1.5}
 									stroke="currentColor"
-									class="size-7 flex-none text-red-600"
+									class="size-7 flex-none text-sky-600"
 								>
 									<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
 								</svg>
 
 								<div class="leading-7">
-									<h3 class="text-lg font-semibold text-gray-900">
+									<h3 class="text-lg font-semibold text-gray-50">
 										{card.name}
 									</h3>
-									<p class="mt-2 text-pretty font-medium text-sm text-black">
+									<p class="mt-2 text-pretty font-medium text-sm text-gray-300">
 										{card.description}
 									</p>
 								</div>
