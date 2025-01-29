@@ -134,10 +134,24 @@
 								{#each data as catalog}
 									<button type="button"
 										onclick={() => (showRubricMenu.value = !showRubricMenu.value)}
-										class="ml-5 flex w-full rounded-lg px-1 py-2 pr-3.5 text-base/7 font-semibold text-sky-700 hover:bg-gray-50"
+										class="ml-5 flex justify-between w-full rounded-lg px-1 py-2 pr-7 text-base/7 font-semibold text-sky-700 hover:bg-gray-50"
 									>
 										{catalog.value}
-									</button>
+									
+									<svg
+										class="size-5 flex-none {showRubricMenu.value ? 'rotate-180 text-sky-700' : ''}"
+										viewBox="0 0 20 20"
+										fill="currentColor"
+										aria-hidden="true"
+										data-slot="icon"
+									>
+										<path
+											fill-rule="evenodd"
+											d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+											clip-rule="evenodd"
+										/>
+									</svg>
+								</button>
 
 									{#if showRubricMenu.value}
 										<div class="flex flex-col">
