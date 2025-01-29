@@ -2,6 +2,8 @@
 	import { visibleMobileMenu } from '$lib/state/visibleMobileMenu.svelte';
 	import { showServiceMenu } from '$lib/state/showServiceMenu.svelte';
 	import { showInformationMenu } from '$lib/state/showInformationMenu.svelte';
+	import { showCatalogMenu } from '$lib/state/showCatalogMenu.svelte';
+	import { showRubricMenu } from '$lib/state/showRubricMenu.svelte';
 
 	import { DropdownMenu } from 'bits-ui';
 
@@ -106,7 +108,7 @@
 							{/if}
 						</div>
 						<div class="-mx-3">
-							<button
+							<button onclick={() => (showCatalogMenu.value = !showCatalogMenu.value)}
 								type="button"
 								class="flex w-full justify-between rounded-lg py-2 pl-3 pr-3.5 text-lg/7 font-semibold text-gray-900 hover:bg-gray-50"
 								aria-controls="disclosure-1"
@@ -128,40 +130,45 @@
 								</svg>
 							</button>
 
-							{#each data as catalog}
-								<span
-									class="ml-3 flex w-full rounded-lg px-1 py-2 pr-3.5 text-base/7 font-semibold text-sky-700 hover:bg-gray-50"
-								>
-									{catalog.value}
-								</span>
+							{#if showCatalogMenu.value}
+								{#each data as catalog}
+									<button type="button"
+										onclick={() => (showRubricMenu.value = !showRubricMenu.value)}
+										class="ml-3 flex w-full rounded-lg px-1 py-2 pr-3.5 text-base/7 font-semibold text-sky-700 hover:bg-gray-50"
+									>
+										{catalog.value}
+									</button>
 
-								<div class="flex flex-col">
-									{#each catalog.rubric as rubric}
-										<DropdownMenu.Root>
-											<DropdownMenu.Trigger>
-												<span
-													class="ml-6 flex w-full rounded-lg px-1 py-2 pr-3.5 text-base/7 font-semibold text-red-700 hover:bg-gray-50"
-												>
-													{rubric.value}
-												</span>
-											</DropdownMenu.Trigger>
+									{#if showRubricMenu.value}
+										<div class="flex flex-col">
+											{#each catalog.rubric as rubric}
+												<DropdownMenu.Root>
+													<DropdownMenu.Trigger>
+														<span
+															class="ml-6 flex w-full rounded-lg px-1 py-2 pr-3.5 text-base/7 font-semibold text-red-700 hover:bg-gray-50"
+														>
+															{rubric.value}
+														</span>
+													</DropdownMenu.Trigger>
 
-											<DropdownMenu.Content class="w-full max-w-[229px] rounded-xl border border-muted bg-gray-50 shadow-xl  py-1.5 outline-none">
-												{#each rubric.category as category}
-												<a href="/" class="hover:bg-gray-200">
-													<DropdownMenu.Item
-														class="flex h-10 select-none items-center rounded-button py-3 px-6 text-sm font-medium outline-none data-[highlighted]:bg-muted"
-													>
-														{category.value}
-													</DropdownMenu.Item>
-												</a>
+													<DropdownMenu.Content class="w-full max-w-[229px] rounded-xl border border-muted bg-gray-50 shadow-xl  py-1.5 outline-none">
+														{#each rubric.category as category}
+														<a href="/" class="hover:bg-gray-200">
+															<DropdownMenu.Item
+																class="flex h-10 select-none items-center rounded-button py-3 px-6 text-sm font-medium outline-none data-[highlighted]:bg-muted"
+															>
+																{category.value}
+															</DropdownMenu.Item>
+														</a>
 
-												{/each}
-											</DropdownMenu.Content>
-										</DropdownMenu.Root>
-									{/each}
-								</div>
-							{/each}
+														{/each}
+													</DropdownMenu.Content>
+												</DropdownMenu.Root>
+											{/each}
+										</div>
+									{/if}
+								{/each}
+							{/if}
 						</div>
 
 						<div class="-mx-3">
