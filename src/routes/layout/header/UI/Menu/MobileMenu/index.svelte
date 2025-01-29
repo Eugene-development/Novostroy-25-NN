@@ -66,7 +66,7 @@
                     Open: "rotate-180", Closed: ""
                   -->
 								<svg
-									class="size-7 flex-none {showServiceMenu ? 'rotate-180 text-red-700' : ''}"
+									class="size-7 flex-none animate-pulse {showServiceMenu ? 'rotate-180 text-red-700' : ''}"
 									viewBox="0 0 20 20"
 									fill="currentColor"
 									aria-hidden="true"
@@ -120,7 +120,7 @@
 							>
 								Каталог
 								<svg
-									class="size-7 flex-none {showCatalogMenu ? 'rotate-180 text-red-700' : ''}"
+									class="size-7 flex-none animate-pulse {showCatalogMenu ? 'rotate-180 text-red-700' : ''}"
 									viewBox="0 0 20 20"
 									fill="currentColor"
 									aria-hidden="true"
@@ -156,7 +156,7 @@
                     Open: "rotate-180", Closed: ""
                   -->
 								<svg
-									class="size-7 flex-none {showInformationMenu ? 'rotate-180 text-red-700' : ''}"
+									class="size-7 flex-none animate-pulse {showInformationMenu ? 'rotate-180 text-red-700' : ''}"
 									viewBox="0 0 20 20"
 									fill="currentColor"
 									aria-hidden="true"
