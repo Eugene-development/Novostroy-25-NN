@@ -1,4 +1,6 @@
 <script>
+	import { DropdownMenu } from 'bits-ui';
+
 	import CatalogItem from './CatalogItem/index.svelte';
 
 	import { visibleMobileMenu } from '$lib/state/visibleMobileMenu.svelte';
@@ -7,7 +9,6 @@
 	let showInformationMenu = $state(false);
 	let showCatalogMenu = $state(false);
 
-	import { DropdownMenu } from 'bits-ui';
 
 	let { data } = $props();
 </script>
@@ -93,7 +94,7 @@
 									<a onclick={() => (visibleMobileMenu.value = false)}
 										href="/design-project"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
-										>Дизайн проекта</a
+										>Дизайн интерьера</a
 									>
 									<a onclick={() => (visibleMobileMenu.value = false)}
 										href="/measurement"

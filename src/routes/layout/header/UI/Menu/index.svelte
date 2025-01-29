@@ -63,7 +63,7 @@
 						<a
 							href="/design-project"
 							class="block rounded-lg px-3 py-2 text-sm/6 font-medium text-gray-900 hover:bg-gray-50"
-							>Дизайн проекта</a
+							>Дизайн интерьера</a
 						>
 						<a
 							href="/measurement"
@@ -75,11 +75,11 @@
 							class="block rounded-lg px-3 py-2 text-sm/6 font-medium text-gray-900 hover:bg-gray-50"
 							>Проект мебели</a
 						>
-						<a
+						<!-- <a
 							href="/delivery"
 							class="block rounded-lg px-3 py-2 text-sm/6 font-medium text-gray-900 hover:bg-gray-50"
 							>Доставка с грузчиками</a
-						>
+						> -->
 						<a
 							href="/assembly-and-installation"
 							class="block rounded-lg px-3 py-2 text-sm/6 font-medium text-gray-900 hover:bg-gray-50"

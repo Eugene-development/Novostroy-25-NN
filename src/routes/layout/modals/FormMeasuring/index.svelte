@@ -1,5 +1,37 @@
 <script>
+	import { enhance } from '$app/forms';
+
 	import { visibleMeasuringForm } from '$lib/state/formMeasuring.svelte';
+
+
+	let formMessage = $state('');
+	let formError = $state(false);
+
+	// Обработчик отправки формы
+	const handleSubmit = () => {
+		return async ({ result }) => {
+			if (result.type === 'success') {
+				if (result.data.success) {
+					formMessage = 'Форма отправлена';
+					formError = false;
+					console.log(formMessage);
+					// Закрываем модальное окно после успешного создания
+					// setTimeout(() => {
+					// 	visibleProductFormCreate.value = false;
+					// 	formMessage = '';
+					// }, 2000);
+				} else {
+					formMessage = `Ошибка: ${result.data.error}`;
+					console.log(formMessage);
+					formError = true;
+				}
+			}
+		};
+	};
+
+
+	let { data, form } = $props();
+
 </script>
 
 {#if visibleMeasuringForm.value}
@@ -13,7 +45,8 @@
 					<div
 						class="pointer-events-auto w-screen max-w-md animate-fade-left animate-duration-100 animate-ease-linear"
 					>
-						<form class="flex h-full flex-col divide-y divide-gray-200 bg-white shadow-xl">
+						<form method="POST" action="/measurement?/sendFormMeasuring"  use:enhance={handleSubmit}
+						class="flex h-full flex-col divide-y divide-gray-200 bg-white shadow-xl">
 							<div class="h-0 flex-1 overflow-y-auto">
 								<div class="bg-blue-700 px-4 py-6 sm:px-6">
 									<div class="flex items-center justify-between">
@@ -62,11 +95,12 @@
 												<div class="mt-2">
 													<input
 														type="text"
-														name="project-name"
+														name="client-name"
 														id="project-name"
 														class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-blue-600 sm:text-sm/6"
 													/>
 												</div>
+												
 											</div>
 											<div>
 												<label
@@ -76,7 +110,7 @@
 												<div class="mt-2">
 													<input
 														type="text"
-														name="project-description"
+														name="client-phone"
 														id="project-description"
 														class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-blue-600 sm:text-sm/6"
 													/>
