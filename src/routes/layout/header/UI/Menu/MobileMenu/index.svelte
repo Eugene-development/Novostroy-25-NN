@@ -10,7 +10,6 @@
 	import { DropdownMenu } from 'bits-ui';
 
 	let { data } = $props();
-	// $inspect(data);
 </script>
 
 {#if visibleMobileMenu.value}

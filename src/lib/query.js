@@ -27,6 +27,12 @@ export const CATALOG_TREE = gql`
 			rubric {
 				value
 				slug
+				parentable {
+					... on Catalog {
+					value
+					slug
+					}
+				}
 				category {
 					value
 					slug
