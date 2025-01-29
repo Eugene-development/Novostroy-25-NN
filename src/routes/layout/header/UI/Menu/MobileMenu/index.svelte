@@ -171,32 +171,32 @@
 							{#if showInformationMenu}
 								<div class="mt-2 space-y-2" id="disclosure-2">
 									<a
-										href="/"
+										href="/about"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>О компании</a
 									>
 									<a
-										href="/"
+										href="/partnership"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>Партнёрство</a
 									>
 									<a
-										href="/"
+										href="/testimonials"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>Отзывы</a
 									>
 									<a
-										href="/"
+										href="/installment"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>Рассрочка</a
 									>
 									<a
-										href="/"
+										href="/guarantees"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>Гарантии</a
 									>
 									<a
-										href="/"
+										href="/contacts"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>Контакты</a
 									>

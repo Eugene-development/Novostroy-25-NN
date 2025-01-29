@@ -4,8 +4,6 @@
 	// import { showRubricMenu } from '$lib/state/showRubricMenu.svelte';
 
 	let { rubric } = $props();
-    $inspect(rubric);
-
 </script>
 
 <DropdownMenu.Root>
