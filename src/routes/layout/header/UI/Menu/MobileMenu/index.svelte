@@ -1,5 +1,6 @@
 <script>
 	import { visibleMobileMenu } from '$lib/state/visibleMobileMenu.svelte';
+	import { showServiceMenu } from '$lib/state/showServiceMenu.svelte';
 
 	import { DropdownMenu } from 'bits-ui';
 
@@ -46,7 +47,7 @@
 				<div class="-my-6 divide-y divide-gray-500/10">
 					<div class="space-y-2 py-6">
 						<div class="-mx-3">
-							<button
+							<button onclick={() => (showServiceMenu.value = !showServiceMenu.value)}
 								type="button"
 								class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-lg/7 font-semibold text-gray-900 hover:bg-gray-50"
 								aria-controls="disclosure-1"
@@ -59,7 +60,7 @@
                     Open: "rotate-180", Closed: ""
                   -->
 								<svg
-									class="size-5 flex-none"
+									class="size-5 flex-none {showServiceMenu.value ? 'rotate-180 text-red-700' : ''}"
 									viewBox="0 0 20 20"
 									fill="currentColor"
 									aria-hidden="true"
@@ -73,7 +74,8 @@
 								</svg>
 							</button>
 							<!-- 'Product' sub-menu, show/hide based on menu state. -->
-							<div class="mt-2 hidden space-y-2" id="disclosure-1">
+							{#if showServiceMenu.value}
+							<div class="mt-2 space-y-2" id="disclosure-1">
 								<a
 									href="/"
 									class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
@@ -100,6 +102,7 @@
 									>Сборка и установка</a
 								>
 							</div>
+							{/if}
 						</div>
 						<div class="-mx-3">
 							<button
