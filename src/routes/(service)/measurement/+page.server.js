@@ -26,12 +26,9 @@ export const actions = {
             const variables = {
 				name: data.get('client-name'),
                 phone: data.get('client-phone'),
-				email: 'mail',
-				address: 'адрес',
-				comment: 'комментарий',
-				// email: data.get('client-email'),
-				// address: data.get('client-address'),
-				// comment: data.get('client-comment'),
+				email: data.get('client-email'),
+				address: data.get('client-address'),
+				comment: data.get('client-comment'),
 			};
             await axios.post(url, variables, urlMAIL);
 			return { success: true };
