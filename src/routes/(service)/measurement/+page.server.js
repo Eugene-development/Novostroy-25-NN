@@ -8,9 +8,6 @@ const apiMAIL = {
     Authorization: `Bearer ${process.env.NEXT_PUBLIC_KEY}`,
   },
 };
-// TODO: через дефис
-
-
 
 export const actions = {
 	sendFormMeasurement: async ({ request }) => {
