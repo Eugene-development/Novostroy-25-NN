@@ -13,7 +13,11 @@
 </script>
 
 {#if visibleMobileMenu.value}
-	<div class="" role="dialog" aria-modal="true">
+	<div
+		class=""
+		role="dialog"
+		aria-modal="true"
+	>
 		<!-- Background backdrop, show/hide based on slide-over state. -->
 		<div class="fixed inset-0 z-10"></div>
 		<div
@@ -81,27 +85,27 @@
 							<!-- 'Product' sub-menu, show/hide based on menu state. -->
 							{#if showServiceMenu}
 								<div class="mt-2 space-y-2" id="disclosure-1">
-									<a
+									<a onclick={() => (visibleMobileMenu.value = false)}
 										href="/consultation"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>Консультация</a
 									>
-									<a
+									<a onclick={() => (visibleMobileMenu.value = false)}
 										href="/design-project"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>Дизайн проекта</a
 									>
-									<a
+									<a onclick={() => (visibleMobileMenu.value = false)}
 										href="/measurement"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>Замер помещения</a
 									>
-									<a
+									<a onclick={() => (visibleMobileMenu.value = false)}
 										href="/furniture-project"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>Проект мебели</a
 									>
-									<a
+									<a onclick={() => (visibleMobileMenu.value = false)}
 										href="/assembly-and-installation"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>Сборка и установка</a
@@ -170,32 +174,32 @@
 							</button>
 							{#if showInformationMenu}
 								<div class="mt-2 space-y-2" id="disclosure-2">
-									<a
+									<a onclick={() => (visibleMobileMenu.value = false)}
 										href="/about"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>О компании</a
 									>
-									<a
+									<a onclick={() => (visibleMobileMenu.value = false)}
 										href="/partnership"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>Партнёрство</a
 									>
-									<a
+									<a onclick={() => (visibleMobileMenu.value = false)}
 										href="/testimonials"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>Отзывы</a
 									>
-									<a
+									<a onclick={() => (visibleMobileMenu.value = false)}
 										href="/installment"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>Рассрочка</a
 									>
-									<a
+									<a onclick={() => (visibleMobileMenu.value = false)}
 										href="/guarantees"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>Гарантии</a
 									>
-									<a
+									<a onclick={() => (visibleMobileMenu.value = false)}
 										href="/contacts"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>Контакты</a
