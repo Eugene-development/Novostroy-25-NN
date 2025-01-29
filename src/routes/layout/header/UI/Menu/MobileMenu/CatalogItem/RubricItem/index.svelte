@@ -1,7 +1,7 @@
 <script>
 	import { DropdownMenu } from 'bits-ui';
 
-	import { showRubricMenu } from '$lib/state/showRubricMenu.svelte';
+	// import { showRubricMenu } from '$lib/state/showRubricMenu.svelte';
 
 	let { rubric } = $props();
 </script>
