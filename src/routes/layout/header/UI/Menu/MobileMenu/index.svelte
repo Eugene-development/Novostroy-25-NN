@@ -2,9 +2,9 @@
 	import CatalogItem from './CatalogItem/index.svelte';
 
 	import { visibleMobileMenu } from '$lib/state/visibleMobileMenu.svelte';
-	import { showServiceMenu } from '$lib/state/showServiceMenu.svelte';
-	import { showInformationMenu } from '$lib/state/showInformationMenu.svelte';
 
+	let showServiceMenu = $state(false);
+	let showInformationMenu = $state(false);
 	let showCatalogMenu = $state(false);
 
 	import { DropdownMenu } from 'bits-ui';
@@ -53,7 +53,7 @@
 					<div class="space-y-2 py-6">
 						<div class="-mx-3">
 							<button
-								onclick={() => (showServiceMenu.value = !showServiceMenu.value)}
+								onclick={() => (showServiceMenu = !showServiceMenu)}
 								type="button"
 								class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-lg/7 font-semibold text-gray-900 hover:bg-gray-50"
 								aria-controls="disclosure-1"
@@ -66,7 +66,7 @@
                     Open: "rotate-180", Closed: ""
                   -->
 								<svg
-									class="size-5 flex-none {showServiceMenu.value ? 'rotate-180 text-red-700' : ''}"
+									class="size-5 flex-none {showServiceMenu ? 'rotate-180 text-red-700' : ''}"
 									viewBox="0 0 20 20"
 									fill="currentColor"
 									aria-hidden="true"
@@ -80,7 +80,7 @@
 								</svg>
 							</button>
 							<!-- 'Product' sub-menu, show/hide based on menu state. -->
-							{#if showServiceMenu.value}
+							{#if showServiceMenu}
 								<div class="mt-2 space-y-2" id="disclosure-1">
 									<a
 										href="/"
@@ -143,7 +143,7 @@
 
 						<div class="-mx-3">
 							<button
-								onclick={() => (showInformationMenu.value = !showInformationMenu.value)}
+								onclick={() => (showInformationMenu = !showInformationMenu)}
 								type="button"
 								class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-lg/7 font-semibold text-gray-900 hover:bg-gray-50"
 								aria-controls="disclosure-2"
@@ -156,9 +156,7 @@
                     Open: "rotate-180", Closed: ""
                   -->
 								<svg
-									class="size-5 flex-none {showInformationMenu.value
-										? 'rotate-180 text-red-700'
-										: ''}"
+									class="size-5 flex-none {showInformationMenu ? 'rotate-180 text-red-700' : ''}"
 									viewBox="0 0 20 20"
 									fill="currentColor"
 									aria-hidden="true"
@@ -171,7 +169,7 @@
 									/>
 								</svg>
 							</button>
-							{#if showInformationMenu.value}
+							{#if showInformationMenu}
 								<div class="mt-2 space-y-2" id="disclosure-2">
 									<a
 										href="/"
