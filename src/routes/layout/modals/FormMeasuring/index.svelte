@@ -3,7 +3,6 @@
 
 	import { visibleMeasuringForm } from '$lib/state/formMeasuring.svelte';
 
-
 	let formMessage = $state('');
 	let formError = $state(false);
 
@@ -12,14 +11,13 @@
 		return async ({ result }) => {
 			if (result.type === 'success') {
 				if (result.data.success) {
-					formMessage = 'Форма отправлена';
 					formError = false;
-					console.log(formMessage);
-					// Закрываем модальное окно после успешного создания
-					// setTimeout(() => {
-					// 	visibleProductFormCreate.value = false;
-					// 	formMessage = '';
-					// }, 2000);
+					// Закрываем форму после успешного создания
+					setTimeout(() => {
+						visibleMeasuringForm.value = false;
+						formMessage = 'Форма отправлена успешно';
+						console.log(formMessage);
+					}, 500);
 				} else {
 					formMessage = `Ошибка: ${result.data.error}`;
 					console.log(formMessage);
@@ -45,7 +43,7 @@
 					<div
 						class="pointer-events-auto w-screen max-w-md animate-fade-left animate-duration-100 animate-ease-linear"
 					>
-						<form method="POST" action="/measurement?/sendFormMeasuring"  use:enhance={handleSubmit}
+						<form method="POST" action="/measurement?/sendFormMeasurement" use:enhance={handleSubmit}
 						class="flex h-full flex-col divide-y divide-gray-200 bg-white shadow-xl">
 							<div class="h-0 flex-1 overflow-y-auto">
 								<div class="bg-blue-700 px-4 py-6 sm:px-6">

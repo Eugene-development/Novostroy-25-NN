@@ -13,17 +13,12 @@ const apiMAIL = {
 
 
 export const actions = {
-	sendFormMeasuring: async ({ request }) => {
+	sendFormMeasurement: async ({ request }) => {
 		try {
-
             const data = await request.formData();
-
-
-            const url = `/send-form-measuring-request`;
-
+            const url = `/send-form-measurement`;
             const urlMAIL = {
                 baseURL: import.meta.env.VITE_MAIL,
-              
                 headers: {
                   Authorization: `Bearer ${import.meta.env.VITE_KEY}`,
                 },
@@ -38,15 +33,8 @@ export const actions = {
 				// address: data.get('client-address'),
 				// comment: data.get('client-comment'),
 			};
-
-            // console.log(urlMAIL);
-
-
-            const result = await axios.post(url, variables, urlMAIL);
-
-            // console.log(result);
-
-			// return { success: true, data: result };
+            await axios.post(url, variables, urlMAIL);
+			return { success: true };
 		} catch (error) {
 			console.error('Error sending form:', error);
 			return { success: false, error: error.message };
