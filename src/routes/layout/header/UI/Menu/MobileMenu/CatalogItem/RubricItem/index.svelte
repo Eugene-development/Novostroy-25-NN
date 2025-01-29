@@ -16,12 +16,12 @@
     </DropdownMenu.Trigger>
 
     <DropdownMenu.Content
-        class="w-full max-w-[229px] rounded-xl border-gray-200 border-2 bg-gray-50 py-1.5  shadow-xl outline-none"
+        class="w-full max-w-[229px] rounded-xl border-gray-200 border-2 bg-gray-100 py-1.5 shadow-xl outline-none"
     >
         {#each rubric.category as category}
-            <a href="/" class="">
+            <a href="/">
                 <DropdownMenu.Item
-                    class="rounded-button  flex h-10 select-none items-center px-6 py-3 text-sm font-medium outline-none data-[highlighted]:bg-muted"
+                    class="rounded-button flex h-10 select-none items-center px-6 py-3 text-sm font-medium outline-none data-[highlighted]:bg-muted"
                 >
                     {category.value}
                 </DropdownMenu.Item>
