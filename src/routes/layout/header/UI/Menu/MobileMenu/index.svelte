@@ -1,6 +1,7 @@
 <script>
 	import { visibleMobileMenu } from '$lib/state/visibleMobileMenu.svelte';
 	import { showServiceMenu } from '$lib/state/showServiceMenu.svelte';
+	import { showInformationMenu } from '$lib/state/showInformationMenu.svelte';
 
 	import { DropdownMenu } from 'bits-ui';
 
@@ -164,7 +165,7 @@
 						</div>
 
 						<div class="-mx-3">
-							<button
+							<button onclick={() => (showInformationMenu.value = !showInformationMenu.value)}
 								type="button"
 								class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-lg/7 font-semibold text-gray-900 hover:bg-gray-50"
 								aria-controls="disclosure-2"
@@ -177,7 +178,7 @@
                     Open: "rotate-180", Closed: ""
                   -->
 								<svg
-									class="size-5 flex-none"
+									class="size-5 flex-none {showInformationMenu.value ? 'rotate-180 text-red-700' : ''}"
 									viewBox="0 0 20 20"
 									fill="currentColor"
 									aria-hidden="true"
@@ -190,39 +191,40 @@
 									/>
 								</svg>
 							</button>
-							<!-- 'Company' sub-menu, show/hide based on menu state. -->
-							<div class="mt-2 hidden space-y-2" id="disclosure-2">
-								<a
-									href="/"
-									class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
-									>О компании</a
-								>
-								<a
-									href="/"
-									class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
-									>Партнёрство</a
-								>
-								<a
-									href="/"
-									class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
-									>Отзывы</a
-								>
-								<a
-									href="/"
-									class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
-									>Рассрочка</a
-								>
-								<a
-									href="/"
-									class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
-									>Гарантии</a
-								>
-								<a
-									href="/"
-									class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
-									>Контакты</a
-								>
-							</div>
+							{#if showInformationMenu.value}
+								<div class="mt-2  space-y-2" id="disclosure-2">
+									<a
+										href="/"
+										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
+										>О компании</a
+									>
+									<a
+										href="/"
+										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
+										>Партнёрство</a
+									>
+									<a
+										href="/"
+										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
+										>Отзывы</a
+									>
+									<a
+										href="/"
+										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
+										>Рассрочка</a
+									>
+									<a
+										href="/"
+										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
+										>Гарантии</a
+									>
+									<a
+										href="/"
+										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
+										>Контакты</a
+									>
+								</div>
+						    {/if}
 						</div>
 					</div>
 					<div class="py-6">
