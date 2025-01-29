@@ -61,12 +61,12 @@
 							>Консультация</a
 						>
 						<a
-							href="/design"
+							href="/design-project"
 							class="block rounded-lg px-3 py-2 text-sm/6 font-medium text-gray-900 hover:bg-gray-50"
-							>Дизайн интерьера</a
+							>Дизайн проекта</a
 						>
 						<a
-							href="/measuring"
+							href="/measurement"
 							class="block rounded-lg px-3 py-2 text-sm/6 font-medium text-gray-900 hover:bg-gray-50"
 							>Замер помещения</a
 						>
@@ -81,7 +81,7 @@
 							>Доставка с грузчиками</a
 						>
 						<a
-							href="/installation"
+							href="/assembly-and-installation"
 							class="block rounded-lg px-3 py-2 text-sm/6 font-medium text-gray-900 hover:bg-gray-50"
 							>Сборка и установка</a
 						>

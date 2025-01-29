@@ -82,27 +82,27 @@
 							{#if showServiceMenu}
 								<div class="mt-2 space-y-2" id="disclosure-1">
 									<a
-										href="/"
+										href="/consultation"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>Консультация</a
 									>
 									<a
-										href="/"
+										href="/design-project"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>Дизайн проекта</a
 									>
 									<a
-										href="/"
+										href="/measurement"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>Замер помещения</a
 									>
 									<a
-										href="/"
+										href="/furniture-project"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>Проект мебели</a
 									>
 									<a
-										href="/"
+										href="/assembly-and-installation"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>Сборка и установка</a
 									>

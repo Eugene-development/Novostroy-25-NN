@@ -31,7 +31,7 @@
 					<h1
 						class="mb-6 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl"
 					>
-						Сборка мебели
+						Сборка и установка
 					</h1>
 					<p class="mt-2 text-pretty text-base font-medium text-gray-500 sm:text-lg/8">
 						Грамотная сборка и установка мебели — залог её долговечности и удобства в использовании.
