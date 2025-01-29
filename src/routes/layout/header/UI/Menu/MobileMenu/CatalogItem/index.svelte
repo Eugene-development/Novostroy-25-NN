@@ -3,20 +3,22 @@
 
     import RubricItem from './RubricItem/index.svelte';
 
-	import { showRubricMenu } from '$lib/state/showRubricMenu.svelte';
+	// import { showRubricMenu } from '$lib/state/showRubricMenu.svelte';
+
+    let showRubricMenu = $state(false);
 
 	let { catalog } = $props();
 </script>
 
 <button
 	type="button"
-	onclick={() => (showRubricMenu.value = !showRubricMenu.value)}
+	onclick={() => (showRubricMenu = !showRubricMenu)}
 	class="ml-5 flex w-full justify-between rounded-lg px-1 py-2 pr-7 text-base/7 font-semibold text-sky-700 hover:bg-gray-50"
 >
 	{catalog.value}
 
 	<svg
-		class="size-5 flex-none {showRubricMenu.value ? 'rotate-180 text-sky-700' : ''}"
+		class="size-5 flex-none {showRubricMenu ? 'rotate-180 text-sky-700' : ''}"
 		viewBox="0 0 20 20"
 		fill="currentColor"
 		aria-hidden="true"
@@ -30,7 +32,7 @@
 	</svg>
 </button>
 
-{#if showRubricMenu.value}
+{#if showRubricMenu}
 	<div class="flex flex-col">
 		{#each catalog.rubric as rubric}
 			<RubricItem {rubric} />
