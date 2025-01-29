@@ -3,8 +3,6 @@
 
     import RubricItem from './RubricItem/index.svelte';
 
-	// import { showRubricMenu } from '$lib/state/showRubricMenu.svelte';
-
     let showRubricMenu = $state(false);
 
 	let { catalog } = $props();

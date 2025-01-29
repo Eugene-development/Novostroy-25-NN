@@ -4,7 +4,8 @@
 	import { visibleMobileMenu } from '$lib/state/visibleMobileMenu.svelte';
 	import { showServiceMenu } from '$lib/state/showServiceMenu.svelte';
 	import { showInformationMenu } from '$lib/state/showInformationMenu.svelte';
-	import { showCatalogMenu } from '$lib/state/showCatalogMenu.svelte';
+
+	let showCatalogMenu = $state(false);
 
 	import { DropdownMenu } from 'bits-ui';
 
@@ -111,7 +112,7 @@
 						</div>
 						<div class="-mx-3">
 							<button
-								onclick={() => (showCatalogMenu.value = !showCatalogMenu.value)}
+								onclick={() => (showCatalogMenu = !showCatalogMenu)}
 								type="button"
 								class="flex w-full justify-between rounded-lg py-2 pl-3 pr-3.5 text-lg/7 font-semibold text-gray-900 hover:bg-gray-50"
 								aria-controls="disclosure-1"
@@ -119,7 +120,7 @@
 							>
 								Каталог
 								<svg
-									class="size-5 flex-none {showCatalogMenu.value ? 'rotate-180 text-red-700' : ''}"
+									class="size-5 flex-none {showCatalogMenu ? 'rotate-180 text-red-700' : ''}"
 									viewBox="0 0 20 20"
 									fill="currentColor"
 									aria-hidden="true"
@@ -133,7 +134,7 @@
 								</svg>
 							</button>
 
-							{#if showCatalogMenu.value}
+							{#if showCatalogMenu}
 								{#each data as catalog}
 									<CatalogItem {catalog} />
 								{/each}
