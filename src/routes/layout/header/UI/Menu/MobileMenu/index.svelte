@@ -1,9 +1,10 @@
 <script>
+	import CatalogItem from './CatalogItem/index.svelte';
+
 	import { visibleMobileMenu } from '$lib/state/visibleMobileMenu.svelte';
 	import { showServiceMenu } from '$lib/state/showServiceMenu.svelte';
 	import { showInformationMenu } from '$lib/state/showInformationMenu.svelte';
 	import { showCatalogMenu } from '$lib/state/showCatalogMenu.svelte';
-	import { showRubricMenu } from '$lib/state/showRubricMenu.svelte';
 
 	import { DropdownMenu } from 'bits-ui';
 
@@ -134,59 +135,7 @@
 
 							{#if showCatalogMenu.value}
 								{#each data as catalog}
-									<button
-										type="button"
-										onclick={() => (showRubricMenu.value = !showRubricMenu.value)}
-										class="ml-5 flex w-full justify-between rounded-lg px-1 py-2 pr-7 text-base/7 font-semibold text-sky-700 hover:bg-gray-50"
-									>
-										{catalog.value}
-
-										<svg
-											class="size-5 flex-none {showRubricMenu.value
-												? 'rotate-180 text-sky-700'
-												: ''}"
-											viewBox="0 0 20 20"
-											fill="currentColor"
-											aria-hidden="true"
-											data-slot="icon"
-										>
-											<path
-												fill-rule="evenodd"
-												d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
-												clip-rule="evenodd"
-											/>
-										</svg>
-									</button>
-
-									{#if showRubricMenu.value}
-										<div class="flex flex-col">
-											{#each catalog.rubric as rubric}
-												<DropdownMenu.Root>
-													<DropdownMenu.Trigger>
-														<span
-															class="ml-10 flex w-full rounded-lg px-1 py-2 pr-3.5 text-base/7 font-semibold text-red-700 hover:bg-gray-50"
-														>
-															{rubric.value}
-														</span>
-													</DropdownMenu.Trigger>
-
-													<DropdownMenu.Content
-														class="w-full max-w-[229px] rounded-xl border border-muted bg-gray-50 py-1.5  shadow-xl outline-none"
-													>
-														{#each rubric.category as category}
-															<a href="/" class="hover:bg-gray-200">
-																<DropdownMenu.Item
-																	class="rounded-button flex h-10 select-none items-center px-6 py-3 text-sm font-medium outline-none data-[highlighted]:bg-muted"
-																>
-																	{category.value}
-																</DropdownMenu.Item>
-															</a>
-														{/each}
-													</DropdownMenu.Content>
-												</DropdownMenu.Root>
-											{/each}
-										</div>
-									{/if}
+									<CatalogItem {catalog} />
 								{/each}
 							{/if}
 						</div>
