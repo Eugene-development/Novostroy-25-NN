@@ -116,7 +116,7 @@
 							>
 								Каталог
 								<svg
-									class="size-5 flex-none"
+									class="size-5 flex-none {showCatalogMenu.value ? 'rotate-180 text-red-700' : ''}"
 									viewBox="0 0 20 20"
 									fill="currentColor"
 									aria-hidden="true"
@@ -134,7 +134,7 @@
 								{#each data as catalog}
 									<button type="button"
 										onclick={() => (showRubricMenu.value = !showRubricMenu.value)}
-										class="ml-3 flex w-full rounded-lg px-1 py-2 pr-3.5 text-base/7 font-semibold text-sky-700 hover:bg-gray-50"
+										class="ml-5 flex w-full rounded-lg px-1 py-2 pr-3.5 text-base/7 font-semibold text-sky-700 hover:bg-gray-50"
 									>
 										{catalog.value}
 									</button>
@@ -145,7 +145,7 @@
 												<DropdownMenu.Root>
 													<DropdownMenu.Trigger>
 														<span
-															class="ml-6 flex w-full rounded-lg px-1 py-2 pr-3.5 text-base/7 font-semibold text-red-700 hover:bg-gray-50"
+															class="ml-10 flex w-full rounded-lg px-1 py-2 pr-3.5 text-base/7 font-semibold text-red-700 hover:bg-gray-50"
 														>
 															{rubric.value}
 														</span>
