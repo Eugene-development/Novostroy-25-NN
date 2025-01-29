@@ -1,12 +1,14 @@
 <script>
+    import { visibleMobileMenu } from '$lib/state/visibleMobileMenu.svelte';
+
 	function handleClick() {
-		visible = true;
+		visibleMobileMenu.value = true;
 	}
 </script>
 
 <button
 	type="button"
-	onClick={handleClick}
+	onclick={handleClick}
 	class="relative isolate z-20 px-2 focus-visible:outline-offset-[-4px]"
 >
 	<span class="sr-only">Мобильное Меню</span>
