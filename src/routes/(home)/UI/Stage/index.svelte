@@ -45,7 +45,8 @@
 	];
 </script>
 
-<div class="relative isolate h-screen overflow-hidden bg-gray-50/50 py-24 sm:py-32">
+<div class="relative isolate md:h-screen overflow-hidden bg-gray-50/50 py-24 sm:py-32">
+<!-- <div class="relative isolate h-screen overflow-hidden bg-gray-50/50 py-24 sm:py-32"> -->
 	<img
 		src="https://zov.top/_next/image?url=https%3A%2F%2Fstorage.yandexcloud.net%2Fmine2024%2Fzov%2FZg7llpCInCBFGyb7xO0B7Qkac7pwWVorXWQeLC2K.jpg&w=1920&q=75"
 		alt="Кухонный гарнитур"
