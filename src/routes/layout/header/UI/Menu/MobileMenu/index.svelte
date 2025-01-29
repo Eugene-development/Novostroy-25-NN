@@ -8,7 +8,7 @@
 	import { DropdownMenu } from 'bits-ui';
 
 	let { data } = $props();
-	$inspect(data);
+	// $inspect(data);
 </script>
 
 {#if visibleMobileMenu.value}
@@ -16,7 +16,7 @@
 		<!-- Background backdrop, show/hide based on slide-over state. -->
 		<div class="fixed inset-0 z-10"></div>
 		<div
-			class="fixed inset-y-0 right-0 z-10 pt-16 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
+			class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 pt-16 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
 		>
 			<div class="flex items-center justify-between">
 				<a href="/" class="-m-1.5 p-1.5">
@@ -50,7 +50,8 @@
 				<div class="-my-6 divide-y divide-gray-500/10">
 					<div class="space-y-2 py-6">
 						<div class="-mx-3">
-							<button onclick={() => (showServiceMenu.value = !showServiceMenu.value)}
+							<button
+								onclick={() => (showServiceMenu.value = !showServiceMenu.value)}
 								type="button"
 								class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-lg/7 font-semibold text-gray-900 hover:bg-gray-50"
 								aria-controls="disclosure-1"
@@ -78,37 +79,38 @@
 							</button>
 							<!-- 'Product' sub-menu, show/hide based on menu state. -->
 							{#if showServiceMenu.value}
-							<div class="mt-2 space-y-2" id="disclosure-1">
-								<a
-									href="/"
-									class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
-									>Консультация</a
-								>
-								<a
-									href="/"
-									class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
-									>Дизайн проекта</a
-								>
-								<a
-									href="/"
-									class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
-									>Замер помещения</a
-								>
-								<a
-									href="/"
-									class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
-									>Проект мебели</a
-								>
-								<a
-									href="/"
-									class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
-									>Сборка и установка</a
-								>
-							</div>
+								<div class="mt-2 space-y-2" id="disclosure-1">
+									<a
+										href="/"
+										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
+										>Консультация</a
+									>
+									<a
+										href="/"
+										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
+										>Дизайн проекта</a
+									>
+									<a
+										href="/"
+										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
+										>Замер помещения</a
+									>
+									<a
+										href="/"
+										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
+										>Проект мебели</a
+									>
+									<a
+										href="/"
+										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
+										>Сборка и установка</a
+									>
+								</div>
 							{/if}
 						</div>
 						<div class="-mx-3">
-							<button onclick={() => (showCatalogMenu.value = !showCatalogMenu.value)}
+							<button
+								onclick={() => (showCatalogMenu.value = !showCatalogMenu.value)}
 								type="button"
 								class="flex w-full justify-between rounded-lg py-2 pl-3 pr-3.5 text-lg/7 font-semibold text-gray-900 hover:bg-gray-50"
 								aria-controls="disclosure-1"
@@ -132,26 +134,29 @@
 
 							{#if showCatalogMenu.value}
 								{#each data as catalog}
-									<button type="button"
+									<button
+										type="button"
 										onclick={() => (showRubricMenu.value = !showRubricMenu.value)}
-										class="ml-5 flex justify-between w-full rounded-lg px-1 py-2 pr-7 text-base/7 font-semibold text-sky-700 hover:bg-gray-50"
+										class="ml-5 flex w-full justify-between rounded-lg px-1 py-2 pr-7 text-base/7 font-semibold text-sky-700 hover:bg-gray-50"
 									>
 										{catalog.value}
-									
-									<svg
-										class="size-5 flex-none {showRubricMenu.value ? 'rotate-180 text-sky-700' : ''}"
-										viewBox="0 0 20 20"
-										fill="currentColor"
-										aria-hidden="true"
-										data-slot="icon"
-									>
-										<path
-											fill-rule="evenodd"
-											d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
-											clip-rule="evenodd"
-										/>
-									</svg>
-								</button>
+
+										<svg
+											class="size-5 flex-none {showRubricMenu.value
+												? 'rotate-180 text-sky-700'
+												: ''}"
+											viewBox="0 0 20 20"
+											fill="currentColor"
+											aria-hidden="true"
+											data-slot="icon"
+										>
+											<path
+												fill-rule="evenodd"
+												d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+												clip-rule="evenodd"
+											/>
+										</svg>
+									</button>
 
 									{#if showRubricMenu.value}
 										<div class="flex flex-col">
@@ -165,16 +170,17 @@
 														</span>
 													</DropdownMenu.Trigger>
 
-													<DropdownMenu.Content class="w-full max-w-[229px] rounded-xl border border-muted bg-gray-50 shadow-xl  py-1.5 outline-none">
+													<DropdownMenu.Content
+														class="w-full max-w-[229px] rounded-xl border border-muted bg-gray-50 py-1.5  shadow-xl outline-none"
+													>
 														{#each rubric.category as category}
-														<a href="/" class="hover:bg-gray-200">
-															<DropdownMenu.Item
-																class="flex h-10 select-none items-center rounded-button py-3 px-6 text-sm font-medium outline-none data-[highlighted]:bg-muted"
-															>
-																{category.value}
-															</DropdownMenu.Item>
-														</a>
-
+															<a href="/" class="hover:bg-gray-200">
+																<DropdownMenu.Item
+																	class="rounded-button flex h-10 select-none items-center px-6 py-3 text-sm font-medium outline-none data-[highlighted]:bg-muted"
+																>
+																	{category.value}
+																</DropdownMenu.Item>
+															</a>
 														{/each}
 													</DropdownMenu.Content>
 												</DropdownMenu.Root>
@@ -186,7 +192,8 @@
 						</div>
 
 						<div class="-mx-3">
-							<button onclick={() => (showInformationMenu.value = !showInformationMenu.value)}
+							<button
+								onclick={() => (showInformationMenu.value = !showInformationMenu.value)}
 								type="button"
 								class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-lg/7 font-semibold text-gray-900 hover:bg-gray-50"
 								aria-controls="disclosure-2"
@@ -199,7 +206,9 @@
                     Open: "rotate-180", Closed: ""
                   -->
 								<svg
-									class="size-5 flex-none {showInformationMenu.value ? 'rotate-180 text-red-700' : ''}"
+									class="size-5 flex-none {showInformationMenu.value
+										? 'rotate-180 text-red-700'
+										: ''}"
 									viewBox="0 0 20 20"
 									fill="currentColor"
 									aria-hidden="true"
@@ -213,7 +222,7 @@
 								</svg>
 							</button>
 							{#if showInformationMenu.value}
-								<div class="mt-2  space-y-2" id="disclosure-2">
+								<div class="mt-2 space-y-2" id="disclosure-2">
 									<a
 										href="/"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
@@ -245,7 +254,7 @@
 										>Контакты</a
 									>
 								</div>
-						    {/if}
+							{/if}
 						</div>
 					</div>
 					<div class="py-6">

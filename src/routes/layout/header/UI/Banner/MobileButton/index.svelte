@@ -1,5 +1,5 @@
 <script>
-    import { visibleMobileMenu } from '$lib/state/visibleMobileMenu.svelte';
+	import { visibleMobileMenu } from '$lib/state/visibleMobileMenu.svelte';
 
 	function handleClick() {
 		visibleMobileMenu.value = true;
