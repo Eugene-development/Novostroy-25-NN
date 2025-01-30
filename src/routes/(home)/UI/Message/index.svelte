@@ -16,7 +16,7 @@
 		'Наша компания предлагает создание стильных дизайн-проектов корпусной мебели с точным подбором бытовой техники, освещением, сантехники и кухонных столешниц.';
 </script>
 
-<div class="bg-white py-12 sm:py-24 xl:py-36">
+<div class="bg-white py-20 sm:py-24 xl:py-36">
 	<div class="bg-gray-50/70 pb-20 sm:pb-24 xl:pb-0">
 		<div
 			class="mx-auto flex max-w-7xl flex-col items-center gap-x-8 gap-y-10 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch"
