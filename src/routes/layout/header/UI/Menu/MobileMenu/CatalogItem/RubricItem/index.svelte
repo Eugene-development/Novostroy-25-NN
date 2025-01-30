@@ -1,7 +1,6 @@
 <script>
 	import { DropdownMenu } from 'bits-ui';
-
-	// import { showRubricMenu } from '$lib/state/showRubricMenu.svelte';
+	import { visibleMobileMenu } from '$lib/state/visibleMobileMenu.svelte';
 
 	let { rubric } = $props();
 </script>
@@ -19,7 +18,7 @@
 		class="w-full max-w-[229px] rounded-xl border-2 border-gray-200 bg-gray-100 py-1.5 shadow-xl outline-none"
 	>
 		{#each rubric.category as category}
-			<a href="/{rubric.parentable.slug}/{rubric.slug}/{category.slug}">
+			<a onclick={() => (visibleMobileMenu.value = false)} href="/{rubric.parentable.slug}/{rubric.slug}/{category.slug}">
 				<DropdownMenu.Item
 					class="rounded-button flex h-10 select-none items-center px-6 py-3 text-sm font-medium outline-none data-[highlighted]:bg-muted"
 				>
