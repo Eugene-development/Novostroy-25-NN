@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+	.scale110 {
+	  @apply transition ease-in-out hover:scale-110;
+	}
+  }
+  
+
 @layer base {
 	:root {
 		--background: 0 0% 100%;
