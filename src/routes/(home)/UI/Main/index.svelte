@@ -13,7 +13,7 @@
 		<div class="mx-auto max-w-7xl px-6 lg:px-8">
 			<div class="mx-auto max-w-6xl py-32 sm:py-48 lg:py-56">
 				<div class="animate-duration-5000 animate-fade-up animate-delay-200 animate-ease-in-out">
-					<div class="z-50 -mt-24 flex flex-col items-center justify-center">
+					<div class="z-50 -mt-24 flex flex-col items-center justify-center ">
 						<div
 							class="bg-gradient-to-b from-white to-neutral-400 bg-clip-text py-4 text-center text-3xl font-bold text-transparent md:text-8xl"
 						>
@@ -38,7 +38,7 @@
 						</h2>
 
 						<p
-							class="mt-4 hidden max-w-2xl px-1 text-center font-extralight tracking-wide text-white md:block xl:max-w-4xl xl:text-lg"
+							class="mt-2 hidden max-w-2xl p-4 text-center font-extralight tracking-wide text-white md:block xl:max-w-4xl xl:text-lg  bg-black/10"
 						>
 							Наш профессиональный дизайнер создаст для вас проект мебели по вашим размерам,
 							согласует его с фабрикой, а также подберёт столешницу, бытовую технику и аксессуары. Это поможет
