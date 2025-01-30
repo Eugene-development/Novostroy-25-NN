@@ -30,7 +30,7 @@
 				avatarSrc:
 					'https://images.unsplash.com/photo-1511485977113-f34c92461ad9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80'
 			},
-			date: 'Mar 16, 2020',
+			date: '27 июля 2024',
 			readingTime: '4 min',
 			category: { title: 'Дизайн', href: '#' },
 			thumbnail:

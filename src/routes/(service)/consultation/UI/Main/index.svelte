@@ -21,7 +21,7 @@
 							class="relative rounded-full px-3 py-1 text-sm/6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
 						>
 							Прочтите статью об этой услуге. Посетите <a
-								href="/"
+								href="/post/2"
 								class="whitespace-nowrap font-semibold text-sky-600"
 								><span class="absolute inset-0" aria-hidden="true"></span>наш блог
 								<span aria-hidden="true">&rarr;</span></a
@@ -31,7 +31,7 @@
 					<h1
 						class="mb-6 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl"
 					>
-						Консультация дизайнера
+						Бесплатная консультация
 					</h1>
 					<p class="mt-2 text-pretty text-base font-medium text-gray-500 sm:text-lg/8">
 						Планируете обновление интерьера или подбор мебели? Наш дизайнер поможет создать

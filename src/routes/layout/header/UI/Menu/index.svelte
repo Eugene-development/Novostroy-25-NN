@@ -58,7 +58,7 @@
 						<a
 							href="/consultation"
 							class="block rounded-lg px-3 py-2 text-sm/6 font-medium text-gray-900 hover:bg-gray-50"
-							>Консультация</a
+							>Бесплатная консультация</a
 						>
 						<a
 							href="/design-project"
