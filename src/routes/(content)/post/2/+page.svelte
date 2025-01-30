@@ -5,7 +5,7 @@
 <Meta />
 
 <div
-	class="overflow-hidden bg-gradient-to-b from-white via-white to-gray-50 px-4 py-16 sm:px-6 lg:px-8 xl:py-36"
+	class="overflow-hidden bg-gradient-to-b from-white via-white to-gray-50 px-4 py-16 sm:px-6 lg:px-8 xl:py-36 animate-fade animate-duration-500 animate-ease-in-out"
 >
 	<div class="mx-auto max-w-max lg:max-w-7xl">
 		<div class="relative z-10 mb-8 md:mb-2 md:px-6">
