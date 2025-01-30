@@ -20,10 +20,10 @@
 		},
 		{
 			id: 2,
-			title: 'Пост 2',
+			title: 'Как мы поможем вам создать идеальный дизайн интерьера с нашей помощью?',
 			href: '#',
 			preview:
-				'Lorem ipsum 2 dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi commo',
+				'Создание уютного и функционального пространства для жизни или работы требует не только вкуса, но и профессиональных знаний...',
 			author: {
 				name: 'Michael Foster',
 				href: '#',
@@ -31,7 +31,7 @@
 					'https://images.unsplash.com/photo-1511485977113-f34c92461ad9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80'
 			},
 			date: '27 июля 2024',
-			readingTime: '4 min',
+			readingTime: '4 мин.',
 			category: { title: 'Дизайн', href: '#' },
 			thumbnail:
 				'https://images.unsplash.com/photo-1505751172876-f1f1d2e42f45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&q=80'
