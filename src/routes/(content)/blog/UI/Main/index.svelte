@@ -2,19 +2,19 @@
 	const posts = [
 		{
 			id: 1,
-			title: 'Пост 1',
+			title: 'Почему стоит доверить выбор мебели и техники профессионалам?',
 			href: '#',
 			preview:
-				'Lorem ipsum 1 dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi commo',
+				'Создание уютного и функционального интерьера — это сложный процесс, который требует времени, знаний и опыта. Многие люди ...',
 			author: {
 				name: 'Michael Foster',
 				href: '#',
 				avatarSrc:
 					'https://images.unsplash.com/photo-1511485977113-f34c92461ad9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80'
 			},
-			date: '17 марта, 2020',
+			date: '26 декабря 2023',
 			readingTime: '4 мин.',
-			category: { title: 'Ремонт', href: '#' },
+			category: { title: 'Мебель', href: '#' },
 			thumbnail:
 				'https://images.unsplash.com/photo-1505751172876-f1f1d2e42f45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&q=80'
 		},
@@ -198,7 +198,7 @@
 		<div
 			class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3"
 		>
-			{#each posts as post}
+			{#each posts.reverse() as post}
 				<article
 					class="flex max-w-xl flex-col items-start justify-between border-b border-gray-200 pb-10"
 				>
