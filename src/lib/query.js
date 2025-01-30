@@ -29,8 +29,8 @@ export const CATALOG_TREE = gql`
 				slug
 				parentable {
 					... on Catalog {
-					value
-					slug
+						value
+						slug
 					}
 				}
 				category {

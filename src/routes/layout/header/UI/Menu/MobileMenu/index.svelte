@@ -9,16 +9,11 @@
 	let showInformationMenu = $state(false);
 	let showCatalogMenu = $state(false);
 
-
 	let { data } = $props();
 </script>
 
 {#if visibleMobileMenu.value}
-	<div
-		class=""
-		role="dialog"
-		aria-modal="true"
-	>
+	<div class="" role="dialog" aria-modal="true">
 		<!-- Background backdrop, show/hide based on slide-over state. -->
 		<div class="fixed inset-0 z-10"></div>
 		<div
@@ -70,7 +65,9 @@
                     Open: "rotate-180", Closed: ""
                   -->
 								<svg
-									class="size-7 flex-none animate-pulse {showServiceMenu ? 'rotate-180 text-red-700' : ''}"
+									class="size-7 flex-none animate-pulse {showServiceMenu
+										? 'rotate-180 text-red-700'
+										: ''}"
 									viewBox="0 0 20 20"
 									fill="currentColor"
 									aria-hidden="true"
@@ -86,27 +83,32 @@
 							<!-- 'Product' sub-menu, show/hide based on menu state. -->
 							{#if showServiceMenu}
 								<div class="mt-2 space-y-2" id="disclosure-1">
-									<a onclick={() => (visibleMobileMenu.value = false)}
+									<a
+										onclick={() => (visibleMobileMenu.value = false)}
 										href="/consultation"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>Консультация</a
 									>
-									<a onclick={() => (visibleMobileMenu.value = false)}
+									<a
+										onclick={() => (visibleMobileMenu.value = false)}
 										href="/design-project"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>Дизайн интерьера</a
 									>
-									<a onclick={() => (visibleMobileMenu.value = false)}
+									<a
+										onclick={() => (visibleMobileMenu.value = false)}
 										href="/measurement"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>Замер помещения</a
 									>
-									<a onclick={() => (visibleMobileMenu.value = false)}
+									<a
+										onclick={() => (visibleMobileMenu.value = false)}
 										href="/furniture-project"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>Проект мебели</a
 									>
-									<a onclick={() => (visibleMobileMenu.value = false)}
+									<a
+										onclick={() => (visibleMobileMenu.value = false)}
 										href="/assembly-and-installation"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>Сборка и установка</a
@@ -124,7 +126,9 @@
 							>
 								Каталог
 								<svg
-									class="size-7 flex-none animate-pulse {showCatalogMenu ? 'rotate-180 text-red-700' : ''}"
+									class="size-7 flex-none animate-pulse {showCatalogMenu
+										? 'rotate-180 text-red-700'
+										: ''}"
 									viewBox="0 0 20 20"
 									fill="currentColor"
 									aria-hidden="true"
@@ -160,7 +164,9 @@
                     Open: "rotate-180", Closed: ""
                   -->
 								<svg
-									class="size-7 flex-none animate-pulse {showInformationMenu ? 'rotate-180 text-red-700' : ''}"
+									class="size-7 flex-none animate-pulse {showInformationMenu
+										? 'rotate-180 text-red-700'
+										: ''}"
 									viewBox="0 0 20 20"
 									fill="currentColor"
 									aria-hidden="true"
@@ -175,32 +181,38 @@
 							</button>
 							{#if showInformationMenu}
 								<div class="mt-2 space-y-2" id="disclosure-2">
-									<a onclick={() => (visibleMobileMenu.value = false)}
+									<a
+										onclick={() => (visibleMobileMenu.value = false)}
 										href="/about"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>О компании</a
 									>
-									<a onclick={() => (visibleMobileMenu.value = false)}
+									<a
+										onclick={() => (visibleMobileMenu.value = false)}
 										href="/partnership"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>Партнёрство</a
 									>
-									<a onclick={() => (visibleMobileMenu.value = false)}
+									<a
+										onclick={() => (visibleMobileMenu.value = false)}
 										href="/testimonials"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>Отзывы</a
 									>
-									<a onclick={() => (visibleMobileMenu.value = false)}
+									<a
+										onclick={() => (visibleMobileMenu.value = false)}
 										href="/installment"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>Рассрочка</a
 									>
-									<a onclick={() => (visibleMobileMenu.value = false)}
+									<a
+										onclick={() => (visibleMobileMenu.value = false)}
 										href="/guarantees"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>Гарантии</a
 									>
-									<a onclick={() => (visibleMobileMenu.value = false)}
+									<a
+										onclick={() => (visibleMobileMenu.value = false)}
 										href="/contacts"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
 										>Контакты</a

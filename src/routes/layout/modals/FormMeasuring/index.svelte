@@ -27,9 +27,7 @@
 		};
 	};
 
-
 	let { data, form } = $props();
-
 </script>
 
 {#if visibleMeasuringForm.value}
@@ -43,8 +41,12 @@
 					<div
 						class="pointer-events-auto w-screen max-w-md animate-fade-left animate-duration-100 animate-ease-linear"
 					>
-						<form method="POST" action="/measurement?/sendFormMeasurement" use:enhance={handleSubmit}
-						class="flex h-full flex-col divide-y divide-gray-200 bg-white shadow-xl">
+						<form
+							method="POST"
+							action="/measurement?/sendFormMeasurement"
+							use:enhance={handleSubmit}
+							class="flex h-full flex-col divide-y divide-gray-200 bg-white shadow-xl"
+						>
 							<div class="h-0 flex-1 overflow-y-auto">
 								<div class="bg-blue-700 px-4 py-6 sm:px-6">
 									<div class="flex items-center justify-between">
@@ -88,9 +90,7 @@
 										<div class="space-y-6 pb-5 pt-6">
 											<div>
 												<label for="project-name" class="block text-sm/6 font-medium text-gray-900"
-													>Ваше имя<sup class="text-red-700 w-4 h-4 ml-1">
-														&#x2736;
-													  </sup></label
+													>Ваше имя<sup class="ml-1 h-4 w-4 text-red-700"> &#x2736; </sup></label
 												>
 												<div class="mt-2">
 													<input
@@ -100,14 +100,12 @@
 														class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-blue-600 sm:text-sm/6"
 													/>
 												</div>
-												
 											</div>
 											<div>
 												<label
 													for="project-description"
-													class="block text-sm/6 font-medium text-gray-900">Телефон<sup class="text-red-700 w-4 h-4 ml-1">
-														&#x2736;
-													  </sup></label
+													class="block text-sm/6 font-medium text-gray-900"
+													>Телефон<sup class="ml-1 h-4 w-4 text-red-700"> &#x2736; </sup></label
 												>
 												<div class="mt-2">
 													<input
@@ -148,20 +146,20 @@
 											</div>
 											<div>
 												<label
-												  for="comment"
-												  class="block text-base font-medium leading-6 text-gray-900"
+													for="comment"
+													class="block text-base font-medium leading-6 text-gray-900"
 												>
-												  Ваш комментарий
+													Ваш комментарий
 												</label>
 												<div class="mt-2">
-												  <textarea
-													id="comment"
-													name="client-comment"
-													rows={3}
-													class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-cyan-600 sm:text-sm sm:leading-6"
-												  ></textarea>
+													<textarea
+														id="comment"
+														name="client-comment"
+														rows={3}
+														class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-cyan-600 sm:text-sm sm:leading-6"
+													></textarea>
 												</div>
-											  </div>
+											</div>
 										</div>
 									</div>
 								</div>
