@@ -54,6 +54,30 @@
 			thumbnail:
 				'https://images.unsplash.com/photo-1505751172876-f1f1d2e42f45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&q=80'
 		},
+		{
+			id: 5,
+			title: 'Составление проекта мебели — это ключевой этап в создании интерьера.',
+			href: '#',
+			preview:
+				'Создание мебели на заказ — это не просто выбор размеров и материалов. Это сложный процесс, который требует учета множества факторов...',
+			date: '26 июня, 2024',
+			readingTime: '3 мин.',
+			category: { title: 'Проектирование', href: '#' },
+			thumbnail:
+				'https://images.unsplash.com/photo-1505751172876-f1f1d2e42f45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&q=80'
+		},
+		{
+			id: 6,
+			title: '',
+			href: '#',
+			preview:
+				'...',
+			date: '14 октября, 2024',
+			readingTime: '3 мин.',
+			category: { title: 'Сборка и установка', href: '#' },
+			thumbnail:
+				'https://images.unsplash.com/photo-1505751172876-f1f1d2e42f45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&q=80'
+		},
 	];
 </script>
 
