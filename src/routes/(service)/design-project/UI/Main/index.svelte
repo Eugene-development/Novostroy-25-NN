@@ -21,7 +21,7 @@
 							class="relative rounded-full px-3 py-1 text-sm/6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
 						>
 							Прочтите статью об этой услуге. Посетите <a
-								href="/"
+								href="/post/3"
 								class="whitespace-nowrap font-semibold text-sky-600"
 								><span class="absolute inset-0" aria-hidden="true"></span>наш блог
 								<span aria-hidden="true">&rarr;</span></a

@@ -38,10 +38,10 @@
 		},
 		{
 			id: 3,
-			title: 'Пост 1',
+			title: 'Почему заказ дизайн-проекта интерьера у нас — это решение многих проблем?',
 			href: '#',
 			preview:
-				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi commo',
+				'Создание интерьера — это сложный процесс, который требует учета множества факторов: от общего стиля до деталей, таких как цвет...',
 			author: {
 				name: 'Michael Foster',
 				href: '#',
