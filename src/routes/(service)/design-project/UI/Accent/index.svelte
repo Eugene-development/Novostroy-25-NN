@@ -1,21 +1,21 @@
 <script>
     const incentives = [
 		{
-		  name: "Выбор материалов",
+		  name: "3D-визуализация",
 		  imageSrc:
 		    "https://tailwindui.com/img/ecommerce/icons/icon-shipping-simple.svg",
 		  description:
 		    "Мы сможем предложить практически любой материал, используемый в производстве.",
 		},
 		{
-		  name: "Выбор цвета",
+		  name: "Рекомендации",
 		  imageSrc:
 		    "https://tailwindui.com/img/ecommerce/icons/icon-warranty-simple.svg",
 		  description:
 		    "Мы поможем определиться с цветовой гаммой подбираемых материалов.",
 		},
 		{
-		  name: "Выбор изготовителя",
+		  name: "Стиль",
 		  imageSrc:
 		    "https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg",
 		  description:

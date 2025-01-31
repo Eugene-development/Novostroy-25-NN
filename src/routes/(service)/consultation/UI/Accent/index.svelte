@@ -15,7 +15,7 @@
 		    "Мы поможем определиться с цветовой гаммой подбираемых материалов.",
 		},
 		{
-		  name: "Выбор изготовителя",
+		  name: "Выбор фабрики",
 		  imageSrc:
 		    "https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg",
 		  description:
