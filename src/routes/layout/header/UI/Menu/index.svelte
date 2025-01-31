@@ -11,7 +11,7 @@
 
 <header class="bg-gray-50/50">
 	<nav
-		class="max-w-9xl mx-auto hidden items-center justify-between p-3 lg:flex lg:px-8"
+		class="max-w-9xl mx-auto hidden items-center justify-between p-2 lg:flex lg:px-8"
 		aria-label="Global"
 	>
 		<div class="flex items-center lg:flex-1">
