@@ -12,7 +12,7 @@
 				avatarSrc:
 					'https://images.unsplash.com/photo-1511485977113-f34c92461ad9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80'
 			},
-			date: '26 декабря 2023',
+			date: '26 декабря, 2023',
 			readingTime: '4 мин.',
 			category: { title: 'Мебель', href: '#' },
 			thumbnail:
@@ -24,15 +24,9 @@
 			href: '#',
 			preview:
 				'Создание уютного и функционального пространства для жизни или работы требует не только вкуса, но и профессиональных знаний...',
-			author: {
-				name: 'Michael Foster',
-				href: '#',
-				avatarSrc:
-					'https://images.unsplash.com/photo-1511485977113-f34c92461ad9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80'
-			},
-			date: '27 июля 2024',
+			date: '27 июля, 2024',
 			readingTime: '4 мин.',
-			category: { title: 'Дизайн', href: '#' },
+			category: { title: 'Консультация', href: '#' },
 			thumbnail:
 				'https://images.unsplash.com/photo-1505751172876-f1f1d2e42f45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&q=80'
 		},
@@ -42,15 +36,9 @@
 			href: '#',
 			preview:
 				'Создание интерьера — это сложный процесс, который требует учета множества факторов: от общего стиля до деталей, таких как цвет...',
-			author: {
-				name: 'Michael Foster',
-				href: '#',
-				avatarSrc:
-					'https://images.unsplash.com/photo-1511485977113-f34c92461ad9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80'
-			},
-			date: 'Mar 16, 2020',
-			readingTime: '4 min',
-			category: { title: 'Case Studies', href: '#' },
+			date: '22 апреля, 2024',
+			readingTime: '4 мин.',
+			category: { title: 'Дизайн-проект', href: '#' },
 			thumbnail:
 				'https://images.unsplash.com/photo-1505751172876-f1f1d2e42f45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&q=80'
 		},
@@ -61,8 +49,8 @@
 			preview:
 				'Создание гармоничного и функционального интерьера начинается с точного замера помещения. Это один из самых важных этапов работы...',
 			date: '12 мая, 2024',
-			readingTime: '3 мин',
-			category: { title: 'Case Studies', href: '#' },
+			readingTime: '3 мин.',
+			category: { title: 'Замер', href: '#' },
 			thumbnail:
 				'https://images.unsplash.com/photo-1505751172876-f1f1d2e42f45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&q=80'
 		},
