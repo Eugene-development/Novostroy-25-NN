@@ -1,5 +1,5 @@
 <script>
-	import { Main } from './UI';
+	import { Main, Accent } from './UI';
 </script>
 
 <svelte:head>
@@ -8,3 +8,4 @@
 </svelte:head>
 
 <Main />
+<Accent />
