@@ -46,7 +46,7 @@
 						Доверьте нам реализацию своих идей, и получите мебель, которая гармонично впишется в
 						ваше пространство!
 					</p>
-					<div class="mt-10 flex items-center gap-x-6">
+					<div class="mt-12 flex items-center gap-x-6">
 						<button
 							onclick={() => (visibleProjectForm.value = !visibleProjectForm.value)}
 							type="button"

@@ -44,7 +44,7 @@
 						Забудьте о сложностях перевозки — доверьте это нашим профессионалам, и ваша мебель будет
 						доставлена в целости и сохранности!
 					</p>
-					<div class="mt-10 flex items-center gap-x-6">
+					<div class="mt-12 flex items-center gap-x-6">
 						<button
 							onclick={() => (visibleDeliveryForm.value = !visibleDeliveryForm.value)}
 							type="button"

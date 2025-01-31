@@ -45,7 +45,7 @@
 						Мы помогаем реализовать ваши идеи, учитывая функциональность и индивидуальный вкус.
 						Оставьте заявку, и сделаем ваш дом уютным и красивым!
 					</p>
-					<div class="mt-10 flex items-center gap-x-6">
+					<div class="mt-12 flex items-center gap-x-6">
 						<button
 							onclick={() => (visibleConsultationForm.value = !visibleConsultationForm.value)}
 							type="button"

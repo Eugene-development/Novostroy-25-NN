@@ -46,7 +46,7 @@
 						комфортного и стильного интерьера!
 					</p>
 
-					<div class="mt-10 flex items-center gap-x-6">
+					<div class="mt-12 flex items-center gap-x-6">
 						<button
 							onclick={() => (visibleMeasuringForm.value = !visibleMeasuringForm.value)}
 							type="button"

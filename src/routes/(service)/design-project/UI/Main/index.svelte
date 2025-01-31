@@ -45,7 +45,7 @@
 						Каждый проект создаётся с учётом ваших пожеланий и особенностей помещения. Доверьте
 						создание интерьера профессионалам – вместе создадим дом вашей мечты!
 					</p>
-					<div class="mt-10 flex items-center gap-x-6">
+					<div class="mt-12 flex items-center gap-x-6">
 						<button
 							onclick={() => (visibleDesignForm.value = !visibleDesignForm.value)}
 							type="button"

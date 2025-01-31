@@ -44,7 +44,7 @@
 					<p class="mt-2 text-pretty text-base font-medium text-gray-500 sm:text-lg/8">
 						Доверьте сборку профессионалам — наслаждайтесь комфортом без лишних забот о сборке!
 					</p>
-					<div class="mt-10 flex items-center gap-x-6">
+					<div class="mt-12 flex items-center gap-x-6">
 						<button
 							onclick={() => (visibleInstallationForm.value = !visibleInstallationForm.value)}
 							type="button"
