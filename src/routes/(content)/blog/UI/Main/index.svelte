@@ -54,6 +54,18 @@
 			thumbnail:
 				'https://images.unsplash.com/photo-1505751172876-f1f1d2e42f45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&q=80'
 		},
+		{
+			id: 4,
+			title: 'Профессиональный замер помещения — это ключ к идеальному интерьеру.',
+			href: '#',
+			preview:
+				'Создание гармоничного и функционального интерьера начинается с точного замера помещения. Это один из самых важных этапов работы...',
+			date: '12 мая, 2024',
+			readingTime: '3 мин',
+			category: { title: 'Case Studies', href: '#' },
+			thumbnail:
+				'https://images.unsplash.com/photo-1505751172876-f1f1d2e42f45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&q=80'
+		},
 	];
 </script>
 
@@ -78,10 +90,9 @@
 				>
 					<div class="flex items-center gap-x-4 text-xs">
 						<time datetime="2020-03-16" class="text-gray-500">{post.date}</time>
-						<a
-							href="/post/category/1"
+						<span
 							class="relative z-10 rounded-full bg-gray-50 px-4 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
-							>{post.category.title}</a
+							>{post.category.title}</span
 						>
 					</div>
 					<div class="group relative">
