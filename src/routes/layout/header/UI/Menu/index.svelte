@@ -236,26 +236,13 @@
 								</div>
 							</div>
 						</div>
-						<div
+						<!-- <div
 							class="grid grid-cols-2 divide-x divide-gray-300 border-t border-gray-300 bg-gray-100"
 						>
 							<a
 								href="https://vk.com/vknovostroy"
 								class="flex items-center justify-center gap-x-2.5 p-3 text-sm/6 font-semibold text-gray-900 hover:bg-gray-100"
 							>
-								<!-- <svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="24"
-									height="24"
-									viewBox="0 0 20 20"
-									fill="currentColor"
-									class="feather feather-play"
-									><path
-										fill-rule="evenodd"
-										d="M2 10a8 8 0 1 1 16 0 8 8 0 0 1-16 0Zm6.39-2.908a.75.75 0 0 1 .766.027l3.5 2.25a.75.75 0 0 1 0 1.262l-3.5 2.25A.75.75 0 0 1 8 12.25v-4.5a.75.75 0 0 1 .39-.658Z"
-										clip-rule="evenodd"
-									/></svg
-								> -->
 								<span class=" text-lg font-semibold">VK</span> Вконтакте
 							</a>
 							<a
@@ -277,7 +264,7 @@
 								>
 								Телеграм канал
 							</a>
-						</div>
+						</div> -->
 					</div>
 				{/if}
 			</div>
