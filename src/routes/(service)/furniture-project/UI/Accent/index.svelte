@@ -5,21 +5,21 @@
 		  imageSrc:
 		    "https://tailwindui.com/img/ecommerce/icons/icon-shipping-simple.svg",
 		  description:
-		    "Мы сможем предложить практически любой материал, используемый в производстве.",
+		    "Удобство и комфорт в каждом модуле проектируемой мебели",
 		},
 		{
-		  name: "Проекция 3D",
+		  name: "Чертёж в проекции",
 		  imageSrc:
 		    "https://tailwindui.com/img/ecommerce/icons/icon-warranty-simple.svg",
 		  description:
-		    "Мы поможем определиться с цветовой гаммой подбираемых материалов.",
+		    "Наглядная модель с детализацией размеров всех элементов проекта",
 		},
 		{
 		  name: "Подбор фурнитуры",
 		  imageSrc:
 		    "https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg",
 		  description:
-		    "Мы знаем ответ на самый важный вопрос кому доверить изготовление заказа.",
+		    "Оптимальный подбор комплектующих для лучшей функциональности",
 		},
 	];
 </script>
