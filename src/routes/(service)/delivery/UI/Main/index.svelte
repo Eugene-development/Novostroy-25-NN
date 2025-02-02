@@ -29,7 +29,7 @@
 						</div>
 					</div>
 					<h1
-						class="mb-6 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl"
+						class="mb-6 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl"
 					>
 						Доставка с грузчиками
 					</h1>

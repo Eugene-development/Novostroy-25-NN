@@ -8,14 +8,14 @@
 		    "Мы сможем предложить практически любой материал, используемый в производстве.",
 		},
 		{
-		  name: "Выбор цвета",
+		  name: "Подбор цвета",
 		  imageSrc:
 		    "https://tailwindui.com/img/ecommerce/icons/icon-warranty-simple.svg",
 		  description:
 		    "Мы поможем определиться с цветовой гаммой подбираемых материалов.",
 		},
 		{
-		  name: "Выбор фабрики",
+		  name: "Фабрика изготовитель",
 		  imageSrc:
 		    "https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg",
 		  description:

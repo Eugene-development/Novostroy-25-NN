@@ -29,9 +29,9 @@
 						</div>
 					</div>
 					<h1
-						class="mb-6 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl"
+						class="mb-6 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl"
 					>
-						Проект мебели
+						Проектирование мебели
 					</h1>
 					<p class="mt-2 text-pretty text-base font-medium text-gray-500 sm:text-lg/8">
 						Индивидуальный проект мебели — это правильное решение, идеально подходящее для вашего

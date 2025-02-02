@@ -87,7 +87,7 @@
 										onclick={() => (visibleMobileMenu.value = false)}
 										href="/consultation"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
-										>Консультация</a
+										>Бесплатная консультация</a
 									>
 									<a
 										onclick={() => (visibleMobileMenu.value = false)}
@@ -105,7 +105,7 @@
 										onclick={() => (visibleMobileMenu.value = false)}
 										href="/furniture-project"
 										class="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
-										>Проект мебели</a
+										>Проектирование мебели</a
 									>
 									<a
 										onclick={() => (visibleMobileMenu.value = false)}
