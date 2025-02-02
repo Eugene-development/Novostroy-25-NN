@@ -5,21 +5,21 @@
 		  imageSrc:
 		    "https://tailwindui.com/img/ecommerce/icons/icon-shipping-simple.svg",
 		  description:
-		    "Мы сможем предложить практически любой материал, используемый в производстве.",
+		    "Точные измерения с помощью современного технического оборудования",
 		},
 		{
 		  name: "Учёт углов",
 		  imageSrc:
 		    "https://tailwindui.com/img/ecommerce/icons/icon-warranty-simple.svg",
 		  description:
-		    "Мы поможем определиться с цветовой гаммой подбираемых материалов.",
+		    "Полный анализ геометрии пространства с учётом углов и размерностей",
 		},
 		{
-		  name: "Обозначение электрики",
+		  name: "Обозначение коммуникаций",
 		  imageSrc:
 		    "https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg",
 		  description:
-		    "Мы знаем ответ на самый важный вопрос кому доверить изготовление заказа.",
+		    "Детальная фиксация сантехнических конструкций и электрических коммуникаций",
 		},
 	];
 </script>
