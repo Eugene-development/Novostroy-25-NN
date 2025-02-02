@@ -5,28 +5,28 @@
 		  imageSrc:
 		    "https://tailwindui.com/img/ecommerce/icons/icon-shipping-simple.svg",
 		  description:
-		    "Мы сможем предложить практически любой материал, используемый в производстве.",
+		    "Квалифицированный монтаж с опытными обученными сотрудниками",
 		},
 		{
 		  name: "Дополнительные работы",
 		  imageSrc:
 		    "https://tailwindui.com/img/ecommerce/icons/icon-warranty-simple.svg",
 		  description:
-		    "Мы поможем определиться с цветовой гаммой подбираемых материалов.",
+		    "Широкий спектр сопутствующих дополнительных услуг при монтаже",
 		},
 		{
 		  name: "Профессиональный инструмент",
 		  imageSrc:
 		    "https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg",
 		  description:
-		    "Мы знаем ответ на самый важный вопрос кому доверить изготовление заказа.",
+		    "Качественные работы с использованием современного оборудования",
 		},
 	];
 </script>
 
 <div class="mx-auto max-w-7xl py-16 sm:px-2 sm:py-24 lg:px-4">
     <div class="mx-auto max-w-4xl px-4 lg:max-w-none">
-        <div class=" grid grid-cols-1 gap-x-8 gap-y-10 border-t pt-8 sm:pt-16 lg:grid-cols-3">
+        <div class=" grid grid-cols-1 gap-x-8 gap-y-10 border-t pt-8 sm:pt-12 lg:grid-cols-3">
             {#each incentives as incentive}
                 <div>
                     <div class="sm:flex lg:block">

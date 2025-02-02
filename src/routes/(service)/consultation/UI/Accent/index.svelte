@@ -26,7 +26,7 @@
 
 <div class="mx-auto max-w-7xl py-16 sm:px-2 sm:py-24 lg:px-4">
     <div class="mx-auto max-w-4xl px-4 lg:max-w-none">
-        <div class=" grid grid-cols-1 gap-x-8 gap-y-10 border-t pt-8 sm:pt-16 lg:grid-cols-3">
+        <div class=" grid grid-cols-1 gap-x-8 gap-y-10 border-t pt-8 sm:pt-12 lg:grid-cols-3">
             {#each incentives as incentive}
                 <div>
                     <div class="sm:flex lg:block">
