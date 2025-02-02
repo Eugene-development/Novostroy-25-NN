@@ -1,17 +1,34 @@
 <script>
-	// import { onClickOutside } from 'runed';
-	// let dialog = $state<HTMLDialogElement>()!;
-
-	// const clickOutside = onClickOutside(
-	// 	() => dialog,
-	// 	() => {
-	// 		() => (visibleConsultationForm.value = false);
-	// 		clickOutside.stop();
-	// 	},
-	// 	{ immediate: false }
-	// );
+	import { enhance } from '$app/forms';
 
 	import { visibleConsultationForm } from '$lib/state/formConsultation.svelte';
+
+	let formMessage = $state('');
+	let formError = $state(false);
+
+	// Обработчик отправки формы
+	const handleSubmit = () => {
+		return async ({ result }) => {
+			if (result.type === 'success') {
+				if (result.data.success) {
+					formError = false;
+					// Закрываем форму после успешного создания
+					setTimeout(() => {
+						visibleMeasuringForm.value = false;
+						formMessage = 'Форма отправлена успешно';
+						console.log(formMessage);
+					}, 500);
+				} else {
+					formMessage = `Ошибка: ${result.data.error}`;
+					console.log(formMessage);
+					formError = true;
+				}
+			}
+		};
+	};
+
+	let { data, form } = $props();
+
 </script>
 
 {#if visibleConsultationForm.value}
@@ -25,7 +42,10 @@
 					<div
 						class="pointer-events-auto w-screen max-w-md animate-fade-left animate-duration-100 animate-ease-linear"
 					>
-						<form class="flex h-full flex-col divide-y divide-gray-200 bg-white shadow-xl">
+						<form method="POST"
+							action="/consultation?/sendFormConsultation"
+							use:enhance={handleSubmit}
+						 class="flex h-full flex-col divide-y divide-gray-200 bg-white shadow-xl">
 							<div class="h-0 flex-1 overflow-y-auto">
 								<div class="bg-blue-700 px-4 py-6 sm:px-6">
 									<div class="flex items-center justify-between">
@@ -94,72 +114,10 @@
 													/>
 												</div>
 											</div>
-											<fieldset>
-												<legend class="text-sm/6 font-medium text-gray-900"
-													>Как к вам обращаться?</legend
-												>
-												<div class="mt-2 space-y-4">
-													<div class="relative flex items-start">
-														<div class="absolute flex h-6 items-center">
-															<input
-																id="privacy-public"
-																name="privacy"
-																value="public"
-																aria-describedby="privacy-public-description"
-																type="radio"
-																checked
-																class="relative size-4 appearance-none rounded-full border border-gray-300 before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-blue-600 checked:bg-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden"
-															/>
-														</div>
-														<div class="pl-7 text-sm/6">
-															<label for="privacy-public" class="font-medium text-gray-900"
-																>По имени</label
-															>
-														</div>
-													</div>
-													<div>
-														<div class="relative flex items-start">
-															<div class="absolute flex h-6 items-center">
-																<input
-																	id="privacy-private-to-project"
-																	name="privacy"
-																	value="private-to-project"
-																	aria-describedby="privacy-private-to-project-description"
-																	type="radio"
-																	class="relative size-4 appearance-none rounded-full border border-gray-300 before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-blue-600 checked:bg-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden"
-																/>
-															</div>
-															<div class="pl-7 text-sm/6">
-																<label
-																	for="privacy-private-to-project"
-																	class="font-medium text-gray-900">По фамилии</label
-																>
-															</div>
-														</div>
-													</div>
-													<div>
-														<div class="relative flex items-start">
-															<div class="absolute flex h-6 items-center">
-																<input
-																	id="privacy-private"
-																	name="privacy"
-																	value="private"
-																	aria-describedby="privacy-private-to-project-description"
-																	type="radio"
-																	class="relative size-4 appearance-none rounded-full border border-gray-300 before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-blue-600 checked:bg-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden"
-																/>
-															</div>
-															<div class="pl-7 text-sm/6">
-																<label for="privacy-private" class="font-medium text-gray-900"
-																	>По имени и отчеству</label
-																>
-															</div>
-														</div>
-													</div>
-												</div>
-											</fieldset>
+
+
 										</div>
-										<div class="pb-6 pt-4">
+										<!-- <div class="pb-6 pt-4">
 											<div class="flex text-sm">
 												<a
 													href="/"
@@ -203,7 +161,7 @@
 													<span class="ml-2">Что прикреплять</span>
 												</a>
 											</div>
-										</div>
+										</div> -->
 									</div>
 								</div>
 							</div>

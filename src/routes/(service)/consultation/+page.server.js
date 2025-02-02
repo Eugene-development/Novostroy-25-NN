@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 export const actions = {
-	sendFormMeasurement: async ({ request }) => {
+	sendFormConsultation: async ({ request }) => {
 		try {
 			const data = await request.formData();
 			const url = `/send-form-consultation`;

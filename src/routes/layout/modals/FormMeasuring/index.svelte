@@ -89,21 +89,21 @@
 									<div class="divide-y divide-gray-200 px-4 sm:px-6">
 										<div class="space-y-6 pb-5 pt-6">
 											<div>
-												<label for="project-name" class="block text-sm/6 font-medium text-gray-900"
+												<label for="client-name" class="block text-sm/6 font-medium text-gray-900"
 													>Ваше имя<sup class="ml-1 h-4 w-4 text-red-700"> &#x2736; </sup></label
 												>
 												<div class="mt-2">
 													<input
 														type="text"
 														name="client-name"
-														id="project-name"
+														id="client-name"
 														class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-blue-600 sm:text-sm/6"
 													/>
 												</div>
 											</div>
 											<div>
 												<label
-													for="project-description"
+													for="client-phone"
 													class="block text-sm/6 font-medium text-gray-900"
 													>Телефон<sup class="ml-1 h-4 w-4 text-red-700"> &#x2736; </sup></label
 												>
@@ -111,35 +111,35 @@
 													<input
 														type="text"
 														name="client-phone"
-														id="project-description"
+														id="client-phone"
 														class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-blue-600 sm:text-sm/6"
 													/>
 												</div>
 											</div>
 											<div>
 												<label
-													for="project-description"
+													for="client-address"
 													class="block text-sm/6 font-medium text-gray-900">Адрес объекта</label
 												>
 												<div class="mt-2">
 													<input
 														type="text"
 														name="client-address"
-														id="project-description"
+														id="client-address"
 														class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-blue-600 sm:text-sm/6"
 													/>
 												</div>
 											</div>
 											<div>
 												<label
-													for="project-description"
+													for="client-email"
 													class="block text-sm/6 font-medium text-gray-900">Почта</label
 												>
 												<div class="mt-2">
 													<input
 														type="text"
 														name="client-email"
-														id="project-description"
+														id="client-email"
 														class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-blue-600 sm:text-sm/6"
 													/>
 												</div>
