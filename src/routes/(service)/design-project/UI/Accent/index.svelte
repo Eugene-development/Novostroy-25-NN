@@ -5,21 +5,21 @@
 		  imageSrc:
 		    "https://tailwindui.com/img/ecommerce/icons/icon-shipping-simple.svg",
 		  description:
-		    "Мы сможем предложить практически любой материал, используемый в производстве.",
+		    "Фотореалистичные и продуманные изображения вашего будущего интерьера",
 		},
 		{
 		  name: "Рекомендации",
 		  imageSrc:
 		    "https://tailwindui.com/img/ecommerce/icons/icon-warranty-simple.svg",
 		  description:
-		    "Мы поможем определиться с цветовой гаммой подбираемых материалов.",
+		    "Профессиональные советы по оформлению пространства и подбору материалов",
 		},
 		{
 		  name: "Стиль",
 		  imageSrc:
 		    "https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg",
 		  description:
-		    "Мы знаем ответ на самый важный вопрос кому доверить изготовление заказа.",
+		    "Гармоничное сочетание элементов в будущем интерьере и выбранных цветов",
 		},
 	];
 </script>
