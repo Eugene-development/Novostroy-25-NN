@@ -5,7 +5,7 @@ export const actions = {
 	sendFormMeasurement: async ({ request }) => {
 		try {
 			const data = await request.formData();
-			const url = `/send-form-installation`;
+			const url = `/send-form-assembly-and-installation`;
 			const urlMAIL = {
 				baseURL: import.meta.env.VITE_MAIL,
 				headers: {
