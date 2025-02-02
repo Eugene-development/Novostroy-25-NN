@@ -1,8 +1,8 @@
 <script>
-	import { visibleInstallationForm } from '$lib/state/formInstallation.svelte';
+	import { visibleAssemblyAndInstallationForm } from '$lib/state/formAssemblyAndInstallation.svelte';
 </script>
 
-{#if visibleInstallationForm.value}
+{#if visibleAssemblyAndInstallationForm.value}
 	<div class="relative z-50" aria-labelledby="slide-over-title" role="dialog" aria-modal="true">
 		<!-- Background backdrop, show/hide based on slide-over state. -->
 		<div class="fixed"></div>
@@ -22,7 +22,7 @@
 										</h2>
 										<div class="ml-3 flex h-7 items-center">
 											<button
-												onclick={() => (visibleInstallationForm.value = false)}
+												onclick={() => (visibleAssemblyAndInstallationForm.value = false)}
 												type="button"
 												class="relative -mt-4 rounded-md text-blue-200 hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
 											>
@@ -197,7 +197,7 @@
 							</div>
 							<div class="flex shrink-0 justify-start px-4 py-4">
 								<button
-									onclick={() => (visibleInstallationForm.value = false)}
+									onclick={() => (visibleAssemblyAndInstallationForm.value = false)}
 									type="button"
 									class="rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
 									>Закрыть</button

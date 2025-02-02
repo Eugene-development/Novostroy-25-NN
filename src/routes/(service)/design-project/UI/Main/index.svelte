@@ -1,5 +1,5 @@
 <script>
-	import { visibleDesignForm } from '$lib/state/formDesign.svelte';
+	import { visibleDesignProjectForm } from '$lib/state/formDesignProject.svelte';
 </script>
 
 <div class="relative animate-fade animate-duration-500 animate-ease-in-out">
@@ -47,7 +47,7 @@
 					</p>
 					<div class="mt-12 flex items-center gap-x-6">
 						<button
-							onclick={() => (visibleDesignForm.value = !visibleDesignForm.value)}
+							onclick={() => (visibleDesignProjectForm.value = !visibleDesignProjectForm.value)}
 							type="button"
 							class="flex max-w-xs flex-1 items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-sky-500 to-blue-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 hover:from-blue-600 hover:to-sky-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50 sm:w-full"
 							>Закажите услугу<span class="mt-0.5" aria-hidden="true">&nbsp;&rarr;</span></button

@@ -1,7 +1,7 @@
 <script>
 	import { visibleConsultationForm } from '$lib/state/formConsultation.svelte';
 	import { visibleMeasuringForm } from '$lib/state/formMeasuring.svelte';
-	import { visibleDesignForm } from '$lib/state/formDesign.svelte';
+	import { visibleDesignForm } from '$lib/state/formDesignProject.svelte';
 </script>
 
 <div class="mb-3">

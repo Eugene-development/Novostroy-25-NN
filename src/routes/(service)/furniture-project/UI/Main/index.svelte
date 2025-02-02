@@ -1,5 +1,5 @@
 <script>
-	import { visibleProjectForm } from '$lib/state/formProject.svelte';
+	import { visibleFurnitureProjectForm } from '$lib/state/formFurnitureProject.svelte';
 </script>
 
 <div class="relative animate-fade animate-duration-500 animate-ease-in-out">
@@ -43,12 +43,12 @@
 						фурнитуру, чтобы мебель была не только красивой, но и удобной.
 					</p>
 					<p class="mt-2 text-pretty text-base font-medium text-gray-500 sm:text-lg/8">
-						Доверьте нам реализацию своих идей, и получите мебель, которая гармонично впишется в
+						Доверьте нам реализацию своих идий, и получите мебель, которая гармонично впишется в
 						ваше пространство!
 					</p>
 					<div class="mt-12 flex items-center gap-x-6">
 						<button
-							onclick={() => (visibleProjectForm.value = !visibleProjectForm.value)}
+							onclick={() => (visibleFurnitureProjectForm.value = !visibleFurnitureProjectForm.value)}
 							type="button"
 							class="flex max-w-xs flex-1 items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-sky-500 to-blue-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 hover:from-blue-600 hover:to-sky-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50 sm:w-full"
 							>Закажите услугу<span class="mt-0.5" aria-hidden="true">&nbsp;&rarr;</span></button

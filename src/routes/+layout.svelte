@@ -9,10 +9,10 @@
 	import {
 		FormConsultation,
 		FormDelivery,
-		FormDesign,
-		FormInstallation,
+		FormDesignProject,
+		FormAssemblyAndInstallation,
 		FormMeasuring,
-		FormProject
+		FormFurnitureProject,
 	} from './layout/modals';
 </script>
 
@@ -24,7 +24,7 @@
 <!-- Modals -->
 <FormConsultation />
 <FormDelivery />
-<FormDesign />
-<FormInstallation />
+<FormDesignProject />
+<FormAssemblyAndInstallation />
 <FormMeasuring />
-<FormProject />
+<FormFurnitureProject />

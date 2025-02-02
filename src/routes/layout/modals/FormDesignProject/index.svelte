@@ -1,8 +1,10 @@
 <script>
-	import { visibleProjectForm } from '$lib/state/formProject.svelte';
+	import { visibleDesignProjectForm } from '$lib/state/formDesignProject.svelte';
+	let name = $state('');
+	let phone = $state('');
 </script>
 
-{#if visibleProjectForm.value}
+{#if visibleDesignProjectForm.value}
 	<div class="relative z-50" aria-labelledby="slide-over-title" role="dialog" aria-modal="true">
 		<!-- Background backdrop, show/hide based on slide-over state. -->
 		<div class="fixed"></div>
@@ -18,11 +20,11 @@
 								<div class="bg-blue-700 px-4 py-6 sm:px-6">
 									<div class="flex items-center justify-between">
 										<h2 class="text-base font-semibold text-white" id="slide-over-title">
-											Создание и просчёт проекта
+											Создание дизайна интерьера
 										</h2>
 										<div class="ml-3 flex h-7 items-center">
 											<button
-												onclick={() => (visibleProjectForm.value = false)}
+												onclick={() => (visibleDesignProjectForm.value = false)}
 												type="button"
 												class="relative -mt-4 rounded-md text-blue-200 hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
 											>
@@ -48,7 +50,8 @@
 									</div>
 									<div class="mt-1">
 										<p class="text-sm text-blue-300">
-											Составим стартовый проект со всеми деталями и просчитаем стоимость
+											Подготовим для вас дизайн интерьера, который будет соответствовать вашим
+											пожеланиям
 										</p>
 									</div>
 								</div>
@@ -61,6 +64,7 @@
 												>
 												<div class="mt-2">
 													<input
+														bind:value={name}
 														type="text"
 														name="project-name"
 														id="project-name"
@@ -197,7 +201,7 @@
 							</div>
 							<div class="flex shrink-0 justify-start px-4 py-4">
 								<button
-									onclick={() => (visibleProjectForm.value = false)}
+									onclick={() => (visibleDesignProjectForm.value = false)}
 									type="button"
 									class="rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
 									>Закрыть</button
