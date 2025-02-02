@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 export const actions = {
-	sendFormMeasurement: async ({ request }) => {
+	sendFormAssemblyAndInstallation: async ({ request }) => {
 		try {
 			const data = await request.formData();
 			const url = `/send-form-assembly-and-installation`;
@@ -14,7 +14,7 @@ export const actions = {
 			};
 			const variables = {
 				name: data.get('client-name'),
-				// phone: data.get('client-phone'),
+				phone: data.get('client-phone'),
 				// email: data.get('client-email'),
 				// address: data.get('client-address'),
 				// comment: data.get('client-comment')
