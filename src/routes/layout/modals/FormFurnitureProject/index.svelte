@@ -112,6 +112,36 @@
 														class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-blue-600 sm:text-sm/6"
 													/>
 												</div>
+											</div>										
+											<div>
+												<label
+													for="client-email"
+													class="block text-sm/6 font-medium text-gray-900">Почта</label
+												>
+												<div class="mt-2">
+													<input
+														type="text"
+														name="client-email"
+														id="client-email"
+														class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-blue-600 sm:text-sm/6"
+													/>
+												</div>
+											</div>
+											<div>
+												<label
+													for="comment"
+													class="block text-base font-medium leading-6 text-gray-900"
+												>
+													Ваш комментарий
+												</label>
+												<div class="mt-2">
+													<textarea
+														id="comment"
+														name="client-comment"
+														rows={3}
+														class="block w-full rounded-md border-0 p-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-cyan-600 sm:text-sm sm:leading-6"
+													></textarea>
+												</div>
 											</div>
 										</div>
 									</div>
