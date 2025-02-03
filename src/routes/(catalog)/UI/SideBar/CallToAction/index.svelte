@@ -1,7 +1,7 @@
 <script>
 	import { visibleConsultationForm } from '$lib/state/formConsultation.svelte';
 	import { visibleMeasuringForm } from '$lib/state/formMeasuring.svelte';
-	import { visibleDesignForm } from '$lib/state/formDesignProject.svelte';
+	import { visibleDesignProjectForm } from '$lib/state/formDesignProject.svelte';
 </script>
 
 <div class="mb-3">
@@ -57,7 +57,7 @@
 			<span class="text-xs font-normal text-purple-600"> Замер </span>
 		</button>
 		<button
-			onclick={() => (visibleDesignForm.value = true)}
+			onclick={() => (visibleDesignProjectForm.value = true)}
 			type="button"
 			class="group flex cursor-pointer flex-col items-center justify-center rounded-xl bg-teal-50 p-2.5 hover:bg-teal-100"
 		>
