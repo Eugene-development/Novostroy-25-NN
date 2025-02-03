@@ -1,5 +1,5 @@
 <script>
-	import { visibleFurnitureProjectForm } from '$lib/state/formFurnitureProject.svelte';
+	import { visibleConsultationForm } from '$lib/state/formConsultation.svelte';
 </script>
 
 <div class="animate-fade bg-gray-500 animate-duration-[3000ms]">
@@ -45,7 +45,7 @@
 							оптимизировать ваши затраты и сэкономить время на поиске лучших решений.
 						</p>
 						<button
-							onclick={() => (visibleFurnitureProjectForm.value = true)}
+							onclick={() => (visibleConsultationForm.value = !visibleConsultationForm.value)}
 							class="scale110 relative mx-4 mt-8 rounded-full border border-sky-500/20 bg-sky-400/10 px-8 py-2 text-center text-white backdrop-blur-sm sm:py-4"
 						>
 							<span class="mt-6 text-xs sm:text-lg"> Бесплатный проект и просчёт → </span>

@@ -13,7 +13,7 @@
 			<h2 class="text-lg font-medium text-white/75">Основное направление</h2>
 			<p class="mt-1 text-2xl font-medium text-white">Кухонные гарнитуры</p>
 			<button
-				onclick={() => (visibleConsultationForm.value = true)}
+			onclick={() => (visibleConsultationForm.value = !visibleConsultationForm.value)}
 				class="mt-4 rounded-md bg-white px-4 py-2.5 text-sm font-medium text-gray-900 hover:bg-gray-50"
 				>Консультация</button
 			>
@@ -29,7 +29,7 @@
 			<h2 class="text-lg font-medium text-white/75">Основное направление</h2>
 			<p class="mt-1 text-2xl font-medium text-white">Шкафы и гардеробы</p>
 			<button
-				onclick={() => (visibleConsultationForm.value = true)}
+			onclick={() => (visibleConsultationForm.value = !visibleConsultationForm.value)}
 				class="mt-4 rounded-md bg-white px-4 py-2.5 text-sm font-medium text-gray-900 hover:bg-gray-50"
 				>Консультация</button
 			>
