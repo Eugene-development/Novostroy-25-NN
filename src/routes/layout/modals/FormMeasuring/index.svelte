@@ -144,6 +144,22 @@
 													/>
 												</div>
 											</div>
+											<!-- <fieldset>
+												<legend class="text-sm/6 font-semibold text-gray-900">Имеется ли проект</legend>
+												<p class="mt-1 text-sm/6 text-gray-600">Если вы имеете готовый, то это ускорит нашу работу</p>
+												<div class="mt-6 space-y-6 sm:flex sm:items-center sm:space-x-10 sm:space-y-0">
+												  <div class="flex items-center">
+													<input id="email" name="notification-method" type="radio" checked class="relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-blue-600 checked:bg-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden">
+													<label for="email" class="ml-3 block text-sm/6 font-medium text-gray-900">Да</label>
+												  </div>
+												  <div class="flex items-center">
+													<input id="sms" name="notification-method" type="radio" class="relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-blue-600 checked:bg-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden">
+													<label for="sms" class="ml-3 block text-sm/6 font-medium text-gray-900">Нет</label>
+												  </div>
+												  
+												</div>
+											  </fieldset> -->
+											  
 											<div>
 												<label
 													for="comment"
