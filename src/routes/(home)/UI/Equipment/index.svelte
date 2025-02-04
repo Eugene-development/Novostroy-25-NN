@@ -4,7 +4,7 @@
 		<p
 			class="mt-2 max-w-lg text-pretty text-4xl font-semibold tracking-tight text-gray-950 sm:text-5xl"
 		>
-			Комплектация проекта
+			Комплектация проектов
 		</p>
 		<div class="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
 			<div class="relative lg:col-span-3">
