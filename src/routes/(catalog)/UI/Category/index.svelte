@@ -3,8 +3,8 @@
 	import Carousel from './Carousel/index.svelte';
 	import { PersistedState } from 'runed';
 	import { isFavorites } from '$lib/state/favorites.svelte';
+	import { visiblePriceForm, currentValueProject } from '$lib/state/formPrice.svelte';
 
-	let { data } = $props();
 
 	const favorites = new PersistedState('favorites', []);
 
@@ -20,7 +20,13 @@
 			? (favorites.current = favorites.current.filter((i) => i.id !== item.id))
 			: (favorites.current = [...favorites.current, item]);
 	};
-	// $inspect(data);
+
+	let { data } = $props();
+
+	const handleClick = (param) => {
+		visiblePriceForm.value = !visiblePriceForm.value;
+		currentValueProject.value = param;
+	};
 </script>
 
 <div class="bg-white py-2 sm:py-4">
@@ -44,8 +50,9 @@
 			<Carousel data={item.image} />
 
 			<button
+				onclick={() => handleClick(item.value)}
 				type="button"
-				class="mt-4 inline-flex items-center gap-2 text-sm font-medium text-gray-700 hover:text-sky-700 hover:underline"
+				class="my-6 inline-flex items-center gap-2 text-base font-medium text-gray-700 hover:text-sky-700 hover:underline"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +74,7 @@
 			<div class="h-14">
 				<a
 					href="/{data.parentable.parentable.slug}/{data.parentable.slug}/{data.slug}/{item.slug}"
-					class="text-xl font-semibold leading-tight text-gray-900 hover:underline"
+					class="text-xl  font-semibold leading-tight text-gray-900 hover:underline"
 				>
 					{item.value}
 				</a>

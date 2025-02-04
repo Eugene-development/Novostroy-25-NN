@@ -13,6 +13,7 @@
 		FormAssemblyAndInstallation,
 		FormMeasuring,
 		FormFurnitureProject,
+		FormPrice
 	} from './layout/modals';
 </script>
 
@@ -28,3 +29,4 @@
 <FormAssemblyAndInstallation />
 <FormMeasuring />
 <FormFurnitureProject />
+<FormPrice />

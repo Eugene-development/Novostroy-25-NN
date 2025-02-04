@@ -21,7 +21,7 @@
 								<span class="text-5xl sm:text-6xl md:text-8xl">Мебель</span>
 
 								<br />
-								<span class="text-3xl sm:text-6xl md:text-8xl"> для вашего дома </span>
+								<span class="text-3xl sm:text-6xl md:text-8xl"> от лучших фабрик </span>
 							</h1>
 						</div>
 
@@ -40,7 +40,7 @@
 						<p
 							class="mt-2 hidden max-w-2xl p-4 text-center font-extralight tracking-wide text-white md:block xl:max-w-4xl xl:text-lg  bg-black/10"
 						>
-							Наш профессиональный дизайнер создаст для вас проект мебели по вашим размерам,
+							Профессиональный дизайнер создаст для вас проект мебели по вашим размерам,
 							согласует его с фабрикой, а также подберёт столешницу, бытовую технику и аксессуары. Это поможет
 							оптимизировать ваши затраты и сэкономить время на поиске лучших решений.
 						</p>
