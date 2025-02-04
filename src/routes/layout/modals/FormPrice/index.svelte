@@ -50,9 +50,15 @@
 							<div class="h-0 flex-1 overflow-y-auto">
 								<div class="bg-blue-700 px-4 py-6 sm:px-6">
 									<div class="flex items-center justify-between">
-										<h2 class="text-base font-semibold text-white" id="slide-over-title">
-											Запрос актуальной цены - {currentValueProject.value}
-										</h2>
+                                        <div>
+                                            <p class="text-base font-semibold text-white">
+                                                Запрос актуальной цены:
+                                            </p>
+                                            <p class="text-sm text-blue-300">
+                                                {currentValueProject.value}
+                                            </p>
+                                        </div>
+										
 										<div class="ml-3 flex h-7 items-center">
 											<button
 												onclick={() => (visiblePriceForm.value = false)}
@@ -81,7 +87,7 @@
 									</div>
 									<div class="mt-1">
 										<p class="text-sm text-blue-300">
-											Произведём детальный замер вашего помещения и предложим оптимальные решения
+											Сделаем запрос на цену и ответим в ближайшее время
 										</p>
 									</div>
 								</div>
@@ -117,15 +123,13 @@
 												</div>
 											</div>
 											<div>
-												<label
-													for="client-address"
-													class="block text-sm/6 font-medium text-gray-900">Адрес объекта</label
-												>
+												
 												<div class="mt-2">
-													<input
-														type="text"
-														name="client-address"
-														id="client-address"
+													<input 
+														type="hidden"
+														value={currentValueProject.value}
+														name="client-project"
+														id="client-project"
 														class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-blue-600 sm:text-sm/6"
 													/>
 												</div>
