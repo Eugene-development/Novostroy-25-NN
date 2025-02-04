@@ -9,7 +9,6 @@
 
 	import { visiblePriceForm } from '$lib/state/formPrice.svelte';
 
-
 	const favorites = new PersistedState('favorites', []);
 
 	let favoritesList = $state(favorites.current);
@@ -225,8 +224,11 @@
 					</div>
 				</div>
 
-				<button 	onclick={() => (visiblePriceForm.value = !visiblePriceForm.value)}
-					type="button" class="mt-4 flex items-center gap-1">
+				<button
+					onclick={() => (visiblePriceForm.value = !visiblePriceForm.value)}
+					type="button"
+					class="mt-4 flex items-center gap-1"
+				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"

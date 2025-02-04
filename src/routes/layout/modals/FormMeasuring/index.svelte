@@ -5,6 +5,7 @@
 
 	let formMessage = $state('');
 	let formError = $state(false);
+	let testbot = $state('');
 
 	// Обработчик отправки формы
 	const handleSubmit = () => {
@@ -88,6 +89,23 @@
 								<div class="flex flex-1 flex-col justify-between">
 									<div class="divide-y divide-gray-200 px-4 sm:px-6">
 										<div class="space-y-6 pb-5 pt-6">
+											<!-- Honeypot-поле (скрытое) -->
+											<div class="hidden">
+												<label for="checkbot" class="block text-sm font-medium text-gray-700"
+													>Оставьте это поле пустым</label
+												>
+												<input
+													type="text"
+													id="checkbot"
+													name="checkbot"
+													bind:value={testbot}
+													tabindex="-1"
+													autocomplete="off"
+													class="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+												/>
+											</div>
+											<!--  -->
+
 											<div>
 												<label for="client-name" class="block text-sm/6 font-medium text-gray-900"
 													>Ваше имя<sup class="ml-1 h-4 w-4 text-red-700"> &#x2736; </sup></label
@@ -102,9 +120,7 @@
 												</div>
 											</div>
 											<div>
-												<label
-													for="client-phone"
-													class="block text-sm/6 font-medium text-gray-900"
+												<label for="client-phone" class="block text-sm/6 font-medium text-gray-900"
 													>Телефон<sup class="ml-1 h-4 w-4 text-red-700"> &#x2736; </sup></label
 												>
 												<div class="mt-2">
@@ -131,9 +147,8 @@
 												</div>
 											</div>
 											<div>
-												<label
-													for="client-email"
-													class="block text-sm/6 font-medium text-gray-900">Почта</label
+												<label for="client-email" class="block text-sm/6 font-medium text-gray-900"
+													>Почта</label
 												>
 												<div class="mt-2">
 													<input
@@ -159,7 +174,7 @@
 												  
 												</div>
 											  </fieldset> -->
-											  
+
 											<div>
 												<label
 													for="comment"
@@ -188,6 +203,7 @@
 									>Закрыть</button
 								>
 								<button
+									disabled={testbot !== ''}
 									type="submit"
 									class="ml-4 inline-flex justify-center rounded-md bg-blue-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
 									>Отправить</button

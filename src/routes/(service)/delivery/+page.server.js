@@ -13,7 +13,7 @@ export const actions = {
 				}
 			};
 			const variables = {
-				name: data.get('client-name'),
+				name: data.get('client-name')
 				// phone: data.get('client-phone'),
 				// email: data.get('client-email'),
 				// address: data.get('client-address'),

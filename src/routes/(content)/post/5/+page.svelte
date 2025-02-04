@@ -1,11 +1,11 @@
 <script>
-    import { Meta, Date, Article } from './UI';
+	import { Meta, Date, Article } from './UI';
 </script>
 
 <Meta />
 
 <div
-	class="overflow-hidden bg-gradient-to-b from-white via-white to-gray-50 px-4 py-16 sm:px-6 lg:px-8 xl:py-36 animate-fade animate-duration-500 animate-ease-in-out"
+	class="animate-fade overflow-hidden bg-gradient-to-b from-white via-white to-gray-50 px-4 py-16 animate-duration-500 animate-ease-in-out sm:px-6 lg:px-8 xl:py-36"
 >
 	<div class="mx-auto max-w-max lg:max-w-7xl">
 		<div class="relative z-10 mb-8 md:mb-2 md:px-6">
@@ -63,7 +63,7 @@
 			<div class="relative bg-gradient-to-b from-white via-white to-gray-50 md:p-6">
 				<div class="lg:grid lg:grid-cols-1 lg:gap-12">
 					<div class="prose prose-lg prose-indigo text-gray-500 lg:max-w-none">
-                        <Article />
+						<Article />
 					</div>
 				</div>
 				<div class="mt-8 inline-flex rounded-md shadow">

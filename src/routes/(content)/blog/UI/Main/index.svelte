@@ -77,7 +77,7 @@
 			category: { title: 'Сборка и установка', href: '#' },
 			thumbnail:
 				'https://images.unsplash.com/photo-1505751172876-f1f1d2e42f45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&q=80'
-		},
+		}
 	];
 </script>
 

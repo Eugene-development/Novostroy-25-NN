@@ -5,7 +5,6 @@
 	import { isFavorites } from '$lib/state/favorites.svelte';
 	import { visiblePriceForm, currentValueProject } from '$lib/state/formPrice.svelte';
 
-
 	const favorites = new PersistedState('favorites', []);
 
 	let favoritesList = $state(favorites.current);
@@ -74,7 +73,7 @@
 			<div class="h-14">
 				<a
 					href="/{data.parentable.parentable.slug}/{data.parentable.slug}/{data.slug}/{item.slug}"
-					class="text-xl  font-semibold leading-tight text-gray-900 hover:underline"
+					class="text-xl font-semibold leading-tight text-gray-900 hover:underline"
 				>
 					{item.value}
 				</a>
