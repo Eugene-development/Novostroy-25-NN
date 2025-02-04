@@ -1,3 +1,40 @@
+<script>
+    	import { enhance } from '$app/forms';
+
+    import { formSubmitted } from "$lib/state/formSubscribe.svelte";
+
+
+    let formMessage = $state('');
+	let formError = $state(false);
+
+	let testbot = $state('');
+
+	// Обработчик отправки формы
+	const handleSubmit = () => {
+		return async ({ result }) => {
+			if (result.type === 'success') {
+				if (result.data.success) {
+					formError = false;
+					// Закрываем форму после успешного создания
+					formSubmitted.value = false;
+					formMessage = 'Форма отправлена успешно';
+					console.log(formMessage);
+				} else {
+					formMessage = `Ошибка: ${result.data.error}`;
+					console.log(formMessage);
+					formError = true;
+				}
+			}
+		};
+	};
+
+	let { data, form } = $props();
+
+
+
+
+</script>
+
 <footer class="bg-gray-900">
 	<div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
 		<div class="xl:grid xl:grid-cols-3 xl:gap-8">
@@ -112,14 +149,15 @@
 					Получайте самые свежие новости, статьи и ресурсы, отправленные вам еженедельно.
 				</p>
 			</div>
-			<form class="mt-6 sm:flex sm:max-w-md lg:mt-0">
+			<form method="POST"
+            action="/?/sendFormSubscribe"
+            use:enhance={handleSubmit} class="mt-6 sm:flex sm:max-w-md lg:mt-0">
 				<label for="email-address" class="sr-only">Адрес электронной почты</label>
 				<input
 					type="email"
 					name="email-address"
 					id="email-address"
 					autocomplete="email"
-					required
 					class="w-full min-w-0 rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-pink-500 sm:w-56 sm:text-sm/6"
 					placeholder="Введите вашу почту"
 				/>

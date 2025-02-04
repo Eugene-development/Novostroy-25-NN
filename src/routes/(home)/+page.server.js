@@ -28,5 +28,28 @@ export const actions = {
 			console.error('Error sending form:', error);
 			return { success: false, error: error.message };
 		}
+	},
+	sendFormSubscribe: async ({ request }) => {
+		try {
+			const data = await request.formData();
+			const url = `/send-form-subscribe`;
+			const urlMAIL = {
+				baseURL: import.meta.env.VITE_MAIL,
+				headers: {
+					Authorization: `Bearer ${import.meta.env.VITE_KEY}`
+				}
+			};
+			const checkbot = data.get('checkbot');
+			if (!checkbot) {
+				const variables = {
+					email: data.get('email-address'),
+				};
+				await axios.post(url, variables, urlMAIL);
+				return { success: true };
+			}
+		} catch (error) {
+			console.error('Error sending form:', error);
+			return { success: false, error: error.message };
+		}
 	}
 };
