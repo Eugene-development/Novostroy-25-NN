@@ -12,15 +12,20 @@ export const actions = {
 					Authorization: `Bearer ${import.meta.env.VITE_KEY}`
 				}
 			};
-			const variables = {
-				name: data.get('client-name'),
-				phone: data.get('client-phone'),
-				email: data.get('client-email'),
-				project: data.get('client-project'),
-				comment: data.get('client-comment')
-			};
-			await axios.post(url, variables, urlMAIL);
-			return { success: true };
+            const checkbot = data.get('checkbot');
+            if (!checkbot) {
+                const variables = {
+                    name: data.get('client-name'),
+                    phone: data.get('client-phone'),
+                    email: data.get('client-email'),
+                    project: data.get('client-project'),
+                    comment: data.get('client-comment')
+                };
+                await axios.post(url, variables, urlMAIL);
+                return { success: true };
+            }
+
+			
 		} catch (error) {
 			console.error('Error sending form:', error);
 			return { success: false, error: error.message };
