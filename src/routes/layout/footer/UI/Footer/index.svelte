@@ -16,7 +16,7 @@
 				if (result.data.success) {
 					formError = false;
 					// Закрываем форму после успешного создания
-					formSubmitted.value = false;
+					formSubmitted.value = true;
 					formMessage = 'Форма отправлена успешно';
 					console.log(formMessage);
 				} else {
@@ -149,7 +149,11 @@
 					Получайте самые свежие новости, статьи и ресурсы, отправленные вам еженедельно.
 				</p>
 			</div>
-			<form method="POST"
+            {#if formSubmitted.value}
+            <span class="text-sm/6 text-gray-300">Спасибо за подписку!</span>
+           
+            {:else}
+            <form method="POST"
             action="/?/sendFormSubscribe"
             use:enhance={handleSubmit} class="mt-6 sm:flex sm:max-w-md lg:mt-0">
 				<label for="email-address" class="sr-only">Адрес электронной почты</label>
@@ -168,7 +172,10 @@
 						>Подписаться</button
 					>
 				</div>
-			</form>
+			</form>        
+
+            {/if}
+			
 		</div>
 		<div class="mt-8 border-t border-white/10 pt-8 md:flex md:items-center md:justify-between">
 			<!-- <div class="flex gap-x-6 md:order-2">
