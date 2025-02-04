@@ -93,6 +93,7 @@
 												>
 												<div class="mt-2">
 													<input
+													required
 														type="text"
 														name="client-name"
 														id="client-name"
@@ -108,6 +109,7 @@
 												>
 												<div class="mt-2">
 													<input
+													required
 														type="text"
 														name="client-phone"
 														id="client-phone"
@@ -119,7 +121,7 @@
 												<label
 													for="client-email"
 													class="block text-sm/6 font-medium text-gray-900"
-													>E-mail</label
+													>Почта (не обязательно)</label
 												>
 												<div class="mt-2">
 													<input

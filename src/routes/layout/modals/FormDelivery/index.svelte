@@ -61,6 +61,7 @@
 												>
 												<div class="mt-2">
 													<input
+													required
 														type="text"
 														name="project-name"
 														id="project-name"
@@ -75,6 +76,7 @@
 												>
 												<div class="mt-2">
 													<input
+													required
 														type="text"
 														name="project-description"
 														id="project-description"
