@@ -42,7 +42,7 @@ export const actions = {
 			const checkbot = data.get('checkbot');
 			if (!checkbot) {
 				const variables = {
-					email: data.get('email-address'),
+					email: data.get('email-address')
 				};
 				await axios.post(url, variables, urlMAIL);
 				return { success: true };

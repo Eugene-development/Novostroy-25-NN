@@ -1,10 +1,9 @@
 <script>
-    	import { enhance } from '$app/forms';
+	import { enhance } from '$app/forms';
 
-    import { formSubmitted } from "$lib/state/formSubscribe.svelte";
+	import { formSubmitted } from '$lib/state/formSubscribe.svelte';
 
-
-    let formMessage = $state('');
+	let formMessage = $state('');
 	let formError = $state(false);
 
 	let testbot = $state('');
@@ -29,10 +28,6 @@
 	};
 
 	let { data, form } = $props();
-
-
-
-
 </script>
 
 <footer class="bg-gray-900">
@@ -149,33 +144,49 @@
 					Получайте самые свежие новости, статьи и ресурсы, отправленные вам еженедельно.
 				</p>
 			</div>
-            {#if formSubmitted.value}
-            <span class="text-sm/6 text-gray-300">Спасибо за подписку!</span>
-           
-            {:else}
-            <form method="POST"
-            action="/?/sendFormSubscribe"
-            use:enhance={handleSubmit} class="mt-6 sm:flex sm:max-w-md lg:mt-0">
-				<label for="email-address" class="sr-only">Адрес электронной почты</label>
-				<input
-					type="email"
-					name="email-address"
-					id="email-address"
-					autocomplete="email"
-					class="w-full min-w-0 rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-pink-500 sm:w-56 sm:text-sm/6"
-					placeholder="Введите вашу почту"
-				/>
-				<div class="mt-4 sm:ml-4 sm:mt-0 sm:shrink-0">
-					<button
-						type="submit"
-						class="flex w-full items-center justify-center rounded-md bg-pink-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-pink-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pink-500"
-						>Подписаться</button
-					>
-				</div>
-			</form>        
-
-            {/if}
-			
+			{#if formSubmitted.value}
+				<span class="text-sm/6 text-gray-300">Спасибо за подписку!</span>
+			{:else}
+				<form
+					method="POST"
+					action="/?/sendFormSubscribe"
+					use:enhance={handleSubmit}
+					class="mt-6 sm:flex sm:max-w-md lg:mt-0"
+				>
+					<label for="email-address" class="sr-only">Адрес электронной почты</label>
+                    <!-- Honeypot-поле (скрытое) -->
+                    <div class="hidden">
+                        <label for="checkbot" class="block text-sm font-medium text-gray-700"
+                            >Оставьте это поле пустым</label
+                        >
+                        <input
+                            type="text"
+                            id="checkbot"
+                            name="checkbot"
+                            bind:value={testbot}
+                            tabindex="-1"
+                            autocomplete="off"
+                            class="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+                        />
+                    </div>
+                    <!--  -->
+					<input
+						type="email"
+						name="email-address"
+						id="email-address"
+						autocomplete="email"
+						class="w-full min-w-0 rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-pink-500 sm:w-56 sm:text-sm/6"
+						placeholder="Введите вашу почту"
+					/>
+					<div class="mt-4 sm:ml-4 sm:mt-0 sm:shrink-0">
+						<button
+							type="submit"
+							class="flex w-full items-center justify-center rounded-md bg-pink-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-pink-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pink-500"
+							>Подписаться</button
+						>
+					</div>
+				</form>
+			{/if}
 		</div>
 		<div class="mt-8 border-t border-white/10 pt-8 md:flex md:items-center md:justify-between">
 			<!-- <div class="flex gap-x-6 md:order-2">

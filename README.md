@@ -45,6 +45,3 @@ EXPOSE 9999
 # Start the application
 
 CMD ["node", "build"]
-
-
-
