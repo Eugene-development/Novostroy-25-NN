@@ -1,7 +1,7 @@
 <div
 	class="animate-fade overflow-hidden bg-white py-24 animate-delay-1000 animate-duration-500 animate-ease-in-out sm:py-32"
 >
-	<div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
+	<div class="mx-auto max-w-2xl px-8 sm:px-2 lg:max-w-7xl lg:px-2">
 		<div class="max-w-4xl">
 			<p class="text-base/7 font-semibold text-sky-600">Информация</p>
 			<h1 class="mt-2 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
@@ -9,7 +9,7 @@
 			</h1>
 		</div>
 		<section class="mt-12 grid grid-cols-1 lg:grid-cols-2 lg:gap-x-8 lg:gap-y-2">
-			<div class="lg:pr-8">
+			<div class="lg:pr-8 ">
 				<!-- <a href="/">
 					<span class="sr-only">Новострой</span>
 					<img
@@ -18,9 +18,6 @@
 						alt="Логотип"
 					/>
 				</a> -->
-				<!-- <h2 class="text-pretty text-2xl font-semibold tracking-tight text-gray-900">
-					НОВОСТРОЙ
-				</h2> -->
 				<p class="text-lg/7 text-gray-600">
 					Более 20 лет мы оказываем профессиональные дизайнерские услуги в сфере мебельной индустрии
 					и создании интерьеров.
@@ -36,8 +33,11 @@
 					создаём пространство, которое не просто отвечает вашим требованиям, но вдохновляет и
 					радует каждый день.
 				</p>
+				<p class="mt-8 text-lg/7 text-gray-600">
+					Ждём Вас в качестве партнёра или клиента.
+				</p>
 			</div>
-			<div class="pt-16 lg:row-span-2 lg:-mr-16 xl:mr-auto">
+			<div class="p-4 lg:row-span-2 lg:-mr-16 xl:mr-auto">
 				<div
 					class="-mx-8 grid grid-cols-2 gap-4 sm:-mx-16 sm:grid-cols-4 lg:mx-0 lg:grid-cols-2 lg:gap-4 xl:gap-8"
 				>
@@ -97,7 +97,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="mt-16 lg:col-span-1">
+			<div class="mt-16 sm:mt-2 lg:col-span-1">
 				<p class="text-3xl/7 font-semibold text-gray-900">Мы в цифрах</p>
 				<hr class="mt-6 border-t border-gray-200" />
 				<dl class="mt-6 grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
@@ -113,11 +113,11 @@
 						class="flex flex-col gap-y-2 max-sm:border-b max-sm:border-dotted max-sm:border-gray-200 max-sm:pb-4"
 					>
 						<dt class="text-sm/6 text-gray-600">Городов в России</dt>
-						<dd class="order-first text-6xl font-semibold tracking-tight"><span>16</span></dd>
+						<dd class="order-first text-6xl font-semibold tracking-tight"><span>17</span></dd>
 					</div>
 					<div class="flex flex-col gap-y-2">
 						<dt class="text-sm/6 text-gray-600">Реализованных проектов</dt>
-						<dd class="order-first text-6xl font-semibold tracking-tight"><span>2000</span>+</dd>
+						<dd class="order-first text-6xl font-semibold tracking-tight"><span>4000</span>+</dd>
 					</div>
 				</dl>
 			</div>
