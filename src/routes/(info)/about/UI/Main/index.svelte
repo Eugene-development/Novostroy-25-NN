@@ -46,7 +46,7 @@
 					>
 						<img
 							alt=""
-							src="https://images.unsplash.com/photo-1590650516494-0c8e4a4dd67e?&auto=format&fit=crop&crop=center&w=560&h=560&q=90"
+							src="https://static.tildacdn.com/tild3861-3333-4362-b232-623135646332/50631092_l.jpg"
 							class="block size-full object-cover"
 						/>
 					</div>
@@ -55,7 +55,7 @@
 					>
 						<img
 							alt=""
-							src="https://images.unsplash.com/photo-1557804506-669a67965ba0?&auto=format&fit=crop&crop=left&w=560&h=560&q=90"
+							src="https://www.campus-des-ecoles.fr/uploads/2022/07/cde-formation-deco-interieur-bachelor-768x768.png"
 							class="block size-full object-cover"
 						/>
 					</div>
@@ -73,7 +73,7 @@
 					>
 						<img
 							alt=""
-							src="https://images.unsplash.com/photo-1557804506-669a67965ba0?&auto=format&fit=crop&crop=left&w=560&h=560&q=90"
+							src="https://avatars.mds.yandex.net/i?id=5ef63b40de4ece2f5ad6d9e86a65b997_l-5217189-images-thumbs&n=13"
 							class="block size-full object-cover"
 						/>
 					</div>
@@ -103,10 +103,10 @@
 				<dl class="mt-6 grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
 					<div class="flex flex-col gap-y-2 border-b border-dotted border-gray-200 pb-4">
 						<dt class="text-sm/6 text-gray-600">Партнёрских салонов</dt>
-						<dd class="order-first text-6xl font-semibold tracking-tight"><span>158</span></dd>
+						<dd class="order-first text-6xl font-semibold tracking-tight"><span>358</span></dd>
 					</div>
 					<div class="flex flex-col gap-y-2 border-b border-dotted border-gray-200 pb-4">
-						<dt class="text-sm/6 text-gray-600">Года опыта</dt>
+						<dt class="text-sm/6 text-gray-600">Года опыта работы</dt>
 						<dd class="order-first text-6xl font-semibold tracking-tight"><span>24</span></dd>
 					</div>
 					<div

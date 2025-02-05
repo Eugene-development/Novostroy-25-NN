@@ -54,14 +54,14 @@
 						</p>
 					</blockquote>
 					<figcaption class="mt-8 flex gap-x-4">
-						<img
+						<!-- <img
 							src="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
 							alt=""
 							class="mt-1 size-10 flex-none rounded-full bg-gray-50"
-						/>
+						/> -->
 						<div class="text-sm/6">
-							<div class="font-semibold text-gray-900">Евгений Че</div>
-							<div class="text-gray-600">СЕО компании "Новострой"</div>
+							<div class="font-semibold text-gray-900">Евгений Новостроев</div>
+							<div class="text-gray-600">Руководитель компании "Новострой"</div>
 						</div>
 					</figcaption>
 				</figure>
