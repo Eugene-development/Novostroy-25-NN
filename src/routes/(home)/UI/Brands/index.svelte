@@ -121,11 +121,11 @@
 					alt="Кухонный двор"
 				/>
 			</a>
-			<a href="https://www.kuhzavod.ru/" target="_blank">
+			<a href="https://www.aristo.ru" target="_blank">
 				<img
 					class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-					src="https://www.kuhzavod.ru/local/templates/kuhzavod/f/img/logo-kz-mob.svg"
-					alt="Кухзавод"
+					src="https://www.aristo.ru/include/logo_header.png"
+					alt="Аристо"
 				/>
 			</a>
 		</div>
