@@ -24,7 +24,7 @@
 
 	let { data } = $props();
 	const toggleFavorite = () => {
-		const isInFavorites = favorites.current.some((item) => item.id === data.id);
+		const isInFavorites = favorites?.current.some((item) => item.id === data.id);
 		isInFavorites
 			? (favorites.current = favorites.current.filter((i) => i.id !== data.id))
 			: (favorites.current = [...favorites.current, data]);
@@ -203,7 +203,7 @@
 							class="ml-4 flex items-center justify-center rounded-md px-3 py-3 text-gray-400 hover:bg-gray-100 hover:text-gray-500"
 						>
 							<svg
-								class="size-6 shrink-0 {favorites.current.some((item) => item.id === data.id)
+								class="size-6 shrink-0 {favoritesList.some((item) => item.id === data.id)
 									? 'text-red-500'
 									: 'text-gray-400'}"
 								fill="none"
