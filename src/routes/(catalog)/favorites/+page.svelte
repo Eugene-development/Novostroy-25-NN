@@ -11,6 +11,11 @@
 		favoritesList = favorites.current;
 		favoritesList.length > 0 ? (isFavorites.value = true) : (isFavorites.value = false);
 	});
+
+	function removeFromFavorites(id) {
+			favorites.current = favorites.current.filter((i) => i.id !== id);
+		}
+
 </script>
 
 <!-- {#snippet figure()}
@@ -29,15 +34,15 @@
 
 <section class="bg-gray-50 py-8 antialiased md:py-16">
 	<div class="mx-auto max-w-screen-xl px-4 2xl:px-0">
-		{#if browser && favorites.current.length > 0}
+		{#if browser && favoritesList.length > 0}
 			<div class="mb-4 flex items-center justify-between gap-4 md:mb-8">
 				<h2 class="text-xl font-semibold text-gray-900 sm:text-2xl">
-					Избранное ({favorites.current.length})
+					Избранное ({favoritesList.length})
 				</h2>
 			</div>
 
 			<div class="grid grid-cols-1 gap-4 sm:mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:gap-8">
-				{#each favorites.current as item (item.id)}
+				{#each favoritesList as item (item.id)}
 					<div class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm">
 						<img
 							class="mx-auto mb-4 h-[20rem] rounded-lg object-contain md:mb-6"
@@ -85,7 +90,8 @@
 							<button
 								type="button"
 								onclick={() =>
-									(favorites.current = favorites.current.filter((i) => i.id !== item.id))}
+								removeFromFavorites(item.id)}
+
 								class="flex w-full items-center justify-center rounded-lg border border-gray-700 bg-white px-5 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-gray-700 focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-300"
 							>
 								<svg
