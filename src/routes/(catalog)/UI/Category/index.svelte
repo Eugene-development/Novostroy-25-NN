@@ -66,8 +66,7 @@
 
 			<div class="mx-auto max-w-sm sm:flex sm:items-center md:mt-4 lg:flex-col">
 
-				<ButtonInFavorites />
-				
+				<ButtonInFavorites {item}/>
 				<a
 					href="/{data.parentable.parentable.slug}/{data.parentable.slug}/{data.slug}/{item.slug}"
 					class="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-sky-600 to-blue-700 px-5 py-2.5 text-sm font-medium text-white hover:from-blue-600 hover:to-sky-500 focus:outline-none focus:ring-4 focus:ring-sky-300"
