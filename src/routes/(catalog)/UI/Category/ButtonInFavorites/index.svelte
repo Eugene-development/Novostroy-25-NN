@@ -22,14 +22,12 @@
     let itemInFavorites = $state(favorites.current.some((i) => i.id === item.id));
 
     const toggleFavorite = (item) => {
-		const isInFavorites = favorites?.current?.some((i) => i.id === item.id);
-		isInFavorites
-			? (favorites.current = favorites.current.filter((i) => i.id !== item.id))
-			: (favorites.current = [...favorites.current, item]);
-
-        itemInFavorites = favorites.current.some((i) => i.id === item.id);
-
-	};
+        favorites.current = favorites.current.some(i => i.id === item.id)
+            ? favorites.current.filter(i => i.id !== item.id)
+            : [...favorites.current, item];
+        
+        itemInFavorites = favorites.current.some(i => i.id === item.id);
+    };
 
 
     
