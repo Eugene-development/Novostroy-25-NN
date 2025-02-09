@@ -46,11 +46,11 @@
 						fill="url(#e87443c8-56e4-4c20-9111-55b82fa704e3)"
 					/>
 				</svg>
-				<figure class="border-l border-sky-600 pl-8">
+				<figure class="border-l border-sky-500 pl-8">
 					<blockquote class="text-xl/8 font-semibold tracking-tight text-gray-900">
 						<p>
 							“Партнёрство открывает новые горизонты и возможности для совместного роста и развития.
-							Вместе мы можем достичь большего, чем по отдельности.”
+							Вместе мы сможем достичь намного больше, чем по отдельности.”
 						</p>
 					</blockquote>
 					<figcaption class="mt-8 flex gap-x-4">
