@@ -60,9 +60,9 @@
 				</defs>
 				<rect width="404" height="384" fill="url(#7a00fe67-0343-4a3c-8e81-c145097a3ce0)" />
 			</svg>
-			<div class="relative bg-gradient-to-b from-white via-white to-gray-50 md:p-6">
+			<div class="relative bg-gradient-to-b from-white via-white to-gray-50  md:p-6">
 				<div class="lg:grid lg:grid-cols-1 lg:gap-12">
-					<div class="prose prose-lg prose-indigo text-gray-500 lg:max-w-none">
+					<div class="prose prose-base prose-indigo text-gray-500 lg:max-w-none">
 						<Article />
 					</div>
 				</div>
