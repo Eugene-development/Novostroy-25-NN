@@ -20,10 +20,6 @@
 	let currentImageIndex = $state(0);
 	function setNewImageIndex(i) {
 		currentImageIndex = i;
-
-
-
-
 	}
 
 	let { data } = $props();
@@ -98,12 +94,17 @@
 						{data.parentable.parentable.parentable.value}</a
 					>
 					<span class="mx-0.5">/</span>
-					<a
+					<span
+						class="tracking-tight text-gray-900"
+					>
+						{data.parentable.parentable.value}</span
+					>
+					<!-- <a
 						href="/{data.parentable.parentable.parentable.slug}/{data.parentable.parentable.slug}"
 						class="tracking-tight text-gray-900"
 					>
 						{data.parentable.parentable.value}</a
-					>
+					> -->
 					<span class="mx-0.5">/</span>
 					<a
 						href="/{data.parentable.parentable.parentable.slug}/{data.parentable.parentable

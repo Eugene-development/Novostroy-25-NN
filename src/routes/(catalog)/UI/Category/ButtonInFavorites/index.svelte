@@ -19,6 +19,7 @@
     
     
     let { item } = $props();
+    
     let itemInFavorites = $state(favorites.current.some((i) => i.id === item.id));
 
     const toggleFavorite = (item) => {

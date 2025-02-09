@@ -24,3 +24,18 @@
       </div>
     {/each}
   </div> -->
+
+
+  <script>
+    let width = $state("1");
+  
+    $effect(() => {
+      // console.log('width изменено', width);
+      console.log('width', width);
+      let count = width.length;
+      console.log(count);
+    });
+  </script>
+  
+  <input type="text" bind:value={width} />
+  <!-- <input type="range" min="0" max="100" bind:value={width} /> -->
