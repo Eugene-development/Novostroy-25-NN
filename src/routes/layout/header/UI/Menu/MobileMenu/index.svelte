@@ -228,11 +228,13 @@
 						Москва и МО
 					</p> -->
 						<a
+							onclick={() => (visibleMobileMenu.value = false)}
 							href="/actions"
 							class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
 							>Акции</a
 						>
 						<a
+							onclick={() => (visibleMobileMenu.value = false)}
 							href="/blog"
 							class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
 							>Блог</a
