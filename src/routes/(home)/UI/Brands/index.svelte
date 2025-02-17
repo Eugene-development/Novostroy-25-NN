@@ -25,7 +25,7 @@
 			name: 'Egger',
 			username: 'Австрия',
 			body: 'Производство плитных материалов различной толщины для каркасов и мебельных фасадов',
-			img: 'https://logos-world.net/wp-content/uploads/2022/07/Egger-Logo.png'
+			img: 'https://logos-world.net/wp-content/uploads/2022/07/Egger-Logo-700x394.png'
 		},
 		{
 			name: 'Renolit',
