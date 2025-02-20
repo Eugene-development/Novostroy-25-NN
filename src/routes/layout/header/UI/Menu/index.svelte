@@ -9,16 +9,16 @@
 	let { data } = $props();
 </script>
 
-<header class="bg-gray-50/50">
+<header class="bg-gray-50">
 	<nav
 		class="max-w-9xl mx-auto hidden items-center justify-between p-2 lg:flex lg:px-8"
 		aria-label="Global"
 	>
-		<div class="flex items-center lg:flex-1">
-			<a href="/" class="-m-1.5 p-1.5">
-				<span class="sr-only">КОМПАНИЯ</span>
+		<div class="flex items-center lg:flex-1 ">
+			<a href="/" class="-m-1.5 p-1.5 -mb-8 bg-gray-50 rounded-lg z-30 shadow-xl">
+				<span class="sr-only">Компания Новострой</span>
 				<img
-					class="h-12 w-auto"
+					class="size-24 w-auto "
 					src="https://storage.yandexcloud.net/brand-logo/novostroy/logomain.png"
 					alt="Логотип компании Новострой"
 				/>
