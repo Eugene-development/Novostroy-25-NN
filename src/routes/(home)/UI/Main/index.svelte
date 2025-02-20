@@ -4,14 +4,14 @@
 
 
  <div class="animate-fade  animate-duration-[4000ms]">
-	<div class="relative isolate overflow-hidden pt-14">
+	<div class="relative isolate overflow-hidden">
 		<!-- <img
 			src="https://storage.yandexcloud.net/mine2024/novostroy/site/slider/cam-1-1600x1472.jpg"
 			alt="Кухонный гарнитур"
 			class="absolute inset-0 -z-10 size-full animate-fade object-cover animate-delay-500 animate-duration-[3000ms] grayscale"
 		/> -->
 		<img
-			src="https://storage.yandexcloud.net/mine2024/novostroy/catalog/d50610738170515b32f4b3d217aae067.jpg"
+			src="https://zovofficial.com/image/cache/catalog/products/kuhni/2024/rocco/cam-9-1087x890.jpg"
 			alt="Кухонный гарнитур"
 			class="absolute inset-0 -z-10 size-full animate-fade object-cover animate-delay-500 animate-duration-[3000ms]" 
 		/>
@@ -26,12 +26,12 @@
 			class="absolute inset-0 -z-10 size-full animate-fade object-cover animate-delay-500 animate-duration-[3000ms] grayscale" 
 		/> -->
 
-		<div class="absolute inset-0 -z-10 bg-black/60"></div>
+		<div class="absolute inset-0 -z-10 bg-black/20"></div>
 		<div class="mx-auto  ">
 			<div class="mx-auto max-w-6xl py-32 sm:py-40 lg:py-48 ">
-				<div class="animate-duration-10000 animate-fade-up  animate-ease-in-out  -mt-20">
+				<div class="animate-duration-10000 animate-fade-up  animate-ease-in-out">
 
-					<section class="bg-white dark:bg-gray-900 rounded-lg">
+					<section class="bg-white/80 dark:bg-gray-900 rounded-lg">
 						<div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
 							<a href="/blog" class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-sky-100/20 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700" >
 								<span class="text-xs bg-primary-600 rounded-full text-red-700 px-4 py-1.5 mr-3">Это интересно</span> <span class="text-sm font-medium">Наш мебельный блог</span> 
