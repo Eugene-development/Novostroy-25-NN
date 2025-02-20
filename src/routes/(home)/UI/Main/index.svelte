@@ -11,10 +11,15 @@
 			class="absolute inset-0 -z-10 size-full animate-fade object-cover animate-delay-500 animate-duration-[3000ms] grayscale"
 		/> -->
 		<img
-			src="https://storage.yandexcloud.net/mine2024/novostroy/catalog/c8dbd6a37c3abb7bcc60eabf2dda8635.jpg"
+			src="https://storage.yandexcloud.net/mine2024/novostroy/catalog/d50610738170515b32f4b3d217aae067.jpg"
 			alt="Кухонный гарнитур"
 			class="absolute inset-0 -z-10 size-full animate-fade object-cover animate-delay-500 animate-duration-[3000ms]" 
 		/>
+		<!-- <img
+			src="https://storage.yandexcloud.net/mine2024/novostroy/catalog/c8dbd6a37c3abb7bcc60eabf2dda8635.jpg"
+			alt="Кухонный гарнитур"
+			class="absolute inset-0 -z-10 size-full animate-fade object-cover animate-delay-500 animate-duration-[3000ms]" 
+		/> -->
 		<!-- <img
 			src="https://zovofficial.com/image/cache/catalog/products/kuhni/2023/berkli-24/cam-1-1087x890.jpg"
 			alt="Кухонный гарнитур"
@@ -26,16 +31,16 @@
 			<div class="mx-auto max-w-6xl py-32 sm:py-40 lg:py-48 ">
 				<div class="animate-duration-10000 animate-fade-up  animate-ease-in-out  -mt-20">
 
-					<section class="bg-white/90 dark:bg-gray-900 rounded-lg">
+					<section class="bg-white dark:bg-gray-900 rounded-lg">
 						<div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
 							<a href="/blog" class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-sky-100/20 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700" >
-								<span class="text-xs bg-primary-600 rounded-full text-red-700 px-4 py-1.5 mr-3">Это интересно</span> <span class="text-sm font-medium">Познакомьтесь с нашим блогом</span> 
+								<span class="text-xs bg-primary-600 rounded-full text-red-700 px-4 py-1.5 mr-3">Это интересно</span> <span class="text-sm font-medium">Наш мебельный блог</span> 
 								<svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
 							</a>
 							<h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-7xl dark:text-white">Мебель и техника</h1>
-							<p class="mb-8 text-lg font-normal text-gray-700 lg:text-xl sm:px-16 xl:px-20 dark:text-gray-400">Профессиональный дизайнер создаст для вас проект мебели по вашим размерам, согласует
-								его с фабрикой, а также подберёт столешницу, бытовую технику и аксессуары. Это поможет
-								снизить ваши затраты и сэкономить время на поиске лучших решений.</p>
+							<p class="mb-8 text-xs font-normal text-gray-700 lg:text-xl sm:px-16 xl:px-20 dark:text-gray-400">Профессиональный дизайнер бесплатно создаст для вас проект мебели по вашим размерам, согласует
+								его с фабрикой, подберёт столешницу, технику и аксессуары. Это значительно
+								снизит ваши затраты и сэкономит время на поиске лучших решений.</p>
 							<div class="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-8">
 								<a href="/actions" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-red-700 rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
 									Наши акции
@@ -49,15 +54,15 @@
 								<!-- <span class="font-semibold text-gray-400 uppercase">В сотрудничестве с</span> -->
 									<div class="mx-auto max-w-7xl px-6 lg:px-8 bg-white mt-8 rounded-lg">
 										<div
-											class="mx-auto grid max-w-lg grid-cols-2 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none"
+											class="mx-auto pb-4 sm:pb-0 grid max-w-lg grid-cols-2 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-5 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none"
 										>
-											<a href="https://zov.top/" target="_blank">
+											<!-- <a href="https://zov.top/" target="_blank">
 												<img
 													class="col-span-2 max-h-14 w-full object-contain lg:col-span-1"
 													src="https://storage.yandexcloud.net/zovrus/brand/logo-rus-x2.png"
 													alt="ЗОВ"
 												/>
-											</a>
+											</a> -->
 								
 											<a href="https://www.stilkuhni.ru/" target="_blank">
 												<img

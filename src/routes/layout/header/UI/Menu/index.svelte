@@ -15,10 +15,10 @@
 		aria-label="Global"
 	>
 		<div class="flex items-center lg:flex-1 ">
-			<a href="/" class="-m-1.5 p-1.5 -mb-8 bg-gray-50 rounded-lg z-30 shadow-xl">
+			<a href="/" class="-m-1.5 p-1.5 -mb-8 bg-gray-50 rounded-b-lg z-30 shadow-lg">
 				<span class="sr-only">Компания Новострой</span>
 				<img
-					class="size-24 w-auto "
+					class="size-20 w-auto "
 					src="https://storage.yandexcloud.net/brand-logo/novostroy/logomain.png"
 					alt="Логотип компании Новострой"
 				/>
