@@ -10,10 +10,15 @@
 			alt="Кухонный гарнитур"
 			class="absolute inset-0 -z-10 size-full animate-fade object-cover animate-delay-500 animate-duration-[3000ms] grayscale"
 		/> -->
-		<img
+		<!-- <img
 			src="https://zovofficial.com/image/cache/catalog/products/kuhni/2024/rocco/cam-9-1087x890.jpg"
 			alt="Кухонный гарнитур"
-			class="absolute inset-0 -z-10 size-full animate-fade object-cover animate-delay-500 animate-duration-[3000ms]" 
+			class="absolute inset-0 -z-10 size-full animate-fade object-cover animate-delay-500 animate-duration-[3000ms] scale-x-[-1]" 
+		/> -->
+		<img
+			src="https://opt-mebel5komnat.ru/img/34527704_1347_q70.webp"
+			alt="Кухонный гарнитур"
+			class="absolute inset-0 -z-10 size-full animate-fade object-cover animate-delay-500 animate-duration-[3000ms] " 
 		/>
 		<!-- <img
 			src="https://storage.yandexcloud.net/mine2024/novostroy/catalog/c8dbd6a37c3abb7bcc60eabf2dda8635.jpg"
@@ -28,17 +33,17 @@
 
 		<div class="absolute inset-0 -z-10 bg-black/20"></div>
 		<div class="mx-auto  ">
-			<div class="mx-auto max-w-6xl py-32 sm:py-40 lg:py-48 ">
+			<div class="mx-auto max-w-5xl py-32 sm:py-40 lg:py-48 -mt-24">
 				<div class="animate-duration-10000 animate-fade-up  animate-ease-in-out">
 
-					<section class="bg-white/80 dark:bg-gray-900 rounded-lg">
+					<section class="bg-neutral-100/80 dark:bg-gray-900 rounded-lg">
 						<div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
-							<a href="/blog" class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-sky-100/20 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700" >
-								<span class="text-xs bg-primary-600 rounded-full text-red-700 px-4 py-1.5 mr-3">Это интересно</span> <span class="text-sm font-medium">Наш мебельный блог</span> 
+							<a href="/blog" class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-neutral-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-neutral-50 dark:hover:bg-gray-700" >
+								<span class="text-xs bg-neutral-200 rounded-full text-red-700 px-4 py-1.5 mr-3">Это интересно</span> <span class="text-sm font-medium">Наш мебельный блог</span> 
 								<svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
 							</a>
 							<h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-7xl dark:text-white">Мебель и техника</h1>
-							<p class="mb-8 text-xs font-normal text-gray-700 lg:text-xl sm:px-16 xl:px-20 dark:text-gray-400">Профессиональный дизайнер бесплатно создаст для вас проект мебели по вашим размерам, согласует
+							<p class="my-8 text-xs font-normal text-gray-800 lg:text-xl sm:px-10 xl:px-12 dark:text-gray-400">Профессиональный дизайнер бесплатно создаст для вас проект мебели по вашим размерам, согласует
 								его с фабрикой, подберёт столешницу, технику и аксессуары. Это значительно
 								снизит ваши затраты и сэкономит время на поиске лучших решений.</p>
 							<div class="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-8">
