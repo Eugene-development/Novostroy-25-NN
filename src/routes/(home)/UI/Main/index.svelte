@@ -3,8 +3,8 @@
 </script>
 
 
- <div class="animate-fade  animate-duration-[4000ms]">
-	<div class="relative isolate overflow-hidden">
+ <div class="animate-fade animate-duration-[4000ms]">
+	<div class=" relative isolate overflow-hidden">
 		<!-- <img
 			src="https://storage.yandexcloud.net/mine2024/novostroy/site/slider/cam-1-1600x1472.jpg"
 			alt="Кухонный гарнитур"
@@ -13,7 +13,7 @@
 		<img
 			src="https://zovofficial.com/image/cache/catalog/products/kuhni/2024/rocco/cam-9-1087x890.jpg"
 			alt="Кухонный гарнитур"
-			class="absolute inset-0 -z-10 size-full animate-fade object-cover animate-delay-500 animate-duration-[3000ms] scale-x-[-1]" 
+			class="hidden sm:block absolute inset-0 -z-10 size-full animate-fade object-cover animate-delay-500 animate-duration-[3000ms] scale-x-[-1]" 
 		/>
 		<!-- <img
 			src="https://opt-mebel5komnat.ru/img/34527704_1347_q70.webp"
@@ -31,7 +31,7 @@
 			class="absolute inset-0 -z-10 size-full animate-fade object-cover animate-delay-500 animate-duration-[3000ms] grayscale" 
 		/> -->
 
-		<div class="absolute inset-0 -z-10 bg-black/20"></div>
+		<div class="hidden sm:block absolute inset-0 -z-10 bg-black/20"></div>
 		<div class="mx-auto  ">
 			<div class="mx-auto max-w-5xl py-32 sm:py-40 lg:py-48 -mt-24">
 				<div class="animate-duration-10000 animate-fade-up  animate-ease-in-out">
