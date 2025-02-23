@@ -45,17 +45,22 @@
 	];
 </script>
 
-<div class="relative isolate overflow-hidden bg-gray-50/50 py-24 sm:py-32 md:h-screen">
+<div class="relative isolate overflow-hidden bg-gray-50/10 py-24 sm:py-32 md:h-screen">
 	<!-- <div class="relative isolate h-screen overflow-hidden bg-gray-50/50 py-24 sm:py-32"> -->
 	<img
+		src="https://www.aristo.ru/upload/iblock/fde/z7l9t7wd13bsaqo3dzm2fwxv89ff3rh1/Aristo_SHkaf_kupe_CHernyi_-kashemir-4.jpg"
+		alt="Кухонный гарнитур"
+		class="absolute inset-0 -z-10 h-full w-full object-cover scale-x-[-1]"
+	/>
+	<!-- <img
 		src="https://zov.top/_next/image?url=https%3A%2F%2Fstorage.yandexcloud.net%2Fmine2024%2Fzov%2FZg7llpCInCBFGyb7xO0B7Qkac7pwWVorXWQeLC2K.jpg&w=1920&q=75"
 		alt="Кухонный гарнитур"
 		class="absolute inset-0 -z-10 h-full w-full object-cover"
-	/>
-	<div class="absolute inset-0 -z-10 rounded-xl bg-black/50"></div>
+	/> -->
+	<div class="absolute inset-0 -z-10 rounded-xl bg-black/20"></div>
 	<!-- <div class="absolute inset-0 -z-10 bg-gradient-to-br from-gray-50/10 to-gray-900/90"></div> -->
 
-	<div
+	<!-- <div
 		class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu"
 	>
 		<div
@@ -65,9 +70,9 @@
 					'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)'
 			}}
 		></div>
-	</div>
+	</div> -->
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
-		<div class="mx-auto max-w-2xl bg-gray-900/10 p-8 lg:mx-0">
+		<div class="mx-auto max-w-2xl bg-gray-900/10 p-8 lg:mx-0 ">
 			<h2 class="text-base/7 font-semibold text-sky-300">Это важно</h2>
 			<h2 class="text-4xl font-bold text-white md:text-7xl">Наша работа</h2>
 			<p class="mx-auto mt-6 text-sm leading-7 text-white sm:text-xl">
@@ -79,7 +84,7 @@
 		<div bind:this={targetNode}>
 			{#if hasBeenVisible}
 				<div
-					class=" mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 rounded-xl border-t border-sky-200 bg-black/40 p-6 pt-10 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"
+					class=" mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 rounded-xl border-t border-sky-200  p-6 pt-10 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"
 				>
 					{#each cards as card, i}
 						<div
@@ -87,7 +92,7 @@
 							style="animation-delay: {i * 0.4}s"
 						>
 							<div
-								class="flex gap-x-3 rounded-xl bg-gradient-to-br from-black/20 to-black/40 p-5 shadow-lg shadow-gray-500/20 ring-1 ring-inset ring-sky-500/50"
+								class="flex gap-x-3 rounded-xl bg-gradient-to-br from-black/40 to-black/60 p-5 shadow-lg shadow-gray-500/20 ring-1 ring-inset ring-sky-200"
 							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
@@ -95,7 +100,7 @@
 									viewBox="0 0 24 24"
 									stroke-width={1.5}
 									stroke="currentColor"
-									class="size-7 flex-none text-sky-600"
+									class="size-7 flex-none text-sky-300"
 								>
 									<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
 								</svg>

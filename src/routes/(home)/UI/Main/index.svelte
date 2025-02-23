@@ -10,16 +10,16 @@
 			alt="Кухонный гарнитур"
 			class="absolute inset-0 -z-10 size-full animate-fade object-cover animate-delay-500 animate-duration-[3000ms] grayscale"
 		/> -->
-		<!-- <img
+		<img
 			src="https://zovofficial.com/image/cache/catalog/products/kuhni/2024/rocco/cam-9-1087x890.jpg"
 			alt="Кухонный гарнитур"
 			class="absolute inset-0 -z-10 size-full animate-fade object-cover animate-delay-500 animate-duration-[3000ms] scale-x-[-1]" 
-		/> -->
-		<img
+		/>
+		<!-- <img
 			src="https://opt-mebel5komnat.ru/img/34527704_1347_q70.webp"
 			alt="Кухонный гарнитур"
-			class="absolute inset-0 -z-10 size-full animate-fade object-cover animate-delay-500 animate-duration-[3000ms] " 
-		/>
+			class="absolute  inset-0 -z-10 size-full animate-fade object-cover animate-delay-500 animate-duration-[3000ms] " 
+		/> -->
 		<!-- <img
 			src="https://storage.yandexcloud.net/mine2024/novostroy/catalog/c8dbd6a37c3abb7bcc60eabf2dda8635.jpg"
 			alt="Кухонный гарнитур"
@@ -59,15 +59,15 @@
 								<!-- <span class="font-semibold text-gray-400 uppercase">В сотрудничестве с</span> -->
 									<div class="mx-auto max-w-7xl px-6 lg:px-8 bg-white mt-8 rounded-lg">
 										<div
-											class="mx-auto pb-4 sm:pb-0 grid max-w-lg grid-cols-2 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-5 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none"
+											class="mx-auto pb-4 sm:pb-0 grid max-w-lg grid-cols-2 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none"
 										>
-											<!-- <a href="https://zov.top/" target="_blank">
+											<a href="https://zov.top/" target="_blank">
 												<img
-													class="col-span-2 max-h-14 w-full object-contain lg:col-span-1"
+													class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
 													src="https://storage.yandexcloud.net/zovrus/brand/logo-rus-x2.png"
 													alt="ЗОВ"
 												/>
-											</a> -->
+											</a>
 								
 											<a href="https://www.stilkuhni.ru/" target="_blank">
 												<img
@@ -85,7 +85,7 @@
 											</a>
 											<a href="https://www.mrdoors.ru/" target="_blank">
 												<img
-													class="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
+													class="col-span-2 max-h-10 w-full object-contain sm:col-start-2 lg:col-span-1"
 													src="https://avatars.mds.yandex.net/i?id=cf4673eacc853d6f062852c16c8f10af8dd28ace-7909006-images-thumbs&n=13"
 													alt="Мистер Дорс"
 												/>

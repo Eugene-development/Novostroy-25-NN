@@ -28,6 +28,7 @@
 
   <script>
     let width = $state("1");
+    let count = $state("2");
   
     $effect(() => {
       // console.log('width изменено', width);
@@ -39,3 +40,4 @@
   
   <input type="text" bind:value={width} />
   <!-- <input type="range" min="0" max="100" bind:value={width} /> -->
+   <!-- ыовлитаплотилопа -->
