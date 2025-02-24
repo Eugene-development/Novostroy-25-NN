@@ -72,7 +72,7 @@
 		></div>
 	</div> -->
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
-		<div class="mx-auto max-w-2xl bg-gray-900/10 p-8 lg:mx-0 ">
+		<div class="mx-auto max-w-2xl bg-gradient-to-br from-black/30 to-black/30 p-8 rounded-xl  lg:mx-0 ">
 			<h2 class="text-base/7 font-semibold text-sky-300">Это важно</h2>
 			<h2 class="text-4xl font-bold text-white md:text-7xl">Наша работа</h2>
 			<p class="mx-auto mt-6 text-sm leading-7 text-white sm:text-xl">
@@ -84,7 +84,7 @@
 		<div bind:this={targetNode}>
 			{#if hasBeenVisible}
 				<div
-					class=" mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 rounded-xl border-t border-sky-200  p-6 pt-10 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"
+					class=" mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 rounded-xl border-t border-sky-200/50  p-6 pt-10 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"
 				>
 					{#each cards as card, i}
 						<div
@@ -92,7 +92,7 @@
 							style="animation-delay: {i * 0.4}s"
 						>
 							<div
-								class="flex gap-x-3 rounded-xl bg-gradient-to-br from-black/40 to-black/60 p-5 shadow-lg shadow-gray-500/20 ring-1 ring-inset ring-sky-200"
+								class="flex gap-x-3 rounded-xl bg-gradient-to-br from-black/40 to-black/60 p-5 shadow-lg shadow-gray-500/20 ring-1 ring-offset-secondary ring-sky-200/50"
 							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"

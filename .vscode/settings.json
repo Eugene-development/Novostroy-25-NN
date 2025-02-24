@@ -1,3 +1,9 @@
 {
-	"cSpell.words": ["checkbot", "checkkbot", "parentable", "runed", "Splide"]
+	"cSpell.words": ["checkbot", "checkkbot", "parentable", "runed", "Splide"],
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+	"tailwindCSS.includeLanguages": {
+		"svelte": "html"
+	}
 }

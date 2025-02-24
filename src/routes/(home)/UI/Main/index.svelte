@@ -59,9 +59,9 @@
 								<!-- <span class="font-semibold text-gray-400 uppercase">В сотрудничестве с</span> -->
 									<div class="mx-auto max-w-7xl p-6 bg-white rounded-lg">
 										<div
-											class="mx-auto pb-4 sm:pb-0 grid max-w-lg grid-cols-2 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none"
+											class="mx-auto  pb-4 sm:pb-0 grid max-w-lg grid-cols-2 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none"
 										>
-											<a href="https://zov.top/" target="_blank">
+											<a href="https://zovofficial.com/" target="_blank">
 												<img
 													class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
 													src="https://storage.yandexcloud.net/zovrus/brand/logo-rus-x2.png"
