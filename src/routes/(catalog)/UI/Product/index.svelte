@@ -6,8 +6,9 @@
 
 	import { visibleConsultationForm } from '$lib/state/formConsultation.svelte';
 	import { isFavorites } from '$lib/state/favorites.svelte';
-
 	import { visiblePriceForm } from '$lib/state/formPrice.svelte';
+	import { visibleMeasuringForm } from '$lib/state/formMeasuring.svelte';
+	import { visibleFurnitureProjectForm } from '$lib/state/formFurnitureProject.svelte';
 
 	const favorites = new PersistedState('favorites', []);
 
@@ -173,19 +174,6 @@
 									clip-rule="evenodd"
 								/>
 							</svg>
-							<svg
-								class="size-4 shrink-0 text-red-600"
-								viewBox="0 0 20 20"
-								fill="currentColor"
-								aria-hidden="true"
-								data-slot="icon"
-							>
-								<path
-									fill-rule="evenodd"
-									d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
-									clip-rule="evenodd"
-								/>
-							</svg>
 						</div>
 					</div>
 				</div>
@@ -203,7 +191,13 @@
 				<div class="mt-2">
 					<div class="mt-10 flex">
 						<button
-							onclick={() => (visibleConsultationForm.value = true)}
+							onclick={() => {
+								// Close other modals first
+								visibleMeasuringForm.value = false;
+								visibleFurnitureProjectForm.value = false;
+								// Open consultation form
+								visibleConsultationForm.value = true;
+							}}
 							type="button"
 							class="flex max-w-xs flex-1 items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-sky-500 to-blue-600 px-2 py-3 text-sm font-medium text-white hover:bg-indigo-700 hover:from-blue-600 hover:to-sky-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50 sm:w-full sm:px-8 sm:text-base"
 							>Бесплатная консультация</button
@@ -236,7 +230,14 @@
 				</div>
 
 				<button
-					onclick={() => (visiblePriceForm.value = !visiblePriceForm.value)}
+					onclick={() => {
+						// Close other modals first
+						visibleMeasuringForm.value = false;
+						visibleFurnitureProjectForm.value = false;
+						visibleConsultationForm.value = false;
+						// Open price form
+						visiblePriceForm.value = true;
+					}}
 					type="button"
 					class="mt-4 flex items-center gap-1"
 				>
