@@ -2,12 +2,30 @@
 	import { visibleConsultationForm } from '$lib/state/formConsultation.svelte';
 	import { visibleMeasuringForm } from '$lib/state/formMeasuring.svelte';
 	import { visibleFurnitureProjectForm } from '$lib/state/formFurnitureProject.svelte';
+
+	function openConsultationForm() {
+		visibleMeasuringForm.value = false;
+		visibleFurnitureProjectForm.value = false;
+		visibleConsultationForm.value = true;
+	}
+
+	function openMeasuringForm() {
+		visibleConsultationForm.value = false;
+		visibleFurnitureProjectForm.value = false;
+		visibleMeasuringForm.value = true;
+	}
+
+	function openFurnitureProjectForm() {
+		visibleConsultationForm.value = false;
+		visibleMeasuringForm.value = false;
+		visibleFurnitureProjectForm.value = true;
+	}
 </script>
 
 <div class="mb-3">
 	<div class="grid grid-cols-3 gap-1">
 		<button
-			onclick={() => (visibleConsultationForm.value = true)}
+			onclick={openConsultationForm}
 			type="button"
 			class="group flex cursor-pointer flex-col items-center justify-center rounded-xl bg-blue-50 p-2.5 hover:bg-blue-100"
 		>
@@ -30,7 +48,7 @@
 			<span class="text-xs font-normal text-blue-600"> Дизайнер </span>
 		</button>
 		<button
-			onclick={() => (visibleMeasuringForm.value = true)}
+			onclick={openMeasuringForm}
 			type="button"
 			class="group flex cursor-pointer flex-col items-center justify-center rounded-xl bg-purple-50 p-2.5 hover:bg-purple-100"
 		>
@@ -57,7 +75,7 @@
 			<span class="text-xs font-normal text-purple-600"> Замер </span>
 		</button>
 		<button
-			onclick={() => (visibleFurnitureProjectForm.value = true)}
+			onclick={openFurnitureProjectForm}
 			type="button"
 			class="group flex cursor-pointer flex-col items-center justify-center rounded-xl bg-teal-50 p-2.5 hover:bg-teal-100"
 		>
