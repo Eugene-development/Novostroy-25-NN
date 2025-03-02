@@ -7,7 +7,7 @@
 			class="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8"
 		>
 			<div class="lg:col-end-1 lg:w-full lg:max-w-xl lg:pb-8">
-				<h2 class="text-base/7 font-semibold text-sky-600">Экономия</h2>
+				<h2 class="text-base/7 font-semibold text-sky-700">Экономия</h2>
 
 				<h2 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl">С нами выгодно покупать мебель</h2>
 

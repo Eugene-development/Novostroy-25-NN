@@ -82,7 +82,7 @@
 	</li>
 </ul>
 
-<div class="border-t border-gray-200 py-6">
+<div class="border-t border-gray-200 pt-6">
 	<a
 		href="/"
 		class="group flex items-center rounded-lg p-1 text-sm font-normal text-sky-800 hover:bg-gray-50"

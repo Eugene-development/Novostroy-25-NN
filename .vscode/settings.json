@@ -1,5 +1,12 @@
 {
-	"cSpell.words": ["checkbot", "checkkbot", "parentable", "runed", "Splide"],
+	"cSpell.words": [
+		"Новострой",
+		"checkbot",
+		"checkkbot",
+		"parentable",
+		"runed",
+		"Splide"
+	],
 	"editor.quickSuggestions": {
 		"strings": true
 	},
