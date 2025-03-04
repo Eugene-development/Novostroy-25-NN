@@ -7,11 +7,11 @@
 <Carousel.Root class="w-full">
 	<Carousel.Content>
 		{#each data as item, i (i)}
-			<Carousel.Item>
+			<Carousel.Item class="h-80">
 				<img
 					src={`${import.meta.env.VITE_S3}/catalog/${item.hash}`}
 					alt="Выполненный проект"
-					class="flex  items-center justify-center object-contain"
+					class="flex size-full object-contain"
 				/>
 			</Carousel.Item>
 		{/each}
