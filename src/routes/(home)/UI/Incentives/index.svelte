@@ -1,7 +1,5 @@
-<script>
-</script>
 
-<div class="overflow-hidden bg-white py-32 sm:py-40">
+<div class="overflow-hidden pt-32 sm:pt-40">
 	<div class="mx-auto max-w-7xl px-6 lg:flex lg:px-4">
 		<div
 			class="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8"
