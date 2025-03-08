@@ -1,4 +1,3 @@
-
 <div class="overflow-hidden pt-32 sm:pt-40">
 	<div class="mx-auto max-w-7xl px-6 lg:flex lg:px-4">
 		<div
