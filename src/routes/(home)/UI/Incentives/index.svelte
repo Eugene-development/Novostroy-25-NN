@@ -1,4 +1,4 @@
-<div class="overflow-hidden pt-32 sm:pt-40">
+<div class="overflow-hidden py-24 sm:py-32">
 	<div class="mx-auto max-w-7xl px-6 lg:flex lg:px-4">
 		<div
 			class="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8"
@@ -30,9 +30,10 @@
 			<div class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
 				<div class="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
 					<img
+					
 						src="https://aristo.expert/upload/iblock/c03/u2v1fjrt1l89bvmymd1kmrjvk06euaaj/Razdvizhnaya_-vtsroennyy-shkaf-s-razdvizhnymi-dveryami_-chernyy-matovyy.jpeg"
 						alt=""
-						class="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
+						class="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover scale-x-[-1]"
 					/>
 				</div>
 				<div
@@ -40,9 +41,9 @@
 				>
 					<div class="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
 						<img
-							src="https://zovofficial.com/image/cache/catalog/products/kuhni/2024/abel/cam-1-1087x890.jpg"
+							src="https://zovofficial.com/image/cache/catalog/products/kuhni/2024/fabi/cam-1-1087x890.jpg"
 							alt=""
-							class="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
+							class="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover scale-x-[-1]"
 						/>
 					</div>
 					<div class="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
@@ -50,15 +51,15 @@
 						src="https://zovofficial.com/image/cache/catalog/products/garderobnye-shkafy-i-sistemy/2023/air-sistema/2-1087x890.jpg"
 
 							alt=""
-							class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
+							class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover scale-x-[-1]"
 						/>
 					</div>
 					<div class="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
 						<img
-						src="https://aristo.expert/upload/iblock/34f/ogk01mt2gi4ps7l6fvloinabc3jay640/Gola-5.jpg"
+						src="https://zovofficial.com/image/cache/catalog/products/kuhni/2022/pemont-22/cam-1-1087x890.jpg"
 
 							alt=""
-							class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover"
+							class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover scale-x-[-1]"
 						/>
 					</div>
 				</div>

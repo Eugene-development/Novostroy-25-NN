@@ -56,9 +56,9 @@
 							{/if}
 						</p>
 					</blockquote>
-					<figcaption class="mt-1 text-base sm:mt-4">
+					<!-- <figcaption class="mt-1 text-base sm:mt-4">
 						<div class=" text-pink-700">Компания "Новострой"</div>
-					</figcaption>
+					</figcaption> -->
 				</figure>
 			</div>
 		</div>
