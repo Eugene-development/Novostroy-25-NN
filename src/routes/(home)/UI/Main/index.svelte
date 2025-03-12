@@ -11,7 +11,7 @@
 			class="absolute inset-0 -z-10 size-full animate-fade object-cover animate-delay-500 animate-duration-[3000ms] grayscale"
 		/> -->
 		<img
-			src="https://zovofficial.com/image/cache/catalog/products/kuhni/2024/rocco/cam-9-1087x890.jpg"
+			src="https://storage.yandexcloud.net/mine2024/novostroy/site/mainfoto.jpg"
 			alt="Кухонный гарнитур"
 			class="hidden sm:block absolute inset-0 -z-10 size-full animate-fade object-cover animate-delay-500 animate-duration-[3000ms] scale-x-[-1]" 
 		/>
