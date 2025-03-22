@@ -1,18 +1,26 @@
 <script>
 	import * as Carousel from '$lib/components/ui/carousel/index.js';
+	import { sortByULID } from '$lib/utils/ulid.js';
 
 	let { data } = $props();
+	// Сортируем данные по ULID (если они содержат ULID)
+    
+	let sortedData = $state([]) ;
+	sortedData = sortByULID(data, 'id', true) ;
+    $inspect( sortedData );
 </script>
 
 <Carousel.Root class="w-full">
 	<Carousel.Content>
-		{#each data as item, i (i)}
+		{#each sortedData as item, i (item.id || i)}
 			<Carousel.Item class="h-80">
 				<img
 					src={`${import.meta.env.VITE_S3}/catalog/${item.hash}`}
 					alt="Выполненный проект"
 					class="flex size-full object-contain"
 				/>
+
+                
 			</Carousel.Item>
 		{/each}
 	</Carousel.Content>

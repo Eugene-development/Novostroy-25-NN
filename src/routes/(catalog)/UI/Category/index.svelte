@@ -9,8 +9,8 @@
 		visiblePriceForm.value = !visiblePriceForm.value;
 		currentValueProject.value = param;
 	};
-
 	let { data } = $props();
+	    // $inspect( data );
 </script>
 
 <div class="bg-white py-2 sm:py-4">

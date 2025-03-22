@@ -124,6 +124,7 @@ export const CATEGORY = gql`
 					value
 				}
 				image {
+					id
 					hash
 				}
 				tag {
