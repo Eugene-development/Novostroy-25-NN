@@ -33,13 +33,13 @@
         </button>
       </div> -->
 		<div class="-ml-7 flex items-center lg:gap-x-12">
-			<a href="/" class="text-base font-medium text-gray-900">Главная</a>
+			<a href="/" class="text-base font-medium text-gray-900 hover:text-pink-700">Главная</a>
 
 			<div onmouseleave={() => (visibleServicesMenu = false)} class="relative" role="navigation">
 				<button
 					onmouseenter={() => (visibleServicesMenu = true)}
 					type="button"
-					class="flex items-center gap-x-1 py-3 text-base font-medium text-gray-900"
+					class="flex items-center gap-x-1 py-3 text-base font-medium text-gray-900 hover:text-pink-700"
 					aria-expanded={visibleServicesMenu}
 				>
 					Услуги
@@ -268,9 +268,9 @@
 					</div>
 				{/if}
 			</div> -->
-			<a href="/mebel" class="text-base font-medium text-gray-900">Мебель</a>
-			<a href="/stoleshnica" class="text-base font-medium text-gray-900">Столешницы</a>
-			<a href="/actions" class="text-base font-medium text-gray-900">Акции</a>
+			<a href="/mebel" class="text-base font-medium text-gray-900 hover:text-pink-700">Мебель</a>
+			<a href="/stoleshnica" class="text-base font-medium text-gray-900 hover:text-pink-700">Столешницы</a>
+			<a href="/actions" class="text-base font-medium text-gray-900 hover:text-pink-700">Акции</a>
 			<!-- <a href="/contacts" class="text-base font-medium text-gray-900">Контакты</a> -->
 		</div>
 
