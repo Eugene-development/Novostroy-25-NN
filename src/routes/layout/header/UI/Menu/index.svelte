@@ -33,13 +33,13 @@
         </button>
       </div> -->
 		<div class="-ml-7 flex items-center lg:gap-x-12">
-			<a href="/" class="text-base font-semibold text-gray-900">Главная</a>
+			<a href="/" class="text-base font-medium text-gray-900">Главная</a>
 
 			<div onmouseleave={() => (visibleServicesMenu = false)} class="relative" role="navigation">
 				<button
 					onmouseenter={() => (visibleServicesMenu = true)}
 					type="button"
-					class="flex items-center gap-x-1 py-3 text-base font-semibold text-gray-900"
+					class="flex items-center gap-x-1 py-3 text-base font-medium text-gray-900"
 					aria-expanded={visibleServicesMenu}
 				>
 					Услуги
@@ -89,7 +89,7 @@
 				{/if}
 			</div>
 
-			<div role="navigation" onmouseleave={() => (visibleCatalogMenu = false)} class="relative">
+			<!-- <div role="navigation" onmouseleave={() => (visibleCatalogMenu = false)} class="relative">
 				<button
 					onmouseenter={() => (visibleCatalogMenu = true)}
 					type="button"
@@ -97,9 +97,9 @@
 					aria-expanded={visibleCatalogMenu}
 				>
 					Каталог
-					<!-- <svg class="size-5 flex-none text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+					<svg class="size-5 flex-none text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
             <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
-          </svg> -->
+          </svg>
 				</button>
 
 				{#if visibleCatalogMenu}
@@ -111,7 +111,7 @@
 					>
 						<div class=" px-3 py-2">
 							<div class="group relative flex gap-x-6 rounded-3xl p-4 text-sm/6 hover:bg-gray-50">
-								<!-- <div
+								<div
 									class="mt-1 flex size-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white"
 								>
 									<svg
@@ -134,7 +134,7 @@
 											d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z"
 										/>
 									</svg>
-								</div> -->
+								</div>
 								<div class="flex-auto">
 									<a href="/mebel" class="block text-lg font-semibold text-gray-900">
 										Мебель
@@ -146,7 +146,7 @@
 								</div>
 							</div>
 							<div class="group relative flex gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-gray-50">
-								<!-- <div
+								<div
 									class="mt-1 flex size-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white"
 								>
 									<svg
@@ -164,7 +164,7 @@
 											d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59"
 										/>
 									</svg>
-								</div> -->
+								</div>
 								<div class="flex-auto">
 									<a href="/stoleshnica" class="block text-lg font-semibold text-gray-900">
 										Столешницы
@@ -176,7 +176,7 @@
 								</div>
 							</div>
 							<div class="group relative flex gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-gray-50">
-								<!-- <div
+								<div
 									class="mt-1 flex size-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white"
 								>
 									<svg
@@ -194,7 +194,7 @@
 											d="M7.864 4.243A7.5 7.5 0 0 1 19.5 10.5c0 2.92-.556 5.709-1.568 8.268M5.742 6.364A7.465 7.465 0 0 0 4.5 10.5a7.464 7.464 0 0 1-1.15 3.993m1.989 3.559A11.209 11.209 0 0 0 8.25 10.5a3.75 3.75 0 1 1 7.5 0c0 .527-.021 1.049-.064 1.565M12 10.5a14.94 14.94 0 0 1-3.6 9.75m6.633-4.596a18.666 18.666 0 0 1-2.485 5.33"
 										/>
 									</svg>
-								</div> -->
+								</div>
 								<div class="flex-auto">
 									<a href="/tehnika" class="block text-lg font-semibold text-gray-900">
 										Бытовая техника
@@ -206,7 +206,7 @@
 								</div>
 							</div>
 							<div class="group relative flex gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-gray-50">
-								<!-- <div
+								<div
 									class="mt-1 flex size-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white"
 								>
 									<svg
@@ -224,7 +224,7 @@
 											d="M13.5 16.875h3.375m0 0h3.375m-3.375 0V13.5m0 3.375v3.375M6 10.5h2.25a2.25 2.25 0 0 0 2.25-2.25V6a2.25 2.25 0 0 0-2.25-2.25H6A2.25 2.25 0 0 0 3.75 6v2.25A2.25 2.25 0 0 0 6 10.5Zm0 9.75h2.25A2.25 2.25 0 0 0 10.5 18v-2.25a2.25 2.25 0 0 0-2.25-2.25H6a2.25 2.25 0 0 0-2.25 2.25V18A2.25 2.25 0 0 0 6 20.25Zm9.75-9.75H18a2.25 2.25 0 0 0 2.25-2.25V6A2.25 2.25 0 0 0 18 3.75h-2.25A2.25 2.25 0 0 0 13.5 6v2.25a2.25 2.25 0 0 0 2.25 2.25Z"
 										/>
 									</svg>
-								</div> -->
+								</div>
 								<div class="flex-auto">
 									<a href="/santehnika" class="block text-lg font-semibold text-gray-900">
 										Сантехника
@@ -236,7 +236,7 @@
 								</div>
 							</div>
 						</div>
-						<!-- <div
+						<div
 							class="grid grid-cols-2 divide-x divide-gray-300 border-t border-gray-300 bg-gray-100"
 						>
 							<a
@@ -264,12 +264,14 @@
 								>
 								Телеграм канал
 							</a>
-						</div> -->
+						</div>
 					</div>
 				{/if}
-			</div>
-			<a href="/actions" class="text-base font-semibold text-gray-900">Акции</a>
-			<a href="/blog" class="text-base font-semibold text-gray-900">Блог</a>
+			</div> -->
+			<a href="/mebel" class="text-base font-medium text-gray-900">Мебель</a>
+			<a href="/stoleshnica" class="text-base font-medium text-gray-900">Столешницы</a>
+			<a href="/actions" class="text-base font-medium text-gray-900">Акции</a>
+			<!-- <a href="/contacts" class="text-base font-medium text-gray-900">Контакты</a> -->
 		</div>
 
 		<div class="flex items-center lg:flex-1 lg:justify-end">
@@ -284,7 +286,7 @@
 				<span
 					class="backdrop absolute inset-px rounded-[11px] bg-gray-50/90 transition-colors duration-200 group-hover:bg-gray-50"
 				></span>
-				<span class="z-10 flex text-base font-medium text-gray-900">
+				<span class="z-10 flex text-base font-normal text-gray-900">
 					<path
 						strokeLinecap="round"
 						strokeLinejoin="round"
