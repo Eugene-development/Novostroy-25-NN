@@ -42,7 +42,7 @@
 					class="flex items-center gap-x-1 py-3 text-base font-medium text-gray-900 hover:text-pink-700"
 					aria-expanded={visibleServicesMenu}
 				>
-					Услуги
+					Наши услуги
 					<!-- <svg class="size-5 flex-none text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
               <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
             </svg> -->
@@ -268,7 +268,7 @@
 					</div>
 				{/if}
 			</div> -->
-			<a href="/mebel" class="text-base font-medium text-gray-900 hover:text-pink-700">Мебель</a>
+			<a href="/mebel" class="text-base font-medium text-gray-900 hover:text-pink-700">Каталог мебели</a>
 			<a href="/stoleshnica" class="text-base font-medium text-gray-900 hover:text-pink-700">Столешницы</a>
 			<a href="/actions" class="text-base font-medium text-gray-900 hover:text-pink-700">Акции</a>
 			<!-- <a href="/contacts" class="text-base font-medium text-gray-900">Контакты</a> -->
