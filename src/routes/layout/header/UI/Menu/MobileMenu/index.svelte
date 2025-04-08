@@ -9,7 +9,7 @@
 	let showInformationMenu = $state(false);
 	let showCatalogMenu = $state(false);
 
-	let { data } = $props();
+	let { data } = $props(); 
 </script>
 
 {#if visibleMobileMenu.value}
@@ -144,7 +144,12 @@
 
 							{#if showCatalogMenu}
 								{#each data as catalog}
-									<CatalogItem {catalog} />
+								
+<!-- Временно убрал технику и сантехнику -->
+									{#if catalog.value !== 'Техника' && catalog.value !== 'Сантехника'}
+										<CatalogItem {catalog} />
+									{/if}
+
 								{/each}
 							{/if}
 						</div>
