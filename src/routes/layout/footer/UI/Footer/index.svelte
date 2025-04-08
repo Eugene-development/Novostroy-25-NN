@@ -139,9 +139,9 @@
 			class="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24 lg:flex lg:items-center lg:justify-between"
 		>
 			<div>
-				<h3 class="text-sm/6 font-semibold text-white">Подписаться на новости</h3>
+				<h3 class="text-sm/6 font-semibold text-white">Получите дополнительный процент скидки</h3>
 				<p class="mt-2 text-sm/6 text-gray-300">
-					Получайте самые свежие новости, статьи и ресурсы, отправленные вам еженедельно.
+					Отправьте на свою почту и мы вам предоставим плюсом 1% скидки на мебель к будущему заказу.
 				</p>
 			</div>
 			{#if formSubmitted.value}
@@ -182,7 +182,7 @@
 						<button
 							type="submit"
 							class="flex w-full items-center justify-center rounded-md bg-pink-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-pink-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pink-500"
-							>Подписаться</button
+							>Отправить</button
 						>
 					</div>
 				</form>
