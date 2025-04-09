@@ -3,39 +3,40 @@
     import { PersistedState } from 'runed';
 
     const favorites = new PersistedState('favorites', []);
-
     let favoritesList = $state(favorites.current);
-
+    
     $effect(() => {
         favoritesList = favorites.current;
         favoritesList.length > 0 ? (isFavorites.value = true) : (isFavorites.value = false);
     });
-
-
-    
-
-    
-
-    
     
     let { item } = $props();
     
-    let itemInFavorites = $state(favorites.current.some((i) => i.id === item.id));
+    let itemInFavorites = $state(false);
+    
+    $effect(() => {
+        itemInFavorites = favorites.current.some((i) => i.id === item.id);
+    });
 
     const toggleFavorite = (item) => {
-        favorites.current = favorites.current.some(i => i.id === item.id)
-            ? favorites.current.filter(i => i.id !== item.id)
-            : [...favorites.current, item];
-        
-        itemInFavorites = favorites.current.some(i => i.id === item.id);
+        if (itemInFavorites) {
+            // Удаляем элемент из избранного
+            const updatedFavorites = favorites.current.filter(i => i.id !== item.id);
+            favorites.current = updatedFavorites;
+        } else {
+            // Используем push для добавления элемента
+            if (!favorites.current.some(i => i.id === item.id)) {
+                // Создаем копию текущего массива
+                const currentArray = [...favorites.current];
+                // Добавляем новый элемент
+                currentArray.push(item);
+                // Обновляем состояние
+                favorites.current = currentArray;
+                console.log('Added to favorites with push:', favorites.current);
+            }
+        }
     };
-
-
-    
-    </script>
-
-<!-- TODO: когда в Избранном или на карточке меняю статус, то  здесь состояние не меняется-->
-
+</script>
 
 <button
     type="button"

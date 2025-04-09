@@ -36,7 +36,7 @@
 			<button
 				onclick={() => handleClick(item.value)}
 				type="button"
-				class="my-6 inline-flex items-center gap-2 text-base font-medium text-gray-700 hover:text-sky-700 hover:underline"
+				class="my-4 inline-flex items-center gap-2 text-base font-medium text-gray-700 hover:text-sky-700 hover:underline"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@
 			<div class="h-14">
 				<a
 					href="/{data.parentable.parentable.slug}/{data.parentable.slug}/{data.slug}/{item.slug}"
-					class="text-xl font-semibold leading-tight text-gray-900 hover:underline"
+					class="text-xl sm:text-2xl font-semibold leading-tight text-gray-900 hover:underline"
 				>
 					{item.value}
 				</a>
@@ -66,7 +66,7 @@
 
 			<div class="mx-auto max-w-sm sm:flex sm:items-center md:mt-4 lg:flex-col">
 
-				<ButtonInFavorites {item}/>
+				<!-- <ButtonInFavorites {item}/> -->
 				<a
 					href="/{data.parentable.parentable.slug}/{data.parentable.slug}/{data.slug}/{item.slug}"
 					class="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-sky-600 to-blue-700 px-5 py-2.5 text-sm font-medium text-white hover:from-blue-600 hover:to-sky-500 focus:outline-none focus:ring-4 focus:ring-sky-300"
