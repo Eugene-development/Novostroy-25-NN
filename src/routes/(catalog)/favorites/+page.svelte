@@ -8,9 +8,6 @@
 
 	const favorites = new PersistedState('favorites', []);
 
-	let sortedData = $state([]) ;
-	sortedData = sortByULID(favorites.current, 'id', true) ;
-
 	let favoritesList = $state(favorites.current);
 	$effect(() => {
 		favoritesList = favorites.current;
@@ -47,7 +44,7 @@
 			</div>
 
 			<div class="grid grid-cols-1 gap-4 sm:mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:gap-8">
-				{#each sortedData as item (item.id)}
+				{#each favoritesList as item (item.id)}
 					<div class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm">
 						
 
