@@ -3,7 +3,6 @@
 	import { sortByULID } from '$lib/utils/ulid.js';
 
 	let { data } = $props();
-	// Сортируем данные по ULID (если они содержат ULID)
     
 	let sortedData = $state([]) ;
 	sortedData = sortByULID(data, 'id', true) ;

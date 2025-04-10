@@ -3,8 +3,13 @@
 	import { PersistedState } from 'runed';
 	import RemoveButton from './RemoveButton/index.svelte';
 	import { isFavorites } from '$lib/state/favorites.svelte';
+	import { sortByULID } from '$lib/utils/ulid.js';
+	import MainImage from "./MainImage/index.svelte"
 
 	const favorites = new PersistedState('favorites', []);
+
+	let sortedData = $state([]) ;
+	sortedData = sortByULID(favorites.current, 'id', true) ;
 
 	let favoritesList = $state(favorites.current);
 	$effect(() => {
@@ -42,13 +47,12 @@
 			</div>
 
 			<div class="grid grid-cols-1 gap-4 sm:mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:gap-8">
-				{#each favoritesList as item (item.id)}
+				{#each sortedData as item (item.id)}
 					<div class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm">
-						<img
-							class="mx-auto mb-4 h-[20rem] rounded-lg object-contain md:mb-6"
-							src={`${import.meta.env.VITE_S3}/catalog/${item?.image[0]?.hash}`}
-							alt={item.value}
-						/>
+						
+
+						<MainImage data={item.image}/>
+
 
 						<a
 							href={`/${item.parentable.parentable.parentable.slug}/${item.parentable.parentable.slug}/${item.parentable.slug}`}
