@@ -46,11 +46,7 @@
 			<div class="grid grid-cols-1 gap-4 sm:mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:gap-8">
 				{#each favoritesList as item (item.id)}
 					<div class="rounded-lg border border-gray-200 bg-white p-6 shadow-sm">
-						
-
 						<MainImage data={item.image}/>
-
-
 						<a
 							href={`/${item.parentable.parentable.parentable.slug}/${item.parentable.parentable.slug}/${item.parentable.slug}`}
 							class="-ml-1 me-2 inline-flex items-center rounded-full py-1 text-xs font-medium text-gray-800"
