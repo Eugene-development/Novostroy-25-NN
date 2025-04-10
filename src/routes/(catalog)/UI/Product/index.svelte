@@ -9,6 +9,9 @@
 	import { visiblePriceForm } from '$lib/state/formPrice.svelte';
 	import { visibleMeasuringForm } from '$lib/state/formMeasuring.svelte';
 	import { visibleFurnitureProjectForm } from '$lib/state/formFurnitureProject.svelte';
+	import { sortByULID } from '$lib/utils/ulid.js';
+
+	let { data } = $props();
 
 	const favorites = new PersistedState('favorites', []);
 
@@ -23,17 +26,14 @@
 		currentImageIndex = i;
 	}
 
-	let { data } = $props();
+	let sortedImages = $state([]) ;
+	sortedImages = sortByULID(data.image, 'id', true) ;
 
 	let itemInFavorites = $state(favorites.current.some((i) => i.id === data.id));
-
-
 	const toggleFavorite = () => {
-
 		favorites.current = favorites.current.some(i => i.id === data.id)
             ? favorites.current.filter(i => i.id !== data.id)
-            : [...favorites.current, data];
-        
+            : [...favorites.current, data];       
         itemInFavorites = favorites.current.some(i => i.id === data.id);
 	};
 </script>
@@ -46,7 +46,7 @@
 				<!-- Image selector -->
 				<div class="mx-auto mt-6 w-full max-w-2xl sm:block lg:max-w-none">
 					<div class="grid grid-cols-4 gap-6" aria-orientation="horizontal" role="tablist">
-						{#each data.image as image, i}
+						{#each sortedImages as image, i}
 							<button
 								onclick={() => setNewImageIndex(i)}
 								id="tabs-1-tab-1"
@@ -90,7 +90,7 @@
 				<div class="mb-3 *:text-xs *:sm:text-sm">
 					<a
 						href="/{data.parentable.parentable.parentable.slug}"
-						class=" tracking-tight text-gray-900"
+						class=" tracking-tight text-gray-900 hover:text-red-700"
 					>
 						{data.parentable.parentable.parentable.value}</a
 					>
@@ -110,7 +110,7 @@
 					<a
 						href="/{data.parentable.parentable.parentable.slug}/{data.parentable.parentable
 							.slug}/{data.parentable.slug}"
-						class=" tracking-tight text-gray-900"
+						class=" tracking-tight text-gray-900 hover:text-red-700"
 					>
 						{data.parentable.value}</a
 					>

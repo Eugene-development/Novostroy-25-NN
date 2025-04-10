@@ -172,6 +172,7 @@ export const PRODUCT = gql`
 			value
 			slug
 			image {
+				id
 				hash
 			}
 			tag {
