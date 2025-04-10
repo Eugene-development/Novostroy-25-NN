@@ -21,9 +21,9 @@
 		favoritesList.length > 0 ? (isFavorites.value = true) : (isFavorites.value = false);
 	});
 
-	let currentImageIndex = $state(0);
-	function setNewImageIndex(i) {
-		currentImageIndex = i;
+	let currentImageID = $state("");
+	function setNewImageID(id) {
+		currentImageID = id;
 	}
 
 	let sortedImages = $state([]) ;
@@ -48,7 +48,7 @@
 					<div class="grid grid-cols-4 gap-6" aria-orientation="horizontal" role="tablist">
 						{#each sortedImages as image, i}
 							<button
-								onclick={() => setNewImageIndex(i)}
+								onclick={() => setNewImageID(image.id)}
 								id="tabs-1-tab-1"
 								class="scale110 relative flex h-12 cursor-pointer items-center justify-center rounded-md bg-white text-sm font-medium uppercase text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-indigo-500/50 focus:ring-offset-4 sm:h-24"
 								aria-controls="tabs-1-panel-1"
@@ -78,7 +78,7 @@
 					<!-- Tab panel, show/hide based on tab state. -->
 					<div class="aspect-w-15 aspect-h-10 w-full">
 						<img
-							src={`${import.meta.env.VITE_S3}/catalog/${data.image[currentImageIndex].hash}`}
+							src={`${import.meta.env.VITE_S3}/catalog/${currentImageID ? sortedImages.find(img => img.id === currentImageID)?.hash : sortedImages[0].hash}`}
 							alt={data.item?.alt}
 							class="h-[220px] w-full rounded-lg object-contain object-center sm:h-[450px]"
 						/>
