@@ -24,8 +24,8 @@
 		{/each}
 	</Carousel.Content>
 
-	<Carousel.Previous class="ml-8" />
-	<Carousel.Next class="mr-8" />
+	<Carousel.Previous class="ml-9 hover:scale110 shadow-lg shadow-gray-600" />
+	<Carousel.Next class="mr-9 hover:scale110 shadow-lg shadow-gray-600" />
 </Carousel.Root>
 
 
