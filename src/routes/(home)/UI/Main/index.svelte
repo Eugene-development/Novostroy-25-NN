@@ -57,9 +57,10 @@
 							</div>
 							<div class="px-4 mx-auto text-center  ">
 								<!-- <span class="font-semibold text-gray-400 uppercase">В сотрудничестве с</span> -->
-									<div class="mx-auto max-w-7xl p-6 bg-white rounded-lg">
+									<div class="mx-auto max-w-7xl p-4 bg-white rounded-lg">
+										<p class="p-2">Наши партнёры, которые нам доверяют:</p>
 										<div
-											class="mx-auto  pb-4 sm:pb-0 grid max-w-lg grid-cols-2 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none"
+											class="mx-auto *:hover:scale110 pb-4 sm:pb-0 grid max-w-lg grid-cols-2 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none"
 										>
 											<a href="https://zovofficial.com/" target="_blank">
 												<img
