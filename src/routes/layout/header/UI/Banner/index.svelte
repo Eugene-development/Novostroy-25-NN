@@ -99,7 +99,7 @@
 			</svg>
 			<a
 				href="/contacts"
-				class={page.url.pathname === '/blog'
+				class={page.url.pathname === '/contacts'
 					? 'whitespace-nowrap text-xs text-sky-500 '
 					: 'whitespace-nowrap text-xs text-gray-50 hover:text-sky-500'}
 			>
