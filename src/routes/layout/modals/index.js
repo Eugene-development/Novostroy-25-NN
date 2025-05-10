@@ -1,3 +1,4 @@
+export { default as CheckCity } from './CheckCity/index.svelte';
 export { default as FormConsultation } from './FormConsultation/index.svelte';
 export { default as FormDelivery } from './FormDelivery/index.svelte';
 export { default as FormDesignProject } from './FormDesignProject/index.svelte';

@@ -1,6 +1,6 @@
 git add . && git commit -m "c" && git push
 
-docker build -t larux/novostroy-25-nn:140425 . && docker push larux/novostroy-25-nn:140425
+docker build -t larux/novostroy-25-nn:090525 . && docker push larux/novostroy-25-nn:090525
 
 ---
 

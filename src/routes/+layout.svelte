@@ -7,6 +7,7 @@
 	import { Footer } from './layout/footer/UI';
 
 	import {
+		CheckCity,
 		FormConsultation,
 		FormDelivery,
 		FormDesignProject,
@@ -23,6 +24,7 @@
 <Footer />
 
 <!-- Modals -->
+<CheckCity />
 <FormConsultation />
 <FormDelivery />
 <FormDesignProject />
