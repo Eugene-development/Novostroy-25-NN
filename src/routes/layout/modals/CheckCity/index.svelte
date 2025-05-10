@@ -1,3 +1,14 @@
+<script>
+
+	import {visibleCheckCity} from '$lib/state/visibleCheckCity.svelte'
+
+
+</script>
+
+
+
+{#if visibleCheckCity.value}
+
 <div class="relative z-10" aria-labelledby="modal-title" role="dialog" aria-modal="true">
   <!--
     Background backdrop, show/hide based on modal state.
@@ -66,3 +77,6 @@
     </div>
   </div>
 </div>
+
+  
+{/if}
