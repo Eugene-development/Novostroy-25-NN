@@ -1,20 +1,51 @@
 <script>
 	import {visibleCheckCity} from '$lib/state/visibleCheckCity.svelte'
 	
-	// Состояние чекбокса и кнопки
-	let isChecked = $state(false);
-	let isButtonEnabled = $derived(isChecked);
+	// Состояние чекбоксов и кнопки
+	let isCheckedMoscow = $state(false);
+	let isCheckedOther = $state(false);
+	// Кнопка активна, если выбран хотя бы один из чекбоксов
+	let isButtonEnabled = $derived(isCheckedMoscow || isCheckedOther);
 	
-	// Функция для обработки изменения состояния чекбокса
-	function handleCheckboxChange() {
-		isChecked = !isChecked;
+	// Функция для обработки изменения состояния чекбоксов
+	function handleMoscowCheckboxChange() {
+		isCheckedMoscow = !isCheckedMoscow;
+		// Если выбран Москва, снимаем выбор с другого региона
+		if (isCheckedMoscow && isCheckedOther) {
+			isCheckedOther = false;
+		}
+	}
+	
+	function handleOtherCheckboxChange() {
+		isCheckedOther = !isCheckedOther;
+		// Если выбран другой регион, снимаем выбор с Москвы
+		if (isCheckedOther && isCheckedMoscow) {
+			isCheckedMoscow = false;
+		}
+	}
+	
+	// Функция для отправки события в Яндекс Метрику
+	function sendYandexMetrikaEvent() {
+		// Проверяем, что функция ym доступна
+		if (typeof window !== 'undefined' && window.ym) {
+			// Отправляем событие в Яндекс Метрику
+			// 87611228 - это ID счетчика из app.html
+			window.ym(87611228, 'reachGoal', 'cityConfirmed', {
+				isMoscow: isCheckedMoscow,
+				isOtherRegion: isCheckedOther
+			});
+		}
 	}
 	
 	// Функция для закрытия модального окна
 	function closeModal() {
+		// Отправляем событие в Яндекс Метрику перед закрытием окна
+		sendYandexMetrikaEvent();
+		
 		visibleCheckCity.value = false;
 		// Сбрасываем состояние при закрытии
-		isChecked = false;
+		isCheckedMoscow = false;
+		isCheckedOther = false;
 	}
 </script>
 
@@ -66,7 +97,7 @@
     <div class="flex gap-3">
       <div class="flex h-6 shrink-0 items-center">
         <div class="group grid size-4 grid-cols-1">
-          <input id="comments" aria-describedby="comments-description" name="comments" type="checkbox" class="col-start-1 row-start-1 appearance-none rounded border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto" bind:checked={isChecked} onclick={handleCheckboxChange}>
+          <input id="moscow" aria-describedby="moscow-description" name="moscow" type="checkbox" class="col-start-1 row-start-1 appearance-none rounded border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto" bind:checked={isCheckedMoscow} onclick={handleMoscowCheckboxChange}>
           <svg class="pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-[:disabled]:stroke-gray-950/25" viewBox="0 0 14 14" fill="none">
             <path class="opacity-0 group-has-[:checked]:opacity-100" d="M3 8L6 11L11 3.5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
             <path class="opacity-0 group-has-[:indeterminate]:opacity-100" d="M3 7H11" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -74,8 +105,22 @@
         </div>
       </div>
       <div class="text-sm/6">
-        <label for="comments" class="font-medium text-gray-900">Да, это верный регион</label>
-        <!-- <p id="comments-description" class="text-gray-500">Get notified when someones posts a comment on a posting.</p> -->
+        <label for="moscow" class="font-medium text-gray-900">Да, это верный регион</label>
+      </div>
+    </div>
+    
+    <div class="flex gap-3 mt-3">
+      <div class="flex h-6 shrink-0 items-center">
+        <div class="group grid size-4 grid-cols-1">
+          <input id="other" aria-describedby="other-description" name="other" type="checkbox" class="col-start-1 row-start-1 appearance-none rounded border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto" bind:checked={isCheckedOther} onclick={handleOtherCheckboxChange}>
+          <svg class="pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-[:disabled]:stroke-gray-950/25" viewBox="0 0 14 14" fill="none">
+            <path class="opacity-0 group-has-[:checked]:opacity-100" d="M3 8L6 11L11 3.5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path class="opacity-0 group-has-[:indeterminate]:opacity-100" d="M3 7H11" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </div>
+      </div>
+      <div class="text-sm/6">
+        <label for="other" class="font-medium text-gray-900">Другой регион</label>
       </div>
     </div>
   </div>

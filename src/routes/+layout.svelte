@@ -5,6 +5,7 @@
 	import { Banner } from './layout/header/UI';
 	import { Menu } from './layout/header/UI';
 	import { Footer } from './layout/footer/UI';
+	import YandexMetrikaPageTracker from './layout/YandexMetrikaPageTracker.svelte';
 
 	import {
 		CheckCity,
@@ -32,3 +33,6 @@
 <FormMeasuring />
 <FormFurnitureProject />
 <FormPrice />
+
+<!-- Трекер страниц для Яндекс Метрики -->
+<YandexMetrikaPageTracker />
