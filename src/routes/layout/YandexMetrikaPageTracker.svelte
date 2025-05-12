@@ -1,6 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 	import { page } from '$app/stores';
+	import { pushState, replaceState } from '$app/navigation';
 
 	// Функция для отправки события в Яндекс Метрику
 	function sendYandexMetrikaEvent(eventName, params = {}) {
@@ -24,14 +25,18 @@
 			if (path !== currentPath) {
 				currentPath = path;
 				
-				// Проверяем наличие слагов 'mebel' или 'stoleshnica' в URL
-				if (path.includes('/mebel') || path.includes('/stoleshnica')) {
-					// Определяем тип страницы для события
-					const pageType = path.includes('/mebel') ? 'mebel' : 'stoleshnica';
-					
-					// Отправляем событие в Яндекс Метрику
-					sendYandexMetrikaEvent('pageVisit', { pageType });
-					console.log(`Отправлено событие в Яндекс Метрику: pageVisit, тип страницы: ${pageType}`);
+				// Проверяем наличие слага 'mebel' в URL
+				if (path.includes('/mebel')) {
+					// Отправляем отдельное событие для страниц мебели
+					sendYandexMetrikaEvent('mebelPageVisit');
+					console.log('Отправлено событие в Яндекс Метрику: mebelPageVisit');
+				}
+				
+				// Проверяем наличие слага 'stoleshnica' в URL
+				if (path.includes('/stoleshnica')) {
+					// Отправляем отдельное событие для страниц столешниц
+					sendYandexMetrikaEvent('stoleshnicaPageVisit');
+					console.log('Отправлено событие в Яндекс Метрику: stoleshnicaPageVisit');
 				}
 			}
 		});
