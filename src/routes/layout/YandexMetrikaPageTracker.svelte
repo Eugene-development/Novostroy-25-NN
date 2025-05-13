@@ -29,14 +29,14 @@
 				if (path.includes('/mebel')) {
 					// Отправляем отдельное событие для страниц мебели
 					sendYandexMetrikaEvent('mebelPageVisit');
-					console.log('Отправлено событие в Яндекс Метрику: mebelPageVisit');
+					// console.log('Отправлено событие в Яндекс Метрику: mebelPageVisit');
 				}
 				
 				// Проверяем наличие слага 'stoleshnica' в URL
 				if (path.includes('/stoleshnica')) {
 					// Отправляем отдельное событие для страниц столешниц
 					sendYandexMetrikaEvent('stoleshnicaPageVisit');
-					console.log('Отправлено событие в Яндекс Метрику: stoleshnicaPageVisit');
+					// console.log('Отправлено событие в Яндекс Метрику: stoleshnicaPageVisit');
 				}
 			}
 		});
