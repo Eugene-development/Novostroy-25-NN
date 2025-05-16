@@ -24,7 +24,7 @@
 	{#each data.rubric as item (item.value)}
 		<li>
 			<div
-				class="group flex w-full items-center rounded-lg border border-gray-50 bg-gray-100/20 py-2 text-base font-semibold tracking-wide text-gray-900 transition duration-75 hover:bg-gray-100"
+				class="group flex w-full items-center rounded-lg border border-gray-50 bg-gray-100/80 py-2 text-base font-semibold tracking-wide text-gray-900 transition duration-75 hover:bg-gray-100"
 			>
 				<span class="ml-3 flex-1 whitespace-nowrap text-left">
 					{item.value}
@@ -41,7 +41,7 @@
 					<li class="flex items-center rounded-lg">
 						<a
 							href={`/${data.slug}/${item.slug}/${subitem.slug}`}
-							class="group flex w-full items-center justify-between rounded-lg p-1 pl-4 text-sm font-medium tracking-wide transition duration-75 hover:bg-gray-100 hover:text-gray-900"
+							class="group flex w-full items-center justify-between rounded-lg p-0.5 pl-4 text-sm font-normal tracking-wide transition duration-75 hover:bg-gray-100/80 hover:text-gray-900"
 						>
 							{subitem.value}
 							<span class="inline-flex h-5 w-5 items-center rounded-full text-xs font-semibold"
