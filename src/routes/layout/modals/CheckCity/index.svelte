@@ -4,6 +4,8 @@
 	// Состояние чекбоксов и кнопки
 	let isCheckedMoscow = $state(false);
 	let isCheckedOther = $state(false);
+	// Honeypot-поле для защиты от ботов
+	let testbot = $state('');
 	// Кнопка активна, если выбран хотя бы один из чекбоксов
 	let isButtonEnabled = $derived(isCheckedMoscow || isCheckedOther);
 	
@@ -39,6 +41,12 @@
 	
 	// Функция для закрытия модального окна
 	function closeModal() {
+		// Проверка на бота - если поле testbot заполнено, значит это бот
+		if (testbot) {
+			console.log('Обнаружен бот, действие отменено');
+			return; // Прерываем выполнение функции
+		}
+		
 		// Отправляем событие в Яндекс Метрику перед закрытием окна
 		sendYandexMetrikaEvent();
 		
@@ -46,6 +54,7 @@
 		// Сбрасываем состояние при закрытии
 		isCheckedMoscow = false;
 		isCheckedOther = false;
+		testbot = ''; // Сбрасываем значение honeypot-поля
 	}
 </script>
 
@@ -91,6 +100,20 @@
               <p class="text-sm text-gray-500">Нам нужно это для более точных предложений и акций для Вас.</p>
             </div>
           </div>
+  <!-- Honeypot-поле (скрытое) -->
+  <div class="hidden" aria-hidden="true">
+    <label for="checkbot" class="block text-sm font-medium text-gray-700">Оставьте это поле пустым</label>
+    <input
+      type="text"
+      id="checkbot"
+      name="checkbot"
+      bind:value={testbot}
+      tabindex="-1"
+      autocomplete="off"
+      class="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+    />
+  </div>
+  <!--  -->
   <fieldset class="my-4">
   <legend class="sr-only">Notifications</legend>
   <div class="space-y-5">
