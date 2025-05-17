@@ -244,5 +244,5 @@
 			</p>
 		</div>
 	</div>
-	<iframe src="https://yandex.ru/sprav/widget/rating-badge/75907151870?type=rating" width="150" height="50" frameborder="0"></iframe>
+	<iframe title="stars" src="https://yandex.ru/sprav/widget/rating-badge/75907151870?type=rating" width="150" height="50" frameborder="0"></iframe>
 </footer>
