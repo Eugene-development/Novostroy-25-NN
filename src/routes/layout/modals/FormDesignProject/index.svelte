@@ -13,6 +13,11 @@
 			if (result.type === 'success') {
 				if (result.data.success) {
 					formError = false;
+					// Отправляем цель в Яндекс Метрику
+					if (typeof window !== 'undefined' && window.ym) {
+						window.ym(87611228, 'reachGoal', 'design_project_form_submit');
+						console.log('Яндекс Метрика: цель design_project_form_submit достигнута');
+					}
 					// Закрываем форму после успешного создания
 					setTimeout(() => {
 						visibleDesignProjectForm.value = false;
@@ -151,7 +156,7 @@
 											<div>
 												<label
 													for="client-address"
-													class="block text-sm/6 font-medium text-gray-900">Адрес сборки</label
+													class="block text-sm/6 font-medium text-gray-900">Адрес объекта</label
 												>
 												<div class="mt-2">
 													<input

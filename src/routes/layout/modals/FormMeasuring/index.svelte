@@ -13,6 +13,11 @@
 			if (result.type === 'success') {
 				if (result.data.success) {
 					formError = false;
+					// Отправляем цель в Яндекс Метрику
+					if (typeof window !== 'undefined' && window.ym) {
+						window.ym(87611228, 'reachGoal', 'measuring_form_submit');
+						console.log('Яндекс Метрика: цель measuring_form_submit достигнута');
+					}
 					// Закрываем форму после успешного создания
 					setTimeout(() => {
 						visibleMeasuringForm.value = false;
