@@ -15,7 +15,7 @@
 					formError = false;
 					// Отправляем цель в Яндекс Метрику
 					if (typeof window !== 'undefined' && window.ym) {
-						window.ym(87611228, 'reachGoal', 'furniture_project_form_submit');
+						window.ym(import.meta.env.VITE_YM, 'reachGoal', 'furniture_project_form_submit');
 						console.log('Яндекс Метрика: цель furniture_project_form_submit достигнута');
 					}
 					// Закрываем форму после успешного создания

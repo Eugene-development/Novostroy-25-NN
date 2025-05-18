@@ -14,10 +14,17 @@
 			if (result.type === 'success') {
 				if (result.data.success) {
 					formError = false;
+					// Отправляем цель в Яндекс Метрику
+					if (typeof window !== 'undefined' && window.ym) {
+						window.ym(import.meta.env.VITE_YM, 'reachGoal', 'price_form_submit');
+						console.log('Яндекс Метрика: цель price_form_submit достигнута');
+					}
 					// Закрываем форму после успешного создания
-					visiblePriceForm.value = false;
-					formMessage = 'Форма отправлена успешно';
-					console.log(formMessage);
+					setTimeout(() => {
+						visiblePriceForm.value = false;
+						formMessage = 'Форма отправлена успешно';
+						console.log(formMessage);
+					}, 500);
 				} else {
 					formMessage = `Ошибка: ${result.data.error}`;
 					console.log(formMessage);

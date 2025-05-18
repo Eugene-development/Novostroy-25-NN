@@ -32,7 +32,7 @@
 		if (typeof window !== 'undefined' && window.ym) {
 			// Отправляем событие в Яндекс Метрику
 			// 87611228 - это ID счетчика из app.html
-			window.ym(87611228, 'reachGoal', 'cityConfirmed', {
+			window.ym(import.meta.env.VITE_YM, 'reachGoal', 'cityConfirmed', {
 				isMoscow: isCheckedMoscow,
 				isOtherRegion: isCheckedOther
 			});
