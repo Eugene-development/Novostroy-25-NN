@@ -1,11 +1,16 @@
 <script>
 	import {visibleCheckCity} from '$lib/state/visibleCheckCity.svelte'
+	import { onMount } from 'svelte';
 	
 	// Состояние чекбоксов и кнопки
 	let isCheckedMoscow = $state(false);
 	let isCheckedOther = $state(false);
 	// Honeypot-поле для защиты от ботов
 	let testbot = $state('');
+	// Флаг для отслеживания, была ли уже показана форма
+	let formShownInSession = $state(false);
+	// Ключ для localStorage
+	const FORM_SHOWN_KEY = 'cityFormShown';
 	// Кнопка активна, если выбран хотя бы один из чекбоксов
 	let isButtonEnabled = $derived(isCheckedMoscow || isCheckedOther);
 	
@@ -50,12 +55,48 @@
 		// Отправляем событие в Яндекс Метрику перед закрытием окна
 		sendYandexMetrikaEvent();
 		
+		// Устанавливаем флаг, что форма была показана
+		formShownInSession = true;
+		// Сохраняем состояние в localStorage
+		saveFormShownState();
+		
 		visibleCheckCity.value = false;
 		// Сбрасываем состояние при закрытии
 		isCheckedMoscow = false;
 		isCheckedOther = false;
 		testbot = ''; // Сбрасываем значение honeypot-поля
 	}
+
+	// Функция для проверки, была ли форма уже показана
+	function checkIfFormShown() {
+		// Проверяем только на клиентской стороне
+		if (typeof window !== 'undefined' && window.localStorage) {
+			return localStorage.getItem(FORM_SHOWN_KEY) === 'true';
+		}
+		return false;
+	}
+
+	// Функция для сохранения информации о показе формы
+	function saveFormShownState() {
+		// Сохраняем только на клиентской стороне
+		if (typeof window !== 'undefined' && window.localStorage) {
+			localStorage.setItem(FORM_SHOWN_KEY, 'true');
+		}
+	}
+
+	// Функция для автоматического показа модального окна через 10 секунд
+	onMount(() => {
+		// Проверяем, была ли форма уже показана ранее
+		formShownInSession = checkIfFormShown();
+		
+		// Запускаем таймер только если форма еще не была показана
+		if (!formShownInSession) {
+			setTimeout(() => {
+				// Показываем модальное окно
+				visibleCheckCity.value = true;
+			}, 10000); // 10000 мс = 10 секунд
+		}
+	});
 </script>
 
 
@@ -152,7 +193,7 @@
 
         </div>
         <div class="mt-5 sm:mt-6">
-          <button type="button" onclick={closeModal} class="inline-flex w-full justify-center rounded-md {isButtonEnabled ? 'bg-indigo-600 hover:bg-indigo-500' : 'bg-gray-300 cursor-not-allowed'} px-3 py-2 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" disabled={!isButtonEnabled}>Подтвердить</button>
+          <button type="button" onclick={closeModal} class="inline-flex w-full justify-center rounded-md {isButtonEnabled ? 'bg-indigo-600 hover:bg-indigo-500' : 'bg-gray-300 cursor-not-allowed'}  px-3 py-2 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" disabled={!isButtonEnabled}>Подтвердить</button>
         </div>
       </div>
     </div>
