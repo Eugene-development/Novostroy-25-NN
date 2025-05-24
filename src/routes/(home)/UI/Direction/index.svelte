@@ -1,8 +1,40 @@
 <script>
 	import { visibleConsultationForm } from '$lib/state/formConsultation.svelte';
+	import { onMount } from 'svelte';
+
+	let directionElement;
+	let hasTriggered = false;
+
+	onMount(() => {
+		const observer = new IntersectionObserver(
+			(entries) => {
+				const [entry] = entries;
+				if (entry.isIntersecting && !hasTriggered) {
+					// Отправляем цель в Яндекс Метрику
+					if (typeof ym !== 'undefined') {
+						ym(87611228, 'reachGoal', 'scroll_to_direction');
+						// console.log('Цель отправлена: scroll_to_direction');
+					}
+					hasTriggered = true;
+					observer.disconnect(); // Отключаем наблюдатель после первого срабатывания
+				}
+			},
+			{ threshold: 0.3 } // Срабатывает, когда 30% элемента видно в области просмотра
+		);
+
+		if (directionElement) {
+			observer.observe(directionElement);
+		}
+
+		return () => {
+			if (directionElement) {
+				observer.unobserve(directionElement);
+			}
+		};
+	});
 </script>
 
-<div class="grid h-[50rem] grid-cols-1 grid-rows-2 gap-1 py-24 lg:grid-cols-2 lg:grid-rows-1">
+<div bind:this={directionElement} class="grid h-[50rem] grid-cols-1 grid-rows-2 gap-1 py-24 lg:grid-cols-2 lg:grid-rows-1">
 	<div class="relative flex">
 		<img
 			src="https://storage.yandexcloud.net/mine2024/novostroy/catalog/1726652041_2353.jpg"

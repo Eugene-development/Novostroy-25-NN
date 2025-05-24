@@ -4,11 +4,19 @@
 
 	let targetNode = $state();
 	let hasBeenVisible = $state(false);
+	let hasTriggered = $state(false);
 	const inViewport = new IsInViewport(() => targetNode);
 
 	$effect(() => {
 		if (inViewport.current && !hasBeenVisible) {
 			hasBeenVisible = true;
+			
+			// Отправляем цель в Яндекс Метрику при первом появлении компонента
+			if (!hasTriggered && typeof window !== 'undefined' && typeof ym !== 'undefined') {
+				ym(87611228, 'reachGoal', 'scroll_to_message');
+				// console.log('Цель отправлена: scroll_to_message');
+				hasTriggered = true;
+			}
 		}
 	});
 
@@ -35,7 +43,7 @@
 					/>
 				</div>
 			</div>
-			<div class="w-full max-w-3xl xl:max-w-none xl:flex-auto xl:px-8 xl:py-24">
+			<div bind:this={targetNode} class="w-full max-w-3xl xl:max-w-none xl:flex-auto xl:px-8 xl:py-24">
 				<figure class="relative isolate pt-6 sm:pt-12">
 					<svg
 						viewBox="0 0 162 128"
@@ -49,16 +57,15 @@
 						/>
 						<use href="#b56e9dab-6ccb-4d32-ad02-6b4bb5d9bbeb" x="86" />
 					</svg>
-					<blockquote class="">
-						<p class="h-32 sm:h-48" bind:this={targetNode}>
+					<blockquote class="text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
+						<p>
 							{#if hasBeenVisible}
-								<WordsFadeIn words={text} />
+								<WordsFadeIn {text} />
+							{:else}
+								{text}
 							{/if}
 						</p>
 					</blockquote>
-					<!-- <figcaption class="mt-1 text-base sm:mt-4">
-						<div class=" text-pink-700">Компания "Новострой"</div>
-					</figcaption> -->
 				</figure>
 			</div>
 		</div>

@@ -5,7 +5,7 @@
 	let className: any = '';
 	export { className as class };
 
-	export let words = 'Fade In';
+	export let words = 'Наша компания предлагает создание стильных дизайн-проектов корпусной мебели и интерьера с точным подбором бытовой техники, освещением, сантехники и кухонных столешниц.';
 	export let delay = 0.19;
 	export let variants = {
 		hidden: { opacity: 0 },

@@ -25,7 +25,7 @@
 <Footer />
 
 <!-- Modals -->
-<CheckCity />
+<!-- <CheckCity /> -->
 <FormConsultation />
 <FormDelivery />
 <FormDesignProject />
